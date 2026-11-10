@@ -554,6 +554,9 @@
     // 高中数学不拆上下册。高一/高二是必修两册，选必一/二/三是选择性必修三册。
     const hs = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(s);
     if (hs) return { volume: hs[1], chapterNo: hs[2], chapterName: hs[3], section: '' };
+    // 高中化学：章名本身可能带空格（如「必修一 第三章 铁 金属材料 3.1」）。
+    const chem = /^(必修[一二]|选必[一二三]) (第\S+章) (.+?) (\d+\.\d+)$/.exec(s);
+    if (chem) return { volume: chem[1], chapterNo: chem[2], chapterName: chem[3], section: chem[4] };
     const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(s);
     if (!m) return { volume: '', chapterNo: '', chapterName: s, section: '' };
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
