@@ -62,9 +62,9 @@
       pdemo.textContent = '先看一遍演示：八年级上册物理';
     }
   } else if (subject === 'chinese') {
-    document.title = '小学语文 · 中小学·高中知识图谱';
+    document.title = '语文 · 中小学·高中知识图谱';
     var zeye = document.querySelector('.eyebrow');
-    if (zeye) zeye.textContent = '语文：小学一至六年级 · 统编版';
+    if (zeye) zeye.textContent = '语文：小学一至六年级 · 高中必修与选择性必修 · 统编版 / 人教版';
     var zprimary = document.querySelector('.hero-actions a.btn-primary');
     var zbrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
     if (zprimary) zprimary.setAttribute('href', 'diagnose/?subject=chinese');
@@ -297,7 +297,12 @@
       addCard(g, g <= 6 ? '小学' : (wantPhysics ? '初中物理' : '初中'), CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
     }
     if (wantChinese) {
-      /* 小学语文、小学科学、小学道德与法治只到六年级 */
+      /* 小学语文到六年级，高中从必修上册接起 */
+      addCard(10, '高中', '必修上', 'is-senior', '必修上册', 'explore/?subject=chinese&grade=10');
+      addCard(11, '高中', '必修下', 'is-senior', '必修下册', 'explore/?subject=chinese&grade=11');
+      addCard(12, '高中', '选必上', 'is-senior', '选择性必修上册', 'explore/?subject=chinese&grade=12');
+      addCard(13, '高中', '选必中', 'is-senior', '选择性必修中册', 'explore/?subject=chinese&grade=13');
+      addCard(14, '高中', '选必下', 'is-senior', '选择性必修下册', 'explore/?subject=chinese&grade=14');
     } else if (wantHistory) {
       /* 初中历史只到九年级 */
     } else if (wantGeography) {

@@ -28,7 +28,9 @@ STRICT_STANDARDS = os.environ.get("STRICT_STANDARDS") == "1"
 
 MATH_DOMAINS = {"数与代数", "图形与几何", "统计与概率", "综合与实践"}
 EN_DOMAINS = {"语音", "词汇", "语法", "日常表达", "读写"}
-ZH_DOMAINS = {"拼音", "识字写字", "词语", "句子", "阅读理解", "古诗文积累", "习作基础"}
+ZH_DOMAINS = {"拼音", "识字写字", "词语", "句子", "阅读理解", "古诗文积累", "习作基础",
+              # 高中语文（人教版 2019 五册）
+              "现代文阅读", "古诗文阅读", "语言文字运用", "写作", "整本书阅读"}
 SCI_DOMAINS = {"物质科学", "生命科学", "地球与宇宙科学", "技术与工程"}
 MOR_DOMAINS = {"生活与安全", "学校生活", "家庭与亲情", "社会规则", "公民与国家", "自然与环境"}
 HIS_DOMAINS = {"中国古代史", "中国近代史", "中国现代史", "世界古代史", "世界近代史", "世界现代史"}
@@ -77,6 +79,14 @@ HIS_STD_ID_RE = re.compile(r"^chs-2022:(CA|CN|CM|WA|WN|WM)\.(\d{2,})$")
 GEO_STD_CODES = {"EM": "地球与地图", "WG": "世界地理", "CG": "中国地理"}
 GEO_STD_ID_RE = re.compile(r"^cgs-2022:(EM|WG|CG)\.(\d{2,})$")
 ZH_STD_ID_RE = re.compile(r"^ccs-2022:([123])\.(PY|SZ|CY|JZ|YD|GS|XZ)\.(\d{2,})$")
+# 高中语文：ccs-2017:H.<学习任务群代号>.<NN>，等级固定写 H。
+ZH_HS_STD_ID_RE = re.compile(r"^ccs-2017:H\.(WX|SB|SY|ZS|YY|WH|KM|CT|GM|XD|WG|KL|HZ)\.(\d{2,})$")
+ZH_HS_STD_DOMAINS = {
+    "WX": "现代文阅读", "SB": "现代文阅读", "SY": "语言文字运用", "ZS": "整本书阅读",
+    "YY": "语言文字运用", "WH": "写作", "KM": "语言文字运用",
+    "CT": "古诗文阅读", "GM": "现代文阅读", "XD": "现代文阅读", "WG": "现代文阅读",
+    "KL": "现代文阅读", "HZ": "语言文字运用",
+}
 EN_PROMPT_START_RE = re.compile(r"^(同一|上题|该题|同上)")
 EN_PROMPT_BAN_RE = re.compile(r"本知识点|课标|是否要求")
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
@@ -441,8 +451,8 @@ def check_topics(topics):
             err("%s 初中历史 grade 必须是 7–9" % where)
         if subj == "geography" and g not in (7, 8):
             err("%s 初中地理 grade 必须是 7 或 8" % where)
-        if subj == "chinese" and g not in (1, 2, 3, 4, 5, 6):
-            err("%s 小学语文 grade 必须是 1–6" % where)
+        if subj == "chinese" and g not in (1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14):
+            err("%s 语文 grade 必须是 1–6（小学）或 10–14（高中必修上/下、选必上/中/下）" % where)
         if subj == "english":
             if str(tid).startswith("cne_p") and g not in (3, 4, 5, 6):
                 err("%s 小学英语 grade 必须是 3–6" % where)
@@ -767,6 +777,7 @@ def check_standards_file(std):
     saw_physics = False
     saw_physics_senior = False
     saw_chinese = False
+    saw_chinese_hs = False
     saw_science = False
     saw_morality = False
     saw_history = False
@@ -790,6 +801,7 @@ def check_standards_file(std):
         em = EN_STD_ID_RE.match(sid)
         ehm = EN_HS_STD_ID_RE.match(sid)
         zm = ZH_STD_ID_RE.match(sid)
+        zhm = ZH_HS_STD_ID_RE.match(sid)
         scm = SCI_STD_ID_RE.match(sid)
         mrm = MOR_STD_ID_RE.match(sid)
         hism = HIS_STD_ID_RE.match(sid)
@@ -901,6 +913,19 @@ def check_standards_file(std):
                 err("%s 语文课标必须显式标 verbatim:false（原文未逐页核对）" % where)
             if it.get("page_or_ref") != "待核":
                 err("%s 语文课标 page_or_ref 必须是「待核」，不能编页码" % where)
+        elif zhm:
+            saw_chinese_hs = True
+            code, num = zhm.group(1), int(zhm.group(2))
+            if it.get("domain") != ZH_HS_STD_DOMAINS[code]:
+                err("%s domain 与 id 中的学习任务群代码不一致：%r" % (where, it.get("domain")))
+            key = ("ccs17", code)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在学习任务群内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中语文课标必须显式标 verbatim:false（原文未逐页核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 高中语文课标 page_or_ref 必须是「待核」，不能编页码" % where)
         elif mrm:
             saw_morality = True
             level, code, num = mrm.group(1), mrm.group(2), int(mrm.group(3))
@@ -956,7 +981,7 @@ def check_standards_file(std):
             if it.get("page_or_ref") != "待核":
                 err("%s 高中化学课标 page_or_ref 必须是「待核」，不能编页码" % where)
         else:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 、ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN> 、ccs-2022:<1|2|3>.<PY|SZ|CY|JZ|YD|GS|XZ>.<NN> 、css-2022:<1|2|3>.<WZ|SM|DQ|JG>.<NN> 、cds-2022:<1|2|3>.<LS|XX|JT|SH|GM|ZR>.<NN> 、chs-2022:<CA|CN|CM|WA|WN|WM>.<NN> 、cgs-2022:<EM|WG|CG>.<NN> 、cps-2022:<1-5>.<二级>.<序号> 或 cps-hs-2017:<B|S><1-3>.<1-4|X>.<序号>）" % where)
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 、ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN> 、ccs-2022:<1|2|3>.<PY|SZ|CY|JZ|YD|GS|XZ>.<NN> 、ccs-2017:H.<WX|SB|SY|ZS|YY|WH|KM|CT|GM|XD|WG|KL|HZ>.<NN> 、css-2022:<1|2|3>.<WZ|SM|DQ|JG>.<NN> 、cds-2022:<1|2|3>.<LS|XX|JT|SH|GM|ZR>.<NN> 、chs-2022:<CA|CN|CM|WA|WN|WM>.<NN> 、cgs-2022:<EM|WG|CG>.<NN> 、cps-2022:<1-5>.<二级>.<序号> 或 cps-hs-2017:<B|S><1-3>.<1-4|X>.<序号>）" % where)
         for f in ("domain", "section", "text"):
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
@@ -1042,6 +1067,20 @@ def check_standards_file(std):
                 err("chinese.year 必须是整数")
             elif zh.get("year") != 2022:
                 err("chinese.year 必须是 2022")
+    if saw_chinese_hs:
+        zhs = std.get("chinese_hs")
+        if not isinstance(zhs, dict):
+            err("有高中语文课标条目，但缺少 chinese_hs 对象")
+        else:
+            for f in ("title", "issuer", "stage", "note"):
+                if not nonempty_str(zhs.get(f)):
+                    err("chinese_hs.%s 缺失或为空" % f)
+            if zhs.get("title") != "普通高中语文课程标准（2017年版2020年修订）":
+                err("chinese_hs.title 必须是「普通高中语文课程标准（2017年版2020年修订）」")
+            if not isinstance(zhs.get("year"), int):
+                err("chinese_hs.year 必须是整数")
+            elif zhs.get("year") != 2017:
+                err("chinese_hs.year 必须是 2017")
     if saw_morality:
         mo = std.get("morality")
         if not isinstance(mo, dict):

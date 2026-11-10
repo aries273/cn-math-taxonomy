@@ -23,8 +23,13 @@ import zh_g3  # noqa: E402,F401
 import zh_g4  # noqa: E402,F401
 import zh_g5  # noqa: E402,F401
 import zh_g6  # noqa: E402,F401
+import zh_hs_b1  # noqa: E402,F401
+import zh_hs_b2  # noqa: E402,F401
+import zh_hs_x1  # noqa: E402,F401
+import zh_hs_x2  # noqa: E402,F401
+import zh_hs_x3  # noqa: E402,F401
 import zh_edges  # noqa: E402,F401
-from zh_lib import HARD, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions  # noqa: E402
+from zh_lib import HARD, HS_STANDARD_ROWS, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions  # noqa: E402
 from verify_questions import verify_all  # noqa: E402
 
 ZH_CODES = {
@@ -32,7 +37,10 @@ ZH_CODES = {
     "YD": "阅读理解", "GS": "古诗文积累", "XZ": "习作基础",
 }
 CHAPTER_RE = re.compile(r"^([一二三四五六七八九])年级([上下全])册 (第\d+单元|预备单元\d) (.+)$")
-VOLUMES = ["1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下"]
+HS_CHAPTER_RE = re.compile(r"^(必修上册|必修下册|选择性必修上册|选择性必修中册|选择性必修下册) 第\d+单元 .+$")
+VOLUMES = ["1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下",
+           "10上", "11下", "12上", "13上", "14下"]
+HS_VOLUME_BOUNDS = {"10上": (30, 42), "11下": (30, 42), "12上": (20, 30), "13上": (20, 30), "14下": (20, 30)}
 
 
 def load(name):
@@ -111,6 +119,21 @@ def build_standards():
             "verbatim": False,
             "text_status": "公开转述，未与《义务教育语文课程标准（2022年版）》逐页核对",
         })
+    hs_counters = {}
+    for symbol, code, domain, section, text in HS_STANDARD_ROWS:
+        hs_counters[code] = hs_counters.get(code, 0) + 1
+        sid = "ccs-2017:H.%s.%02d" % (code, hs_counters[code])
+        id_of[symbol] = sid
+        items.append({
+            "id": sid,
+            "domain": domain,
+            "section": section,
+            "clause": "(%d)" % hs_counters[code],
+            "text": text,
+            "page_or_ref": "待核",
+            "verbatim": False,
+            "text_status": "公开转述，未与《普通高中语文课程标准（2017年版2020年修订）》逐页核对",
+        })
     return id_of, items
 
 
@@ -146,8 +169,11 @@ def main():
     by_vol = Counter("%d%s" % (t["grade"], t["semester"]) for t in TOPICS)
     for k in VOLUMES:
         n = by_vol[k]
-        # 一上至六下已按统编目录逐课覆盖。
-        lo, hi = (30, 48) if k in ("1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下") else (18, 22)
+        # 一上至六下已按统编目录逐课覆盖；高中五册按人教（2019）单元覆盖。
+        if k in HS_VOLUME_BOUNDS:
+            lo, hi = HS_VOLUME_BOUNDS[k]
+        else:
+            lo, hi = 30, 48
         if n < lo or n > hi:
             print("%s 有 %d 个知识点，每册应为 %d–%d" % (k, n, lo, hi), file=sys.stderr)
             return 1
@@ -161,6 +187,10 @@ def main():
     if len(set(keys)) != len(keys):
         print("知识点 key 重复", file=sys.stderr)
         return 1
+    hs_start = next((t["key"] for t in TOPICS if t["grade"] >= 10), None)
+    if not hs_start:
+        print("没有登记高中语文知识点", file=sys.stderr)
+        return 1
 
     base_topics = [t for t in topics if not is_zh_topic_id(t.get("id"))]
     base_deps = [e for e in deps if not is_zh_topic_id(e.get("topicId")) and not is_zh_topic_id(e.get("prerequisiteId"))]
@@ -172,7 +202,7 @@ def main():
 
     id_of_std, new_items = build_standards()
     used_std = {t["std"] for t in TOPICS}
-    missing_std = [row[0] for row in STANDARD_ROWS if row[0] not in used_std]
+    missing_std = [row[0] for row in STANDARD_ROWS + HS_STANDARD_ROWS if row[0] not in used_std]
     if missing_std:
         print("课标条目没有被任何知识点引用：%s" % "、".join(missing_std), file=sys.stderr)
         return 1
@@ -215,7 +245,7 @@ def main():
             if n == 1:
                 diag_answer = shown
         ch = chapter(spec["grade"], spec["semester"], spec["unit"])
-        if not CHAPTER_RE.match(ch):
+        if not (CHAPTER_RE.match(ch) or HS_CHAPTER_RE.match(ch)):
             print("%s 章节格式无法按册浏览：%s" % (spec["key"], ch), file=sys.stderr)
             return 1
         ref = {"id": id_of_std[spec["std"]], "confidence": spec["conf"]}
@@ -238,6 +268,8 @@ def main():
         }
         if spec["key"] == "g1a_tian":
             topic["root_reason"] = "一年级语文从识字「天地人」开始。按2024年修订的统编教材，识字排在汉语拼音前面，前面没有更早的小学语文知识点。"
+        elif spec["key"] == hs_start:
+            topic["root_reason"] = "初中语文尚未建点；高中语文从人教版必修上册第一单元开始，先修不往前连。"
         new_topics.append(topic)
         new_questions.extend(built)
 
@@ -245,6 +277,8 @@ def main():
     for i in range(1, len(TOPICS)):
         cur = TOPICS[i]["key"]
         prev = TOPICS[i - 1]["key"]
+        if cur == hs_start:
+            continue
         if (cur, prev) in hard_pairs:
             continue
         reason = "按统编教材的常见教学顺序，先学「%s」，再学「%s」。" % (names[prev], names[cur])
@@ -282,7 +316,8 @@ def main():
         print("剥离后的依赖里仍有语文边", file=sys.stderr)
         return 1
     covered = {e["topicId"] for e in zh_edges}
-    missing = [t["id"] for t in new_topics if t["id"] != "cnc_p001" and t["id"] not in covered]
+    missing = [t["id"] for t in new_topics
+               if t["id"] != "cnc_p001" and t["id"] != id_of[hs_start] and t["id"] not in covered]
     if missing:
         print("约简后仍无先修：%s" % "、".join(missing), file=sys.stderr)
         return 1
@@ -295,7 +330,7 @@ def main():
             len(checked["mismatch"]), len(checked["unverifiable"])), file=sys.stderr)
         return 1
 
-    kept_std = {k: v for k, v in standards.items() if k != "items" and k != "chinese"}
+    kept_std = {k: v for k, v in standards.items() if k not in ("items", "chinese", "chinese_hs")}
     standards_out = dict(standards)
     standards_out["items"] = list(base_items) + new_items
     standards_out["chinese"] = {
@@ -308,6 +343,14 @@ def main():
     for k, v in kept_std.items():
         standards_out[k] = v
 
+    standards_out["chinese_hs"] = {
+        "title": "普通高中语文课程标准（2017年版2020年修订）",
+        "issuer": "中华人民共和国教育部",
+        "year": 2017,
+        "stage": "高中",
+        "note": "条目对齐高中语文的必修与选择性必修学习任务群，是公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 ccs-2017:H.<任务群代号>.<序号> 是本图谱编的，不是教育部原编号。选修课程（中华传统文化专题研讨等）暂未收入。",
+    }
+
     math_before = [(t["id"], t["name"]) for t in base_topics if str(t["id"]).startswith("cnm_")]
     en_before = [(t["id"], t["name"]) for t in base_topics if str(t["id"]).startswith("cne_")]
     phy_before = [(t["id"], t["name"]) for t in base_topics if str(t["id"]).startswith("cnp_")]
@@ -316,7 +359,7 @@ def main():
     n_soft = sum(1 for e in zh_edges if e["strength"] == "soft")
     by_dom = Counter(t["domain"] for t in new_topics)
     print("语文知识点 %d" % len(new_topics))
-    for k in ["1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下"]:
+    for k in VOLUMES:
         print("  %s %d" % (k, by_vol[k]))
     for k, v in by_dom.most_common():
         print("  %s %d" % (k, v))
@@ -355,6 +398,9 @@ def main():
             return 1
     if again_s.get("chinese", {}).get("title") != "义务教育语文课程标准（2022年版）":
         print("语文课标标题不正确", file=sys.stderr)
+        return 1
+    if again_s.get("chinese_hs", {}).get("title") != "普通高中语文课程标准（2017年版2020年修订）":
+        print("高中语文课标标题不正确", file=sys.stderr)
         return 1
     print("数学 %d、英语 %d、物理 %d 个知识点的 id 与名称未改" % (
         len(math_before), len(en_before), len(phy_before)))

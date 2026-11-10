@@ -25,7 +25,10 @@
     ['必修一', '必修一 · 必修第一册'], ['必修二', '必修二 · 必修第二册'], ['必修三', '必修三 · 必修第三册'],
     ['高一', '高一 · 必修第一册'], ['高二', '高二 · 必修第二册'],
     ['选必一', '选必一 · 选择性必修第一册'], ['选必二', '选必二 · 选择性必修第二册'],
-    ['选必三', '选必三 · 选择性必修第三册'], ['选必四', '选必四 · 选择性必修第四册']
+    ['选必三', '选必三 · 选择性必修第三册'], ['选必四', '选必四 · 选择性必修第四册'],
+    ['必修上', '必修上 · 必修上册'], ['必修下', '必修下 · 必修下册'],
+    ['选必上', '选必上 · 选择性必修上册'], ['选必中', '选必中 · 选择性必修中册'],
+    ['选必下', '选必下 · 选择性必修下册']
   ];
   const RESULT_LABEL = { correct: '对', wrong: '错', skip: '不会' };
   const STATUS_LABEL = { mastered: '已掌握', shaky: '不稳', weak: '薄弱', unknown: '未测' };
@@ -207,8 +210,8 @@
       if (volSel === '全') volSel = '';
     }
     if (subject === 'chinese') {
-      document.title = '诊断 · 小学语文';
-      if ('一二三四五六'.indexOf(gradeSel) < 0) gradeSel = '一';
+      document.title = '诊断 · 语文（小学 + 高中）';
+      if ('一二三四五六'.indexOf(gradeSel) < 0 && ['必修上', '必修下', '选必上', '选必中', '选必下'].indexOf(gradeSel) < 0) gradeSel = '一';
       if (volSel === '全') volSel = '';
     }
   }
@@ -604,11 +607,12 @@
         subject === 'physics' ? [stageButton('', '全部'), stageButton('j', '初中'), stageButton('h', '高中')]
           : subject === 'history' || subject === 'geography' ? [stageButton('', '全部'), stageButton('j', '初中')]
           : subject === 'chemistry' ? [stageButton('', '全部'), stageButton('h', '高中')]
-          : subject === 'chinese' || subject === 'science' || subject === 'morality' ? [stageButton('', '全部'), stageButton('p', '小学')]
+          : subject === 'chinese' ? [stageButton('', '全部'), stageButton('p', '小学'), stageButton('h', '高中')]
+          : subject === 'science' || subject === 'morality' ? [stageButton('', '全部'), stageButton('p', '小学')]
           : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
-        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'chemistry' ? '搜索知识点，例如：离子反应、氧化还原反应、化学平衡、乙醇' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、的地得' : subject === 'science' ? '搜索知识点，例如：溶解、电路、昼夜交替' : subject === 'morality' ? '搜索知识点，例如：升国旗、排队、宪法、节约用水' : subject === 'history' ? '搜索知识点，例如：鸦片战争、丝绸之路、五四运动' : subject === 'geography' ? '搜索知识点，例如：经纬网、季风气候、长江' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'chemistry' ? '搜索知识点，例如：离子反应、氧化还原反应、化学平衡、乙醇' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、沁园春·长沙、烛之武退秦师' : subject === 'science' ? '搜索知识点，例如：溶解、电路、昼夜交替' : subject === 'morality' ? '搜索知识点，例如：升国旗、排队、宪法、节约用水' : subject === 'history' ? '搜索知识点，例如：鸦片战争、丝绸之路、五四运动' : subject === 'geography' ? '搜索知识点，例如：经纬网、季风气候、长江' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -682,7 +686,12 @@
           ? [['必修一', '必修一'], ['必修二', '必修二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']]
           : subject === 'geography'
           ? '七八'.split('').map(function (x) { return [x, x + '年级']; })
-          : subject === 'chinese' || subject === 'science' || subject === 'morality'
+          : subject === 'chinese'
+          ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; }).concat([
+            ['必修上', '必修上'], ['必修下', '必修下'], ['选必上', '选必上'],
+            ['选必中', '选必中'], ['选必下', '选必下']
+          ])
+          : subject === 'science' || subject === 'morality'
           ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; })
           : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
             ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
@@ -1267,7 +1276,7 @@
         : subject === 'english'
         ? '目标与学习路径上的知识点对应的《义务教育英语课程标准（2022年版）》和《普通高中英语课程标准（2017年版2025年修订）》公开转述（一级、二级、三级，以及高中必修、选择性必修）。'
         : subject === 'chinese'
-        ? '目标与学习路径上的知识点对应的《义务教育语文课程标准（2022年版）》第一至第三学段的公开转述。'
+        ? '目标与学习路径上的知识点对应的《义务教育语文课程标准（2022年版）》第一至第三学段，以及《普通高中语文课程标准（2017年版2020年修订）》必修与选择性必修学习任务群的公开转述。'
         : subject === 'science'
         ? '目标与学习路径上的知识点对应的《义务教育科学课程标准（2022年版）》第一至第三学段学习内容的公开转述。'
         : subject === 'morality'

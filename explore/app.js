@@ -129,9 +129,17 @@
     13: ['选必二', '选必二 · 选择性必修第二册'],
     14: ['选必三', '选必三 · 选择性必修第三册']
   };
+  var ZH_BOOK = {
+    10: ['必修上', '必修上 · 必修上册'],
+    11: ['必修下', '必修下 · 必修下册'],
+    12: ['选必上', '选必上 · 选择性必修上册'],
+    13: ['选必中', '选必中 · 选择性必修中册'],
+    14: ['选必下', '选必下 · 选择性必修下册']
+  };
   function gradeWord(grade) {
     if ((subject === 'english' || subject === 'physics') && EN_BOOK[grade]) return EN_BOOK[grade][0];
     if (subject === 'chemistry' && CHEM_BOOK[grade]) return CHEM_BOOK[grade][0];
+    if (subject === 'chinese' && ZH_BOOK[grade]) return ZH_BOOK[grade][0];
     if (grade === 10) return '高一';
     if (grade === 11) return '高二';
     if (grade === 12) return '选必一';
@@ -142,6 +150,7 @@
   function gradeLabel(topic) {
     if ((subject === 'english' || subject === 'physics') && EN_BOOK[topic.grade]) return EN_BOOK[topic.grade][1];
     if (subject === 'chemistry' && CHEM_BOOK[topic.grade]) return CHEM_BOOK[topic.grade][1];
+    if (subject === 'chinese' && ZH_BOOK[topic.grade]) return ZH_BOOK[topic.grade][1];
     if (topic.grade === 10) return '高一 · 必修第一册';
     if (topic.grade === 11) return '高二 · 必修第二册';
     if (topic.grade === 12) return '选必一 · 选择性必修第一册';
@@ -160,6 +169,8 @@
     var text = topic.chapter || '未分章';
     var primary = /^[一二三四五六七八九]年级[上下全]册\s+(.+)$/.exec(text);
     if (primary) return primary[1];
+    var zhHs = /^(?:必修上册|必修下册|选择性必修上册|选择性必修中册|选择性必修下册) (第\d+单元 .+)$/.exec(text);
+    if (zhHs) return zhHs[1];
     var enHs = /^(?:必修第[一二三]册|选择性必修第[一二三四]册) ((?:欢迎单元|第\d+单元) .+)$/.exec(text);
     if (enHs) return enHs[1];
     var model = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(text);
@@ -1056,7 +1067,7 @@
     if (subject === 'chinese') {
       document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
         var stageName = button.getAttribute('data-stage');
-        button.hidden = stageName === 'j' || stageName === 'h';
+        button.hidden = stageName === 'j';
       });
       var zhGrade = $('fGrade');
       zhGrade.replaceChildren();
@@ -1064,9 +1075,12 @@
       [1, 2, 3, 4, 5, 6].forEach(function (g) {
         zhGrade.append(el('option', { value: String(g), text: CN[g] + '年级' }));
       });
+      [[10, '必修上册'], [11, '必修下册'], [12, '选择性必修上册'], [13, '选择性必修中册'], [14, '选择性必修下册']].forEach(function (row) {
+        zhGrade.append(el('option', { value: String(row[0]), text: row[1] }));
+      });
       var zhSample = $('pick-sample');
       if (zhSample) zhSample.textContent = '先看看「静夜思」';
-      document.title = '知识图谱 · 小学语文';
+      document.title = '知识图谱 · 语文（小学 + 高中）';
       return;
     }
     if (subject !== 'english') return;
@@ -1103,7 +1117,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'chemistry' ? /^(?:1[0-4])$/ : subject === 'history' ? /^[7-9]$/ : subject === 'geography' ? /^[78]$/ : subject === 'chinese' || subject === 'science' || subject === 'morality' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'chemistry' ? /^(?:1[0-4])$/ : subject === 'history' ? /^[7-9]$/ : subject === 'geography' ? /^[78]$/ : subject === 'chinese' ? /^(?:[1-6]|1[0-4])$/ : subject === 'science' || subject === 'morality' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
