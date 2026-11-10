@@ -557,6 +557,9 @@
     // 高中化学：章名本身可能带空格（如「必修一 第三章 铁 金属材料 3.1」）。
     const chem = /^(必修[一二]|选必[一二三]) (第\S+章) (.+?) (\d+\.\d+)$/.exec(s);
     if (chem) return { volume: chem[1], chapterNo: chem[2], chapterName: chem[3], section: chem[4] };
+    // 高中历史/地理/生物/政治按「第N单元」分章（如「纲要上 第1单元 从中华文明起源到……」）。
+    const unit = /^(必修[一二三四]|选必[一二三]|纲要[上下]) (第\d+单元) (.+)$/.exec(s);
+    if (unit) return { volume: unit[1], chapterNo: unit[2], chapterName: unit[3], section: '' };
     const m = /^(\S+) (第\S+章) (\S+?)(?: (\S+))?$/.exec(s);
     if (!m) return { volume: '', chapterNo: '', chapterName: s, section: '' };
     return { volume: m[1], chapterNo: m[2], chapterName: m[3], section: m[4] || '' };
@@ -565,8 +568,9 @@
   /** 学科：显式 subject 优先，否则 cne_ 是英语、cnp_ 是物理、cnc_ 是语文、cns_ 是科学、cnd_ 是道德与法治、cnh_ 是历史、cng_ 是地理，其余算数学。 */
   function subjectOf(topic) {
     if (!topic) return 'math';
-    if (topic.subject === 'english' || topic.subject === 'math' || topic.subject === 'physics' || topic.subject === 'chinese' || topic.subject === 'science' || topic.subject === 'morality' || topic.subject === 'history' || topic.subject === 'geography' || topic.subject === 'chemistry') return topic.subject;
+    if (topic.subject === 'english' || topic.subject === 'math' || topic.subject === 'physics' || topic.subject === 'chinese' || topic.subject === 'science' || topic.subject === 'morality' || topic.subject === 'history' || topic.subject === 'geography' || topic.subject === 'chemistry' || topic.subject === 'biology' || topic.subject === 'politics') return topic.subject;
     if (String(topic.id || '').indexOf('cne_') === 0) return 'english';
+    if (String(topic.id || '').indexOf('cnpo_') === 0) return 'politics';
     if (String(topic.id || '').indexOf('cnp_') === 0) return 'physics';
     if (String(topic.id || '').indexOf('cnc_') === 0) return 'chinese';
     if (String(topic.id || '').indexOf('cns_') === 0) return 'science';
@@ -574,6 +578,7 @@
     if (String(topic.id || '').indexOf('cnh_') === 0) return 'history';
     if (String(topic.id || '').indexOf('cng_') === 0) return 'geography';
     if (String(topic.id || '').indexOf('cnch_') === 0) return 'chemistry';
+    if (String(topic.id || '').indexOf('cnb_') === 0) return 'biology';
     return 'math';
   }
 
@@ -606,6 +611,12 @@
       '必修第二册': ['必修二', '必修二（必修第二册）'],
       '必修三': ['必修三', '必修三（必修第三册）'],
       '必修第三册': ['必修三', '必修三（必修第三册）'],
+      '必修四': ['必修四', '必修四（必修第四册）'],
+      '必修第四册': ['必修四', '必修四（必修第四册）'],
+      '纲要上': ['纲要上', '纲要上（中外历史纲要上）'],
+      '中外历史纲要上': ['纲要上', '纲要上（中外历史纲要上）'],
+      '纲要下': ['纲要下', '纲要下（中外历史纲要下）'],
+      '中外历史纲要下': ['纲要下', '纲要下（中外历史纲要下）'],
       '选必四': ['选必四', '选必四（选择性必修第四册）'],
       '选择性必修第四册': ['选必四', '选必四（选择性必修第四册）'],
       '必修上': ['必修上', '必修上（必修上册）'],

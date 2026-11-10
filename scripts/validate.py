@@ -39,6 +39,16 @@ CHEM_DOMAINS = {"化学基本概念", "元素化合物", "化学反应原理", "
 # 高中化学：cch-2017:<B1|B2|S1|S2|S3>.<NN>。册次：必修一/二，选择性必修 1/2/3。
 CHEM_STD_ID_RE = re.compile(r"^cch-2017:(B1|B2|S1|S2|S3)\.(\d{2,})$")
 CHEM_SENIOR_GRADES = (10, 11, 12, 13, 14)
+GEO_SENIOR_DOMAINS = {"自然地理", "人文地理", "区域发展", "资源环境与国家安全", "地理工具"}
+BIO_DOMAINS = {"分子与细胞", "遗传与进化", "稳态与调节", "生物与环境", "生物技术与工程"}
+POL_DOMAINS = {"中国特色社会主义", "经济与社会", "政治与法治", "哲学与文化",
+               "当代国际政治与经济", "法律与生活", "逻辑与思维"}
+HIS_HS_STD_ID_RE = re.compile(r"^chs-hs-2017:(B1|B2|S1|S2|S3)\.(\d{2,})$")
+GEO_HS_STD_ID_RE = re.compile(r"^cgs-hs-2017:(B1|B2|S1|S2|S3)\.(\d{2,})$")
+BIO_HS_STD_ID_RE = re.compile(r"^cbs-hs-2017:(B1|B2|S1|S2|S3)\.(\d{2,})$")
+POL_HS_STD_ID_RE = re.compile(r"^cpo-hs-2017:(B1|B2|B3|B4|S1|S2|S3)\.(\d{2,})$")
+BIO_SENIOR_GRADES = (10, 11, 12, 13, 14)
+POL_SENIOR_GRADES = (10, 11, 12, 13, 14, 15, 16)
 # 物理知识点的 domain 用课标一级主题；“实验探究”只出现在课标条目上。
 PHY_DOMAINS = {"物质", "运动和相互作用", "能量", "跨学科实践"}
 PHY_STD_TOPS = {"1": "物质", "2": "运动和相互作用", "3": "能量", "4": "实验探究", "5": "跨学科实践"}
@@ -47,7 +57,8 @@ PHY_STD_ID_RE = re.compile(r"^cps-2022:([1-5])\.(\d)\.(\d+)$")
 PHY_HS_STD_ID_RE = re.compile(r"^cps-hs-2017:([BS])([1-3])\.([1-4X])\.(\d+)$")
 PHY_HS_STD_DOMAINS = {"物质", "运动和相互作用", "能量", "实验探究", "跨学科实践"}
 PHY_SENIOR_GRADES = (10, 11, 12, 13, 14, 15)
-DOMAINS = MATH_DOMAINS | EN_DOMAINS | PHY_DOMAINS | ZH_DOMAINS | SCI_DOMAINS | MOR_DOMAINS | HIS_DOMAINS | GEO_DOMAINS | CHEM_DOMAINS
+DOMAINS = (MATH_DOMAINS | EN_DOMAINS | PHY_DOMAINS | ZH_DOMAINS | SCI_DOMAINS | MOR_DOMAINS
+           | HIS_DOMAINS | GEO_DOMAINS | CHEM_DOMAINS | GEO_SENIOR_DOMAINS | BIO_DOMAINS | POL_DOMAINS)
 TYPES = {"conceptual", "procedural", "reasoning", "application", "modeling"}
 STRENGTHS = {"hard", "soft"}
 CONFIDENCES = {"exact", "inferred"}
@@ -94,9 +105,9 @@ CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
 # cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cne_p001 小学英语，cne_j001 初中英语，cne_h001 高中英语。
 # cnp_001 初中物理；cnp_h001 高中物理（必修一至选必三，grade 10–15）。cnc_p001 小学语文；cns_p001 小学科学；cnd_p001 小学道德与法治；cnh_j001 初中历史；cng_j001 初中地理。
-ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p|cns_p|cnd_p|cnh_j|cng_j|cnch_)\d{3,}$")
+ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p|cns_p|cnd_p|cnh_[jh]|cng_[jh]|cnch_|cnb_h|cnpo_h)\d{3,}$")
 # 10、11 是必修第一、二册；12、13、14 是选择性必修第一、二、三册，不是教学年份。
-GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
+GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
 ALIAS_ID_RE = re.compile(r"^cnm_ext_\d{3,}$")
 # 教材版本对照（可选）：topic.mappings 与 data/mappings/*.json，说明见 docs/edition-mappings.md
@@ -187,6 +198,10 @@ def topic_subject(tid):
         return "geography"
     if is_chemistry_id(tid):
         return "chemistry"
+    if str(tid).startswith("cnb_"):
+        return "biology"
+    if str(tid).startswith("cnpo_"):
+        return "politics"
     if str(tid).startswith("cnm_"):
         return "math"
     return ""
@@ -392,13 +407,18 @@ def check_topics(topics):
                 err("%s 历史知识点的 subject 必须是 history" % where)
             if t.get("domain") not in HIS_DOMAINS:
                 err("%s 历史 domain 取值非法：%r" % (where, t.get("domain")))
+            if str(tid).startswith("cnh_h") and t.get("semester") != "全":
+                err("%s 高中历史 semester 必须是 全（每册按全一册处理）" % where)
             if "mathLinks" in t:
                 err("%s 只有物理和科学知识点可以带 mathLinks" % where)
         elif subj == "geography":
             if marked != "geography":
                 err("%s 地理知识点的 subject 必须是 geography" % where)
-            if t.get("domain") not in GEO_DOMAINS:
+            geo_domains = GEO_SENIOR_DOMAINS if str(tid).startswith("cng_h") else GEO_DOMAINS
+            if t.get("domain") not in geo_domains:
                 err("%s 地理 domain 取值非法：%r" % (where, t.get("domain")))
+            if str(tid).startswith("cng_h") and t.get("semester") != "全":
+                err("%s 高中地理 semester 必须是 全（每册按全一册处理）" % where)
             if "mathLinks" in t:
                 err("%s 只有物理和科学知识点可以带 mathLinks" % where)
         elif subj == "chemistry":
@@ -410,6 +430,28 @@ def check_topics(topics):
                 err("%s 高中化学 grade 必须是 10–14（10–11 必修两册，12–14 选择性必修三册）" % where)
             if t.get("semester") != "全":
                 err("%s 高中化学 semester 必须是 全（每册按全一册处理）" % where)
+            if "mathLinks" in t:
+                err("%s 只有物理和科学知识点可以带 mathLinks" % where)
+        elif subj == "biology":
+            if marked != "biology":
+                err("%s 生物学知识点的 subject 必须是 biology" % where)
+            if t.get("domain") not in BIO_DOMAINS:
+                err("%s 生物学 domain 取值非法：%r" % (where, t.get("domain")))
+            if t.get("grade") not in BIO_SENIOR_GRADES:
+                err("%s 高中生物学 grade 必须是 10–14（10–11 必修两册，12–14 选择性必修三册）" % where)
+            if t.get("semester") != "全":
+                err("%s 高中生物学 semester 必须是 全（每册按全一册处理）" % where)
+            if "mathLinks" in t:
+                err("%s 只有物理和科学知识点可以带 mathLinks" % where)
+        elif subj == "politics":
+            if marked != "politics":
+                err("%s 思想政治知识点的 subject 必须是 politics" % where)
+            if t.get("domain") not in POL_DOMAINS:
+                err("%s 思想政治 domain 取值非法：%r" % (where, t.get("domain")))
+            if t.get("grade") not in POL_SENIOR_GRADES:
+                err("%s 高中思想政治 grade 必须是 10–16（10–13 必修四册，14–16 选择性必修三册）" % where)
+            if t.get("semester") != "全":
+                err("%s 高中思想政治 semester 必须是 全（每册按全一册处理）" % where)
             if "mathLinks" in t:
                 err("%s 只有物理和科学知识点可以带 mathLinks" % where)
         elif subj == "chinese":
@@ -447,10 +489,14 @@ def check_topics(topics):
             err("%s 小学科学 grade 必须是 1–6" % where)
         if subj == "morality" and g not in (1, 2, 3, 4, 5, 6):
             err("%s 小学道德与法治 grade 必须是 1–6" % where)
-        if subj == "history" and g not in (7, 8, 9):
+        if subj == "history" and not str(tid).startswith("cnh_h") and g not in (7, 8, 9):
             err("%s 初中历史 grade 必须是 7–9" % where)
-        if subj == "geography" and g not in (7, 8):
+        if subj == "history" and str(tid).startswith("cnh_h") and g not in (10, 11, 12, 13, 14):
+            err("%s 高中历史 grade 必须是 10–14（纲要上/下，选必一至三）" % where)
+        if subj == "geography" and not str(tid).startswith("cng_h") and g not in (7, 8):
             err("%s 初中地理 grade 必须是 7 或 8" % where)
+        if subj == "geography" and str(tid).startswith("cng_h") and g not in (10, 11, 12, 13, 14):
+            err("%s 高中地理 grade 必须是 10–14（必修一/二，选必一至三）" % where)
         if subj == "chinese" and g not in (1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14):
             err("%s 语文 grade 必须是 1–6（小学）或 10–14（高中必修上/下、选必上/中/下）" % where)
         if subj == "english":
@@ -463,7 +509,9 @@ def check_topics(topics):
         sem = t.get("semester")
         if subj == "physics":
             pass
-        elif subj == "chemistry":
+        elif subj in ("chemistry", "biology", "politics"):
+            pass
+        elif subj in ("history", "geography") and str(tid).startswith(("cnh_h", "cng_h")):
             pass
         elif subj == "english" and t.get("grade") == 9:
             if sem not in ("上", "全"):
@@ -480,7 +528,8 @@ def check_topics(topics):
             err("%s diagnostic_question 必须含非空 question 与 answer" % where)
         if "root_reason" in t and not nonempty_str(t["root_reason"]):
             err("%s root_reason 为空" % where)
-        if subj in ("english", "chinese", "science", "morality", "history", "geography", "chemistry") and isinstance(t.get("diagnostic_question"), dict):
+        if subj in ("english", "chinese", "science", "morality", "history", "geography", "chemistry",
+                    "biology", "politics") and isinstance(t.get("diagnostic_question"), dict):
             problem = english_prompt_problem(t["diagnostic_question"].get("question"))
             if problem:
                 err("%s 诊断题%s" % (where, problem))
@@ -532,6 +581,10 @@ def check_deps(deps, ids):
             N_GEO_EDGES += 1
         if sa == "chemistry":
             N_CHEM_EDGES += 1
+        if sa in ("biology", "politics") and sa == sb and a in ids and b in ids:
+            ra, rb = volume_rank(ids[a]), volume_rank(ids[b])
+            if ra is not None and rb is not None and rb > ra:
+                err("%s 先修年级或册次更晚：%s 依赖 %s" % (where, a, b))
         if sa == "english" and d.get("strength") in STRENGTHS:
             if d["strength"] == "hard":
                 n_en_hard += 1
@@ -630,9 +683,12 @@ def report(ids, prereqs, dependents, n_hard, n_soft, n_en_hard, n_en_soft):
     his_core = [t for t in core if is_history_id(t.get("id"))]
     geo_core = [t for t in core if is_geography_id(t.get("id"))]
     chem_core = [t for t in core if is_chemistry_id(t.get("id"))]
+    bio_core = [t for t in core if str(t.get("id")).startswith("cnb_")]
+    pol_core = [t for t in core if str(t.get("id")).startswith("cnpo_")]
     print("知识点总数：%d（正式 %d，小学外部 %d）" % (len(ids), len(core), len(ext)))
-    print("其中数学 %d，语文 %d，英语 %d，物理 %d，科学 %d，道德与法治 %d，历史 %d，地理 %d，化学 %d" % (
-        len(math_core), len(zh_core), len(en_core), len(phy_core), len(sci_core), len(mor_core), len(his_core), len(geo_core), len(chem_core)))
+    print("其中数学 %d，语文 %d，英语 %d，物理 %d，科学 %d，道德与法治 %d，历史 %d，地理 %d，化学 %d，生物学 %d，思想政治 %d" % (
+        len(math_core), len(zh_core), len(en_core), len(phy_core), len(sci_core), len(mor_core),
+        len(his_core), len(geo_core), len(chem_core), len(bio_core), len(pol_core)))
     print("\n按 domain（数学正式知识点）：")
     for k, v in sorted(Counter(t["domain"] for t in math_core).items(), key=lambda x: -x[1]):
         print("  %-8s %d" % (k, v))
@@ -783,6 +839,10 @@ def check_standards_file(std):
     saw_history = False
     saw_geography = False
     saw_chemistry = False
+    saw_history_senior = False
+    saw_geography_senior = False
+    saw_biology_senior = False
+    saw_politics_senior = False
     for i, it in enumerate(items):
         where = "standards.items[%d]" % i
         if not isinstance(it, dict):
@@ -807,6 +867,10 @@ def check_standards_file(std):
         hism = HIS_STD_ID_RE.match(sid)
         geom = GEO_STD_ID_RE.match(sid)
         chem = CHEM_STD_ID_RE.match(sid)
+        hism_h = HIS_HS_STD_ID_RE.match(sid)
+        geom_h = GEO_HS_STD_ID_RE.match(sid)
+        biom_h = BIO_HS_STD_ID_RE.match(sid)
+        polm_h = POL_HS_STD_ID_RE.match(sid)
         pm = PHY_STD_ID_RE.match(sid)
         phm = PHY_HS_STD_ID_RE.match(sid)
         if phm:
@@ -980,6 +1044,58 @@ def check_standards_file(std):
                 err("%s 高中化学课标条目必须显式标 verbatim:false（公开转述，未逐页核对）" % where)
             if it.get("page_or_ref") != "待核":
                 err("%s 高中化学课标 page_or_ref 必须是「待核」，不能编页码" % where)
+        elif hism_h:
+            saw_history_senior = True
+            book, num = hism_h.group(1), int(hism_h.group(2))
+            if it.get("domain") not in HIS_DOMAINS:
+                err("%s domain 取值非法：%r" % (where, it.get("domain")))
+            key = ("chshs", book)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在册内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中历史课标条目必须显式标 verbatim:false（公开转述，未逐页核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 高中历史课标 page_or_ref 必须是「待核」，不能编页码" % where)
+        elif geom_h:
+            saw_geography_senior = True
+            book, num = geom_h.group(1), int(geom_h.group(2))
+            if it.get("domain") not in GEO_SENIOR_DOMAINS:
+                err("%s domain 取值非法：%r" % (where, it.get("domain")))
+            key = ("cgshs", book)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在册内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中地理课标条目必须显式标 verbatim:false（公开转述，未逐页核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 高中地理课标 page_or_ref 必须是「待核」，不能编页码" % where)
+        elif biom_h:
+            saw_biology_senior = True
+            book, num = biom_h.group(1), int(biom_h.group(2))
+            if it.get("domain") not in BIO_DOMAINS:
+                err("%s domain 取值非法：%r" % (where, it.get("domain")))
+            key = ("cbshs", book)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在册内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中生物学课标条目必须显式标 verbatim:false（公开转述，未逐页核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 高中生物学课标 page_or_ref 必须是「待核」，不能编页码" % where)
+        elif polm_h:
+            saw_politics_senior = True
+            book, num = polm_h.group(1), int(polm_h.group(2))
+            if it.get("domain") not in POL_DOMAINS:
+                err("%s domain 取值非法：%r" % (where, it.get("domain")))
+            key = ("cposhs", book)
+            if num != last.get(key, 0) + 1:
+                err("%s 编号在册内不连续（上一条为 %02d）" % (where, last.get(key, 0)))
+            last[key] = num
+            if it.get("verbatim") is not False:
+                err("%s 高中思想政治课标条目必须显式标 verbatim:false（公开转述，未逐页核对）" % where)
+            if it.get("page_or_ref") != "待核":
+                err("%s 高中思想政治课标 page_or_ref 必须是「待核」，不能编页码" % where)
         else:
             err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 、ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN> 、ccs-2022:<1|2|3>.<PY|SZ|CY|JZ|YD|GS|XZ>.<NN> 、ccs-2017:H.<WX|SB|SY|ZS|YY|WH|KM|CT|GM|XD|WG|KL|HZ>.<NN> 、css-2022:<1|2|3>.<WZ|SM|DQ|JG>.<NN> 、cds-2022:<1|2|3>.<LS|XX|JT|SH|GM|ZR>.<NN> 、chs-2022:<CA|CN|CM|WA|WN|WM>.<NN> 、cgs-2022:<EM|WG|CG>.<NN> 、cps-2022:<1-5>.<二级>.<序号> 或 cps-hs-2017:<B|S><1-3>.<1-4|X>.<序号>）" % where)
         for f in ("domain", "section", "text"):
@@ -1021,6 +1137,25 @@ def check_standards_file(std):
                 err("chemistry_senior.year 必须是整数")
             if chs.get("title") != "普通高中化学课程标准（2017年版2020年修订）":
                 err("chemistry_senior.title 必须是「普通高中化学课程标准（2017年版2020年修订）」")
+    for flag, key, title, label in (
+        (saw_history_senior, "history_senior", "普通高中历史课程标准（2017年版2020年修订）", "高中历史"),
+        (saw_geography_senior, "geography_senior", "普通高中地理课程标准（2017年版2020年修订）", "高中地理"),
+        (saw_biology_senior, "biology_senior", "普通高中生物学课程标准（2017年版2020年修订）", "高中生物学"),
+        (saw_politics_senior, "politics_senior", "普通高中思想政治课程标准（2017年版2020年修订）", "高中思想政治"),
+    ):
+        if not flag:
+            continue
+        meta = std.get(key)
+        if not isinstance(meta, dict):
+            err("有%s课标条目，但缺少 %s 对象" % (label, key))
+            continue
+        for f in ("title", "issuer", "stage", "note"):
+            if not nonempty_str(meta.get(f)):
+                err("%s.%s 缺失或为空" % (key, f))
+        if not isinstance(meta.get("year"), int):
+            err("%s.year 必须是整数" % key)
+        if meta.get("title") != title:
+            err("%s.title 必须是「%s」" % (key, title))
     if saw_english:
         eng = std.get("english")
         if not isinstance(eng, dict):
@@ -1232,7 +1367,7 @@ PURE_ARITH_CHOICE_RE = re.compile(
     r"^\d+(?:\.\d+)?(?:\s*[＋+\-－×*÷]\s*\d+(?:\.\d+)?)+ 的得数是哪一个？$"
 )
 CHALLENGE_BARE_CALC_RE = re.compile(r"^计算：.*＝？")
-Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p|cns_p|cnd_p|cnh_j|cng_j|cnch_)\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p|cns_p|cnd_p|cnh_[jh]|cng_[jh]|cnch_|cnb_h|cnpo_h)\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60

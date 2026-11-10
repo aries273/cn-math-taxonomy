@@ -3,13 +3,13 @@
   'use strict';
   var raw = location.hash.replace(/^#/, '');
   try { raw = decodeURIComponent(raw); } catch (e) { /* 保持原样 */ }
-  if (/^(?:cnm|cne|cnp|cnc|cns|cnd|cnh|cng|cnch)_[A-Za-z0-9]+$/.test(raw)) return;
+  if (/^(?:cnm|cne|cnp|cnc|cns|cnd|cnh|cng|cnch|cnb|cnpo)_[A-Za-z0-9]+$/.test(raw)) return;
 
   var CN = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
   var subjectParam = new URLSearchParams(location.search).get('subject');
-  var subject = subjectParam === 'english' || subjectParam === 'physics' || subjectParam === 'chinese' || subjectParam === 'science' || subjectParam === 'morality' || subjectParam === 'history' || subjectParam === 'geography' || subjectParam === 'chemistry' ? subjectParam : 'math';
-  var PREFIX = { math: 'cnm_', english: 'cne_', physics: 'cnp_', chinese: 'cnc_', science: 'cns_', morality: 'cnd_', history: 'cnh_', geography: 'cng_', chemistry: 'cnch_' };
-  var STD_PREFIX = { math: 'cms-', english: 'ces-', physics: 'cps-', chinese: 'ccs-', science: 'css-', morality: 'cds-', history: 'chs-', geography: 'cgs-', chemistry: 'cch-' };
+  var subject = subjectParam === 'english' || subjectParam === 'physics' || subjectParam === 'chinese' || subjectParam === 'science' || subjectParam === 'morality' || subjectParam === 'history' || subjectParam === 'geography' || subjectParam === 'chemistry' || subjectParam === 'biology' || subjectParam === 'politics' ? subjectParam : 'math';
+  var PREFIX = { math: 'cnm_', english: 'cne_', physics: 'cnp_', chinese: 'cnc_', science: 'cns_', morality: 'cnd_', history: 'cnh_', geography: 'cng_', chemistry: 'cnch_', biology: 'cnb_', politics: 'cnpo_' };
+  var STD_PREFIX = { math: 'cms-', english: 'ces-', physics: 'cps-', chinese: 'ccs-', science: 'css-', morality: 'cds-', history: 'chs-', geography: 'cgs-', chemistry: 'cch-', biology: 'cbs-', politics: 'cpo-' };
 
   function withSubject(href) {
     if (subject === 'math' || !href || href.indexOf('subject=') >= 0 || href.indexOf('http') === 0) return href;
@@ -24,6 +24,8 @@
   document.body.classList.toggle('subject-history', subject === 'history');
   document.body.classList.toggle('subject-geography', subject === 'geography');
   document.body.classList.toggle('subject-chemistry', subject === 'chemistry');
+  document.body.classList.toggle('subject-biology', subject === 'biology');
+  document.body.classList.toggle('subject-politics', subject === 'politics');
   document.querySelectorAll('.subject-link').forEach(function (link) {
     var on = link.getAttribute('data-subject') === subject;
     link.classList.toggle('on', on);
@@ -101,9 +103,9 @@
       mdemo.textContent = '先看一遍演示：一年级上册道德与法治';
     }
   } else if (subject === 'history') {
-    document.title = '初中历史 · 中小学·高中知识图谱';
+    document.title = '历史 · 中小学·高中知识图谱';
     var heye = document.querySelector('.eyebrow');
-    if (heye) heye.textContent = '历史：初中七至九年级 · 统编版';
+    if (heye) heye.textContent = '历史：初中七至九年级 · 高中纲要与选择性必修 · 统编版';
     var hprimary = document.querySelector('.hero-actions a.btn-primary');
     var hbrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
     if (hprimary) hprimary.setAttribute('href', 'diagnose/?subject=history');
@@ -114,9 +116,9 @@
       hdemo.textContent = '先看一遍演示：七年级上册历史';
     }
   } else if (subject === 'geography') {
-    document.title = '初中地理 · 中小学·高中知识图谱';
+    document.title = '地理 · 中小学·高中知识图谱';
     var geye = document.querySelector('.eyebrow');
-    if (geye) geye.textContent = '地理：初中七至八年级 · 人教版';
+    if (geye) geye.textContent = '地理：初中七至八年级 · 高中必修与选择性必修 · 人教版';
     var gprimary = document.querySelector('.hero-actions a.btn-primary');
     var gbrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
     if (gprimary) gprimary.setAttribute('href', 'diagnose/?subject=geography');
@@ -138,6 +140,32 @@
     if (chdemo) {
       chdemo.setAttribute('href', 'diagnose/?subject=chemistry&grade=' + encodeURIComponent('必修一') + '&demo=1');
       chdemo.textContent = '先看一遍演示：高中化学必修第一册';
+    }
+  } else if (subject === 'biology') {
+    document.title = '高中生物学 · 中小学·高中知识图谱';
+    var beye = document.querySelector('.eyebrow');
+    if (beye) beye.textContent = '生物学：高中必修与选择性必修 · 人教版';
+    var bprimary = document.querySelector('.hero-actions a.btn-primary');
+    var bbrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
+    if (bprimary) bprimary.setAttribute('href', 'diagnose/?subject=biology');
+    if (bbrowse) bbrowse.setAttribute('href', 'explore/?subject=biology');
+    var bdemo = document.querySelector('.quiet-link a');
+    if (bdemo) {
+      bdemo.setAttribute('href', 'diagnose/?subject=biology&grade=' + encodeURIComponent('必修一') + '&demo=1');
+      bdemo.textContent = '先看一遍演示：高中生物学必修第一册';
+    }
+  } else if (subject === 'politics') {
+    document.title = '高中思想政治 · 中小学·高中知识图谱';
+    var poeye = document.querySelector('.eyebrow');
+    if (poeye) poeye.textContent = '思想政治：高中必修与选择性必修 · 统编版';
+    var poprimary = document.querySelector('.hero-actions a.btn-primary');
+    var pobrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
+    if (poprimary) poprimary.setAttribute('href', 'diagnose/?subject=politics');
+    if (pobrowse) pobrowse.setAttribute('href', 'explore/?subject=politics');
+    var podemo = document.querySelector('.quiet-link a');
+    if (podemo) {
+      podemo.setAttribute('href', 'diagnose/?subject=politics&grade=' + encodeURIComponent('必修一') + '&demo=1');
+      podemo.textContent = '先看一遍演示：高中思想政治必修第一册';
     }
   }
 
@@ -226,6 +254,7 @@
     function subjectOfId(id) {
       id = String(id || '');
       if (id.indexOf('cne_') === 0) return 'english';
+      if (id.indexOf('cnpo_') === 0) return 'politics';
       if (id.indexOf('cnp_') === 0) return 'physics';
       if (id.indexOf('cnc_') === 0) return 'chinese';
       if (id.indexOf('cns_') === 0) return 'science';
@@ -233,6 +262,7 @@
       if (id.indexOf('cnh_') === 0) return 'history';
       if (id.indexOf('cng_') === 0) return 'geography';
       if (id.indexOf('cnch_') === 0) return 'chemistry';
+      if (id.indexOf('cnb_') === 0) return 'biology';
       return 'math';
     }
     function subjectOfStd(id) {
@@ -245,6 +275,8 @@
       if (id.indexOf('chs-') === 0) return 'history';
       if (id.indexOf('cgs-') === 0) return 'geography';
       if (id.indexOf('cch-') === 0) return 'chemistry';
+      if (id.indexOf('cbs-') === 0) return 'biology';
+      if (id.indexOf('cpo-') === 0) return 'politics';
       return 'math';
     }
     var wantEnglish = subject === 'english';
@@ -253,6 +285,8 @@
     var wantHistory = subject === 'history';
     var wantGeography = subject === 'geography';
     var wantChemistry = subject === 'chemistry';
+    var wantBiology = subject === 'biology';
+    var wantPolitics = subject === 'politics';
     topics = topics.filter(function (topic) { return (topic.subject || subjectOfId(topic.id)) === subject; });
     deps = deps.filter(function (edge) { return subjectOfId(edge.topicId) === subject; });
     questions = questions.filter(function (question) { return subjectOfId(question.topicId) === subject; });
@@ -285,7 +319,7 @@
       link.append(stage, name, count, split);
       grades.append(link);
     }
-    var from = wantChemistry ? 10 : (wantPhysics ? 8 : (wantEnglish ? 3 : (wantHistory || wantGeography ? 7 : 1)));
+    var from = (wantChemistry || wantBiology || wantPolitics) ? 10 : (wantPhysics ? 8 : (wantEnglish ? 3 : (wantHistory || wantGeography ? 7 : 1)));
     var to = wantChemistry ? 9 : (wantChinese ? 6 : (wantGeography ? 8 : 9));
     for (var g = from; g <= to; g++) {
       var list = topics.filter(function (topic) { return topic.grade === g; });
@@ -304,9 +338,33 @@
       addCard(13, '高中', '选必中', 'is-senior', '选择性必修中册', 'explore/?subject=chinese&grade=13');
       addCard(14, '高中', '选必下', 'is-senior', '选择性必修下册', 'explore/?subject=chinese&grade=14');
     } else if (wantHistory) {
-      /* 初中历史只到九年级 */
+      /* 初中历史到九年级，高中接中外历史纲要与选择性必修 */
+      addCard(10, '高中历史', '纲要上', 'is-senior', '中外历史纲要（上）', 'explore/?subject=history&grade=10');
+      addCard(11, '高中历史', '纲要下', 'is-senior', '中外历史纲要（下）', 'explore/?subject=history&grade=11');
+      addCard(12, '高中历史', '选必一', 'is-senior', '国家制度与社会治理', 'explore/?subject=history&grade=12');
+      addCard(13, '高中历史', '选必二', 'is-senior', '经济与社会生活', 'explore/?subject=history&grade=13');
+      addCard(14, '高中历史', '选必三', 'is-senior', '文化交流与传播', 'explore/?subject=history&grade=14');
     } else if (wantGeography) {
-      /* 初中地理只到八年级 */
+      /* 初中地理到八年级，高中接必修与选择性必修 */
+      addCard(10, '高中地理', '必修一', 'is-senior', '必修第一册', 'explore/?subject=geography&grade=10');
+      addCard(11, '高中地理', '必修二', 'is-senior', '必修第二册', 'explore/?subject=geography&grade=11');
+      addCard(12, '高中地理', '选必一', 'is-senior', '自然地理基础', 'explore/?subject=geography&grade=12');
+      addCard(13, '高中地理', '选必二', 'is-senior', '区域发展', 'explore/?subject=geography&grade=13');
+      addCard(14, '高中地理', '选必三', 'is-senior', '资源、环境与国家安全', 'explore/?subject=geography&grade=14');
+    } else if (wantBiology) {
+      addCard(10, '高中生物学', '必修一', 'is-senior', '分子与细胞', 'explore/?subject=biology&grade=10');
+      addCard(11, '高中生物学', '必修二', 'is-senior', '遗传与进化', 'explore/?subject=biology&grade=11');
+      addCard(12, '高中生物学', '选必一', 'is-senior', '稳态与调节', 'explore/?subject=biology&grade=12');
+      addCard(13, '高中生物学', '选必二', 'is-senior', '生物与环境', 'explore/?subject=biology&grade=13');
+      addCard(14, '高中生物学', '选必三', 'is-senior', '生物技术与工程', 'explore/?subject=biology&grade=14');
+    } else if (wantPolitics) {
+      addCard(10, '高中思想政治', '必修一', 'is-senior', '中国特色社会主义', 'explore/?subject=politics&grade=10');
+      addCard(11, '高中思想政治', '必修二', 'is-senior', '经济与社会', 'explore/?subject=politics&grade=11');
+      addCard(12, '高中思想政治', '必修三', 'is-senior', '政治与法治', 'explore/?subject=politics&grade=12');
+      addCard(13, '高中思想政治', '必修四', 'is-senior', '哲学与文化', 'explore/?subject=politics&grade=13');
+      addCard(14, '高中思想政治', '选必一', 'is-senior', '当代国际政治与经济', 'explore/?subject=politics&grade=14');
+      addCard(15, '高中思想政治', '选必二', 'is-senior', '法律与生活', 'explore/?subject=politics&grade=15');
+      addCard(16, '高中思想政治', '选必三', 'is-senior', '逻辑与思维', 'explore/?subject=politics&grade=16');
     } else if (wantChemistry) {
       addCard(10, '高中化学', '必修一', 'is-senior', '必修第一册', 'explore/?subject=chemistry&grade=10');
       addCard(11, '高中化学', '必修二', 'is-senior', '必修第二册', 'explore/?subject=chemistry&grade=11');

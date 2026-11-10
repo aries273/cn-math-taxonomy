@@ -1,0 +1,5658 @@
+{
+  "subject": "biology",
+  "idPrefix": "cnb_h",
+  "stdPrefix": "cbs-hs-2017:",
+  "books": [
+    {
+      "grade": 10,
+      "semester": "全",
+      "name": "必修一"
+    },
+    {
+      "grade": 11,
+      "semester": "全",
+      "name": "必修二"
+    },
+    {
+      "grade": 12,
+      "semester": "全",
+      "name": "选必一"
+    },
+    {
+      "grade": 13,
+      "semester": "全",
+      "name": "选必二"
+    },
+    {
+      "grade": 14,
+      "semester": "全",
+      "name": "选必三"
+    }
+  ],
+  "domains": [
+    "分子与细胞",
+    "遗传与进化",
+    "稳态与调节",
+    "生物与环境",
+    "生物技术与工程"
+  ],
+  "topics": [
+    {
+      "id": "cnb_h001",
+      "name": "组成细胞的元素与无机物",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第1单元 细胞的分子组成",
+      "type": "conceptual",
+      "description": "认识组成细胞的元素种类与含量特点，说明自由水、结合水和无机盐的存在形式与生理作用，能解释自由水比例变化与代谢、抗逆性的关系。",
+      "mastery_criteria": [
+        "能按含量与作用区分大量元素和微量元素，并说出含量最多的四种元素",
+        "能用水分存在形式的变化解释代谢强弱与抗寒抗旱能力"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "组成细胞的最基本元素是",
+          "answer": "碳",
+          "wrongs": [
+            "氧",
+            "氢",
+            "氮"
+          ],
+          "explanation": "碳是构成有机物骨架的元素，因而被称为最基本元素。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "活细胞中含量最多的化合物是",
+          "answer": "水",
+          "wrongs": [
+            "蛋白质",
+            "糖类",
+            "脂质"
+          ],
+          "explanation": "水在细胞鲜重中约占70%至90%，是含量最多的化合物。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "冬季来临，冬小麦细胞中自由水与结合水的比值下降，这一变化的意义是",
+          "answer": "降低代谢速率，增强抗寒能力",
+          "wrongs": [
+            "提高光合速率，加快有机物积累",
+            "加快物质运输，促进植株生长",
+            "增加细胞液浓度，加快蒸腾作用"
+          ],
+          "explanation": "结合水比例升高使代谢减弱、抗逆性增强。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列关于无机盐的叙述，正确的是",
+          "answer": "无机盐大多以离子形式存在，参与维持细胞的酸碱平衡",
+          "wrongs": [
+            "无机盐都以化合物的形式存在",
+            "无机盐只参与构成细胞的结构",
+            "无机盐不能维持细胞的渗透压"
+          ],
+          "explanation": "无机盐多以离子形式存在，参与维持渗透压和酸碱平衡。"
+        }
+      ],
+      "key": "bx1_yuansu"
+    },
+    {
+      "id": "cnb_h002",
+      "name": "细胞中的糖类与脂质",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第1单元 细胞的分子组成",
+      "type": "conceptual",
+      "description": "区分单糖、二糖和多糖的组成与功能，比较脂肪、磷脂与固醇的结构特点，说明糖类和脂质在供能与构成细胞中的作用。",
+      "mastery_criteria": [
+        "能列举常见单糖、二糖和多糖，并说明其分布与功能",
+        "能比较脂肪、磷脂和固醇的元素组成与生理作用"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列糖类中属于单糖的是",
+          "answer": "葡萄糖",
+          "wrongs": [
+            "蔗糖",
+            "麦芽糖",
+            "纤维素"
+          ],
+          "explanation": "葡萄糖是单糖；蔗糖、麦芽糖是二糖；纤维素是多糖。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "植物细胞壁的主要成分是",
+          "answer": "纤维素和果胶",
+          "wrongs": [
+            "淀粉和糖原",
+            "蛋白质和脂质",
+            "几丁质和果胶"
+          ],
+          "explanation": "植物细胞壁主要由纤维素和果胶构成。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列关于脂质的叙述，正确的是",
+          "answer": "磷脂是构成细胞膜的重要成分",
+          "wrongs": [
+            "脂肪是构成细胞膜的基本骨架",
+            "胆固醇只存在于动物细胞膜的外侧",
+            "维生素D属于脂肪"
+          ],
+          "explanation": "磷脂双分子层构成膜的基本骨架；胆固醇是动物细胞膜的成分；维生素D属于固醇类。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "等质量的糖类和脂肪彻底氧化分解，脂肪释放的能量更多，原因是",
+          "answer": "脂肪中氧的含量少，碳和氢的含量多",
+          "wrongs": [
+            "脂肪分子中含有氮元素",
+            "脂肪在细胞外就能被氧化分解",
+            "脂肪的氧化不需要酶的催化"
+          ],
+          "explanation": "脂肪中碳氢比例高，氧化时耗氧多、释放能量多。"
+        }
+      ],
+      "key": "bx1_tangzhi"
+    },
+    {
+      "id": "cnb_h003",
+      "name": "蛋白质与核酸",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第1单元 细胞的分子组成",
+      "type": "conceptual",
+      "description": "说明氨基酸脱水缩合形成肽链的过程，理解蛋白质结构多样性的原因，比较DNA与RNA在组成和功能上的差别。",
+      "mastery_criteria": [
+        "能判断某分子是否为组成蛋白质的氨基酸，并由氨基酸数推算肽键和水分子数",
+        "能比较DNA与RNA的五碳糖、碱基和主要功能"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "组成蛋白质的基本单位是",
+          "answer": "氨基酸",
+          "wrongs": [
+            "核苷酸",
+            "葡萄糖",
+            "甘油"
+          ],
+          "explanation": "氨基酸通过脱水缩合形成蛋白质。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "DNA特有的碱基是",
+          "answer": "胸腺嘧啶（T）",
+          "wrongs": [
+            "腺嘌呤（A）",
+            "鸟嘌呤（G）",
+            "胞嘧啶（C）"
+          ],
+          "explanation": "T为DNA特有，RNA中以尿嘧啶U代替。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "100个氨基酸形成一条肽链，形成的肽键数和脱去的水分子数分别是",
+          "answer": "99和99",
+          "wrongs": [
+            "100和100",
+            "99和100",
+            "100和99"
+          ],
+          "explanation": "一条肽链中肽键数等于氨基酸数减1，也等于脱去的水分子数。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "决定蛋白质结构多样性的原因不包括",
+          "answer": "肽键的形成方式不同",
+          "wrongs": [
+            "氨基酸的种类不同",
+            "氨基酸的数目不同",
+            "氨基酸的排列顺序不同"
+          ],
+          "explanation": "肽键的形成方式相同，多样性来自氨基酸的种类、数目、顺序和肽链的空间结构。"
+        }
+      ],
+      "key": "bx1_danbai"
+    },
+    {
+      "id": "cnb_h004",
+      "name": "细胞膜的结构与功能",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第2单元 细胞的结构与功能",
+      "type": "conceptual",
+      "description": "概述流动镶嵌模型的基本内容，说明磷脂双分子层、膜蛋白和糖被的作用，理解细胞膜的选择透过性。",
+      "mastery_criteria": [
+        "能说出流动镶嵌模型的要点并解释膜的流动性",
+        "能用选择透过性解释细胞膜控制物质进出的功能"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "细胞膜的基本骨架是",
+          "answer": "磷脂双分子层",
+          "wrongs": [
+            "蛋白质分子",
+            "糖蛋白",
+            "纤维素"
+          ],
+          "explanation": "磷脂双分子层构成膜的基本支架，蛋白质镶嵌其中。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "细胞膜上与细胞识别有关的结构是",
+          "answer": "糖被",
+          "wrongs": [
+            "磷脂双分子层",
+            "胆固醇",
+            "载体蛋白"
+          ],
+          "explanation": "糖被位于膜外侧，与细胞识别、保护和润滑有关。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "细胞膜的结构特点是具有一定的流动性，下列现象不能体现这一特点的是",
+          "answer": "水分子自由扩散通过细胞膜",
+          "wrongs": [
+            "白细胞吞噬病菌",
+            "分泌蛋白通过胞吐排出细胞",
+            "细胞融合时两个细胞的膜相互融合"
+          ],
+          "explanation": "自由扩散只体现选择透过性，其余现象都依赖膜的流动性。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "细胞膜具有选择透过性，其主要原因是",
+          "answer": "膜上载体蛋白的种类和数量不同",
+          "wrongs": [
+            "磷脂双分子层完全不能透水",
+            "膜两侧的溶液浓度总是相等",
+            "糖被能阻止所有物质通过"
+          ],
+          "explanation": "载体蛋白的种类和数量决定细胞对不同物质通透性的差异。"
+        }
+      ],
+      "key": "bx1_xibaomo"
+    },
+    {
+      "id": "cnb_h005",
+      "name": "细胞器的分工与合作",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第2单元 细胞的结构与功能",
+      "type": "conceptual",
+      "description": "识别线粒体、叶绿体、内质网、高尔基体、溶酶体、核糖体等细胞器的结构与功能，说明分泌蛋白合成运输中的分工合作。",
+      "mastery_criteria": [
+        "能按功能为常见细胞器归类，并指出其分布特点",
+        "能写出分泌蛋白从合成到分泌依次经过的结构"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "细胞内蛋白质合成的场所是",
+          "answer": "核糖体",
+          "wrongs": [
+            "高尔基体",
+            "内质网",
+            "溶酶体"
+          ],
+          "explanation": "核糖体是蛋白质合成的场所。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "植物细胞中进行光合作用的细胞器是",
+          "answer": "叶绿体",
+          "wrongs": [
+            "线粒体",
+            "液泡",
+            "高尔基体"
+          ],
+          "explanation": "叶绿体含有光合色素，是光合作用的场所。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "豚鼠胰腺腺泡细胞分泌消化酶的过程中，多肽链依次经过的结构是",
+          "answer": "核糖体→内质网→高尔基体→细胞膜",
+          "wrongs": [
+            "核糖体→高尔基体→内质网→细胞膜",
+            "内质网→核糖体→高尔基体→细胞膜",
+            "高尔基体→内质网→核糖体→细胞膜"
+          ],
+          "explanation": "分泌蛋白在核糖体上合成，经内质网和高尔基体加工后由囊泡运至细胞膜。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列关于细胞器功能的叙述，正确的是",
+          "answer": "溶酶体含多种水解酶，可分解衰老的细胞器",
+          "wrongs": [
+            "中心体与植物细胞的分裂直接相关",
+            "液泡只存在于动物细胞中",
+            "内质网是细胞呼吸的主要场所"
+          ],
+          "explanation": "中心体见于动物和低等植物细胞；液泡主要存在于植物细胞；细胞呼吸的主要场所是线粒体。"
+        }
+      ],
+      "key": "bx1_xibaozhigi"
+    },
+    {
+      "id": "cnb_h006",
+      "name": "细胞核与细胞的统一性",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第2单元 细胞的结构与功能",
+      "type": "conceptual",
+      "description": "说明核膜、核仁和染色质的结构与功能，理解细胞核是代谢和遗传的控制中心，比较原核细胞与真核细胞的异同。",
+      "mastery_criteria": [
+        "能说明核孔、核仁和染色质各自的功能",
+        "能从核膜和细胞器两方面说出原核细胞与真核细胞的区别"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "细胞核中与核糖体的形成有关的结构是",
+          "answer": "核仁",
+          "wrongs": [
+            "核膜",
+            "染色质",
+            "核孔"
+          ],
+          "explanation": "核仁与某种RNA的合成以及核糖体的形成有关。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "原核细胞与真核细胞最主要的区别是",
+          "answer": "没有核膜包被的细胞核",
+          "wrongs": [
+            "没有细胞膜",
+            "没有核糖体",
+            "没有遗传物质"
+          ],
+          "explanation": "原核细胞没有核膜包被的细胞核，只有拟核。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列关于细胞核功能的叙述，正确的是",
+          "answer": "细胞核是遗传信息库，是细胞代谢和遗传的控制中心",
+          "wrongs": [
+            "细胞核是细胞代谢的主要场所",
+            "染色质只存在于细胞分裂期",
+            "核孔不允许任何大分子通过"
+          ],
+          "explanation": "代谢的主要场所在细胞质；染色质在分裂期高度螺旋化；核孔可实现大分子的运输。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "蓝细菌能进行光合作用，其原因是",
+          "answer": "含有藻蓝素和叶绿素，但没有叶绿体",
+          "wrongs": [
+            "含有叶绿体但没有核膜",
+            "属于真核生物",
+            "能利用化学能合成有机物"
+          ],
+          "explanation": "蓝细菌是原核生物，无叶绿体，靠藻蓝素和叶绿素吸收光能。"
+        }
+      ],
+      "key": "bx1_xihetang"
+    },
+    {
+      "id": "cnb_h007",
+      "name": "渗透作用与质壁分离",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第3单元 细胞的物质输入和输出",
+      "type": "reasoning",
+      "description": "说明渗透作用发生的两个条件，分析植物细胞质壁分离与复原的原因，能判断细胞在不同浓度溶液中的变化。",
+      "mastery_criteria": [
+        "能说出渗透作用的条件并判断水分子的移动方向",
+        "能解释质壁分离及复原过程中细胞液浓度与吸水能力的变化"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "发生渗透作用必须具备的条件是",
+          "answer": "具有半透膜，且膜两侧溶液存在浓度差",
+          "wrongs": [
+            "具有细胞壁和液泡",
+            "具有选择透过性膜，且两侧浓度相等",
+            "具有双层膜结构和核孔"
+          ],
+          "explanation": "半透膜和浓度差是渗透作用发生的两个必要条件。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "植物细胞发生质壁分离的内因是",
+          "answer": "原生质层相当于半透膜，且其伸缩性大于细胞壁",
+          "wrongs": [
+            "细胞壁是全透性的",
+            "细胞液浓度低于外界溶液浓度",
+            "细胞核被挤出细胞"
+          ],
+          "explanation": "原生质层具选择透过性且伸缩性大，失水后与细胞壁分离。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "将洋葱表皮细胞放入0.3g/mL蔗糖溶液中，细胞发生质壁分离，此时",
+          "answer": "细胞液浓度逐渐升高，吸水能力增强",
+          "wrongs": [
+            "细胞液浓度逐渐降低",
+            "细胞壁与原生质层紧贴",
+            "细胞开始大量吸水"
+          ],
+          "explanation": "失水使细胞液浓度升高、渗透压增大，吸水能力增强。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "将已发生质壁分离的细胞放入清水中，细胞会复原，原因是",
+          "answer": "清水浓度低于细胞液浓度，细胞吸水",
+          "wrongs": [
+            "清水中的溶质进入细胞",
+            "细胞壁重新合成",
+            "原生质层失去选择透过性"
+          ],
+          "explanation": "外界溶液浓度低于细胞液，水分子进入细胞，原生质层恢复原状。"
+        }
+      ],
+      "key": "bx1_shentou"
+    },
+    {
+      "id": "cnb_h008",
+      "name": "被动运输",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第3单元 细胞的物质输入和输出",
+      "type": "conceptual",
+      "description": "比较自由扩散与协助扩散的异同，说明载体蛋白在协助扩散中的作用，能举例判断物质的跨膜运输方式。",
+      "mastery_criteria": [
+        "能列出自由扩散与协助扩散在载体和能量需求上的差别",
+        "能根据实例判断某种物质跨膜运输的方式"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列物质通过细胞膜的方式属于自由扩散的是",
+          "answer": "氧气进入红细胞",
+          "wrongs": [
+            "葡萄糖进入红细胞",
+            "钾离子进入神经细胞",
+            "氨基酸进入小肠上皮细胞"
+          ],
+          "explanation": "氧气、二氧化碳等小分子顺浓度梯度自由扩散，不需要载体。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "协助扩散与自由扩散的共同点是",
+          "answer": "都顺浓度梯度运输，不消耗能量",
+          "wrongs": [
+            "都需要载体蛋白",
+            "都需要消耗ATP",
+            "都只能把物质运出细胞"
+          ],
+          "explanation": "两者都属于被动运输，差别在于是否需要载体蛋白。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "葡萄糖进入红细胞的方式是协助扩散，其直接原因是",
+          "answer": "膜上有相应的载体蛋白，且膜外葡萄糖浓度高",
+          "wrongs": [
+            "细胞内ATP供应充足",
+            "膜上存在葡萄糖泵",
+            "细胞膜具有一定的流动性"
+          ],
+          "explanation": "顺浓度梯度、需要载体、不消耗能量，符合协助扩散的特点。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "用呼吸抑制剂处理细胞后，下列运输过程明显受到抑制的是",
+          "answer": "根细胞吸收钾离子",
+          "wrongs": [
+            "水分子进出细胞",
+            "氧气进入肺泡细胞",
+            "甘油进入小肠上皮细胞"
+          ],
+          "explanation": "主动运输需要消耗能量，抑制呼吸会影响钾离子的吸收。"
+        }
+      ],
+      "key": "bx1_beidong"
+    },
+    {
+      "id": "cnb_h009",
+      "name": "主动运输与胞吞胞吐",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第3单元 细胞的物质输入和输出",
+      "type": "application",
+      "description": "说明主动运输需载体并消耗能量，理解其维持细胞内外浓度差的意义，举例说明胞吞胞吐依赖膜的流动性。",
+      "mastery_criteria": [
+        "能比较主动运输与被动运输在运输方向和能量需求上的差别",
+        "能用胞吞胞吐解释大分子物质进出细胞"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "主动运输与被动运输最主要的区别是",
+          "answer": "主动运输逆浓度梯度进行并消耗能量",
+          "wrongs": [
+            "主动运输不需要载体蛋白",
+            "主动运输只能把物质运出细胞",
+            "被动运输需要消耗ATP"
+          ],
+          "explanation": "主动运输逆浓度梯度、需要载体并消耗能量。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "大分子物质如蛋白质进入细胞的方式是",
+          "answer": "胞吞",
+          "wrongs": [
+            "自由扩散",
+            "协助扩散",
+            "主动运输"
+          ],
+          "explanation": "大分子通过胞吞、胞吐进出细胞，依赖细胞膜的流动性。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "人的红细胞内钾离子浓度远高于血浆，而钠离子浓度远低于血浆，维持这种浓度差依靠",
+          "answer": "消耗ATP的主动运输",
+          "wrongs": [
+            "钾离子的自由扩散",
+            "钠离子的协助扩散",
+            "胞吐作用"
+          ],
+          "explanation": "逆浓度梯度维持离子分布需要主动运输提供能量。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列关于胞吞和胞吐的叙述，正确的是",
+          "answer": "二者都需要消耗能量，并依赖细胞膜的流动性",
+          "wrongs": [
+            "二者都不需要载体也不需要能量",
+            "二者只运输小分子物质",
+            "二者都使细胞膜面积保持不变"
+          ],
+          "explanation": "胞吞胞吐运输大分子，耗能且依赖膜的流动性，膜面积可暂时变化。"
+        }
+      ],
+      "key": "bx1_zhudong"
+    },
+    {
+      "id": "cnb_h010",
+      "name": "酶的本质与特性",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第4单元 酶与ATP",
+      "type": "conceptual",
+      "description": "说明酶的本质、作用机理和高效性、专一性、作用条件温和等特性，能设计简单实验比较酶与无机催化剂的催化效率。",
+      "mastery_criteria": [
+        "能说明酶的本质及酶促反应的原理",
+        "能用专一性和作用条件温和解释实验现象"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "酶的本质是",
+          "answer": "绝大多数是蛋白质，少数是RNA",
+          "wrongs": [
+            "都是蛋白质",
+            "都是RNA",
+            "都是脂质"
+          ],
+          "explanation": "酶是活细胞产生的具有催化作用的有机物，少数为RNA。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "酶能加快化学反应速率的原理是",
+          "answer": "降低化学反应的活化能",
+          "wrongs": [
+            "为反应提供能量",
+            "改变反应的平衡点",
+            "增加反应物的浓度"
+          ],
+          "explanation": "酶通过降低活化能提高反应速率，不改变反应的平衡点。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "淀粉酶只能催化淀粉水解，不能催化蔗糖水解，这体现了酶的",
+          "answer": "专一性",
+          "wrongs": [
+            "高效性",
+            "作用条件温和",
+            "多样性"
+          ],
+          "explanation": "一种酶只能催化一种或一类化学反应，这是酶的专一性。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "将唾液淀粉酶置于0℃环境中，其活性很低，原因是",
+          "answer": "低温抑制酶活性，但酶的空间结构未被破坏",
+          "wrongs": [
+            "低温使酶永久失活",
+            "低温使酶被分解为氨基酸",
+            "低温改变了酶的化学本质"
+          ],
+          "explanation": "低温只是抑制活性，温度回升后可恢复；高温才使酶变性失活。"
+        }
+      ],
+      "key": "bx1_mei"
+    },
+    {
+      "id": "cnb_h011",
+      "name": "影响酶促反应的因素",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第4单元 酶与ATP",
+      "type": "reasoning",
+      "description": "分析温度、pH和酶浓度对酶促反应速率的影响，说明最适条件与酶失活的关系，能据此解释生产中的操作要求。",
+      "mastery_criteria": [
+        "能读懂温度、pH影响酶活性的曲线并判断最适点",
+        "能区分低温抑制与高温、过酸过碱使酶变性失活"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "酶活性最高时对应的温度和pH分别称为",
+          "answer": "最适温度和最适pH",
+          "wrongs": [
+            "最高温度和最高pH",
+            "最低温度和最低pH",
+            "室温与中性"
+          ],
+          "explanation": "在最适温度和最适pH下酶活性最高。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "在底物充足时，随酶浓度增加，酶促反应速率",
+          "answer": "逐渐增大",
+          "wrongs": [
+            "逐渐减小",
+            "保持不变",
+            "先增大后减小"
+          ],
+          "explanation": "底物充足时，反应速率与酶浓度成正比。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "过酸、过碱会使酶永久失活，其原因是",
+          "answer": "酶的空间结构被破坏",
+          "wrongs": [
+            "酶被水解成氨基酸",
+            "酶的活性中心被底物占据",
+            "酶变成了无机催化剂"
+          ],
+          "explanation": "过酸过碱破坏酶的空间结构，使酶变性失活。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "在酶促反应速率随温度变化的曲线中，高于最适温度后速率下降，原因是",
+          "answer": "高温使部分酶的空间结构被破坏",
+          "wrongs": [
+            "高温使底物浓度降低",
+            "高温使酶的浓度降低",
+            "高温使反应的活化能升高"
+          ],
+          "explanation": "高温使酶变性，有活性的酶数量减少，反应速率下降。"
+        }
+      ],
+      "key": "bx1_yingxiang"
+    },
+    {
+      "id": "cnb_h012",
+      "name": "ATP的结构与功能",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第4单元 酶与ATP",
+      "type": "conceptual",
+      "description": "说明ATP的化学组成和结构简式，理解ATP与ADP相互转化中能量的储存与释放，举例说明ATP为生命活动直接供能。",
+      "mastery_criteria": [
+        "能写出ATP的结构简式并指出高能磷酸键的位置",
+        "能说明ATP与ADP的相互转化与吸能反应、放能反应的联系"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "ATP的结构简式是",
+          "answer": "A—P～P～P",
+          "wrongs": [
+            "A—P—P—P",
+            "A～P～P～P",
+            "A—P～P—P"
+          ],
+          "explanation": "A代表腺苷，P代表磷酸基团，～表示高能磷酸键。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "ATP水解时首先断裂的化学键是",
+          "answer": "远离腺苷的那个高能磷酸键",
+          "wrongs": [
+            "靠近腺苷的高能磷酸键",
+            "腺苷与磷酸之间的普通键",
+            "磷酸基团内部的键"
+          ],
+          "explanation": "远离腺苷的高能磷酸键容易断裂，释放能量。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列关于ATP与ADP相互转化的叙述，正确的是",
+          "answer": "转化过程中物质可循环利用，能量不能循环利用",
+          "wrongs": [
+            "该转化是可逆反应",
+            "转化过程中能量也可以循环利用",
+            "细胞中ATP的含量很高"
+          ],
+          "explanation": "ATP与ADP转化时物质可逆、能量不可逆，细胞中ATP含量很少但转化很快。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "人体细胞中合成ATP所需的能量可来自",
+          "answer": "细胞呼吸释放的能量",
+          "wrongs": [
+            "光合作用固定的光能",
+            "ATP水解释放的能量",
+            "蛋白质水解为氨基酸"
+          ],
+          "explanation": "人体细胞不能进行光合作用，ATP由细胞呼吸释放的能量合成。"
+        }
+      ],
+      "key": "bx1_atp"
+    },
+    {
+      "id": "cnb_h013",
+      "name": "光合作用的原理",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第5单元 光合作用与细胞呼吸",
+      "type": "reasoning",
+      "description": "说明光反应与暗反应的场所、物质变化和能量转化，比较二者的联系，能分析光照或二氧化碳浓度突变对产物的影响。",
+      "mastery_criteria": [
+        "能说出光反应与暗反应的场所、原料和产物",
+        "能在光照或二氧化碳浓度突变时判断C3、C5含量的短期变化"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "光合作用光反应发生的场所是",
+          "answer": "类囊体薄膜",
+          "wrongs": [
+            "叶绿体基质",
+            "线粒体内膜",
+            "细胞质基质"
+          ],
+          "explanation": "光反应在类囊体薄膜上进行，色素和有关的酶分布于此。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "暗反应中二氧化碳首先与哪种物质结合",
+          "answer": "C5",
+          "wrongs": [
+            "C3",
+            "葡萄糖",
+            "丙酮酸"
+          ],
+          "explanation": "二氧化碳与C5结合生成两个C3，这一过程称为二氧化碳的固定。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "光照突然增强而其他条件不变时，叶绿体中C3含量短时间内",
+          "answer": "减少",
+          "wrongs": [
+            "增多",
+            "保持不变",
+            "先增多后保持不变"
+          ],
+          "explanation": "光反应产生的ATP和NADPH增多，C3被更快还原，含量下降。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "光反应为暗反应提供的物质是",
+          "answer": "ATP和NADPH",
+          "wrongs": [
+            "二氧化碳和水",
+            "氧气和C3",
+            "葡萄糖和氧气"
+          ],
+          "explanation": "光反应产生的ATP和NADPH用于暗反应中C3的还原。"
+        }
+      ],
+      "key": "bx1_guanghe"
+    },
+    {
+      "id": "cnb_h014",
+      "name": "细胞呼吸的原理与应用",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第5单元 光合作用与细胞呼吸",
+      "type": "reasoning",
+      "description": "说明有氧呼吸三个阶段的场所与产物，比较有氧呼吸和无氧呼吸的异同，能解释粮食储藏与果蔬保鲜的措施。",
+      "mastery_criteria": [
+        "能写出有氧呼吸各阶段的场所、反应物和产物",
+        "能用细胞呼吸原理解释低温、低氧储藏的道理"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "有氧呼吸产生大量ATP的阶段发生在",
+          "answer": "线粒体内膜",
+          "wrongs": [
+            "细胞质基质",
+            "线粒体基质",
+            "细胞核"
+          ],
+          "explanation": "第三阶段[H]与氧气结合生成水，释放大量能量。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "有氧呼吸第二阶段的产物是",
+          "answer": "二氧化碳和[H]",
+          "wrongs": [
+            "水和ATP",
+            "丙酮酸和[H]",
+            "乳酸和二氧化碳"
+          ],
+          "explanation": "丙酮酸和水在线粒体基质中彻底分解，生成二氧化碳和[H]。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "人体骨骼肌细胞无氧呼吸的产物是",
+          "answer": "乳酸",
+          "wrongs": [
+            "酒精和二氧化碳",
+            "二氧化碳和水",
+            "丙酮酸"
+          ],
+          "explanation": "人和动物细胞无氧呼吸产生乳酸，不产生二氧化碳。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "储藏粮食时采用低温、低氧条件，其主要目的是",
+          "answer": "降低细胞呼吸速率，减少有机物消耗",
+          "wrongs": [
+            "促进有氧呼吸，产生更多ATP",
+            "加快无氧呼吸以产生酒精",
+            "提高种子的含水量"
+          ],
+          "explanation": "低温低氧抑制细胞呼吸，减少有机物消耗并防止霉变。"
+        }
+      ],
+      "key": "bx1_huxi"
+    },
+    {
+      "id": "cnb_h015",
+      "name": "光合作用与细胞呼吸的联系",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第5单元 光合作用与细胞呼吸",
+      "type": "modeling",
+      "description": "建立净光合速率与总光合速率、呼吸速率的关系式，分析光补偿点与光饱和点，能解读密闭容器中气体的变化。",
+      "mastery_criteria": [
+        "能写出净光合速率等于总光合速率减呼吸速率并进行计算",
+        "能结合光照强度曲线判断光补偿点和光饱和点"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "植物净光合速率可用下列哪项表示",
+          "answer": "总光合速率减去呼吸速率",
+          "wrongs": [
+            "呼吸速率减去总光合速率",
+            "总光合速率加上呼吸速率",
+            "呼吸速率乘以二"
+          ],
+          "explanation": "净光合速率是积累量，等于总光合速率扣除呼吸消耗。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "光补偿点时，植物的",
+          "answer": "光合速率等于呼吸速率",
+          "wrongs": [
+            "光合速率大于呼吸速率",
+            "呼吸速率等于零",
+            "光合速率达到最大值"
+          ],
+          "explanation": "净光合为零，即光合吸收的二氧化碳与呼吸释放的相等。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某植物叶片在光照下吸收二氧化碳的速率为6mg/(100cm2·h)，黑暗中释放二氧化碳的速率为2mg/(100cm2·h)，则总光合速率为",
+          "answer": "8mg/(100cm2·h)",
+          "wrongs": [
+            "4mg/(100cm2·h)",
+            "6mg/(100cm2·h)",
+            "12mg/(100cm2·h)"
+          ],
+          "explanation": "总光合速率等于净光合速率加呼吸速率，即6加2等于8。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "密闭玻璃罩内植物在光照下使罩内二氧化碳浓度下降，说明",
+          "answer": "光合速率大于呼吸速率",
+          "wrongs": [
+            "呼吸速率大于光合速率",
+            "植物只进行光合作用",
+            "植物已经停止呼吸"
+          ],
+          "explanation": "罩内二氧化碳被净吸收，说明光合消耗超过呼吸释放。"
+        }
+      ],
+      "key": "bx1_guanghe_huxi"
+    },
+    {
+      "id": "cnb_h016",
+      "name": "细胞的有丝分裂",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第6单元 细胞的生命历程",
+      "type": "procedural",
+      "description": "描述有丝分裂各时期的染色体行为与数目变化，说明间期的物质准备，能辨认各时期图像并解释遗传物质的均分。",
+      "mastery_criteria": [
+        "能按顺序说出前期、中期、后期染色体的行为特征",
+        "能判断各时期染色体、染色单体和DNA的数量"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "观察染色体形态和数目最佳的时期是",
+          "answer": "中期",
+          "wrongs": [
+            "前期",
+            "后期",
+            "末期"
+          ],
+          "explanation": "中期染色体着丝粒排列在赤道板上，形态稳定、数目清晰。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "有丝分裂后期染色体数目加倍的原因是",
+          "answer": "着丝粒分裂，姐妹染色单体分开",
+          "wrongs": [
+            "DNA复制",
+            "同源染色体分离",
+            "细胞膜向内凹陷"
+          ],
+          "explanation": "着丝粒分裂使姐妹染色单体成为两条染色体，数目暂时加倍。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某动物体细胞含4条染色体，其处于有丝分裂中期的细胞中，染色体、染色单体和DNA分子数依次是",
+          "answer": "4、8、8",
+          "wrongs": [
+            "8、8、8",
+            "4、4、8",
+            "8、0、8"
+          ],
+          "explanation": "中期着丝粒未分裂，染色体4条，每条含2条染色单体和2个DNA分子。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "有丝分裂的重要意义是",
+          "answer": "将复制的染色体平均分配到两个子细胞中",
+          "wrongs": [
+            "使子细胞染色体数目加倍",
+            "使细胞发生基因重组",
+            "使细胞获得无限增殖能力"
+          ],
+          "explanation": "有丝分裂保证亲子代细胞遗传性状的稳定性。"
+        }
+      ],
+      "key": "bx1_youmiti"
+    },
+    {
+      "id": "cnb_h017",
+      "name": "细胞分化与全能性",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第6单元 细胞的生命历程",
+      "type": "conceptual",
+      "description": "说明细胞分化的实质是基因的选择性表达，理解细胞全能性的含义与表达条件，举例说明植物组织培养的应用。",
+      "mastery_criteria": [
+        "能用基因的选择性表达解释细胞分化的实质",
+        "能说明细胞全能性高低与分化程度的关系"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "细胞分化的实质是",
+          "answer": "基因的选择性表达",
+          "wrongs": [
+            "遗传物质发生改变",
+            "细胞数目增多",
+            "细胞体积增大"
+          ],
+          "explanation": "分化过程中遗传物质不变，不同细胞表达的基因不同。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "下列细胞中全能性最高的是",
+          "answer": "受精卵",
+          "wrongs": [
+            "叶肉细胞",
+            "神经细胞",
+            "卵细胞"
+          ],
+          "explanation": "分化程度越低，全能性越容易表达，受精卵的全能性最高。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某植株的叶肉细胞和根细胞形态功能不同，但细胞核中的DNA相同，原因是",
+          "answer": "二者由同一个受精卵经有丝分裂形成",
+          "wrongs": [
+            "二者发生了基因突变",
+            "二者染色体数目不同",
+            "二者DNA的复制方式不同"
+          ],
+          "explanation": "有丝分裂使子细胞遗传物质相同，差异来自基因的选择性表达。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "植物组织培养能由单个细胞发育成完整植株，说明",
+          "answer": "已分化的植物细胞仍具有全能性",
+          "wrongs": [
+            "植物细胞不发生分化",
+            "植物细胞没有细胞核",
+            "分化后遗传物质已经改变"
+          ],
+          "explanation": "在离体培养条件下，高度分化的植物细胞可表达全能性。"
+        }
+      ],
+      "key": "bx1_fenhua"
+    },
+    {
+      "id": "cnb_h018",
+      "name": "细胞的衰老、凋亡与癌变",
+      "domain": "分子与细胞",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第6单元 细胞的生命历程",
+      "type": "conceptual",
+      "description": "列举细胞衰老的特征，区分细胞凋亡与细胞坏死，说明原癌基因和抑癌基因突变与细胞癌变的关系。",
+      "mastery_criteria": [
+        "能说出细胞衰老的主要特征",
+        "能区分细胞凋亡与细胞坏死，并说明癌变涉及的两类基因"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B1.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于细胞衰老特征的是",
+          "answer": "细胞内水分减少，多种酶的活性降低",
+          "wrongs": [
+            "细胞膜的通透性完全丧失",
+            "细胞染色体数目加倍",
+            "细胞能够无限增殖"
+          ],
+          "explanation": "衰老细胞水分减少、酶活性降低，并有色素积累。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "细胞凋亡是指",
+          "answer": "由基因决定的细胞程序性死亡",
+          "wrongs": [
+            "细胞意外受损后死亡",
+            "细胞被病原体杀死",
+            "细胞无限增殖"
+          ],
+          "explanation": "凋亡是基因控制的主动过程，对个体发育有利。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "细胞癌变的根本原因是",
+          "answer": "原癌基因和抑癌基因发生突变",
+          "wrongs": [
+            "细胞分裂速度突然加快",
+            "细胞膜上糖被增多",
+            "细胞核体积变小"
+          ],
+          "explanation": "原癌基因与抑癌基因突变导致细胞失控增殖。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "细胞凋亡与细胞坏死的区别在于",
+          "answer": "凋亡由基因调控，坏死由外界不利因素引起",
+          "wrongs": [
+            "凋亡只发生在胚胎时期",
+            "坏死不会引起炎症反应",
+            "凋亡时细胞膜立即破裂"
+          ],
+          "explanation": "凋亡是程序性的，坏死是病理性的并常引发炎症。"
+        }
+      ],
+      "key": "bx1_shuailao"
+    },
+    {
+      "id": "cnb_h019",
+      "name": "基因的分离定律",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第1单元 遗传的基本规律",
+      "type": "reasoning",
+      "description": "阐明一对相对性状杂交实验中F1自交后代的性状分离比，理解等位基因随同源染色体分开而分离的实质及适用条件。",
+      "mastery_criteria": [
+        "能写出测交、自交后代的表现型比例",
+        "能说明分离定律的细胞学基础和适用条件"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "孟德尔一对相对性状的杂交实验中，F2的性状分离比是",
+          "answer": "3∶1",
+          "wrongs": [
+            "1∶1",
+            "9∶3∶3∶1",
+            "1∶2∶1"
+          ],
+          "explanation": "F1自交，F2中显性与隐性个体之比约为3∶1。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "分离定律的实质是",
+          "answer": "等位基因随同源染色体的分开而分离",
+          "wrongs": [
+            "非等位基因自由组合",
+            "性状随环境改变而改变",
+            "基因型决定表现型"
+          ],
+          "explanation": "减数第一次分裂后期同源染色体分开，等位基因随之分离。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列各项中，最符合分离定律适用条件的是",
+          "answer": "真核生物有性生殖中一对等位基因控制的性状",
+          "wrongs": [
+            "原核生物的性状遗传",
+            "细胞质基因控制的性状",
+            "两对非等位基因控制的性状"
+          ],
+          "explanation": "分离定律适用于真核生物有性生殖、细胞核遗传、一对等位基因。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "一株基因型为Aa的豌豆自交，后代中纯合子的比例是",
+          "answer": "1/2",
+          "wrongs": [
+            "1/4",
+            "3/4",
+            "1/3"
+          ],
+          "explanation": "Aa自交后代为1/4AA、1/2Aa、1/4aa，纯合子共占1/2。"
+        }
+      ],
+      "key": "bx2_fenli"
+    },
+    {
+      "id": "cnb_h020",
+      "name": "基因的自由组合定律",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第1单元 遗传的基本规律",
+      "type": "reasoning",
+      "description": "阐明两对相对性状杂交实验中F2的性状分离比，理解非同源染色体上非等位基因自由组合的过程与适用前提。",
+      "mastery_criteria": [
+        "能写出双杂合子自交和测交后代的表现型比例",
+        "能判断两对基因是否遵循自由组合定律"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "两对相对性状的杂交实验中，F2的表现型比例是",
+          "answer": "9∶3∶3∶1",
+          "wrongs": [
+            "3∶1",
+            "1∶1∶1∶1",
+            "1∶2∶1"
+          ],
+          "explanation": "F1为双杂合子，自交后F2出现9∶3∶3∶1。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "自由组合定律发生的时间是",
+          "answer": "减数第一次分裂后期",
+          "wrongs": [
+            "减数第二次分裂后期",
+            "有丝分裂后期",
+            "受精作用时"
+          ],
+          "explanation": "减数第一次分裂后期，非同源染色体自由组合。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "基因型为AaBb的个体（两对基因独立遗传）进行测交，后代表现型比例是",
+          "answer": "1∶1∶1∶1",
+          "wrongs": [
+            "9∶3∶3∶1",
+            "3∶1",
+            "1∶2∶1"
+          ],
+          "explanation": "双杂合子产生四种比例相等的配子，测交后代为1∶1∶1∶1。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "自由组合定律的适用前提是",
+          "answer": "控制不同性状的非等位基因位于非同源染色体上",
+          "wrongs": [
+            "两对基因位于同一条染色体上",
+            "性状由细胞质基因控制",
+            "个体进行无性生殖"
+          ],
+          "explanation": "只有非同源染色体上的非等位基因才能自由组合。"
+        }
+      ],
+      "key": "bx2_ziyou"
+    },
+    {
+      "id": "cnb_h021",
+      "name": "遗传规律的概率计算",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第1单元 遗传的基本规律",
+      "type": "modeling",
+      "description": "运用乘法原理和配子概率计算杂交后代的基因型与表现型比例，能处理两对性状组合及患病风险估算问题。",
+      "mastery_criteria": [
+        "能用每对基因独立计算后相乘的方法求组合概率",
+        "能计算后代中特定基因型或表现型的比例"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "Aa与Aa杂交，后代出现隐性纯合子的概率是",
+          "answer": "1/4",
+          "wrongs": [
+            "1/2",
+            "3/4",
+            "1/8"
+          ],
+          "explanation": "Aa与Aa杂交，后代中aa占1/4。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "计算两对独立遗传基因的组合概率时，常用的方法是",
+          "answer": "每对基因分别计算后相乘",
+          "wrongs": [
+            "把两对基因的比例相加",
+            "只考虑显性性状",
+            "按染色体数目相除"
+          ],
+          "explanation": "独立事件同时发生的概率等于各自概率之积。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "AaBb与AaBb杂交（两对基因独立遗传），后代中基因型为AABB的个体占",
+          "answer": "1/16",
+          "wrongs": [
+            "1/4",
+            "1/8",
+            "9/16"
+          ],
+          "explanation": "AA占1/4，BB占1/4，二者相乘为1/16。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "一对表现正常的夫妇，丈夫的妹妹和妻子的弟弟均患常染色体隐性遗传病，这对夫妇生育患病孩子的概率是",
+          "answer": "1/9",
+          "wrongs": [
+            "1/4",
+            "1/6",
+            "1/8"
+          ],
+          "explanation": "夫妇均为携带者的概率各为2/3，故2/3×2/3×1/4=1/9。"
+        }
+      ],
+      "key": "bx2_gaishuai"
+    },
+    {
+      "id": "cnb_h022",
+      "name": "减数分裂的过程",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第2单元 减数分裂与受精作用",
+      "type": "procedural",
+      "description": "描述减数第一次和第二次分裂中染色体的行为，说明同源染色体联会、分离与着丝粒分裂的时序，能判断细胞所处时期。",
+      "mastery_criteria": [
+        "能说出减数第一次分裂和第二次分裂各时期的主要染色体行为",
+        "能判断给定细胞图像所处的分裂时期"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "减数分裂中同源染色体联会形成四分体发生在",
+          "answer": "减数第一次分裂前期",
+          "wrongs": [
+            "减数第一次分裂后期",
+            "减数第二次分裂前期",
+            "减数第二次分裂后期"
+          ],
+          "explanation": "联会发生在减数第一次分裂前期，随后形成四分体。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "减数第二次分裂后期染色体数目暂时加倍的原因是",
+          "answer": "着丝粒分裂，姐妹染色单体分开",
+          "wrongs": [
+            "同源染色体分离",
+            "DNA复制",
+            "细胞融合"
+          ],
+          "explanation": "着丝粒分裂使姐妹染色单体成为独立的染色体。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "一个精原细胞经减数分裂形成精子的数目和种类（不考虑交叉互换）分别是",
+          "answer": "4个、2种",
+          "wrongs": [
+            "4个、4种",
+            "2个、2种",
+            "4个、1种"
+          ],
+          "explanation": "一个精原细胞产生4个精子，两两相同，共2种。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "减数第一次分裂与减数第二次分裂的主要区别是",
+          "answer": "减数第一次分裂有同源染色体分离，减数第二次分裂有着丝粒分裂",
+          "wrongs": [
+            "减数第一次分裂有着丝粒分裂，减数第二次分裂有同源染色体分离",
+            "减数第一次分裂没有染色单体，减数第二次分裂有染色单体",
+            "减数第一次分裂发生在受精后，减数第二次分裂发生在受精前"
+          ],
+          "explanation": "减数第一次分裂分离同源染色体，减数第二次分裂分开姐妹染色单体。"
+        }
+      ],
+      "key": "bx2_jianfen"
+    },
+    {
+      "id": "cnb_h023",
+      "name": "受精作用与染色体数目的恒定",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第2单元 减数分裂与受精作用",
+      "type": "conceptual",
+      "description": "说明受精作用的实质与意义，解释减数分裂和受精作用共同维持生物前后代染色体数目恒定的机制。",
+      "mastery_criteria": [
+        "能说明受精卵中的染色体一半来自父方、一半来自母方",
+        "能解释有性生殖中染色体数目恒定的原因"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "受精作用的实质是",
+          "answer": "精子和卵细胞的细胞核相互融合",
+          "wrongs": [
+            "两个精子的细胞核相互融合",
+            "卵细胞独自发育成个体",
+            "体细胞之间相互融合"
+          ],
+          "explanation": "受精时精卵的细胞核融合，形成受精卵。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "人的受精卵中染色体数目是",
+          "answer": "46条",
+          "wrongs": [
+            "23条",
+            "92条",
+            "24条"
+          ],
+          "explanation": "精子和卵细胞各含23条，融合后为46条。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "有性生殖的生物前后代染色体数目保持恒定，主要依靠",
+          "answer": "减数分裂和受精作用",
+          "wrongs": [
+            "有丝分裂和细胞分化",
+            "基因突变和基因重组",
+            "细胞衰老和细胞凋亡"
+          ],
+          "explanation": "减数分裂使配子染色体数目减半，受精作用使其恢复。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列关于受精作用的叙述，正确的是",
+          "answer": "受精卵中的染色体一半来自父方、一半来自母方",
+          "wrongs": [
+            "受精卵中的遗传物质全部来自母方",
+            "受精卵中的染色体全部来自父方",
+            "受精作用使染色体数目加倍"
+          ],
+          "explanation": "核内染色体父母各半，细胞质中的遗传物质主要来自卵细胞。"
+        }
+      ],
+      "key": "bx2_shoujing"
+    },
+    {
+      "id": "cnb_h024",
+      "name": "配子的多样性",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第2单元 减数分裂与受精作用",
+      "type": "modeling",
+      "description": "分析非同源染色体自由组合与交叉互换对配子种类的影响，能用2的n次方估算配子种类并解释子代变异的来源。",
+      "mastery_criteria": [
+        "能计算含n对同源染色体的个体产生的配子种类数",
+        "能说明交叉互换与自由组合对配子多样性的贡献"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "一个含2对同源染色体的个体（不考虑交叉互换）产生的配子种类数是",
+          "answer": "4种",
+          "wrongs": [
+            "2种",
+            "8种",
+            "16种"
+          ],
+          "explanation": "配子种类为2的2次方，即4种。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "减数分裂中能增加配子多样性的现象是",
+          "answer": "同源染色体的非姐妹染色单体交叉互换",
+          "wrongs": [
+            "着丝粒分裂",
+            "染色体复制",
+            "细胞膜向内凹陷"
+          ],
+          "explanation": "交叉互换导致基因重组，增加配子的种类。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "人的精原细胞进行减数分裂，若不考虑交叉互换，理论上产生的精子种类数是",
+          "answer": "2的23次方",
+          "wrongs": [
+            "2的46次方",
+            "23种",
+            "46种"
+          ],
+          "explanation": "人有23对同源染色体，配子种类为2的23次方。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "子代个体间差异明显大于亲代，从配子形成角度看，主要原因是",
+          "answer": "非同源染色体自由组合和交叉互换",
+          "wrongs": [
+            "染色体数目加倍的必然结果",
+            "基因突变在所有细胞中同时发生",
+            "有丝分裂时染色体平均分配"
+          ],
+          "explanation": "减数分裂中的基因重组使配子组合多种多样。"
+        }
+      ],
+      "key": "bx2_peizi"
+    },
+    {
+      "id": "cnb_h025",
+      "name": "基因在染色体上",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第3单元 基因在染色体上与伴性遗传",
+      "type": "conceptual",
+      "description": "了解萨顿的类比推理和摩尔根的果蝇杂交实验，理解基因在染色体上呈线性排列这一结论的证据链。",
+      "mastery_criteria": [
+        "能说出萨顿提出假说的依据",
+        "能说明摩尔根的果蝇实验如何证明基因位于染色体上"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "提出基因在染色体上的假说所用的方法是",
+          "answer": "类比推理",
+          "wrongs": [
+            "假说演绎",
+            "同位素标记",
+            "显微观察"
+          ],
+          "explanation": "萨顿发现基因与染色体的行为存在平行关系，用类比推理提出假说。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "摩尔根证明基因在染色体上所用的实验材料是",
+          "answer": "果蝇",
+          "wrongs": [
+            "豌豆",
+            "玉米",
+            "噬菌体"
+          ],
+          "explanation": "摩尔根用果蝇白眼性状的遗传实验证明基因位于染色体上。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "摩尔根的果蝇实验中，白眼性状的遗传与性别相关，说明",
+          "answer": "控制白眼的基因位于X染色体上",
+          "wrongs": [
+            "控制白眼的基因位于Y染色体上",
+            "白眼性状由环境决定",
+            "白眼基因位于线粒体中"
+          ],
+          "explanation": "白眼基因随X染色体传递，表现为伴性遗传。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "萨顿提出基因在染色体上的主要依据是",
+          "answer": "基因和染色体在传递中行为一致",
+          "wrongs": [
+            "基因和染色体的化学成分相同",
+            "基因的数目多于染色体",
+            "染色体只存在于生殖细胞中"
+          ],
+          "explanation": "二者在体细胞中成对存在、在配子中成单，行为平行。"
+        }
+      ],
+      "key": "bx2_ranse_jinyin"
+    },
+    {
+      "id": "cnb_h026",
+      "name": "伴性遗传",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第3单元 基因在染色体上与伴性遗传",
+      "type": "reasoning",
+      "description": "分析红绿色盲等X染色体隐性遗传的特点，解释交叉遗传现象，能预测伴性遗传病在后代中的发病情况。",
+      "mastery_criteria": [
+        "能说明X染色体隐性遗传病男性患者多于女性的原因",
+        "能根据双亲基因型推断子代发病概率"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "人类红绿色盲基因位于",
+          "answer": "X染色体上，为隐性基因",
+          "wrongs": [
+            "Y染色体上",
+            "常染色体上",
+            "线粒体中"
+          ],
+          "explanation": "红绿色盲为X染色体隐性遗传。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "X染色体隐性遗传病的特点是",
+          "answer": "男性患者多于女性患者",
+          "wrongs": [
+            "女性患者多于男性患者",
+            "患者全部为女性",
+            "男女发病率相同"
+          ],
+          "explanation": "男性只有一条X染色体，携带隐性致病基因即发病。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "一对表现正常的夫妇，妻子是红绿色盲基因的携带者，他们生育色盲男孩的概率是",
+          "answer": "1/4",
+          "wrongs": [
+            "1/2",
+            "1/8",
+            "3/4"
+          ],
+          "explanation": "父亲为XAY，母亲为XAXa，子代XaY占1/4。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某男孩患红绿色盲，其父母均表现正常，该致病基因最可能来自",
+          "answer": "母亲",
+          "wrongs": [
+            "父亲",
+            "外祖母",
+            "祖父"
+          ],
+          "explanation": "男孩的X染色体来自母亲，母亲的致病基因可来自外祖父。"
+        }
+      ],
+      "key": "bx2_xingbie"
+    },
+    {
+      "id": "cnb_h027",
+      "name": "遗传系谱图的分析",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第3单元 基因在染色体上与伴性遗传",
+      "type": "procedural",
+      "description": "按先判显隐、再定染色体、后算概率的顺序分析遗传系谱图，能排除伴性遗传情形并推算后代发病风险。",
+      "mastery_criteria": [
+        "能用无中生有、有中生无判断性状的显隐性",
+        "能通过女患者父亲和儿子的表现排除或确认伴X遗传"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "系谱图中双亲正常而子女患病，该病一定属于",
+          "answer": "隐性遗传",
+          "wrongs": [
+            "显性遗传",
+            "伴Y遗传",
+            "染色体异常"
+          ],
+          "explanation": "无中生有为隐性。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "判断是否为伴X隐性遗传时，关键看",
+          "answer": "女性患者的父亲和儿子是否患病",
+          "wrongs": [
+            "男性患者的母亲是否患病",
+            "患者的性别比例",
+            "发病年龄的大小"
+          ],
+          "explanation": "伴X隐性遗传中女患者的父亲和儿子必患病，否则为常染色体遗传。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "系谱图显示双亲患病而有一个正常女儿，该病的遗传方式是",
+          "answer": "常染色体显性遗传",
+          "wrongs": [
+            "常染色体隐性遗传",
+            "伴X显性遗传",
+            "伴X隐性遗传"
+          ],
+          "explanation": "有中生无为显性；患病父亲有正常女儿，可排除伴X显性。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某病在系谱中表现为代代发病，且男性患者的女儿全部发病，最可能的遗传方式是",
+          "answer": "伴X染色体显性遗传",
+          "wrongs": [
+            "伴X染色体隐性遗传",
+            "常染色体隐性遗传",
+            "伴Y染色体遗传"
+          ],
+          "explanation": "伴X显性遗传中男性患者的X染色体必然传给女儿，故女儿全部患病。"
+        }
+      ],
+      "key": "bx2_xipu"
+    },
+    {
+      "id": "cnb_h028",
+      "name": "DNA是主要的遗传物质",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第4单元 基因的本质",
+      "type": "conceptual",
+      "description": "概述肺炎链球菌转化实验和噬菌体侵染细菌实验的思路与结论，理解DNA是主要遗传物质、蛋白质不是遗传物质。",
+      "mastery_criteria": [
+        "能说明肺炎链球菌体内转化和体外转化实验的结论",
+        "能解释噬菌体侵染实验中同位素标记的作用"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "格里菲思肺炎链球菌体内转化实验的结论是",
+          "answer": "加热杀死的S型细菌中含有转化因子",
+          "wrongs": [
+            "DNA是遗传物质",
+            "蛋白质是遗传物质",
+            "S型细菌能合成荚膜"
+          ],
+          "explanation": "该实验只说明存在转化因子，并未证明其化学本质。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "赫尔希和蔡斯的实验中，用35S标记的是",
+          "answer": "噬菌体的蛋白质外壳",
+          "wrongs": [
+            "噬菌体的DNA",
+            "细菌的DNA",
+            "细菌的蛋白质"
+          ],
+          "explanation": "硫元素存在于蛋白质而不存在于DNA中，故35S标记蛋白质。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "艾弗里体外转化实验中最关键的对照设计是",
+          "answer": "分别用DNA酶等处理S型细菌的提取物",
+          "wrongs": [
+            "把S型细菌加热杀死",
+            "把R型细菌培养在琼脂上",
+            "用显微镜观察细菌形态"
+          ],
+          "explanation": "逐一去除某种成分，才能确定DNA是转化因子。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "噬菌体侵染细菌实验中，搅拌和离心的目的是",
+          "answer": "使吸附在细菌外的噬菌体外壳与细菌分离",
+          "wrongs": [
+            "使噬菌体DNA进入细菌",
+            "杀死未侵染的噬菌体",
+            "使细菌的细胞壁破裂"
+          ],
+          "explanation": "搅拌使外壳脱落，离心后外壳位于上清液，便于分别检测放射性。"
+        }
+      ],
+      "key": "bx2_dna_wuzhi"
+    },
+    {
+      "id": "cnb_h029",
+      "name": "DNA的结构",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第4单元 基因的本质",
+      "type": "conceptual",
+      "description": "说明DNA双螺旋结构的主要特点，理解碱基互补配对原则，能根据一条链的碱基比例推算另一条链的组成。",
+      "mastery_criteria": [
+        "能描述DNA双螺旋结构的三项要点",
+        "能运用碱基互补配对原则计算碱基数量关系"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "DNA分子中，与腺嘌呤配对的碱基是",
+          "answer": "胸腺嘧啶",
+          "wrongs": [
+            "鸟嘌呤",
+            "胞嘧啶",
+            "尿嘧啶"
+          ],
+          "explanation": "A与T配对，G与C配对。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "DNA双螺旋结构中，构成基本骨架的是",
+          "answer": "磷酸和脱氧核糖交替连接",
+          "wrongs": [
+            "碱基对",
+            "核糖和磷酸",
+            "蛋白质"
+          ],
+          "explanation": "磷酸与脱氧核糖交替排列在外侧，构成基本骨架。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某双链DNA分子中腺嘌呤占全部碱基的20%，则鸟嘌呤所占比例是",
+          "answer": "30%",
+          "wrongs": [
+            "20%",
+            "40%",
+            "10%"
+          ],
+          "explanation": "A与T各占20%，则G与C共占60%，G占30%。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "DNA分子具有多样性和特异性的原因主要是",
+          "answer": "碱基对的排列顺序千变万化",
+          "wrongs": [
+            "磷酸和脱氧核糖的排列方式不同",
+            "碱基配对方式有多种",
+            "双螺旋的直径大小不同"
+          ],
+          "explanation": "碱基对的排列顺序决定DNA的多样性和特异性。"
+        }
+      ],
+      "key": "bx2_dna_jiegou"
+    },
+    {
+      "id": "cnb_h030",
+      "name": "DNA的复制",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第4单元 基因的本质",
+      "type": "reasoning",
+      "description": "说明DNA半保留复制的过程与条件，理解碱基互补配对保证复制的准确性，能计算复制若干次所需原料的数量。",
+      "mastery_criteria": [
+        "能用半保留复制解释子代DNA的组成",
+        "能计算连续复制n次所需的游离脱氧核苷酸数"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "DNA复制的方式是",
+          "answer": "半保留复制",
+          "wrongs": [
+            "全保留复制",
+            "分散复制",
+            "反向复制"
+          ],
+          "explanation": "每条子链与一条母链结合，形成两个子代DNA分子。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "DNA复制需要的条件不包括",
+          "answer": "氨基酸作为原料",
+          "wrongs": [
+            "模板",
+            "能量",
+            "酶"
+          ],
+          "explanation": "复制的原料是四种脱氧核苷酸，不是氨基酸。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "一个含15N标记的DNA分子在含14N的培养液中复制3次，含15N的DNA分子有",
+          "answer": "2个",
+          "wrongs": [
+            "1个",
+            "8个",
+            "6个"
+          ],
+          "explanation": "半保留复制使两条含15N的母链各进入一个子代DNA。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某DNA分子含腺嘌呤200个，连续复制3次共需游离的腺嘌呤脱氧核苷酸",
+          "answer": "1400个",
+          "wrongs": [
+            "600个",
+            "1600个",
+            "800个"
+          ],
+          "explanation": "共形成8个DNA分子，新合成的相当于7个，7×200=1400。"
+        }
+      ],
+      "key": "bx2_dna_fuzhi"
+    },
+    {
+      "id": "cnb_h031",
+      "name": "转录与翻译",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第5单元 基因的表达",
+      "type": "procedural",
+      "description": "说明转录的模板、场所与产物，描述翻译过程中密码子与反密码子的配对，理解遗传信息从DNA流向蛋白质的路径。",
+      "mastery_criteria": [
+        "能说出转录与翻译的模板、原料和场所",
+        "能按碱基互补配对写出mRNA并推算决定的氨基酸数目"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "转录的模板是",
+          "answer": "DNA的一条链",
+          "wrongs": [
+            "DNA的两条链",
+            "mRNA",
+            "tRNA"
+          ],
+          "explanation": "转录以DNA的一条链为模板合成RNA。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "翻译的场所是",
+          "answer": "核糖体",
+          "wrongs": [
+            "细胞核",
+            "线粒体",
+            "高尔基体"
+          ],
+          "explanation": "核糖体是翻译的场所。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某mRNA上有60个碱基，其编码氨基酸的序列可决定多少个氨基酸",
+          "answer": "20个",
+          "wrongs": [
+            "60个",
+            "30个",
+            "10个"
+          ],
+          "explanation": "每3个相邻碱基决定1个氨基酸，60除以3等于20。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "tRNA上的反密码子与mRNA上的密码子配对，其作用是",
+          "answer": "把相应的氨基酸运到核糖体上",
+          "wrongs": [
+            "催化肽键的形成",
+            "复制DNA",
+            "把氨基酸运出细胞"
+          ],
+          "explanation": "tRNA识别密码子并转运对应的氨基酸。"
+        }
+      ],
+      "key": "bx2_zhuanlu"
+    },
+    {
+      "id": "cnb_h032",
+      "name": "中心法则与基因对性状的控制",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第5单元 基因的表达",
+      "type": "conceptual",
+      "description": "概述中心法则的信息流向，区分基因通过控制酶的合成和通过控制蛋白质结构直接控制性状两种方式。",
+      "mastery_criteria": [
+        "能写出中心法则包括的信息传递途径",
+        "能举例区分基因控制性状的两种方式"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "中心法则中，遗传信息不能从蛋白质流向",
+          "answer": "核酸",
+          "wrongs": [
+            "蛋白质",
+            "mRNA",
+            "DNA"
+          ],
+          "explanation": "遗传信息不能由蛋白质反向决定核酸的序列。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "基因对性状的控制方式之一是",
+          "answer": "通过控制酶的合成来控制代谢过程",
+          "wrongs": [
+            "直接决定环境条件",
+            "通过改变染色体数目",
+            "通过控制细胞体积"
+          ],
+          "explanation": "基因可通过控制酶的合成影响代谢，也可控制蛋白质的结构。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "镰状细胞贫血说明基因通过哪种方式控制性状",
+          "answer": "控制蛋白质的结构直接控制性状",
+          "wrongs": [
+            "控制酶的合成影响代谢",
+            "控制激素的分泌",
+            "改变染色体的数目"
+          ],
+          "explanation": "血红蛋白结构异常直接导致性状改变。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "关于中心法则的叙述，正确的是",
+          "answer": "RNA病毒的遗传信息可逆转录为DNA",
+          "wrongs": [
+            "所有生物都能进行逆转录",
+            "蛋白质可以自我复制",
+            "DNA只能流向蛋白质"
+          ],
+          "explanation": "逆转录酶能以RNA为模板合成DNA。"
+        }
+      ],
+      "key": "bx2_zhongxin"
+    },
+    {
+      "id": "cnb_h033",
+      "name": "碱基与氨基酸的数量关系",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第5单元 基因的表达",
+      "type": "modeling",
+      "description": "建立DNA碱基、mRNA碱基与氨基酸数目的比例关系，能据此估算基因和蛋白质的规模并处理相关计算。",
+      "mastery_criteria": [
+        "能运用6∶3∶1的关系进行数量换算",
+        "能根据蛋白质的氨基酸数推算基因中的碱基对数"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "DNA碱基、mRNA碱基和氨基酸数目之比通常是",
+          "answer": "6∶3∶1",
+          "wrongs": [
+            "3∶3∶1",
+            "6∶2∶1",
+            "3∶1∶1"
+          ],
+          "explanation": "基因片段双链碱基数与mRNA碱基数、氨基酸数之比为6∶3∶1。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "决定一个氨基酸的密码子由几个碱基组成",
+          "answer": "3个",
+          "wrongs": [
+            "1个",
+            "2个",
+            "4个"
+          ],
+          "explanation": "三个相邻碱基决定一个氨基酸。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某蛋白质由100个氨基酸组成，则指导其合成的mRNA至少含有碱基",
+          "answer": "300个",
+          "wrongs": [
+            "100个",
+            "200个",
+            "600个"
+          ],
+          "explanation": "每3个碱基决定1个氨基酸，100×3=300，未计终止密码子。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "合成含50个氨基酸的蛋白质，其基因中至少含有的碱基对数是",
+          "answer": "150对",
+          "wrongs": [
+            "50对",
+            "100对",
+            "300对"
+          ],
+          "explanation": "mRNA至少150个碱基，基因双链至少300个碱基，即150对。"
+        }
+      ],
+      "key": "bx2_biaoda_jisuan"
+    },
+    {
+      "id": "cnb_h034",
+      "name": "基因突变与基因重组",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第6单元 变异与育种",
+      "type": "conceptual",
+      "description": "说明基因突变的概念、特点和诱因，比较基因重组的发生时期与类型，理解二者在变异来源上的差别。",
+      "mastery_criteria": [
+        "能说出基因突变的特点并判断突变对性状的影响",
+        "能区分基因重组与基因突变"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "基因突变是指",
+          "answer": "DNA分子中发生碱基的替换、增添或缺失",
+          "wrongs": [
+            "染色体片段的移接",
+            "非等位基因的自由组合",
+            "蛋白质空间结构的改变"
+          ],
+          "explanation": "碱基序列的改变引起基因结构改变，可产生新基因。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "基因突变的特点是",
+          "answer": "普遍性、随机性、低频性和多害少利性",
+          "wrongs": [
+            "只发生在生殖细胞中",
+            "频率很高且定向发生",
+            "只由物理因素引起"
+          ],
+          "explanation": "突变普遍、随机、频率低，多数对生物有害。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "基因突变不一定引起性状改变，原因之一是",
+          "answer": "突变后的密码子可能决定同一种氨基酸",
+          "wrongs": [
+            "突变只发生在非编码区之外",
+            "突变后的DNA不能复制",
+            "突变基因不能遗传给后代"
+          ],
+          "explanation": "密码子的简并性使氨基酸可能保持不变。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "基因重组发生在",
+          "answer": "减数第一次分裂前期的交叉互换和后期非同源染色体的自由组合",
+          "wrongs": [
+            "有丝分裂后期",
+            "DNA复制时碱基的替换",
+            "染色体数目加倍时"
+          ],
+          "explanation": "基因重组发生在减数分裂产生配子的过程中。"
+        }
+      ],
+      "key": "bx2_tubian"
+    },
+    {
+      "id": "cnb_h035",
+      "name": "染色体变异",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第6单元 变异与育种",
+      "type": "conceptual",
+      "description": "区分染色体结构变异与数目变异，说明染色体组的含义，能判断细胞中染色体组数并解释多倍体的成因。",
+      "mastery_criteria": [
+        "能识别缺失、重复、倒位、易位四种结构变异",
+        "能根据染色体形态和数目判断染色体组数"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列不属于染色体结构变异的是",
+          "answer": "染色体数目的成倍增加",
+          "wrongs": [
+            "缺失",
+            "重复",
+            "倒位"
+          ],
+          "explanation": "数目成倍增加属于染色体数目变异。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "染色体组是指",
+          "answer": "细胞中一组非同源染色体，形态和功能各不相同",
+          "wrongs": [
+            "所有同源染色体的总和",
+            "一对同源染色体",
+            "所有常染色体的总和"
+          ],
+          "explanation": "一个染色体组含一整套非同源染色体。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "二倍体生物产生的配子中，染色体组数是",
+          "answer": "1个",
+          "wrongs": [
+            "2个",
+            "3个",
+            "4个"
+          ],
+          "explanation": "减数分裂使染色体组数减半，配子含一个染色体组。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "用秋水仙素处理萌发的种子可获得多倍体，其原理是",
+          "answer": "抑制纺锤体形成，使染色体数目加倍",
+          "wrongs": [
+            "促进DNA复制次数增加",
+            "使染色体片段缺失",
+            "诱导基因突变产生新基因"
+          ],
+          "explanation": "秋水仙素抑制纺锤体形成，分裂时染色体不能移向两极。"
+        }
+      ],
+      "key": "bx2_ransebian"
+    },
+    {
+      "id": "cnb_h036",
+      "name": "育种方法及其原理",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第6单元 变异与育种",
+      "type": "application",
+      "description": "比较杂交育种、诱变育种、单倍体育种和多倍体育种的原理与优缺点，能针对育种目标选择合适的方案。",
+      "mastery_criteria": [
+        "能说出四种育种方法所依据的变异原理",
+        "能根据育种目标选择方案并说明其优缺点"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "杂交育种的原理是",
+          "answer": "基因重组",
+          "wrongs": [
+            "基因突变",
+            "染色体变异",
+            "基因工程"
+          ],
+          "explanation": "通过杂交使不同亲本的优良基因重组到一起。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "单倍体育种中常用的处理方法是",
+          "answer": "花药离体培养后用秋水仙素处理",
+          "wrongs": [
+            "用紫外线照射种子",
+            "用低温处理萌发的种子",
+            "用一定浓度的生长素处理幼苗"
+          ],
+          "explanation": "先获得单倍体幼苗，再用秋水仙素使染色体数目加倍。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "诱变育种与杂交育种相比，其优点是",
+          "answer": "能产生新基因，加快育种进程",
+          "wrongs": [
+            "后代性状一定优良",
+            "不需要选择即可获得纯系",
+            "能定向改变生物的性状"
+          ],
+          "explanation": "诱变可产生新基因，但突变不定向，需要大量筛选。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "要尽快获得纯合的抗病小麦品种，最合适的方法是",
+          "answer": "单倍体育种",
+          "wrongs": [
+            "杂交育种",
+            "诱变育种",
+            "多倍体育种"
+          ],
+          "explanation": "单倍体育种可明显缩短育种年限，较快获得纯合子。"
+        }
+      ],
+      "key": "bx2_yuzhong"
+    },
+    {
+      "id": "cnb_h037",
+      "name": "自然选择与适应的形成",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第7单元 生物的进化",
+      "type": "conceptual",
+      "description": "说明达尔文自然选择学说的要点，理解适应是自然选择的结果，能辨析用进废退与自然选择的不同解释。",
+      "mastery_criteria": [
+        "能概述自然选择学说的主要内容",
+        "能用自然选择解释抗药性的形成"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.07",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "自然选择学说的核心是",
+          "answer": "适者生存，不适者被淘汰",
+          "wrongs": [
+            "用进废退",
+            "获得性遗传",
+            "物种始终不变"
+          ],
+          "explanation": "自然选择通过生存斗争实现适者生存。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "长期使用农药后害虫抗药性增强，其原因是",
+          "answer": "农药对害虫的抗药性变异进行了选择",
+          "wrongs": [
+            "农药诱导害虫产生抗药性突变",
+            "害虫为了适应农药而主动变异",
+            "农药使害虫的基因发生定向改变"
+          ],
+          "explanation": "变异先于选择存在，农药只起选择作用。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列属于适应特征的是",
+          "answer": "仙人掌的叶退化为刺，减少水分散失",
+          "wrongs": [
+            "北极熊的白色皮毛在雪地中十分醒目",
+            "长颈鹿的颈因经常伸长而变长",
+            "害虫接触农药后产生抗药基因"
+          ],
+          "explanation": "适应是自然选择形成的有利性状。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "关于自然选择与变异的关系，正确的是",
+          "answer": "变异是不定向的，自然选择是定向的",
+          "wrongs": [
+            "变异是定向的，自然选择是不定向的",
+            "二者都是定向的",
+            "二者都是不定向的"
+          ],
+          "explanation": "可遗传变异提供原材料，自然选择决定进化的方向。"
+        }
+      ],
+      "key": "bx2_jinhua"
+    },
+    {
+      "id": "cnb_h038",
+      "name": "种群基因频率与物种形成",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第7单元 生物的进化",
+      "type": "modeling",
+      "description": "说明种群是生物进化的基本单位，能计算基因频率，理解突变、选择与隔离对基因频率和物种形成的作用。",
+      "mastery_criteria": [
+        "能计算种群中某基因的频率",
+        "能说明生殖隔离是新物种形成的标志"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.07",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生物进化的基本单位是",
+          "answer": "种群",
+          "wrongs": [
+            "个体",
+            "群落",
+            "细胞"
+          ],
+          "explanation": "种群是生物繁殖和进化的基本单位。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "新物种形成的标志是",
+          "answer": "出现生殖隔离",
+          "wrongs": [
+            "出现地理隔离",
+            "基因频率发生改变",
+            "性状出现变异"
+          ],
+          "explanation": "生殖隔离一旦形成，即产生新物种。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某种群中基因型AA的个体占30%，Aa占60%，aa占10%，则A的基因频率是",
+          "answer": "60%",
+          "wrongs": [
+            "30%",
+            "50%",
+            "70%"
+          ],
+          "explanation": "A的频率等于30%加60%的一半，即60%。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "生物进化的实质是",
+          "answer": "种群基因频率的定向改变",
+          "wrongs": [
+            "个体表现型的改变",
+            "物种数目的增加",
+            "染色体数目的变化"
+          ],
+          "explanation": "进化的实质是种群基因频率发生定向改变。"
+        }
+      ],
+      "key": "bx2_wuzhong"
+    },
+    {
+      "id": "cnb_h039",
+      "name": "协同进化与生物多样性",
+      "domain": "遗传与进化",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第7单元 生物的进化",
+      "type": "conceptual",
+      "description": "说明协同进化的含义，理解生物多样性包括基因、物种和生态系统三个层次，能分析多样性形成的原因。",
+      "mastery_criteria": [
+        "能举例说明捕食者与被捕食者的协同进化",
+        "能说出生物多样性的三个层次"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:B2.07",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生物多样性的三个层次是",
+          "answer": "基因多样性、物种多样性和生态系统多样性",
+          "wrongs": [
+            "细胞多样性、组织多样性和器官多样性",
+            "个体多样性、种群多样性和群落多样性",
+            "形态多样性、结构多样性和功能多样性"
+          ],
+          "explanation": "生物多样性包括基因、物种和生态系统三个层次。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "协同进化是指",
+          "answer": "不同物种之间、生物与无机环境之间在相互影响中不断进化和发展",
+          "wrongs": [
+            "同一物种个体之间的相互竞争",
+            "生物对环境的单向适应",
+            "物种数量的不断增加"
+          ],
+          "explanation": "协同进化强调相互影响、共同发展。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "捕食者与被捕食者相互选择、共同进化，其结果往往是",
+          "answer": "双方都发展出更有效的防御或捕食特征",
+          "wrongs": [
+            "捕食者最终使被捕食者灭绝",
+            "被捕食者停止进化",
+            "双方性状趋于完全相同"
+          ],
+          "explanation": "相互选择使双方的适应性不断增强。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "生物多样性形成的根本原因是",
+          "answer": "突变和基因重组提供原材料，自然选择使种群基因频率定向改变",
+          "wrongs": [
+            "生物主动适应环境的结果",
+            "环境对生物的单向改造",
+            "物种之间不存在相互作用"
+          ],
+          "explanation": "变异提供原材料，选择决定方向，隔离促成多样性。"
+        }
+      ],
+      "key": "bx2_duoyang"
+    },
+    {
+      "id": "cnb_h040",
+      "name": "内环境的组成",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第1单元 人体的内环境与稳态",
+      "type": "conceptual",
+      "description": "说明血浆、组织液和淋巴的组成与相互关系，理解内环境是细胞与外界环境进行物质交换的媒介。",
+      "mastery_criteria": [
+        "能说出三种细胞外液之间的相互转化途径",
+        "能结合结构特点解释血浆与组织液、组织液与淋巴之间的物质交换"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "人体内环境主要包括",
+          "answer": "血浆、组织液和淋巴",
+          "wrongs": [
+            "血液、组织液和细胞内液",
+            "血浆、细胞内液和淋巴",
+            "消化液、尿液和汗液"
+          ],
+          "explanation": "内环境即细胞外液，主要包括血浆、组织液和淋巴。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "组织液与血浆之间进行物质交换的结构是",
+          "answer": "毛细血管壁",
+          "wrongs": [
+            "毛细淋巴管壁",
+            "细胞膜",
+            "皮肤"
+          ],
+          "explanation": "血浆与组织液通过毛细血管壁相互渗透。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "淋巴来源于组织液，其去向是",
+          "answer": "经淋巴循环汇入血浆",
+          "wrongs": [
+            "直接进入组织细胞",
+            "经尿液排出体外",
+            "进入消化道"
+          ],
+          "explanation": "毛细淋巴管收集组织液形成淋巴，最终汇入血浆。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下列物质不属于内环境成分的是",
+          "answer": "血红蛋白",
+          "wrongs": [
+            "血浆蛋白",
+            "葡萄糖",
+            "二氧化碳"
+          ],
+          "explanation": "血红蛋白位于红细胞内，不属于内环境的成分。"
+        }
+      ],
+      "key": "s1_neihuanjing"
+    },
+    {
+      "id": "cnb_h041",
+      "name": "稳态及其调节机制",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第1单元 人体的内环境与稳态",
+      "type": "conceptual",
+      "description": "说明内环境稳态的含义与理化性质指标，理解神经—体液—免疫调节网络是稳态的主要调节机制。",
+      "mastery_criteria": [
+        "能说出内环境理化性质的三个主要方面",
+        "能说明稳态的调节机制及稳态失调的危害"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "内环境稳态的主要调节机制是",
+          "answer": "神经—体液—免疫调节网络",
+          "wrongs": [
+            "只靠神经调节",
+            "只靠激素调节",
+            "只靠细胞自身的代谢"
+          ],
+          "explanation": "目前认为稳态的主要调节机制是神经—体液—免疫调节网络。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于内环境理化性质的是",
+          "answer": "渗透压、酸碱度和温度",
+          "wrongs": [
+            "细胞的数量和体积",
+            "酶的活性和含量",
+            "基因的碱基序列"
+          ],
+          "explanation": "渗透压、酸碱度和温度是内环境理化性质的三个主要方面。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "人体血浆pH能维持在7.35至7.45，主要依靠",
+          "answer": "缓冲物质对酸碱的调节",
+          "wrongs": [
+            "肺排出全部二氧化碳",
+            "肾排出全部水分",
+            "细胞无氧呼吸产生乳酸"
+          ],
+          "explanation": "血浆中的缓冲物质能中和进入血液的酸性和碱性物质。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "稳态被破坏后，机体可能出现的结果是",
+          "answer": "细胞代谢紊乱，出现疾病",
+          "wrongs": [
+            "细胞代谢完全停止",
+            "机体立即死亡",
+            "内环境成分不再发生变化"
+          ],
+          "explanation": "稳态失调会影响酶的活性，导致代谢紊乱。"
+        }
+      ],
+      "key": "s1_wentai"
+    },
+    {
+      "id": "cnb_h042",
+      "name": "组织水肿的成因分析",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第1单元 人体的内环境与稳态",
+      "type": "reasoning",
+      "description": "运用组织液生成与回流的原理，分析血浆蛋白减少、淋巴回流受阻、毛细血管通透性增大引起组织水肿的机制。",
+      "mastery_criteria": [
+        "能从血浆渗透压和淋巴回流两方面解释水肿",
+        "能判断给定情形是否会引起组织水肿"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "组织液增多引起组织水肿的直接原因是",
+          "answer": "组织液渗透压升高或血浆渗透压降低",
+          "wrongs": [
+            "细胞内液大量减少",
+            "血浆中红细胞增多",
+            "淋巴液全部回流入血浆"
+          ],
+          "explanation": "渗透压的变化使水分在组织间隙积聚。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "下列情形最可能引起组织水肿的是",
+          "answer": "营养不良导致血浆蛋白减少",
+          "wrongs": [
+            "饮水过多后尿量增加",
+            "剧烈运动后大量出汗",
+            "红细胞数量增多"
+          ],
+          "explanation": "血浆蛋白减少使血浆渗透压下降，水分进入组织液。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "毛细淋巴管阻塞会引起组织水肿，原因是",
+          "answer": "组织液不能经淋巴回流",
+          "wrongs": [
+            "血浆蛋白大量进入组织液",
+            "组织细胞吸水减少",
+            "毛细血管壁通透性降低"
+          ],
+          "explanation": "淋巴回流受阻使组织液在组织间隙积聚。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "过敏反应时局部出现水肿，其主要机制是",
+          "answer": "毛细血管壁通透性增大，血浆蛋白进入组织液",
+          "wrongs": [
+            "血浆中水分大量减少",
+            "组织细胞大量坏死",
+            "淋巴的生成量减少"
+          ],
+          "explanation": "通透性增大使血浆蛋白渗出，组织液渗透压升高。"
+        }
+      ],
+      "key": "s1_shuizhong"
+    },
+    {
+      "id": "cnb_h043",
+      "name": "反射与反射弧",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第2单元 神经调节",
+      "type": "conceptual",
+      "description": "说明反射弧的五个组成部分及其功能，理解反射发生的条件，能分析反射弧某一部分受损后的表现。",
+      "mastery_criteria": [
+        "能按顺序说出反射弧的五个环节",
+        "能判断反射弧不同部位受损时的感觉与运动表现"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "反射弧的五个组成部分依次是",
+          "answer": "感受器、传入神经、神经中枢、传出神经、效应器",
+          "wrongs": [
+            "感受器、传出神经、神经中枢、传入神经、效应器",
+            "效应器、传入神经、神经中枢、传出神经、感受器",
+            "感受器、神经中枢、传入神经、传出神经、效应器"
+          ],
+          "explanation": "兴奋沿感受器、传入神经、神经中枢、传出神经、效应器的顺序传导。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "反射发生的必要条件是",
+          "answer": "具有完整的反射弧和适宜的刺激",
+          "wrongs": [
+            "只需要大脑皮层参与",
+            "只需要有神经递质",
+            "只需要肌肉完好"
+          ],
+          "explanation": "反射弧完整且刺激适宜，反射才能发生。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "传出神经受损时，刺激感受器后的表现是",
+          "answer": "有感觉但不能运动",
+          "wrongs": [
+            "无感觉但能运动",
+            "既有感觉又能运动",
+            "无感觉也不能运动"
+          ],
+          "explanation": "传入通路正常故有感觉，传出受阻故不能产生效应。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "缩手反射的神经中枢位于",
+          "answer": "脊髓",
+          "wrongs": [
+            "大脑皮层",
+            "小脑",
+            "脑干"
+          ],
+          "explanation": "缩手反射属于非条件反射，其神经中枢在脊髓。"
+        }
+      ],
+      "key": "s1_fanshe"
+    },
+    {
+      "id": "cnb_h044",
+      "name": "兴奋的传导与传递",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第2单元 神经调节",
+      "type": "reasoning",
+      "description": "说明静息电位与动作电位的离子基础，比较兴奋在神经纤维上双向传导和在突触处单向传递的机制。",
+      "mastery_criteria": [
+        "能解释静息电位和动作电位形成时的主要离子流动",
+        "能说明兴奋在突触处只能单向传递的原因"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "神经纤维静息时膜电位表现为",
+          "answer": "外正内负",
+          "wrongs": [
+            "外负内正",
+            "内外均为正",
+            "内外均为负"
+          ],
+          "explanation": "静息电位由钾离子外流形成，表现为外正内负。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "兴奋在突触处只能单向传递，原因是",
+          "answer": "神经递质只能由突触前膜释放，作用于突触后膜",
+          "wrongs": [
+            "突触间隙内没有组织液",
+            "突触后膜不能产生电位变化",
+            "神经递质可由后膜向前膜释放"
+          ],
+          "explanation": "递质的释放部位和受体的分布决定了传递方向。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "动作电位的产生主要是由于",
+          "answer": "钠离子内流",
+          "wrongs": [
+            "钾离子外流",
+            "氯离子内流",
+            "钙离子外流"
+          ],
+          "explanation": "受刺激时钠通道开放，钠离子内流使膜电位发生逆转。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "在离体神经纤维上，兴奋的传导是",
+          "answer": "双向的，以局部电流的形式传导",
+          "wrongs": [
+            "单向的，只能由胞体传向轴突末梢",
+            "双向的，依靠神经递质扩散",
+            "单向的，依靠血液运输"
+          ],
+          "explanation": "离体神经纤维上兴奋可双向传导。"
+        }
+      ],
+      "key": "s1_chuandi"
+    },
+    {
+      "id": "cnb_h045",
+      "name": "人脑的高级功能",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第2单元 神经调节",
+      "type": "conceptual",
+      "description": "说明大脑皮层言语区的功能分区，了解学习与记忆的生理基础，能解释不同言语区受损后出现的症状。",
+      "mastery_criteria": [
+        "能区分S区、H区、W区、V区受损后的表现",
+        "能说明小脑、脑干和下丘脑的主要功能"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "大脑皮层言语区中，与说话有关的区域是",
+          "answer": "S区",
+          "wrongs": [
+            "H区",
+            "W区",
+            "V区"
+          ],
+          "explanation": "S区受损不能讲话，因此被称为运动性语言中枢。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "维持身体平衡、协调运动的中枢位于",
+          "answer": "小脑",
+          "wrongs": [
+            "大脑皮层",
+            "脑干",
+            "脊髓"
+          ],
+          "explanation": "小脑负责协调运动、维持身体平衡。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某人能听懂别人说话，但自己不能讲话，其受损部位最可能是",
+          "answer": "大脑皮层的S区",
+          "wrongs": [
+            "大脑皮层的H区",
+            "大脑皮层的V区",
+            "小脑"
+          ],
+          "explanation": "S区为运动性语言中枢，受损后不能讲话但能听懂。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下丘脑不具有的功能是",
+          "answer": "产生听觉",
+          "wrongs": [
+            "调节体温",
+            "调节水平衡",
+            "参与血糖调节"
+          ],
+          "explanation": "听觉中枢位于大脑皮层，下丘脑是内脏活动的重要调节中枢。"
+        }
+      ],
+      "key": "s1_gaoji"
+    },
+    {
+      "id": "cnb_h046",
+      "name": "激素调节与分级调节",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第3单元 体液调节",
+      "type": "conceptual",
+      "description": "说明下丘脑、垂体和甲状腺之间的分级调节关系，理解负反馈调节对激素水平相对稳定的维持作用。",
+      "mastery_criteria": [
+        "能写出甲状腺激素分泌的分级调节途径",
+        "能用负反馈调节解释激素含量的相对稳定"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "甲状腺激素分泌的分级调节中，直接促进甲状腺分泌的是",
+          "answer": "促甲状腺激素",
+          "wrongs": [
+            "促甲状腺激素释放激素",
+            "甲状腺激素",
+            "肾上腺素"
+          ],
+          "explanation": "下丘脑分泌释放激素作用于垂体，垂体分泌促甲状腺激素作用于甲状腺。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "激素调节中的负反馈调节是指",
+          "answer": "激素含量过高时抑制其上级腺体的分泌",
+          "wrongs": [
+            "激素含量过低时抑制其分泌",
+            "激素只能促进不能抑制",
+            "激素通过神经直接作用于靶细胞"
+          ],
+          "explanation": "甲状腺激素增多会抑制下丘脑和垂体的分泌活动。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "切除甲状腺后，血液中促甲状腺激素的含量会",
+          "answer": "升高",
+          "wrongs": [
+            "降低",
+            "保持不变",
+            "先降低后保持不变"
+          ],
+          "explanation": "甲状腺激素减少使负反馈减弱，促甲状腺激素分泌增多。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "下丘脑在甲状腺激素调节中的作用是",
+          "answer": "分泌促甲状腺激素释放激素",
+          "wrongs": [
+            "直接分泌甲状腺激素",
+            "合成并释放促甲状腺激素",
+            "储存甲状腺激素"
+          ],
+          "explanation": "下丘脑分泌释放激素，垂体分泌促激素。"
+        }
+      ],
+      "key": "s1_jisu"
+    },
+    {
+      "id": "cnb_h047",
+      "name": "体温、水盐与血糖的调节",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第3单元 体液调节",
+      "type": "reasoning",
+      "description": "分析寒冷与炎热环境中体温调节的途径，说明抗利尿激素与胰岛素在水平衡和血糖平衡中的作用。",
+      "mastery_criteria": [
+        "能说出寒冷时增加产热、减少散热的具体途径",
+        "能解释抗利尿激素和胰岛素分泌变化对机体的影响"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "寒冷环境中，机体增加产热的主要途径是",
+          "answer": "骨骼肌不自主战栗和甲状腺激素分泌增多",
+          "wrongs": [
+            "皮肤血管舒张，血流量增加",
+            "汗腺分泌增多",
+            "排尿量明显增加"
+          ],
+          "explanation": "战栗使产热增加，甲状腺激素提高代谢速率。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "抗利尿激素的作用是",
+          "answer": "促进肾小管和集合管对水的重吸收",
+          "wrongs": [
+            "促进肾小球的滤过作用",
+            "抑制水的重吸收",
+            "促进汗腺分泌"
+          ],
+          "explanation": "抗利尿激素由下丘脑分泌、垂体释放，促进水的重吸收。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "大量出汗后血浆渗透压升高，机体的反应是",
+          "answer": "抗利尿激素分泌增多，尿量减少",
+          "wrongs": [
+            "抗利尿激素分泌减少，尿量增多",
+            "醛固酮分泌减少",
+            "大脑皮层的渴觉中枢受到抑制"
+          ],
+          "explanation": "渗透压升高刺激下丘脑，抗利尿激素增多，促进水的重吸收。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "进食后血糖升高，胰岛素分泌增多，其促进的过程不包括",
+          "answer": "肝糖原分解为葡萄糖",
+          "wrongs": [
+            "组织细胞摄取葡萄糖",
+            "葡萄糖合成肝糖原",
+            "葡萄糖转变为脂肪"
+          ],
+          "explanation": "肝糖原分解为葡萄糖是胰高血糖素和肾上腺素的作用。"
+        }
+      ],
+      "key": "s1_tiaojie"
+    },
+    {
+      "id": "cnb_h048",
+      "name": "激素调节的特点与探究实验",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第3单元 体液调节",
+      "type": "procedural",
+      "description": "说明激素调节微量高效、通过体液运输、作用于靶器官靶细胞的特点，能按单一变量原则设计验证激素作用的实验。",
+      "mastery_criteria": [
+        "能概括激素调节的三个特点",
+        "能按对照原则设计验证激素作用的实验方案"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "激素调节的特点不包括",
+          "answer": "激素可为生命活动提供能量",
+          "wrongs": [
+            "微量而高效",
+            "通过体液运输",
+            "作用于特定的靶器官和靶细胞"
+          ],
+          "explanation": "激素只起调节作用，既不提供能量，也不起催化作用。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "激素只能作用于特定的靶器官，原因是",
+          "answer": "靶细胞上有相应的受体",
+          "wrongs": [
+            "激素只能溶于水",
+            "靶器官的血液供应丰富",
+            "激素分子的体积很小"
+          ],
+          "explanation": "受体与激素特异性结合，决定了作用的靶向性。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "验证甲状腺激素促进发育的实验，最合适的对照设计是",
+          "answer": "一组饲喂甲状腺激素，另一组饲喂等量清水，其他条件相同",
+          "wrongs": [
+            "两组都饲喂甲状腺激素，只比较体重",
+            "只设实验组，不设对照组",
+            "两组饲喂不同量的食物"
+          ],
+          "explanation": "单一变量原则要求两组之间只有激素这一因素不同。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "给正常小鼠注射胰岛素后出现抽搐，及时注射葡萄糖后恢复正常，说明",
+          "answer": "胰岛素能降低血糖浓度",
+          "wrongs": [
+            "胰岛素能升高血糖浓度",
+            "胰岛素是一种消化酶",
+            "葡萄糖能抑制胰岛素的分泌"
+          ],
+          "explanation": "血糖过低导致抽搐，补充葡萄糖后症状缓解。"
+        }
+      ],
+      "key": "s1_jisu_tedian"
+    },
+    {
+      "id": "cnb_h049",
+      "name": "免疫系统的组成与功能",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第4单元 免疫调节",
+      "type": "conceptual",
+      "description": "说明免疫器官、免疫细胞和免疫活性物质的组成，理解免疫系统具有防卫、监控和清除三项基本功能。",
+      "mastery_criteria": [
+        "能列举免疫系统的三类组成并各举一例",
+        "能说明免疫系统的三大基本功能"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于免疫活性物质的是",
+          "answer": "抗体、细胞因子和溶菌酶",
+          "wrongs": [
+            "骨髓、胸腺和脾",
+            "T细胞和B细胞",
+            "红细胞和血小板"
+          ],
+          "explanation": "免疫活性物质指抗体、细胞因子、溶菌酶等。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "免疫系统的功能不包括",
+          "answer": "为细胞代谢提供能量",
+          "wrongs": [
+            "防卫功能",
+            "监控功能",
+            "清除功能"
+          ],
+          "explanation": "免疫系统具有防卫、监控和清除三项功能。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "免疫系统清除体内衰老或损伤的细胞，主要体现",
+          "answer": "免疫的监控和清除功能",
+          "wrongs": [
+            "免疫的防卫功能",
+            "血液的运输功能",
+            "体温的调节功能"
+          ],
+          "explanation": "识别并清除异常或衰老细胞属于监控和清除功能。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "淋巴细胞的起源器官是",
+          "answer": "骨髓",
+          "wrongs": [
+            "胸腺",
+            "脾",
+            "淋巴结"
+          ],
+          "explanation": "造血干细胞在骨髓中生成，T细胞迁移到胸腺中发育成熟。"
+        }
+      ],
+      "key": "s1_mianyi_xitong"
+    },
+    {
+      "id": "cnb_h050",
+      "name": "体液免疫与细胞免疫",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第4单元 免疫调节",
+      "type": "procedural",
+      "description": "按顺序描述体液免疫和细胞免疫的主要过程，说明辅助性T细胞、浆细胞和细胞毒性T细胞在其中的作用。",
+      "mastery_criteria": [
+        "能写出体液免疫中B细胞活化、增殖分化的过程",
+        "能说明细胞免疫中靶细胞裂解的机制"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "能产生并分泌抗体的细胞是",
+          "answer": "浆细胞",
+          "wrongs": [
+            "B细胞",
+            "辅助性T细胞",
+            "巨噬细胞"
+          ],
+          "explanation": "B细胞受刺激后增殖分化为浆细胞，由浆细胞分泌抗体。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "细胞免疫中直接使靶细胞裂解的细胞是",
+          "answer": "细胞毒性T细胞",
+          "wrongs": [
+            "浆细胞",
+            "辅助性T细胞",
+            "巨噬细胞"
+          ],
+          "explanation": "细胞毒性T细胞识别并裂解被病原体感染的靶细胞。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "体液免疫中，辅助性T细胞的作用是",
+          "answer": "分泌细胞因子促进B细胞增殖分化",
+          "wrongs": [
+            "直接分泌抗体",
+            "直接裂解靶细胞",
+            "吞噬病原体"
+          ],
+          "explanation": "辅助性T细胞通过细胞因子促进B细胞的活化与分化。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "二次免疫反应比初次反应更快更强，原因是",
+          "answer": "记忆细胞迅速增殖分化为浆细胞",
+          "wrongs": [
+            "抗体在体内不断积累且不再消耗",
+            "病原体不再进入机体",
+            "吞噬细胞的数量成倍增加"
+          ],
+          "explanation": "记忆细胞可快速应答，迅速产生大量抗体。"
+        }
+      ],
+      "key": "s1_teyixing"
+    },
+    {
+      "id": "cnb_h051",
+      "name": "免疫失调与免疫学应用",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第4单元 免疫调节",
+      "type": "application",
+      "description": "区分过敏反应、自身免疫病和免疫缺陷病，说明疫苗与抗体检测的原理，能分析器官移植中的排斥问题。",
+      "mastery_criteria": [
+        "能判断给定疾病属于哪一类免疫失调",
+        "能说明疫苗发挥作用所依据的免疫学原理"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于过敏反应的是",
+          "answer": "接触花粉后出现哮喘",
+          "wrongs": [
+            "系统性红斑狼疮",
+            "艾滋病",
+            "镰状细胞贫血"
+          ],
+          "explanation": "过敏反应是已免疫的机体再次接触过敏原时发生的反应。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "艾滋病患者免疫功能严重丧失，原因是HIV主要侵染",
+          "answer": "辅助性T细胞",
+          "wrongs": [
+            "红细胞",
+            "浆细胞",
+            "神经细胞"
+          ],
+          "explanation": "HIV攻击辅助性T细胞，使免疫功能几乎丧失。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "系统性红斑狼疮属于",
+          "answer": "自身免疫病",
+          "wrongs": [
+            "免疫缺陷病",
+            "过敏反应",
+            "遗传病"
+          ],
+          "explanation": "免疫系统攻击自身物质引起的疾病属于自身免疫病。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "接种疫苗能预防相应传染病，其原理是",
+          "answer": "刺激机体产生特异性抗体和记忆细胞",
+          "wrongs": [
+            "疫苗直接杀死体内的病原体",
+            "向体内输入现成的抗体",
+            "增强非特异性免疫"
+          ],
+          "explanation": "疫苗作为抗原诱导特异性免疫，并形成记忆细胞。"
+        }
+      ],
+      "key": "s1_mianyi_shichang"
+    },
+    {
+      "id": "cnb_h052",
+      "name": "生长素的发现与作用特点",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第5单元 植物生命活动的调节",
+      "type": "conceptual",
+      "description": "梳理达尔文、鲍森·詹森、拜尔和温特的实验结论，说明生长素的极性运输以及低浓度促进、高浓度抑制的特点。",
+      "mastery_criteria": [
+        "能说出各经典实验的结论及其相互衔接",
+        "能用两重性解释顶端优势现象"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生长素的化学本质是",
+          "answer": "吲哚乙酸",
+          "wrongs": [
+            "蛋白质",
+            "氨基酸",
+            "固醇"
+          ],
+          "explanation": "生长素即吲哚乙酸，由色氨酸经一系列反应转变而来。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "温特的实验证明了",
+          "answer": "胚芽鞘尖端确实产生了某种促进生长的物质",
+          "wrongs": [
+            "生长素就是吲哚乙酸",
+            "感光部位在尖端下部",
+            "生长素只能促进生长"
+          ],
+          "explanation": "温特把接触过尖端的琼脂块放在去尖端胚芽鞘的一侧，引起弯曲生长。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "生长素在胚芽鞘中的运输方式是",
+          "answer": "极性运输，只能从形态学上端运向下端",
+          "wrongs": [
+            "自由扩散，可以双向进行",
+            "通过韧皮部双向运输",
+            "随蒸腾流向上运输"
+          ],
+          "explanation": "极性运输属于主动运输，方向由形态学上端到形态学下端。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "顶端优势产生的原因是",
+          "answer": "顶芽产生的生长素向下运输，使侧芽处浓度过高而受抑制",
+          "wrongs": [
+            "侧芽产生的生长素抑制顶芽",
+            "顶芽的光合作用强于侧芽",
+            "侧芽缺乏足够的无机盐"
+          ],
+          "explanation": "侧芽对生长素敏感，浓度过高时生长受到抑制。"
+        }
+      ],
+      "key": "s1_shengzhangsu"
+    },
+    {
+      "id": "cnb_h053",
+      "name": "其他植物激素",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第5单元 植物生命活动的调节",
+      "type": "conceptual",
+      "description": "列举赤霉素、细胞分裂素、脱落酸和乙烯的主要生理作用，说明多种激素协同或拮抗地调节植物生命活动。",
+      "mastery_criteria": [
+        "能说出四种植物激素的主要作用",
+        "能判断激素之间的协同或拮抗关系"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "促进果实成熟的植物激素是",
+          "answer": "乙烯",
+          "wrongs": [
+            "赤霉素",
+            "细胞分裂素",
+            "脱落酸"
+          ],
+          "explanation": "乙烯的主要作用是促进果实成熟。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "能促进细胞分裂的植物激素是",
+          "answer": "细胞分裂素",
+          "wrongs": [
+            "脱落酸",
+            "乙烯",
+            "赤霉素"
+          ],
+          "explanation": "细胞分裂素促进细胞分裂，并可延缓叶片衰老。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "脱落酸的主要作用是",
+          "answer": "抑制细胞分裂，促进叶和果实的脱落",
+          "wrongs": [
+            "促进细胞伸长",
+            "促进种子萌发",
+            "促进果实成熟"
+          ],
+          "explanation": "脱落酸在逆境下增多，抑制生长、促进脱落和休眠。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "赤霉素与脱落酸在种子萌发上的关系是",
+          "answer": "拮抗作用",
+          "wrongs": [
+            "协同作用",
+            "互不影响",
+            "作用完全相同"
+          ],
+          "explanation": "赤霉素促进种子萌发，脱落酸抑制萌发，二者相互拮抗。"
+        }
+      ],
+      "key": "s1_qita_jisu"
+    },
+    {
+      "id": "cnb_h054",
+      "name": "环境因素与植物生长调节剂",
+      "domain": "稳态与调节",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第5单元 植物生命活动的调节",
+      "type": "application",
+      "description": "说明光、温度和重力对植物生命活动的调节，理解植物生长调节剂在生产中的应用与合理使用要求。",
+      "mastery_criteria": [
+        "能举例说明光、温度、重力对植物生长发育的影响",
+        "能评价植物生长调节剂的使用是否合理"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "植物感受光周期变化的主要物质是",
+          "answer": "光敏色素",
+          "wrongs": [
+            "叶绿素",
+            "生长素",
+            "脱落酸"
+          ],
+          "explanation": "光敏色素是一类色素蛋白，能够感受光信号。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "茎的背地生长体现了",
+          "answer": "重力对生长素分布的影响",
+          "wrongs": [
+            "光照对生长素分布的影响",
+            "温度对酶活性的影响",
+            "水分对细胞伸长的影响"
+          ],
+          "explanation": "重力使生长素在近地侧浓度较高，茎对生长素不敏感而生长更快。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "用一定浓度的生长素类似物处理未受粉的番茄花蕾，可获得无子番茄，其原理是",
+          "answer": "促进子房发育成果实",
+          "wrongs": [
+            "促进果实迅速成熟",
+            "抑制子房的发育",
+            "杀死花中的害虫"
+          ],
+          "explanation": "生长素促进子房发育为果实，因未受粉故其中没有种子。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "使用植物生长调节剂时应注意",
+          "answer": "控制浓度、使用时期和植物种类，避免残留超标",
+          "wrongs": [
+            "浓度越高效果越好",
+            "任何时期使用效果都相同",
+            "对所有植物都使用同一浓度"
+          ],
+          "explanation": "调节剂的作用具有两重性，必须控制浓度和使用时期。"
+        }
+      ],
+      "key": "s1_huanjing_yinsu"
+    },
+    {
+      "id": "cnb_h055",
+      "name": "种群的数量特征与密度调查",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第1单元 种群及其动态",
+      "type": "procedural",
+      "description": "说明种群密度、出生率与死亡率、年龄结构等数量特征，掌握样方法和标记重捕法的适用对象与操作要点。",
+      "mastery_criteria": [
+        "能选择恰当的种群密度调查方法并说明理由",
+        "能根据年龄结构预测种群数量的变化趋势"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "调查蒲公英等植物的种群密度，常用的方法是",
+          "answer": "样方法",
+          "wrongs": [
+            "标记重捕法",
+            "黑光灯诱捕法",
+            "显微计数法"
+          ],
+          "explanation": "植物及活动能力弱的生物常用样方法调查种群密度。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "预测种群数量未来变化趋势的主要依据是",
+          "answer": "年龄结构",
+          "wrongs": [
+            "种群密度",
+            "性别比例",
+            "迁入率"
+          ],
+          "explanation": "年龄结构可用来预测种群数量的变化趋势。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "用标记重捕法调查田鼠种群密度时，若标记物容易脱落，则估算结果会",
+          "answer": "偏大",
+          "wrongs": [
+            "偏小",
+            "保持不变",
+            "无法判断"
+          ],
+          "explanation": "重捕个体中标记个体的比例偏低，导致估算值偏大。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "用样方法调查植物种群密度时，下列做法正确的是",
+          "answer": "随机取样，样方大小根据植物的大小确定",
+          "wrongs": [
+            "只在植物分布最密集处取样",
+            "只取一个样方进行计数",
+            "只统计其中最大的植株"
+          ],
+          "explanation": "随机取样并保证样方数量，结果才能代表总体。"
+        }
+      ],
+      "key": "s2_zhongqun"
+    },
+    {
+      "id": "cnb_h056",
+      "name": "种群数量的变化",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第1单元 种群及其动态",
+      "type": "modeling",
+      "description": "区分J形增长与S形增长的条件和曲线特征，理解K值的含义，能分析K/2时种群增长速率的意义。",
+      "mastery_criteria": [
+        "能写出J形增长的数学模型并说明其适用条件",
+        "能结合K值和K/2分析渔业捕捞与有害动物防治"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "种群在理想条件下呈J形增长，其条件是",
+          "answer": "食物和空间充裕、气候适宜、没有敌害",
+          "wrongs": [
+            "资源有限、种内竞争激烈",
+            "存在大量天敌",
+            "环境条件不断恶化"
+          ],
+          "explanation": "理想条件下种群数量呈指数式增长。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "环境容纳量K值是指",
+          "answer": "环境条件所能维持的种群最大数量",
+          "wrongs": [
+            "种群数量最大值出现的时刻",
+            "种群增长速率最大时的数量",
+            "种群数量的平均值"
+          ],
+          "explanation": "K值即环境容纳量，随环境条件改变而改变。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "S形增长曲线中，种群增长速率最大的时期是",
+          "answer": "种群数量为K/2时",
+          "wrongs": [
+            "种群数量为K时",
+            "种群数量接近零时",
+            "种群数量超过K时"
+          ],
+          "explanation": "K/2时增长速率最大，渔业捕捞后应保留这一数量。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "对家鼠等有害动物进行防治，最好在其种群数量达到K/2之前，原因是",
+          "answer": "可避免种群进入增长最快的时期",
+          "wrongs": [
+            "K/2时种群数量最少",
+            "K/2之后种群不再增长",
+            "K/2时环境容纳量最大"
+          ],
+          "explanation": "K/2时增长速率最大，在此之前控制数量更为容易。"
+        }
+      ],
+      "key": "s2_shuliang"
+    },
+    {
+      "id": "cnb_h057",
+      "name": "影响种群数量变化的因素",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第1单元 种群及其动态",
+      "type": "reasoning",
+      "description": "区分密度制约因素与非密度制约因素，分析气候、食物、天敌和传染病对种群数量波动的不同影响。",
+      "mastery_criteria": [
+        "能区分密度制约因素与非密度制约因素",
+        "能解释种群数量波动的常见原因"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于非密度制约因素的是",
+          "answer": "寒潮和干旱",
+          "wrongs": [
+            "食物数量",
+            "天敌数量",
+            "传染病"
+          ],
+          "explanation": "气候等非生物因素的作用强度与种群密度无关。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "食物不足导致种群出生率下降，这种因素属于",
+          "answer": "密度制约因素",
+          "wrongs": [
+            "非密度制约因素",
+            "非生物因素",
+            "人为因素"
+          ],
+          "explanation": "食物等生物因素的作用随种群密度变化，属密度制约因素。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "种群数量出现周期性波动，最可能的原因是",
+          "answer": "食物和天敌等生物因素随季节发生周期性变化",
+          "wrongs": [
+            "种群的基因频率不断改变",
+            "当地气候常年稳定不变",
+            "种群始终没有天敌"
+          ],
+          "explanation": "生物因素的周期性变化引起种群数量的周期性波动。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "种群密度增大时传染病更容易流行，其原因是",
+          "answer": "个体间接触机会增多",
+          "wrongs": [
+            "病原体的致病力增强",
+            "种群的出生率升高",
+            "环境容纳量增大"
+          ],
+          "explanation": "密度增大使接触频率上升，疾病传播加快。"
+        }
+      ],
+      "key": "s2_zhongqun_yinsu"
+    },
+    {
+      "id": "cnb_h058",
+      "name": "群落的结构",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第2单元 群落及其演替",
+      "type": "conceptual",
+      "description": "说明群落的物种组成、种间关系和空间结构，能区分竞争、捕食、寄生与互利共生并分析垂直分层现象。",
+      "mastery_criteria": [
+        "能判断给定实例中的种间关系",
+        "能解释群落垂直结构和水平结构的生态意义"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于互利共生的是",
+          "answer": "根瘤菌与豆科植物",
+          "wrongs": [
+            "狼与兔",
+            "水稻与稗草",
+            "菟丝子与大豆"
+          ],
+          "explanation": "根瘤菌固氮供植物利用，植物供给有机养料，二者互利共生。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "群落中植物的垂直分层现象主要与什么有关",
+          "answer": "对光的利用",
+          "wrongs": [
+            "土壤的酸碱度",
+            "动物的数量",
+            "降水的多少"
+          ],
+          "explanation": "不同植物对光照的需求不同，因而形成垂直分层。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "稗草与水稻争夺阳光、水分和养料，二者的关系是",
+          "answer": "竞争",
+          "wrongs": [
+            "捕食",
+            "寄生",
+            "互利共生"
+          ],
+          "explanation": "争夺共同资源的关系属于竞争。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "森林中乔木、灌木和草本植物分层分布，动物的分层也随植物分层而变化，这说明",
+          "answer": "群落具有垂直结构，能提高资源利用效率",
+          "wrongs": [
+            "群落没有水平结构",
+            "各层生物之间没有任何联系",
+            "分层现象只由温度决定"
+          ],
+          "explanation": "分层使不同生物占据不同空间，充分利用环境资源。"
+        }
+      ],
+      "key": "s2_qunluo"
+    },
+    {
+      "id": "cnb_h059",
+      "name": "群落的演替",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第2单元 群落及其演替",
+      "type": "conceptual",
+      "description": "比较初生演替与次生演替的起点和速度，说明演替过程中物种组成与群落结构的变化，理解人类活动的影响。",
+      "mastery_criteria": [
+        "能判断某演替属于初生演替还是次生演替",
+        "能描述演替过程中物种丰富度和群落结构的变化趋势"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "在裸岩上开始的演替属于",
+          "answer": "初生演替",
+          "wrongs": [
+            "次生演替",
+            "逆行演替",
+            "人工演替"
+          ],
+          "explanation": "裸岩上没有土壤和繁殖体，属于初生演替。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "弃耕农田上发生的演替属于",
+          "answer": "次生演替",
+          "wrongs": [
+            "初生演替",
+            "不属于演替",
+            "水生演替"
+          ],
+          "explanation": "原有土壤条件基本保留，属于次生演替。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "演替过程中，群落的一般变化趋势是",
+          "answer": "物种丰富度增大，结构变复杂，稳定性增强",
+          "wrongs": [
+            "物种数目不断减少",
+            "群落结构逐渐简单",
+            "稳定性不断下降"
+          ],
+          "explanation": "随演替进行，群落趋向结构复杂、相对稳定。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "人类活动对群落演替的影响是",
+          "answer": "可以改变演替的速度和方向",
+          "wrongs": [
+            "不能影响演替的进程",
+            "只能加快、不能减慢",
+            "只影响初生演替"
+          ],
+          "explanation": "人类活动往往使演替按不同于自然的速度和方向进行。"
+        }
+      ],
+      "key": "s2_yanti"
+    },
+    {
+      "id": "cnb_h060",
+      "name": "生态位",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第2单元 群落及其演替",
+      "type": "conceptual",
+      "description": "说明生态位是物种在群落中的地位或作用，包括空间位置、占用资源和与其他物种的关系，理解生态位分化减少竞争。",
+      "mastery_criteria": [
+        "能说出生态位包含的主要内容",
+        "能用生态位分化解释多种物种共存"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生态位是指",
+          "answer": "一个物种在群落中的地位或作用",
+          "wrongs": [
+            "物种生活的海拔高度",
+            "种群的环境容纳量",
+            "群落所占的空间范围"
+          ],
+          "explanation": "生态位包括所处空间位置、占用资源情况以及与其他物种的关系。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "两个物种的生态位重叠较多时，最可能出现",
+          "answer": "激烈的种间竞争",
+          "wrongs": [
+            "互利共生",
+            "捕食关系",
+            "没有任何相互作用"
+          ],
+          "explanation": "资源需求相近时，种间竞争加剧。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某群落中多种食虫鸟能够共存，其可能的原因是",
+          "answer": "各物种的生态位发生分化，取食部位和时间不同",
+          "wrongs": [
+            "它们之间完全没有竞争",
+            "它们的生态位完全相同",
+            "它们属于同一个物种"
+          ],
+          "explanation": "生态位分化减弱竞争，使多个物种得以共存。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "研究某种动物的生态位，通常需要调查",
+          "answer": "它的栖息地、食物以及与天敌等的关系",
+          "wrongs": [
+            "它的染色体数目",
+            "它的基因序列",
+            "它的细胞结构"
+          ],
+          "explanation": "生态位研究关注空间位置、资源利用和种间关系。"
+        }
+      ],
+      "key": "s2_shengtaiwei"
+    },
+    {
+      "id": "cnb_h061",
+      "name": "生态系统的结构",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第3单元 生态系统及其稳定性",
+      "type": "conceptual",
+      "description": "说明生态系统的组成成分和营养结构，能书写食物链并判断某一生物所属的成分与营养级。",
+      "mastery_criteria": [
+        "能区分生产者、消费者和分解者并各举一例",
+        "能根据食物网判断食物链的条数和某生物的营养级"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生态系统中最基本的生物成分是",
+          "answer": "生产者",
+          "wrongs": [
+            "消费者",
+            "分解者",
+            "非生物的物质和能量"
+          ],
+          "explanation": "生产者固定太阳能，是生态系统的基础。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "分解者在生态系统中的作用是",
+          "answer": "将动植物遗体分解为无机物",
+          "wrongs": [
+            "固定太阳能",
+            "捕食其他动物",
+            "直接吸收现成的有机物"
+          ],
+          "explanation": "分解者把有机物分解为无机物，供生产者重新利用。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "在食物链草→兔→狐中，狐属于",
+          "answer": "第三营养级，次级消费者",
+          "wrongs": [
+            "第二营养级，初级消费者",
+            "第一营养级，生产者",
+            "第四营养级，三级消费者"
+          ],
+          "explanation": "草是第一营养级，兔是第二营养级，狐是第三营养级。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "食物网中某种生物数量减少，常引起其他生物数量变化，这说明",
+          "answer": "生态系统各成分之间相互联系、相互制约",
+          "wrongs": [
+            "食物网中只有一条食物链",
+            "各营养级之间没有能量联系",
+            "生态系统没有自我调节能力"
+          ],
+          "explanation": "食物网中的生物通过营养关系相互制约。"
+        }
+      ],
+      "key": "s2_jiegou"
+    },
+    {
+      "id": "cnb_h062",
+      "name": "能量流动",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第3单元 生态系统及其稳定性",
+      "type": "modeling",
+      "description": "说明能量流动的起点、渠道和特点，能计算相邻营养级间的能量传递效率并分析能量金字塔的含义。",
+      "mastery_criteria": [
+        "能说出能量单向流动、逐级递减的原因",
+        "能计算相邻营养级之间的能量传递效率"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生态系统的能量流动是从什么开始的",
+          "answer": "生产者固定太阳能",
+          "wrongs": [
+            "消费者摄食",
+            "分解者分解有机物",
+            "植物的蒸腾作用"
+          ],
+          "explanation": "能量流动从生产者固定太阳能开始。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "能量流动的特点是",
+          "answer": "单向流动、逐级递减",
+          "wrongs": [
+            "循环往复、逐级递增",
+            "双向流动、总量守恒",
+            "单向流动、逐级递增"
+          ],
+          "explanation": "能量沿食物链单向流动，并逐级递减。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某营养级的同化量为100kJ，下一营养级的同化量为15kJ，则两营养级间的能量传递效率是",
+          "answer": "15%",
+          "wrongs": [
+            "10%",
+            "20%",
+            "85%"
+          ],
+          "explanation": "传递效率等于下一营养级同化量除以上一营养级同化量。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "能量金字塔一般呈上窄下宽的形状，原因是",
+          "answer": "能量沿营养级传递时逐级递减",
+          "wrongs": [
+            "营养级越高生物数量越少",
+            "营养级越高生物个体越大",
+            "能量在各营养级间循环利用"
+          ],
+          "explanation": "能量逐级递减，营养级越高可利用的能量越少。"
+        }
+      ],
+      "key": "s2_nengliang"
+    },
+    {
+      "id": "cnb_h063",
+      "name": "物质循环、信息传递与稳定性",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第3单元 生态系统及其稳定性",
+      "type": "conceptual",
+      "description": "说明物质循环的全球性和循环性，举例说明物理、化学、行为信息的作用，理解生态系统稳定性的两个方面。",
+      "mastery_criteria": [
+        "能说明碳在生物群落与无机环境之间循环的主要形式",
+        "能区分抵抗力稳定性和恢复力稳定性"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生态系统的物质循环具有",
+          "answer": "全球性和循环往复的特点",
+          "wrongs": [
+            "局部性和单向性",
+            "逐级递减的特点",
+            "不可逆转的特点"
+          ],
+          "explanation": "组成生物体的元素在全球范围内循环往复。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "孔雀开屏传递的信息属于",
+          "answer": "行为信息",
+          "wrongs": [
+            "物理信息",
+            "化学信息",
+            "营养信息"
+          ],
+          "explanation": "动物通过特殊行为传递的信息属于行为信息。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "碳在生物群落与无机环境之间循环的主要形式是",
+          "answer": "二氧化碳",
+          "wrongs": [
+            "碳酸盐",
+            "含碳有机物",
+            "一氧化碳"
+          ],
+          "explanation": "碳以二氧化碳的形式在生物群落与无机环境之间循环。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "热带雨林的抵抗力稳定性较高，其原因是",
+          "answer": "物种丰富、营养结构复杂、自我调节能力强",
+          "wrongs": [
+            "各营养级的生物数量都很大",
+            "分解者的数量很少",
+            "食物链只有一条"
+          ],
+          "explanation": "组分越多、食物网越复杂，自我调节能力就越强。"
+        }
+      ],
+      "key": "s2_wuzhi"
+    },
+    {
+      "id": "cnb_h064",
+      "name": "生物多样性及其保护",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第4单元 人与环境",
+      "type": "conceptual",
+      "description": "说明生物多样性的价值与保护措施，比较就地保护与易地保护，理解保护生物多样性就是保护人类自身。",
+      "mastery_criteria": [
+        "能说出生物多样性的直接价值、间接价值和潜在价值",
+        "能区分就地保护与易地保护并各举一例"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "保护生物多样性最有效的措施是",
+          "answer": "就地保护，建立自然保护区",
+          "wrongs": [
+            "易地保护，建立动物园",
+            "大量引入外来物种",
+            "广泛采集动植物标本"
+          ],
+          "explanation": "就地保护既保护了物种，又保护了其栖息环境。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "森林涵养水源、保持水土的作用属于生物多样性的",
+          "answer": "间接价值",
+          "wrongs": [
+            "直接价值",
+            "潜在价值",
+            "没有价值"
+          ],
+          "explanation": "生态功能属于间接价值，也叫生态价值。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "建立濒危动物繁育中心属于",
+          "answer": "易地保护",
+          "wrongs": [
+            "就地保护",
+            "自然保护",
+            "不属于保护措施"
+          ],
+          "explanation": "把濒危物种迁出原地进行特殊保护，属于易地保护。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "随意引入外来物种可能带来的后果是",
+          "answer": "因缺乏天敌而大量繁殖，威胁本地物种",
+          "wrongs": [
+            "一定能增加本地的生物多样性",
+            "与本地物种形成互利共生",
+            "自动适应当地气候而不繁殖"
+          ],
+          "explanation": "外来物种入侵常因缺少天敌而迅速扩散。"
+        }
+      ],
+      "key": "s2_duoyangxing"
+    },
+    {
+      "id": "cnb_h065",
+      "name": "生态工程",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第4单元 人与环境",
+      "type": "application",
+      "description": "说明循环、协调、整体、自生等生态工程基本原理，能针对具体案例判断所依据的原理并提出改进措施。",
+      "mastery_criteria": [
+        "能说出生态工程的基本原理并与案例对应",
+        "能评价某农业生态系统的物质循环设计"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "沼气池把秸秆、粪便转化为沼气和沼肥，主要体现的生态工程原理是",
+          "answer": "物质循环再生",
+          "wrongs": [
+            "整体性原理",
+            "协调原理",
+            "自生原理"
+          ],
+          "explanation": "废弃物中的物质被循环利用，体现循环原理。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "生态工程建设中，根据当地环境条件选择适宜物种，主要遵循",
+          "answer": "协调原理",
+          "wrongs": [
+            "循环原理",
+            "整体原理",
+            "自生原理"
+          ],
+          "explanation": "生物与环境、生物与生物之间需要协调适应。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "桑基鱼塘中桑叶养蚕、蚕沙喂鱼、塘泥肥桑，其意义是",
+          "answer": "实现物质的多级利用，提高能量利用率",
+          "wrongs": [
+            "提高能量在营养级间的传递效率",
+            "使能量在系统中循环流动",
+            "减少系统中的生产者"
+          ],
+          "explanation": "多级利用使物质被充分利用，能量得到更有效的利用。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "从整体原理看，设计生态工程时应当",
+          "answer": "综合考虑自然、经济和社会因素，兼顾生态效益与经济效益",
+          "wrongs": [
+            "只追求生态效益，不考虑经济成本",
+            "只考虑当前产量，不顾长远影响",
+            "直接照搬国外的现成模式"
+          ],
+          "explanation": "整体原理强调系统各组分协调统一、整体最优。"
+        }
+      ],
+      "key": "s2_shengtai_gongcheng"
+    },
+    {
+      "id": "cnb_h066",
+      "name": "全球性生态环境问题",
+      "domain": "生物与环境",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第4单元 人与环境",
+      "type": "conceptual",
+      "description": "列举全球气候变化、水资源短缺、臭氧层破坏、土地荒漠化和生物多样性丧失等问题，分析其成因与应对措施。",
+      "mastery_criteria": [
+        "能列举至少四项全球性生态环境问题并说明成因",
+        "能针对具体问题提出可行的缓解措施"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "温室效应加剧的主要原因是",
+          "answer": "化石燃料大量燃烧，二氧化碳排放增加",
+          "wrongs": [
+            "臭氧层被破坏",
+            "森林面积迅速增加",
+            "火山活动频繁"
+          ],
+          "explanation": "二氧化碳等温室气体增多，导致全球气候变暖。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "臭氧层被破坏的主要危害是",
+          "answer": "到达地面的紫外线增强",
+          "wrongs": [
+            "全球降水普遍增多",
+            "海平面迅速下降",
+            "土壤肥力明显提高"
+          ],
+          "explanation": "臭氧层能吸收紫外线，被破坏后地面紫外线辐射增强。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "缓解水资源短缺的可行措施是",
+          "answer": "节约用水、防治污染并推广污水回用",
+          "wrongs": [
+            "大量开采深层地下水",
+            "把污水直接排入河流",
+            "提高工业用水定额"
+          ],
+          "explanation": "开源与节流结合、防治污染，才能缓解水资源短缺。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "减缓物种灭绝速度、保护生物多样性的根本措施是",
+          "answer": "保护栖息地，减少对生态系统的破坏",
+          "wrongs": [
+            "大量人工饲养野生动物",
+            "把所有物种迁入动物园",
+            "扩大外来物种的引进"
+          ],
+          "explanation": "栖息地丧失和破坏是物种灭绝的主要原因。"
+        }
+      ],
+      "key": "s2_quanqiu"
+    },
+    {
+      "id": "cnb_h067",
+      "name": "传统发酵技术",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第1单元 发酵工程",
+      "type": "conceptual",
+      "description": "说明果酒、果醋、泡菜和腐乳制作所利用的微生物及发酵条件，能比较不同发酵过程中对氧气和温度的要求。",
+      "mastery_criteria": [
+        "能说出四种传统发酵食品所利用的微生物",
+        "能比较果酒与果醋发酵在氧气和温度条件上的差别"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "制作果酒所利用的微生物是",
+          "answer": "酵母菌",
+          "wrongs": [
+            "醋酸菌",
+            "乳酸菌",
+            "毛霉"
+          ],
+          "explanation": "酵母菌在无氧条件下把葡萄糖分解为酒精和二氧化碳。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "制作泡菜所利用的微生物是",
+          "answer": "乳酸菌",
+          "wrongs": [
+            "酵母菌",
+            "醋酸菌",
+            "青霉"
+          ],
+          "explanation": "乳酸菌在无氧条件下发酵产生乳酸。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "果酒发酵转为果醋发酵时，需要改变的条件是",
+          "answer": "提高温度并通入无菌空气",
+          "wrongs": [
+            "降低温度并保持密封",
+            "加入更多蔗糖并保持密封",
+            "加入抗生素并遮光培养"
+          ],
+          "explanation": "醋酸菌是好氧细菌，需在30至35℃并充足供氧的条件下发酵。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "制作腐乳时起主要作用的微生物是",
+          "answer": "毛霉",
+          "wrongs": [
+            "乳酸菌",
+            "醋酸菌",
+            "酵母菌"
+          ],
+          "explanation": "毛霉产生的蛋白酶和脂肪酶可分解蛋白质和脂肪。"
+        }
+      ],
+      "key": "s3_chuantong"
+    },
+    {
+      "id": "cnb_h068",
+      "name": "微生物的培养与分离",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第1单元 发酵工程",
+      "type": "procedural",
+      "description": "说明培养基的成分与类型，掌握灭菌、接种以及平板划线法和稀释涂布平板法的操作要点与用途。",
+      "mastery_criteria": [
+        "能区分消毒与灭菌并选择合适的处理方法",
+        "能说明平板划线法和稀释涂布平板法的作用差异"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "培养微生物的培养基中一般需要加入",
+          "answer": "碳源、氮源、水和无机盐",
+          "wrongs": [
+            "抗生素和血清",
+            "植物激素和蔗糖",
+            "抗体和酶"
+          ],
+          "explanation": "碳源、氮源、水和无机盐是微生物的基本营养成分。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "接种环常用的灭菌方法是",
+          "answer": "灼烧灭菌",
+          "wrongs": [
+            "高压蒸汽灭菌",
+            "酒精擦拭消毒",
+            "紫外线照射"
+          ],
+          "explanation": "接种环在酒精灯火焰上灼烧，可达到灭菌目的。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "平板划线法的主要目的是",
+          "answer": "在培养基表面分离出单菌落",
+          "wrongs": [
+            "测定活菌的数目",
+            "扩大培养菌体",
+            "长期保存菌种"
+          ],
+          "explanation": "划线使菌体逐渐分散，最终形成单个菌落。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "用稀释涂布平板法统计活菌数，结果往往比实际值偏小，原因是",
+          "answer": "两个或多个细菌连在一起时只形成一个菌落",
+          "wrongs": [
+            "培养基的营养成分不足",
+            "培养的温度过高",
+            "菌落相互融合无法计数"
+          ],
+          "explanation": "连在一起的细菌只形成一个菌落，导致计数偏低。"
+        }
+      ],
+      "key": "s3_weishengwu"
+    },
+    {
+      "id": "cnb_h069",
+      "name": "发酵工程及其应用",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第1单元 发酵工程",
+      "type": "application",
+      "description": "概述发酵工程从菌种选育到产品分离提纯的一般流程，说明发酵条件控制与工程菌在生产中的作用。",
+      "mastery_criteria": [
+        "能按顺序说出发酵工程的主要环节",
+        "能说明发酵过程中需要控制的主要条件"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "发酵工程的中心环节是",
+          "answer": "发酵罐中发酵过程的控制",
+          "wrongs": [
+            "菌种的选育",
+            "培养基的配制",
+            "产品的分离提纯"
+          ],
+          "explanation": "发酵过程的控制是发酵工程的中心环节。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "发酵过程中需要严格控制的条件包括",
+          "answer": "温度、pH和溶解氧",
+          "wrongs": [
+            "光照强度和光色",
+            "空气湿度和风速",
+            "土壤的酸碱度"
+          ],
+          "explanation": "温度、pH和溶氧直接影响微生物的代谢。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "发酵工程中采用连续培养的目的是",
+          "answer": "使微生物长时间处于旺盛生长状态，提高产量",
+          "wrongs": [
+            "使微生物尽快进入衰亡期",
+            "延长每一批次的发酵周期",
+            "减少营养物质的消耗"
+          ],
+          "explanation": "连续补充新培养基并排出旧培养基，可延长旺盛生长期。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "从发酵液中提取胞内产物时，首先需要",
+          "answer": "破碎细胞",
+          "wrongs": [
+            "过滤除去菌体",
+            "加入抗生素",
+            "降温至零下"
+          ],
+          "explanation": "胞内产物需先破碎细胞，再分离提纯。"
+        }
+      ],
+      "key": "s3_fajiao_gongcheng"
+    },
+    {
+      "id": "cnb_h070",
+      "name": "植物组织培养与植物细胞工程",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第2单元 细胞工程",
+      "type": "procedural",
+      "description": "说明植物组织培养脱分化与再分化的过程，理解细胞全能性在快速繁殖和脱毒苗培育中的应用。",
+      "mastery_criteria": [
+        "能写出植物组织培养的基本流程",
+        "能说明培养基中植物激素比例对根芽分化的影响"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "植物组织培养依据的原理是",
+          "answer": "植物细胞的全能性",
+          "wrongs": [
+            "基因重组",
+            "细胞的全能性丧失",
+            "细胞不能分裂"
+          ],
+          "explanation": "离体的植物细胞经培养可发育为完整植株。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "植物组织培养中，由外植体形成愈伤组织的过程称为",
+          "answer": "脱分化",
+          "wrongs": [
+            "再分化",
+            "分化",
+            "受精作用"
+          ],
+          "explanation": "已分化的细胞失去原有结构和功能形成愈伤组织，称为脱分化。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "植物组织培养中，生长素与细胞分裂素的比值较高时有利于",
+          "answer": "根的分化",
+          "wrongs": [
+            "芽的分化",
+            "愈伤组织的形成",
+            "细胞全能性的丧失"
+          ],
+          "explanation": "生长素比例高促进生根，细胞分裂素比例高促进生芽。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "利用植物组织培养培育脱毒苗，通常选取的材料是",
+          "answer": "茎尖或根尖的分生组织",
+          "wrongs": [
+            "成熟的叶肉细胞",
+            "已感染病毒的花瓣",
+            "衰老的根系"
+          ],
+          "explanation": "分生组织几乎不含病毒，培养后可获得脱毒苗。"
+        }
+      ],
+      "key": "s3_zhiwu"
+    },
+    {
+      "id": "cnb_h071",
+      "name": "动物细胞培养与细胞融合",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第2单元 细胞工程",
+      "type": "conceptual",
+      "description": "说明动物细胞培养所需的条件与生长特点，概述诱导细胞融合的方法，理解核移植与克隆动物的原理。",
+      "mastery_criteria": [
+        "能说出动物细胞培养的营养条件和气体条件",
+        "能说明诱导动物细胞融合的常用方法"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "动物细胞培养的气体环境中，二氧化碳的主要作用是",
+          "answer": "维持培养液的pH",
+          "wrongs": [
+            "为细胞提供碳源",
+            "促进细胞的呼吸作用",
+            "抑制细胞的分裂"
+          ],
+          "explanation": "二氧化碳与培养液中的碳酸氢钠共同维持pH。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "多数动物细胞在培养瓶中的生长特点是",
+          "answer": "贴壁生长并存在接触抑制",
+          "wrongs": [
+            "悬浮生长且没有接触抑制",
+            "只能分裂不能分化",
+            "不需要任何营养物质"
+          ],
+          "explanation": "动物细胞需贴壁生长，相互接触时停止分裂。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "诱导动物细胞融合常用的方法是",
+          "answer": "灭活的病毒、聚乙二醇和电激",
+          "wrongs": [
+            "秋水仙素处理",
+            "低温处理",
+            "紫外线照射"
+          ],
+          "explanation": "灭活病毒、聚乙二醇和电激均可诱导细胞融合。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "通过核移植获得克隆动物，说明",
+          "answer": "体细胞的细胞核具有发育的全能性",
+          "wrongs": [
+            "体细胞的细胞质具有全能性",
+            "卵细胞的细胞核具有全能性",
+            "分化细胞的遗传物质已经改变"
+          ],
+          "explanation": "把体细胞核移入去核卵母细胞后可发育为完整个体。"
+        }
+      ],
+      "key": "s3_dongwu"
+    },
+    {
+      "id": "cnb_h072",
+      "name": "单克隆抗体",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第2单元 细胞工程",
+      "type": "application",
+      "description": "说明单克隆抗体制备中B淋巴细胞与骨髓瘤细胞融合及筛选的过程，理解其特异性强、可大量制备的优点。",
+      "mastery_criteria": [
+        "能说明制备单克隆抗体时两次筛选的目的",
+        "能比较单克隆抗体与传统抗血清的优点"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "制备单克隆抗体时，用来与B淋巴细胞融合的细胞是",
+          "answer": "骨髓瘤细胞",
+          "wrongs": [
+            "神经细胞",
+            "红细胞",
+            "受精卵"
+          ],
+          "explanation": "骨髓瘤细胞能在体外无限增殖，与B淋巴细胞融合形成杂交瘤细胞。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "单克隆抗体的主要优点是",
+          "answer": "特异性强、灵敏度高，可大量制备",
+          "wrongs": [
+            "能杀死所有病原体",
+            "制备过程不需要筛选",
+            "只能在体内生产"
+          ],
+          "explanation": "杂交瘤细胞既能产生特异性抗体，又能无限增殖。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "杂交瘤细胞筛选过程中，第一次筛选的目的是",
+          "answer": "筛选出杂交瘤细胞",
+          "wrongs": [
+            "筛选出能产生特定抗体的细胞",
+            "筛选出未融合的B淋巴细胞",
+            "筛选出未融合的骨髓瘤细胞"
+          ],
+          "explanation": "先用选择培养基筛出杂交瘤细胞，再筛选能产生所需抗体的细胞。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "单克隆抗体可用于肿瘤治疗，其原理是",
+          "answer": "抗体与肿瘤细胞特异性结合，引导药物或免疫系统杀伤肿瘤细胞",
+          "wrongs": [
+            "抗体能直接杀死体内所有细胞",
+            "抗体能修复发生突变的基因",
+            "抗体能加快肿瘤细胞的增殖"
+          ],
+          "explanation": "单克隆抗体特异性强，可定向作用于肿瘤细胞。"
+        }
+      ],
+      "key": "s3_danlun"
+    },
+    {
+      "id": "cnb_h073",
+      "name": "基因工程的工具",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第3单元 基因工程",
+      "type": "conceptual",
+      "description": "说明限制酶、DNA连接酶和载体的作用特点，理解限制酶识别特定序列并切割磷酸二酯键的原理。",
+      "mastery_criteria": [
+        "能说出三种基本工具的功能",
+        "能解释限制酶切割后形成黏性末端的原因"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "基因工程中切割DNA分子的工具酶是",
+          "answer": "限制性核酸内切酶",
+          "wrongs": [
+            "DNA连接酶",
+            "DNA聚合酶",
+            "解旋酶"
+          ],
+          "explanation": "限制酶识别特定核苷酸序列并切割磷酸二酯键。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "基因工程中常用的载体是",
+          "answer": "质粒",
+          "wrongs": [
+            "核糖体",
+            "线粒体",
+            "染色体"
+          ],
+          "explanation": "质粒、噬菌体和动植物病毒都可作为载体。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "限制酶切割DNA时断裂的化学键是",
+          "answer": "磷酸二酯键",
+          "wrongs": [
+            "氢键",
+            "肽键",
+            "糖苷键"
+          ],
+          "explanation": "限制酶水解磷酸二酯键，使DNA链断裂。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "作为基因表达载体，必须具有的结构不包括",
+          "answer": "蛋白质外壳",
+          "wrongs": [
+            "目的基因",
+            "启动子",
+            "标记基因"
+          ],
+          "explanation": "载体需有复制原点、启动子、终止子和标记基因等。"
+        }
+      ],
+      "key": "s3_gongju"
+    },
+    {
+      "id": "cnb_h074",
+      "name": "基因工程的基本操作程序",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第3单元 基因工程",
+      "type": "procedural",
+      "description": "概述基因工程的四个基本步骤，说明基因表达载体的组成与导入受体细胞的方法，理解检测与鉴定的层次。",
+      "mastery_criteria": [
+        "能按顺序说出基因工程的四个步骤",
+        "能说明向植物、动物和微生物细胞导入目的基因的不同方法"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "基因工程基本操作程序的第一步是",
+          "answer": "获取目的基因",
+          "wrongs": [
+            "构建基因表达载体",
+            "将目的基因导入受体细胞",
+            "目的基因的检测与鉴定"
+          ],
+          "explanation": "先获取目的基因，再构建表达载体。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "构建基因表达载体时，目的基因应连接在载体的什么结构之间",
+          "answer": "启动子和终止子之间",
+          "wrongs": [
+            "标记基因内部",
+            "复制原点内部",
+            "抗生素抗性基因内部"
+          ],
+          "explanation": "目的基因需插入启动子与终止子之间才能正常表达。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "将目的基因导入植物细胞常用的方法是",
+          "answer": "农杆菌转化法",
+          "wrongs": [
+            "显微注射法",
+            "感受态细胞法",
+            "灭活病毒诱导法"
+          ],
+          "explanation": "农杆菌的Ti质粒可把目的基因导入植物细胞。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "检测目的基因是否翻译成蛋白质，常用的方法是",
+          "answer": "抗原—抗体杂交",
+          "wrongs": [
+            "DNA分子杂交",
+            "显微镜观察染色体",
+            "测定基因的碱基序列"
+          ],
+          "explanation": "抗原—抗体杂交可检测目的基因表达的蛋白质。"
+        }
+      ],
+      "key": "s3_buzhou"
+    },
+    {
+      "id": "cnb_h075",
+      "name": "PCR与蛋白质工程",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第3单元 基因工程",
+      "type": "application",
+      "description": "说明PCR变性、复性和延伸三个阶段及耐高温DNA聚合酶的作用，理解蛋白质工程从预期功能出发设计蛋白质的思路。",
+      "mastery_criteria": [
+        "能说出PCR三个步骤的作用与温度变化",
+        "能说明蛋白质工程与基因工程的关系"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "PCR扩增DNA时，使双链DNA解开的是",
+          "answer": "高温变性",
+          "wrongs": [
+            "低温复性",
+            "限制酶切割",
+            "解旋酶催化"
+          ],
+          "explanation": "PCR通过高温使DNA双链解开，不需要解旋酶。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "PCR中使用的DNA聚合酶的特点是",
+          "answer": "耐高温",
+          "wrongs": [
+            "不耐热",
+            "能水解DNA",
+            "能连接两个DNA片段"
+          ],
+          "explanation": "Taq DNA聚合酶耐高温，可在延伸阶段催化子链合成。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "PCR的延伸阶段，新链延伸的方向是",
+          "answer": "由5'端向3'端延伸",
+          "wrongs": [
+            "由3'端向5'端延伸",
+            "由中间向两端同时延伸",
+            "不需要引物即可延伸"
+          ],
+          "explanation": "DNA聚合酶只能使新链从5'端向3'端延伸。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "蛋白质工程的基本思路是",
+          "answer": "从预期的蛋白质功能出发，设计并合成相应的基因",
+          "wrongs": [
+            "直接改变蛋白质的空间结构",
+            "先合成蛋白质再改造其基因",
+            "只能改造天然存在的蛋白质"
+          ],
+          "explanation": "蛋白质工程通过对基因的改造来实现对蛋白质的改造。"
+        }
+      ],
+      "key": "s3_pcr"
+    },
+    {
+      "id": "cnb_h076",
+      "name": "转基因产品的安全性",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第4单元 生物技术的安全性与伦理",
+      "type": "conceptual",
+      "description": "分析转基因生物在食品安全和生态安全方面可能带来的风险，理解科学评估与标识管理的作用。",
+      "mastery_criteria": [
+        "能分别说出转基因食品在食品安全和生态安全方面的争议点",
+        "能说明对待转基因技术的理性态度"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "对转基因生物进行安全性评价，重点考虑的是",
+          "answer": "食品安全和生态安全",
+          "wrongs": [
+            "转基因生物的产量高低",
+            "培育成本的高低",
+            "产品的市场价格"
+          ],
+          "explanation": "安全评价关注对人体健康和生态环境的影响。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "为防止转基因作物的基因扩散，可采取的措施是",
+          "answer": "设置隔离带并控制花粉传播",
+          "wrongs": [
+            "在各地大面积连片种植",
+            "完全不做任何监测",
+            "大量施用除草剂"
+          ],
+          "explanation": "空间隔离可减少基因漂移的风险。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "种植转基因抗虫棉能减少农药使用，其生态意义是",
+          "answer": "减轻农药对环境的污染",
+          "wrongs": [
+            "使害虫彻底灭绝",
+            "显著提高土壤肥力",
+            "迅速增加生物多样性"
+          ],
+          "explanation": "减少农药使用有利于保护生态环境。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "对转基因产品实行标识管理，其主要目的是",
+          "answer": "保障消费者的知情权和选择权",
+          "wrongs": [
+            "提高产品的销售价格",
+            "限制所有转基因产品上市",
+            "禁止转基因技术的研究"
+          ],
+          "explanation": "标识制度使消费者可以知情并自主选择。"
+        }
+      ],
+      "key": "s3_anquan"
+    },
+    {
+      "id": "cnb_h077",
+      "name": "生物技术的伦理问题",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第4单元 生物技术的安全性与伦理",
+      "type": "conceptual",
+      "description": "讨论克隆人、基因编辑和基因歧视等伦理问题，理解生物技术的应用应遵循伦理原则和法律法规。",
+      "mastery_criteria": [
+        "能列举生物技术引发的至少两项伦理问题",
+        "能说明我国对生殖性克隆人的态度"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国明确禁止的是",
+          "answer": "生殖性克隆人",
+          "wrongs": [
+            "治疗性克隆研究",
+            "基因诊断",
+            "器官移植"
+          ],
+          "explanation": "我国禁止生殖性克隆人，支持治疗性克隆研究。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "下列不属于生物技术伦理问题的是",
+          "answer": "杂交水稻提高产量",
+          "wrongs": [
+            "克隆人的身份认定",
+            "基因编辑婴儿",
+            "个人基因信息的保护"
+          ],
+          "explanation": "杂交水稻属于常规育种，不涉及上述伦理争议。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "对人类生殖细胞进行基因编辑引发伦理争议，主要原因是",
+          "answer": "改变后的基因可遗传给后代，风险难以控制",
+          "wrongs": [
+            "技术成本过高",
+            "编辑后的细胞不能分裂",
+            "基因编辑只能用于植物"
+          ],
+          "explanation": "可遗传的改变会影响后代，风险难以评估。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "保护个人基因信息的主要意义是",
+          "answer": "防止基因歧视，保护个人隐私",
+          "wrongs": [
+            "便于保险公司差别定价",
+            "限制个人的就业选择",
+            "便于公开个人的健康数据"
+          ],
+          "explanation": "基因信息属于个人隐私，应防止被滥用。"
+        }
+      ],
+      "key": "s3_lunli"
+    },
+    {
+      "id": "cnb_h078",
+      "name": "禁止生物武器",
+      "domain": "生物技术与工程",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第4单元 生物技术的安全性与伦理",
+      "type": "conceptual",
+      "description": "说明生物武器的特点与危害，了解《禁止生物武器公约》的基本要求，理解禁止生物武器是全人类的共同责任。",
+      "mastery_criteria": [
+        "能说出生物武器的主要危害特点",
+        "能说明国际公约对生物武器的禁止要求"
+      ],
+      "standards": [
+        {
+          "id": "cbs-hs-2017:S3.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生物武器的主要特点是",
+          "answer": "致病性强、传染性大、危害时间长",
+          "wrongs": [
+            "只对动物有害",
+            "作用范围很小且容易控制",
+            "不会造成社会恐慌"
+          ],
+          "explanation": "生物武器危害大且难以防范，可能造成大量人员伤亡。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "禁止生物武器的主要国际公约是",
+          "answer": "《禁止生物武器公约》",
+          "wrongs": [
+            "《联合国宪章》",
+            "《巴黎协定》",
+            "《生物多样性公约》"
+          ],
+          "explanation": "《禁止生物武器公约》禁止发展、生产和储存生物武器。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国对生物武器的态度是",
+          "answer": "全面禁止和彻底销毁生物武器",
+          "wrongs": [
+            "可以适量储存用于防御",
+            "允许在战争中使用",
+            "只禁止使用而不禁止生产"
+          ],
+          "explanation": "我国一贯主张全面禁止和彻底销毁生物武器。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "防止生物武器危害的根本措施是",
+          "answer": "加强国际合作，严格履行禁止生物武器的国际公约",
+          "wrongs": [
+            "各国自行研制防护疫苗即可",
+            "在战争中率先使用生物武器",
+            "放松对病原微生物实验室的管理"
+          ],
+          "explanation": "生物武器的威胁是全球性的，需要国际社会共同治理。"
+        }
+      ],
+      "key": "s3_wuqi"
+    }
+  ],
+  "hardEdges": [
+    {
+      "topicId": "cnb_h002",
+      "prerequisiteId": "cnb_h001",
+      "reason": "先认识细胞中的元素和水，才能理解糖类与脂质的元素组成"
+    },
+    {
+      "topicId": "cnb_h003",
+      "prerequisiteId": "cnb_h002",
+      "reason": "了解糖类和脂质后，才能比较蛋白质与核酸的组成和功能"
+    },
+    {
+      "topicId": "cnb_h004",
+      "prerequisiteId": "cnb_h003",
+      "reason": "蛋白质是细胞膜的主要成分，先认识蛋白质才能理解膜的结构"
+    },
+    {
+      "topicId": "cnb_h007",
+      "prerequisiteId": "cnb_h004",
+      "reason": "理解细胞膜的选择透过性，才能分析渗透作用与质壁分离"
+    },
+    {
+      "topicId": "cnb_h009",
+      "prerequisiteId": "cnb_h007",
+      "reason": "先掌握渗透作用与被动运输，才能比较主动运输的特点"
+    },
+    {
+      "topicId": "cnb_h013",
+      "prerequisiteId": "cnb_h005",
+      "reason": "叶绿体的结构是理解光合作用发生场所的基础"
+    },
+    {
+      "topicId": "cnb_h014",
+      "prerequisiteId": "cnb_h010",
+      "reason": "细胞呼吸各阶段都需酶催化，先掌握酶的特性"
+    },
+    {
+      "topicId": "cnb_h022",
+      "prerequisiteId": "cnb_h016",
+      "reason": "有丝分裂中的染色体行为是理解减数分裂的基础"
+    },
+    {
+      "topicId": "cnb_h020",
+      "prerequisiteId": "cnb_h019",
+      "reason": "掌握一对相对性状的分离，才能分析两对性状的自由组合"
+    },
+    {
+      "topicId": "cnb_h021",
+      "prerequisiteId": "cnb_h020",
+      "reason": "遗传概率的乘法计算以自由组合的分离比为基础"
+    },
+    {
+      "topicId": "cnb_h023",
+      "prerequisiteId": "cnb_h022",
+      "reason": "先理解配子染色体数目减半，才能理解受精作用恢复数目"
+    },
+    {
+      "topicId": "cnb_h024",
+      "prerequisiteId": "cnb_h022",
+      "reason": "配子的多样性来自减数分裂中的自由组合与交叉互换"
+    },
+    {
+      "topicId": "cnb_h025",
+      "prerequisiteId": "cnb_h022",
+      "reason": "减数分裂中基因与染色体行为平行，是基因在染色体上的证据"
+    },
+    {
+      "topicId": "cnb_h026",
+      "prerequisiteId": "cnb_h025",
+      "reason": "确认基因位于染色体上，才能理解伴性遗传"
+    },
+    {
+      "topicId": "cnb_h030",
+      "prerequisiteId": "cnb_h029",
+      "reason": "碱基互补配对是DNA半保留复制的结构基础"
+    },
+    {
+      "topicId": "cnb_h033",
+      "prerequisiteId": "cnb_h031",
+      "reason": "掌握密码子与氨基酸的对应关系，才能进行数量换算"
+    },
+    {
+      "topicId": "cnb_h036",
+      "prerequisiteId": "cnb_h034",
+      "reason": "育种方法以基因突变、基因重组和染色体变异为原理"
+    },
+    {
+      "topicId": "cnb_h041",
+      "prerequisiteId": "cnb_h040",
+      "reason": "了解内环境的组成，才能理解稳态及其调节机制"
+    },
+    {
+      "topicId": "cnb_h044",
+      "prerequisiteId": "cnb_h043",
+      "reason": "反射弧是分析兴奋传导与传递的结构基础"
+    },
+    {
+      "topicId": "cnb_h050",
+      "prerequisiteId": "cnb_h049",
+      "reason": "先了解免疫系统的组成，才能分析特异性免疫的过程"
+    },
+    {
+      "topicId": "cnb_h056",
+      "prerequisiteId": "cnb_h055",
+      "reason": "掌握种群的数量特征，才能分析种群数量的变化规律"
+    },
+    {
+      "topicId": "cnb_h062",
+      "prerequisiteId": "cnb_h061",
+      "reason": "生态系统的组成与营养结构是分析能量流动的前提"
+    },
+    {
+      "topicId": "cnb_h074",
+      "prerequisiteId": "cnb_h073",
+      "reason": "掌握限制酶、连接酶和载体，才能理解基因工程的操作步骤"
+    },
+    {
+      "topicId": "cnb_h075",
+      "prerequisiteId": "cnb_h074",
+      "reason": "了解基因工程流程，才能理解PCR在扩增目的基因中的应用"
+    }
+  ],
+  "standardsItems": [
+    {
+      "id": "cbs-hs-2017:B1.01",
+      "domain": "分子与细胞",
+      "section": "细胞的分子组成",
+      "clause": "组成细胞的元素和化合物",
+      "text": "说出组成细胞的主要元素和化合物，说明水和无机盐、糖类、脂质、蛋白质、核酸的结构与功能。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B1.02",
+      "domain": "分子与细胞",
+      "section": "细胞的结构",
+      "clause": "细胞各部分结构的分工与合作",
+      "text": "概述细胞膜、主要细胞器和细胞核的结构与功能，说明细胞的多样性与统一性。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B1.03",
+      "domain": "分子与细胞",
+      "section": "细胞的物质输入和输出",
+      "clause": "物质跨膜运输的方式",
+      "text": "说明渗透作用的条件，比较被动运输与主动运输的特点，举例说明胞吞和胞吐。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B1.04",
+      "domain": "分子与细胞",
+      "section": "细胞的能量供应和利用",
+      "clause": "酶与ATP",
+      "text": "说明酶的本质、特性和影响酶活性的因素，概述ATP的结构与功能。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B1.05",
+      "domain": "分子与细胞",
+      "section": "细胞的能量供应和利用",
+      "clause": "光合作用与细胞呼吸",
+      "text": "说明光合作用与细胞呼吸的过程及物质能量变化，分析影响二者的环境因素。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B1.06",
+      "domain": "分子与细胞",
+      "section": "细胞的生命历程",
+      "clause": "细胞的增殖、分化、衰老和凋亡",
+      "text": "描述细胞有丝分裂的过程，说明细胞分化与全能性，举例说明细胞衰老、凋亡和癌变。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B2.01",
+      "domain": "遗传与进化",
+      "section": "遗传的基本规律",
+      "clause": "孟德尔遗传规律",
+      "text": "阐明分离定律和自由组合定律，能运用遗传规律解释和预测杂交结果。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B2.02",
+      "domain": "遗传与进化",
+      "section": "基因和染色体的关系",
+      "clause": "减数分裂与受精作用",
+      "text": "描述减数分裂的过程，说明配子多样性及受精作用对染色体数目恒定的意义。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B2.03",
+      "domain": "遗传与进化",
+      "section": "基因和染色体的关系",
+      "clause": "基因在染色体上与伴性遗传",
+      "text": "说明基因位于染色体上的证据，分析伴性遗传的特点并解读系谱图。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B2.04",
+      "domain": "遗传与进化",
+      "section": "基因的本质",
+      "clause": "DNA是主要的遗传物质",
+      "text": "概述证明DNA是遗传物质的经典实验，说明DNA的结构与半保留复制。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B2.05",
+      "domain": "遗传与进化",
+      "section": "基因的表达",
+      "clause": "基因的转录与翻译",
+      "text": "概述遗传信息的转录和翻译过程，说明中心法则及基因对性状的控制。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B2.06",
+      "domain": "遗传与进化",
+      "section": "生物的变异",
+      "clause": "基因突变及其他变异",
+      "text": "说明基因突变、基因重组和染色体变异的特点，比较常见育种方法的原理。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:B2.07",
+      "domain": "遗传与进化",
+      "section": "生物的进化",
+      "clause": "生物的进化",
+      "text": "说明自然选择与适应，理解种群是进化的基本单位、隔离与物种形成的关系。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S1.01",
+      "domain": "稳态与调节",
+      "section": "人体的内环境与稳态",
+      "clause": "内环境与稳态",
+      "text": "说明内环境的组成与理化性质，理解稳态的调节机制及其意义。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S1.02",
+      "domain": "稳态与调节",
+      "section": "神经调节",
+      "clause": "神经调节的结构基础与过程",
+      "text": "概述反射弧的组成，说明兴奋在神经纤维上的传导和在突触处的传递。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S1.03",
+      "domain": "稳态与调节",
+      "section": "体液调节",
+      "clause": "激素调节及其与神经调节的关系",
+      "text": "说明激素调节的特点和分级调节、反馈调节，分析体温、水盐和血糖的调节过程。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S1.04",
+      "domain": "稳态与调节",
+      "section": "免疫调节",
+      "clause": "免疫系统的功能与应用",
+      "text": "概述免疫系统的组成，说明特异性免疫的过程及免疫失调和免疫学应用。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S1.05",
+      "domain": "稳态与调节",
+      "section": "植物生命活动的调节",
+      "clause": "植物激素调节",
+      "text": "说明生长素的发现与作用特点，列举其他植物激素的功能及环境因素的调节作用。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S2.01",
+      "domain": "生物与环境",
+      "section": "种群及其动态",
+      "clause": "种群的数量特征与数量变化",
+      "text": "说明种群的数量特征与调查方法，分析种群数量变化的规律及影响因素。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S2.02",
+      "domain": "生物与环境",
+      "section": "群落及其演替",
+      "clause": "群落的结构与演替",
+      "text": "描述群落的物种组成、种间关系和空间结构，说明群落演替的类型与原因。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S2.03",
+      "domain": "生物与环境",
+      "section": "生态系统及其稳定性",
+      "clause": "生态系统的结构与功能",
+      "text": "概述生态系统的组成成分和营养结构，分析能量流动、物质循环与信息传递。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S2.04",
+      "domain": "生物与环境",
+      "section": "人与环境",
+      "clause": "生态环境的保护",
+      "text": "说明生物多样性的层次与保护措施，关注全球性生态环境问题与生态工程原理。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S3.01",
+      "domain": "生物技术与工程",
+      "section": "发酵工程",
+      "clause": "发酵工程的原理与应用",
+      "text": "说明传统发酵技术的原理，概述微生物培养的基本操作和发酵工程的一般流程。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S3.02",
+      "domain": "生物技术与工程",
+      "section": "细胞工程",
+      "clause": "细胞工程的原理与应用",
+      "text": "说明植物组织培养和动物细胞培养的条件，概述细胞融合与单克隆抗体的制备。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S3.03",
+      "domain": "生物技术与工程",
+      "section": "基因工程",
+      "clause": "基因工程的基本操作程序",
+      "text": "概述基因工程的工具与基本步骤，说明PCR和蛋白质工程的应用。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cbs-hs-2017:S3.04",
+      "domain": "生物技术与工程",
+      "section": "生物技术的安全性与伦理",
+      "clause": "生物技术的安全与伦理",
+      "text": "讨论转基因生物的安全性，说明生物技术引发的伦理问题及禁止生物武器的意义。（公开转述，待核）",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中生物学课程标准（2017年版2020年修订）》逐页核对"
+    }
+  ],
+  "standardsMeta": {
+    "title": "普通高中生物学课程标准（2017年版2020年修订）",
+    "issuer": "中华人民共和国教育部",
+    "year": 2017,
+    "stage": "高中",
+    "note": "条目对齐高中生物学必修两册与选择性必修三册的学习要求，是公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 cbs-hs-2017:<B1|B2|S1|S2|S3>.<序号> 是本图谱编的，不是教育部原编号。"
+  }
+}

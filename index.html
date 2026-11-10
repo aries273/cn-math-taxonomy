@@ -37,6 +37,12 @@
   } else if (/^cnch_[A-Za-z0-9]+$/.test(id)) {
     document.documentElement.style.visibility = 'hidden';
     location.replace('explore/?subject=chemistry#' + encodeURIComponent(id));
+  } else if (/^cnb_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/?subject=biology#' + encodeURIComponent(id));
+  } else if (/^cnpo_[A-Za-z0-9]+$/.test(id)) {
+    document.documentElement.style.visibility = 'hidden';
+    location.replace('explore/?subject=politics#' + encodeURIComponent(id));
   }
 })();
 </script>
@@ -74,6 +80,8 @@
       <a class="nav-link subject-link" data-subject="english" href="./?subject=english">英语</a>
       <a class="nav-link subject-link" data-subject="physics" href="./?subject=physics">物理</a>
       <a class="nav-link subject-link" data-subject="chemistry" href="./?subject=chemistry">化学</a>
+      <a class="nav-link subject-link" data-subject="biology" href="./?subject=biology">生物</a>
+      <a class="nav-link subject-link" data-subject="politics" href="./?subject=politics">政治</a>
     </div>
     <div class="page-links">
       <a class="nav-link active" href="./" aria-current="page">首页</a>

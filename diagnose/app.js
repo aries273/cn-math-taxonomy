@@ -98,6 +98,8 @@
     if (subject === 'history') return LS_SESSION_HIS;
     if (subject === 'geography') return LS_SESSION_GEO;
     if (subject === 'chemistry') return LS_SESSION_CHEM;
+    if (subject === 'biology') return LS_SESSION_CHEM + '-bio';
+    if (subject === 'politics') return LS_SESSION_CHEM + '-pol';
     return LS_SESSION;
   }
   function withSubject(href) {
@@ -107,10 +109,20 @@
   function detectSubject() {
     const params = new URLSearchParams(location.search);
     const explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality' || explicit === 'history' || explicit === 'geography' || explicit === 'chemistry') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality' || explicit === 'history' || explicit === 'geography' || explicit === 'chemistry' || explicit === 'biology' || explicit === 'politics') return explicit;
     const target = params.get('target') || '';
     let hashId = (location.hash || '').replace(/^#/, '');
     try { hashId = decodeURIComponent(hashId); } catch (e) { /* 保持原样 */ }
+    if (/(^|,)\s*cnpo_/.test(target) || /^cnpo_/.test(hashId)) {
+      params.set('subject', 'politics');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+      return 'politics';
+    }
+    if (/(^|,)\s*cnb_/.test(target) || /^cnb_/.test(hashId)) {
+      params.set('subject', 'biology');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+      return 'biology';
+    }
     if (/(^|,)\s*cnch_/.test(target) || /^cnch_/.test(hashId)) {
       params.set('subject', 'chemistry');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
@@ -162,6 +174,8 @@
     document.body.classList.toggle('subject-history', subject === 'history');
     document.body.classList.toggle('subject-geography', subject === 'geography');
     document.body.classList.toggle('subject-chemistry', subject === 'chemistry');
+    document.body.classList.toggle('subject-biology', subject === 'biology');
+    document.body.classList.toggle('subject-politics', subject === 'politics');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       const href = link.getAttribute('href');
       const next = withSubject(href);
@@ -195,13 +209,25 @@
       if (volSel === '全') volSel = '';
     }
     if (subject === 'history') {
-      document.title = '诊断 · 初中历史';
-      if ('七八九'.indexOf(gradeSel) < 0) gradeSel = '七';
-      if (volSel === '全') volSel = '';
+      document.title = '诊断 · 历史';
+      if (!/^[七八九]$/.test(gradeSel) && !/^(纲要[上下]|选必[一二三])$/.test(gradeSel)) gradeSel = '七';
+      if (/^(纲要[上下]|选必[一二三])$/.test(gradeSel)) volSel = '';
+      else if (volSel === '全') volSel = '';
     }
     if (subject === 'geography') {
-      document.title = '诊断 · 初中地理';
-      if ('七八'.indexOf(gradeSel) < 0) gradeSel = '七';
+      document.title = '诊断 · 地理';
+      if (!/^[七八]$/.test(gradeSel) && !/^(必修[一二]|选必[一二三])$/.test(gradeSel)) gradeSel = '七';
+      if (/^(必修[一二]|选必[一二三])$/.test(gradeSel)) volSel = '';
+      else if (volSel === '全') volSel = '';
+    }
+    if (subject === 'biology') {
+      document.title = '诊断 · 高中生物学';
+      if (!/^(必修[一二]|选必[一二三])$/.test(gradeSel)) gradeSel = '必修一';
+      if (volSel === '全') volSel = '';
+    }
+    if (subject === 'politics') {
+      document.title = '诊断 · 高中思想政治';
+      if (!/^(必修[一二三四]|选必[一二三])$/.test(gradeSel)) gradeSel = '必修一';
       if (volSel === '全') volSel = '';
     }
     if (subject === 'chemistry') {
@@ -602,17 +628,21 @@
         ? '选一个想学会或想检查的地理知识点。' + confirmHelp
         : subject === 'chemistry'
         ? '选一个想学会或想检查的化学知识点。' + confirmHelp
+        : subject === 'biology'
+        ? '选一个想学会或想检查的生物学知识点。' + confirmHelp
+        : subject === 'politics'
+        ? '选一个想学会或想检查的思想政治知识点。' + confirmHelp
         : '选一个想学会或想检查的知识点。' + confirmHelp),
       h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': '学段' },
         subject === 'physics' ? [stageButton('', '全部'), stageButton('j', '初中'), stageButton('h', '高中')]
-          : subject === 'history' || subject === 'geography' ? [stageButton('', '全部'), stageButton('j', '初中')]
-          : subject === 'chemistry' ? [stageButton('', '全部'), stageButton('h', '高中')]
+          : subject === 'history' || subject === 'geography' ? [stageButton('', '全部'), stageButton('j', '初中'), stageButton('h', '高中')]
+          : subject === 'chemistry' || subject === 'biology' || subject === 'politics' ? [stageButton('', '全部'), stageButton('h', '高中')]
           : subject === 'chinese' ? [stageButton('', '全部'), stageButton('p', '小学'), stageButton('h', '高中')]
           : subject === 'science' || subject === 'morality' ? [stageButton('', '全部'), stageButton('p', '小学')]
           : [stageButton('', '全部'), stageButton('p', '小学'), stageButton('j', '初中'), stageButton('h', '高中')]),
       h('input', {
         type: 'search', class: 'search-lg', id: 'search',
-        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'chemistry' ? '搜索知识点，例如：离子反应、氧化还原反应、化学平衡、乙醇' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、沁园春·长沙、烛之武退秦师' : subject === 'science' ? '搜索知识点，例如：溶解、电路、昼夜交替' : subject === 'morality' ? '搜索知识点，例如：升国旗、排队、宪法、节约用水' : subject === 'history' ? '搜索知识点，例如：鸦片战争、丝绸之路、五四运动' : subject === 'geography' ? '搜索知识点，例如：经纬网、季风气候、长江' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
+        placeholder: subject === 'physics' ? '搜索知识点，例如：欧姆定律、浮力、牛顿第二定律、楞次定律' : subject === 'chemistry' ? '搜索知识点，例如：离子反应、氧化还原反应、化学平衡、乙醇' : subject === 'biology' ? '搜索知识点，例如：细胞膜、酶的催化、遗传规律、生态系统' : subject === 'politics' ? '搜索知识点，例如：原始社会、公有制、人民代表大会、矛盾' : subject === 'english' ? '搜索知识点，例如：现在进行时、虚拟语气、there is' : subject === 'chinese' ? '搜索知识点，例如：声母、静夜思、沁园春·长沙、烛之武退秦师' : subject === 'science' ? '搜索知识点，例如：溶解、电路、昼夜交替' : subject === 'morality' ? '搜索知识点，例如：升国旗、排队、宪法、节约用水' : subject === 'history' ? '搜索知识点，例如：鸦片战争、丝绸之路、五四运动' : subject === 'geography' ? '搜索知识点，例如：经纬网、季风气候、长江' : '搜索知识点，例如：配方法、20 以内加法、一次函数',
         value: startQuery, autocomplete: 'off', 'aria-label': '搜索知识点',
         oninput: function (e) {
           startQuery = e.target.value;
@@ -635,9 +665,11 @@
   }
 
   function seniorGrade(sel) {
-    return sel === '高一' || sel === '高二' || String(sel).indexOf('选必') === 0 || String(sel).indexOf('必修') === 0;
+    return sel === '高一' || sel === '高二' || String(sel).indexOf('选必') === 0 || String(sel).indexOf('必修') === 0 || sel === '纲要上' || sel === '纲要下';
   }
-  function seniorRangeLabel(sel) { return String(sel).indexOf('选必') === 0 ? '整册' : '必修整册'; }
+  function seniorRangeLabel(sel) {
+    return String(sel).indexOf('选必') === 0 || sel === '纲要上' || sel === '纲要下' ? '整册' : '必修整册';
+  }
   function gradeScope() {
     if (seniorGrade(gradeSel)) return gradeSel;
     if (subject === 'physics' && gradeSel === '九') return '九全';
@@ -681,11 +713,20 @@
             ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
           ])
           : subject === 'history'
-          ? '七八九'.split('').map(function (x) { return [x, x + '年级']; })
+          ? '七八九'.split('').map(function (x) { return [x, x + '年级']; }).concat([
+            ['纲要上', '纲要上'], ['纲要下', '纲要下'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
+          ])
           : subject === 'chemistry'
           ? [['必修一', '必修一'], ['必修二', '必修二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']]
+          : subject === 'biology'
+          ? [['必修一', '必修一'], ['必修二', '必修二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']]
+          : subject === 'politics'
+          ? [['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'], ['必修四', '必修四'],
+            ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']]
           : subject === 'geography'
-          ? '七八'.split('').map(function (x) { return [x, x + '年级']; })
+          ? '七八'.split('').map(function (x) { return [x, x + '年级']; }).concat([
+            ['必修一', '必修一'], ['必修二', '必修二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
+          ])
           : subject === 'chinese'
           ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; }).concat([
             ['必修上', '必修上'], ['必修下', '必修下'], ['选必上', '选必上'],
@@ -748,8 +789,8 @@
       if (!chapters.length) return;
       const count = chapters.reduce(function (n, c) { return n + c.rows.length; }, 0);
       shown += count;
-      const openVol = subject === 'physics' ? '八上' : subject === 'english' ? '三上' : subject === 'history' || subject === 'geography' ? '七上' : subject === 'chemistry' ? '必修一' : '一上';
-      const seniorOpen = subject === 'english' || subject === 'physics' || subject === 'chemistry' ? '必修一' : '高一';
+      const openVol = subject === 'physics' ? '八上' : subject === 'english' ? '三上' : subject === 'history' || subject === 'geography' ? '七上' : subject === 'chemistry' || subject === 'biology' || subject === 'politics' ? '必修一' : '一上';
+      const seniorOpen = subject === 'english' || subject === 'physics' ? '必修一' : subject === 'history' ? '纲要上' : '必修一';
       const det = h('details', { class: 'vol', open: !!q || (startStage === 'j' ? vv[0] === '七上' : startStage === 'h' ? vv[0] === seniorOpen : vv[0] === openVol) },
         h('summary', null, vv[1] + '（' + count + ' 个知识点）'));
       chapters.forEach(function (c) {
@@ -969,7 +1010,7 @@
     return raw || '本次诊断';
   }
   function buildShareModel(sum, chapters) {
-    var subjectName = subject === 'english' ? '英语' : subject === 'physics' ? '物理' : subject === 'chinese' ? '语文' : subject === 'science' ? '科学' : subject === 'morality' ? '道德与法治' : subject === 'history' ? '历史' : subject === 'geography' ? '地理' : subject === 'chemistry' ? '化学' : '数学';
+    var subjectName = subject === 'english' ? '英语' : subject === 'physics' ? '物理' : subject === 'chinese' ? '语文' : subject === 'science' ? '科学' : subject === 'morality' ? '道德与法治' : subject === 'history' ? '历史' : subject === 'geography' ? '地理' : subject === 'chemistry' ? '化学' : subject === 'biology' ? '生物学' : subject === 'politics' ? '思想政治' : '数学';
     var spots = [];
     var spotKind = 'topic';
     if (chapters && chapters.length) {
@@ -1282,11 +1323,15 @@
         : subject === 'morality'
         ? '目标与学习路径上的知识点对应的《义务教育道德与法治课程标准（2022年版）》第一至第三学段内容要求的公开转述。'
         : subject === 'history'
-        ? '目标与学习路径上的知识点对应的《义务教育历史课程标准（2022年版）》第四学段内容要求的公开转述。'
+        ? '目标与学习路径上的知识点对应的《义务教育历史课程标准（2022年版）》第四学段，以及《普通高中历史课程标准（2017年版2020年修订）》必修与选择性必修的公开转述。'
         : subject === 'geography'
-        ? '目标与学习路径上的知识点对应的《义务教育地理课程标准（2022年版）》第四学段内容要求的公开转述。'
+        ? '目标与学习路径上的知识点对应的《义务教育地理课程标准（2022年版）》第四学段，以及《普通高中地理课程标准（2017年版2020年修订）》必修与选择性必修的公开转述。'
         : subject === 'chemistry'
         ? '目标与学习路径上的知识点对应的《普通高中化学课程标准（2017年版2020年修订）》的公开转述（必修第一、二册与选择性必修 1、2、3）。'
+        : subject === 'biology'
+        ? '目标与学习路径上的知识点对应的《普通高中生物学课程标准（2017年版2020年修订）》的公开转述（必修 1、2 与选择性必修 1、2、3）。'
+        : subject === 'politics'
+        ? '目标与学习路径上的知识点对应的《普通高中思想政治课程标准（2017年版2020年修订）》的公开转述（必修 1–4 与选择性必修 1–3）。'
         : '目标与学习路径上的知识点对应的《义务教育数学课程标准（2022年版）》内容要求（第一至第四学段）。'),
       keys.length ? keys.map(function (k) {
         const item = D.stdById[k];
@@ -1330,6 +1375,10 @@
     if (grade >= 1 && grade <= 9) return cn[grade] + '年级';
     if (subject === 'physics') return { 10: '必修一', 11: '必修二', 12: '必修三', 13: '选必一', 14: '选必二', 15: '选必三' }[grade] || ('册' + grade);
     if (subject === 'chemistry') return { 10: '必修一', 11: '必修二', 12: '选必一', 13: '选必二', 14: '选必三' }[grade] || ('册' + grade);
+    if (subject === 'biology') return { 10: '必修一', 11: '必修二', 12: '选必一', 13: '选必二', 14: '选必三' }[grade] || ('册' + grade);
+    if (subject === 'politics') return { 10: '必修一', 11: '必修二', 12: '必修三', 13: '必修四', 14: '选必一', 15: '选必二', 16: '选必三' }[grade] || ('册' + grade);
+    if (subject === 'history') return { 10: '纲要上', 11: '纲要下', 12: '选必一', 13: '选必二', 14: '选必三' }[grade] || ('册' + grade);
+    if (subject === 'geography') return { 10: '必修一', 11: '必修二', 12: '选必一', 13: '选必二', 14: '选必三' }[grade] || ('册' + grade);
     const math = { 10: '高一', 11: '高二', 12: '选必一', 13: '选必二', 14: '选必三' };
     return math[grade] || ('年级' + grade);
   }
@@ -1671,7 +1720,10 @@
         '选必四': '选必四', '选择性必修第四册': '选必四',
         '必修一': '必修一', '必修第一册': '必修一',
         '必修二': '必修二', '必修第二册': '必修二',
-        '必修三': '必修三', '必修第三册': '必修三'
+        '必修三': '必修三', '必修第三册': '必修三',
+        '必修四': '必修四', '必修第四册': '必修四',
+        '纲要上': '纲要上', '中外历史纲要上': '纲要上',
+        '纲要下': '纲要下', '中外历史纲要下': '纲要下'
       };
       if (seniorUrl[grade]) {
         if (volume && volume !== '必修' && volume !== '整册' && volume !== '必修整册') {

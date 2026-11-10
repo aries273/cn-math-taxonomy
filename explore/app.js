@@ -14,6 +14,9 @@
   var HIS_DOMAIN_ORDER = ['中国古代史', '中国近代史', '中国现代史', '世界古代史', '世界近代史', '世界现代史'];
   var GEO_DOMAIN_ORDER = ['地球与地图', '世界地理', '中国地理'];
   var CHEM_DOMAIN_ORDER = ['化学基本概念', '元素化合物', '化学反应原理', '物质结构与性质', '有机化学基础'];
+  var BIO_DOMAIN_ORDER = ['分子与细胞', '遗传与进化', '稳态与调节', '生物与环境', '生物技术与工程'];
+  var POL_DOMAIN_ORDER = ['中国特色社会主义', '经济与社会', '政治与法治', '哲学与文化', '当代国际政治与经济', '法律与生活', '逻辑与思维'];
+  var GEO_HS_DOMAIN_ORDER = ['自然地理', '人文地理', '区域发展', '资源环境与国家安全', '地理工具'];
   var ZH_DOMAIN_ORDER = ['拼音', '识字写字', '词语', '句子', '阅读理解', '古诗文积累', '习作基础'];
 
   var topics = [];
@@ -136,10 +139,53 @@
     13: ['选必中', '选必中 · 选择性必修中册'],
     14: ['选必下', '选必下 · 选择性必修下册']
   };
+  var HIS_HS_BOOK = {
+    10: ['纲要上', '纲要上 · 中外历史纲要（上）'],
+    11: ['纲要下', '纲要下 · 中外历史纲要（下）'],
+    12: ['选必一', '选必一 · 国家制度与社会治理'],
+    13: ['选必二', '选必二 · 经济与社会生活'],
+    14: ['选必三', '选必三 · 文化交流与传播']
+  };
+  var GEO_HS_BOOK = {
+    10: ['必修一', '必修一 · 必修第一册'],
+    11: ['必修二', '必修二 · 必修第二册'],
+    12: ['选必一', '选必一 · 自然地理基础'],
+    13: ['选必二', '选必二 · 区域发展'],
+    14: ['选必三', '选必三 · 资源、环境与国家安全']
+  };
+  var BIO_BOOK = {
+    10: ['必修一', '必修一 · 分子与细胞'],
+    11: ['必修二', '必修二 · 遗传与进化'],
+    12: ['选必一', '选必一 · 稳态与调节'],
+    13: ['选必二', '选必二 · 生物与环境'],
+    14: ['选必三', '选必三 · 生物技术与工程']
+  };
+  var POL_BOOK = {
+    10: ['必修一', '必修一 · 中国特色社会主义'],
+    11: ['必修二', '必修二 · 经济与社会'],
+    12: ['必修三', '必修三 · 政治与法治'],
+    13: ['必修四', '必修四 · 哲学与文化'],
+    14: ['选必一', '选必一 · 当代国际政治与经济'],
+    15: ['选必二', '选必二 · 法律与生活'],
+    16: ['选必三', '选必三 · 逻辑与思维']
+  };
+  var HIS_HS_BOOK_GRADES = [10, 11, 12, 13, 14];
+  var GEO_HS_BOOK_GRADES = [10, 11, 12, 13, 14];
+  var BIO_BOOK_GRADES = [10, 11, 12, 13, 14];
+  var POL_BOOK_GRADES = [10, 11, 12, 13, 14, 15, 16];
+  function bookOf(grade) {
+    if ((subject === 'english' || subject === 'physics') && EN_BOOK[grade]) return EN_BOOK[grade];
+    if (subject === 'chemistry' && CHEM_BOOK[grade]) return CHEM_BOOK[grade];
+    if (subject === 'chinese' && ZH_BOOK[grade]) return ZH_BOOK[grade];
+    if (subject === 'history' && HIS_HS_BOOK[grade]) return HIS_HS_BOOK[grade];
+    if (subject === 'geography' && GEO_HS_BOOK[grade]) return GEO_HS_BOOK[grade];
+    if (subject === 'biology' && BIO_BOOK[grade]) return BIO_BOOK[grade];
+    if (subject === 'politics' && POL_BOOK[grade]) return POL_BOOK[grade];
+    return null;
+  }
   function gradeWord(grade) {
-    if ((subject === 'english' || subject === 'physics') && EN_BOOK[grade]) return EN_BOOK[grade][0];
-    if (subject === 'chemistry' && CHEM_BOOK[grade]) return CHEM_BOOK[grade][0];
-    if (subject === 'chinese' && ZH_BOOK[grade]) return ZH_BOOK[grade][0];
+    var bk = bookOf(grade);
+    if (bk) return bk[0];
     if (grade === 10) return '高一';
     if (grade === 11) return '高二';
     if (grade === 12) return '选必一';
@@ -148,9 +194,8 @@
     return CN[grade] + '年级';
   }
   function gradeLabel(topic) {
-    if ((subject === 'english' || subject === 'physics') && EN_BOOK[topic.grade]) return EN_BOOK[topic.grade][1];
-    if (subject === 'chemistry' && CHEM_BOOK[topic.grade]) return CHEM_BOOK[topic.grade][1];
-    if (subject === 'chinese' && ZH_BOOK[topic.grade]) return ZH_BOOK[topic.grade][1];
+    var bk = bookOf(topic.grade);
+    if (bk) return bk[1];
     if (topic.grade === 10) return '高一 · 必修第一册';
     if (topic.grade === 11) return '高二 · 必修第二册';
     if (topic.grade === 12) return '选必一 · 选择性必修第一册';
@@ -175,6 +220,8 @@
     if (enHs) return enHs[1];
     var model = /^(高[一二]|选必[一二三]) (数学建模|数学探究) (\S+)$/.exec(text);
     if (model) return model[2] + ' ' + model[3];
+    var unitHs = /^(?:必修[一二三四]|选必[一二三]|纲要[上下]) (第\d+单元 .+)$/.exec(text);
+    if (unitHs) return unitHs[1];
     var junior = /^\S+\s+(第\S+章)\s+(.+)$/.exec(text);
     if (junior) return junior[1] + ' ' + junior[2].replace(/\s+\d+(?:\.\d+)*$/, '');
     return text;
@@ -277,9 +324,10 @@
 
   function topicSubject(topic) {
     if (!topic) return 'math';
-    if (topic.subject === 'english' || topic.subject === 'physics' || topic.subject === 'chinese' || topic.subject === 'science' || topic.subject === 'morality' || topic.subject === 'history' || topic.subject === 'geography' || topic.subject === 'chemistry') return topic.subject;
+    if (topic.subject === 'english' || topic.subject === 'physics' || topic.subject === 'chinese' || topic.subject === 'science' || topic.subject === 'morality' || topic.subject === 'history' || topic.subject === 'geography' || topic.subject === 'chemistry' || topic.subject === 'biology' || topic.subject === 'politics') return topic.subject;
     var id = String(topic.id || '');
     if (id.indexOf('cne_') === 0) return 'english';
+    if (id.indexOf('cnpo_') === 0) return 'politics';
     if (id.indexOf('cnp_') === 0) return 'physics';
     if (id.indexOf('cnc_') === 0) return 'chinese';
     if (id.indexOf('cns_') === 0) return 'science';
@@ -287,6 +335,7 @@
     if (id.indexOf('cnh_') === 0) return 'history';
     if (id.indexOf('cng_') === 0) return 'geography';
     if (id.indexOf('cnch_') === 0) return 'chemistry';
+    if (id.indexOf('cnb_') === 0) return 'biology';
     return 'math';
   }
 
@@ -431,7 +480,7 @@
       box.replaceChildren(el('div', { class: 'detail-empty' },
         el('h1', { text: '选择一个知识点' }),
         el('p', { text: '可以搜索，也可以按年级、册、章展开。选中之后，中间只画它附近的先修，以及后面一层会用到它的知识点。' })));
-      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : subject === 'chinese' ? '知识图谱 · 小学语文' : subject === 'science' ? '知识图谱 · 小学科学' : subject === 'morality' ? '知识图谱 · 小学道德与法治' : subject === 'history' ? '知识图谱 · 初中历史' : subject === 'geography' ? '知识图谱 · 初中地理' : subject === 'chemistry' ? '知识图谱 · 高中化学' : '知识图谱 · 中小学·高中知识图谱';
+      document.title = subject === 'english' ? '知识图谱 · 英语' : subject === 'physics' ? '知识图谱 · 物理' : subject === 'chinese' ? '知识图谱 · 小学语文' : subject === 'science' ? '知识图谱 · 小学科学' : subject === 'morality' ? '知识图谱 · 小学道德与法治' : subject === 'history' ? '知识图谱 · 历史' : subject === 'geography' ? '知识图谱 · 地理' : subject === 'chemistry' ? '知识图谱 · 高中化学' : subject === 'biology' ? '知识图谱 · 高中生物学' : subject === 'politics' ? '知识图谱 · 高中思想政治' : '知识图谱 · 中小学·高中知识图谱';
       return;
     }
     var topic = byId.get(selected);
@@ -885,7 +934,7 @@
   function fillDomain() {
     var seen = {};
     topics.forEach(function (topic) { if (topic.domain) seen[topic.domain] = true; });
-    var domainOrder = subject === 'chinese' ? ZH_DOMAIN_ORDER : subject === 'science' ? SCI_DOMAIN_ORDER : subject === 'morality' ? MOR_DOMAIN_ORDER : subject === 'history' ? HIS_DOMAIN_ORDER : subject === 'geography' ? GEO_DOMAIN_ORDER : subject === 'chemistry' ? CHEM_DOMAIN_ORDER : DOMAIN_ORDER;
+    var domainOrder = subject === 'chinese' ? ZH_DOMAIN_ORDER : subject === 'science' ? SCI_DOMAIN_ORDER : subject === 'morality' ? MOR_DOMAIN_ORDER : subject === 'history' ? HIS_DOMAIN_ORDER : subject === 'geography' ? GEO_DOMAIN_ORDER.concat(GEO_HS_DOMAIN_ORDER) : subject === 'chemistry' ? CHEM_DOMAIN_ORDER : subject === 'biology' ? BIO_DOMAIN_ORDER : subject === 'politics' ? POL_DOMAIN_ORDER : DOMAIN_ORDER;
     var names = domainOrder.filter(function (name) { return seen[name]; });
     Object.keys(seen).forEach(function (name) { if (names.indexOf(name) < 0) names.push(name); });
     var select = $('fDomain');
@@ -896,8 +945,18 @@
   function readSubject() {
     var params = new URLSearchParams(location.search);
     var explicit = params.get('subject');
-    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality' || explicit === 'history' || explicit === 'geography' || explicit === 'chemistry') return explicit;
+    if (explicit === 'english' || explicit === 'math' || explicit === 'physics' || explicit === 'chinese' || explicit === 'science' || explicit === 'morality' || explicit === 'history' || explicit === 'geography' || explicit === 'chemistry' || explicit === 'biology' || explicit === 'politics') return explicit;
     var hash = readHash();
+    if (/^cnpo_[A-Za-z0-9]+$/.test(hash)) {
+      params.set('subject', 'politics');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
+      return 'politics';
+    }
+    if (/^cnb_[A-Za-z0-9]+$/.test(hash)) {
+      params.set('subject', 'biology');
+      history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
+      return 'biology';
+    }
     if (/^cnch_[A-Za-z0-9]+$/.test(hash)) {
       params.set('subject', 'chemistry');
       history.replaceState(null, '', location.pathname + '?' + params.toString() + '#' + hash);
@@ -950,6 +1009,8 @@
     document.body.classList.toggle('subject-history', subject === 'history');
     document.body.classList.toggle('subject-geography', subject === 'geography');
     document.body.classList.toggle('subject-chemistry', subject === 'chemistry');
+    document.body.classList.toggle('subject-biology', subject === 'biology');
+    document.body.classList.toggle('subject-politics', subject === 'politics');
     document.querySelectorAll('.site-nav a:not(.subject-link), a.brand').forEach(function (link) {
       var href = link.getAttribute('href');
       var next = withSubject(href);
@@ -1016,7 +1077,7 @@
     if (subject === 'history') {
       document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
         var hisStage = button.getAttribute('data-stage');
-        button.hidden = hisStage === 'p' || hisStage === 'h';
+        button.hidden = hisStage === 'p';
       });
       var hisGrade = $('fGrade');
       hisGrade.replaceChildren();
@@ -1024,15 +1085,18 @@
       [7, 8, 9].forEach(function (g) {
         hisGrade.append(el('option', { value: String(g), text: CN[g] + '年级' }));
       });
+      HIS_HS_BOOK_GRADES.forEach(function (g) {
+        hisGrade.append(el('option', { value: String(g), text: HIS_HS_BOOK[g][1] }));
+      });
       var hisSample = $('pick-sample');
-      if (hisSample) hisSample.textContent = '先看看「远古时期的人类活动」';
-      document.title = '知识图谱 · 初中历史';
+      if (hisSample) hisSample.textContent = '先看看「中华文明的起源与早期国家」';
+      document.title = '知识图谱 · 历史';
       return;
     }
     if (subject === 'geography') {
       document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
         var geoStage = button.getAttribute('data-stage');
-        button.hidden = geoStage === 'p' || geoStage === 'h';
+        button.hidden = geoStage === 'p';
       });
       var geoGrade = $('fGrade');
       geoGrade.replaceChildren();
@@ -1040,9 +1104,44 @@
       [7, 8].forEach(function (g) {
         geoGrade.append(el('option', { value: String(g), text: CN[g] + '年级' }));
       });
+      GEO_HS_BOOK_GRADES.forEach(function (g) {
+        geoGrade.append(el('option', { value: String(g), text: GEO_HS_BOOK[g][1] }));
+      });
       var geoSample = $('pick-sample');
-      if (geoSample) geoSample.textContent = '先看看「地球的宇宙环境」';
-      document.title = '知识图谱 · 初中地理';
+      if (geoSample) geoSample.textContent = '先看看「地球自转与公转的基本特征」';
+      document.title = '知识图谱 · 地理';
+      return;
+    }
+    if (subject === 'biology') {
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+        var bioStage = button.getAttribute('data-stage');
+        button.hidden = bioStage === 'p' || bioStage === 'j';
+      });
+      var bioGrade = $('fGrade');
+      bioGrade.replaceChildren();
+      bioGrade.append(el('option', { value: '', text: '全部年级' }));
+      BIO_BOOK_GRADES.forEach(function (g) {
+        bioGrade.append(el('option', { value: String(g), text: BIO_BOOK[g][1] }));
+      });
+      var bioSample = $('pick-sample');
+      if (bioSample) bioSample.textContent = '先看看「组成细胞的元素与无机物」';
+      document.title = '知识图谱 · 高中生物学';
+      return;
+    }
+    if (subject === 'politics') {
+      document.querySelectorAll('#stage-tabs [data-stage]').forEach(function (button) {
+        var polStage = button.getAttribute('data-stage');
+        button.hidden = polStage === 'p' || polStage === 'j';
+      });
+      var polGrade = $('fGrade');
+      polGrade.replaceChildren();
+      polGrade.append(el('option', { value: '', text: '全部年级' }));
+      POL_BOOK_GRADES.forEach(function (g) {
+        polGrade.append(el('option', { value: String(g), text: POL_BOOK[g][1] }));
+      });
+      var polSample = $('pick-sample');
+      if (polSample) polSample.textContent = '先看看「原始社会的解体与阶级社会的演进」';
+      document.title = '知识图谱 · 高中思想政治';
       return;
     }
     if (subject === 'chemistry') {
@@ -1117,7 +1216,7 @@
   function applyQuery() {
     var params = new URLSearchParams(location.search);
     var gradeValue = params.get('grade') || '';
-    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'chemistry' ? /^(?:1[0-4])$/ : subject === 'history' ? /^[7-9]$/ : subject === 'geography' ? /^[78]$/ : subject === 'chinese' ? /^(?:[1-6]|1[0-4])$/ : subject === 'science' || subject === 'morality' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
+    var gradeOk = subject === 'english' ? /^(?:[3-9]|1[0-6])$/ : subject === 'physics' ? /^(?:[89]|1[0-5])$/ : subject === 'chemistry' ? /^(?:1[0-4])$/ : subject === 'history' ? /^(?:[7-9]|1[0-4])$/ : subject === 'geography' ? /^(?:[78]|1[0-4])$/ : subject === 'biology' ? /^(?:1[0-4])$/ : subject === 'politics' ? /^(?:1[0-6])$/ : subject === 'chinese' ? /^(?:[1-6]|1[0-4])$/ : subject === 'science' || subject === 'morality' ? /^[1-6]$/ : /^(?:[1-9]|1[0-4])$/;
     if (gradeOk.test(gradeValue)) grade = gradeValue;
     var stageValue = params.get('stage') || '';
     if (stageValue === 'p' || stageValue === 'j' || stageValue === 'h') stage = stageValue;
@@ -1223,6 +1322,16 @@
     $('btn-zoom-in').addEventListener('click', function () { zoomBy(1.25); });
     $('btn-zoom-out').addEventListener('click', function () { zoomBy(0.8); });
     $('pick-sample').addEventListener('click', function () {
+      if (subject === 'biology') {
+        var bioHit = topics.find(function (topic) { return String(topic.name).indexOf('组成细胞的元素') >= 0; });
+        if (bioHit) select(bioHit.id, 'user');
+        return;
+      }
+      if (subject === 'politics') {
+        var polHit = topics.find(function (topic) { return String(topic.name).indexOf('原始社会') >= 0; });
+        if (polHit) select(polHit.id, 'user');
+        return;
+      }
       if (subject === 'chemistry') {
         var chemHit = topics.find(function (topic) { return topic.name === '离子反应'; });
         if (chemHit) select(chemHit.id, 'user');

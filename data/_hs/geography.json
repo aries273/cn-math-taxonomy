@@ -1,0 +1,5792 @@
+{
+  "subject": "geography",
+  "idPrefix": "cng_h",
+  "stdPrefix": "cgs-hs-2017:",
+  "books": [
+    {
+      "grade": 10,
+      "semester": "全",
+      "name": "必修一",
+      "title": "《地理必修第一册》（自然地理）"
+    },
+    {
+      "grade": 11,
+      "semester": "全",
+      "name": "必修二",
+      "title": "《地理必修第二册》（人文地理）"
+    },
+    {
+      "grade": 12,
+      "semester": "全",
+      "name": "选必一",
+      "title": "《选择性必修1 自然地理基础》"
+    },
+    {
+      "grade": 13,
+      "semester": "全",
+      "name": "选必二",
+      "title": "《选择性必修2 区域发展》"
+    },
+    {
+      "grade": 14,
+      "semester": "全",
+      "name": "选必三",
+      "title": "《选择性必修3 资源、环境与国家安全》"
+    }
+  ],
+  "domains": [
+    "自然地理",
+    "人文地理",
+    "区域发展",
+    "资源环境与国家安全",
+    "地理工具"
+  ],
+  "topics": [
+    {
+      "id": "cng_h001",
+      "name": "地球自转与公转的基本特征",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第1单元 地球的运动",
+      "type": "conceptual",
+      "description": "掌握地球自转与公转的方向、周期和速度差异，能区分两种运动并解释昼夜更替、四季变化等现象。",
+      "mastery_criteria": [
+        "能说出自转与公转的方向、周期和角速度的差异",
+        "能用地球运动解释昼夜更替与四季变化"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "地球自转的方向是？",
+          "answer": "自西向东",
+          "wrongs": [
+            "自东向西",
+            "自南向北",
+            "自北向南"
+          ],
+          "explanation": "地球自转方向为自西向东，从北极上空看呈逆时针。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "地球绕日公转一周所需的时间约为？",
+          "answer": "一年",
+          "wrongs": [
+            "一个月",
+            "一天",
+            "一周"
+          ],
+          "explanation": "公转周期为一年，自转周期为一天，二者不可混淆。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "地球自转的角速度分布特点是？",
+          "answer": "除南北极点外各地都相等",
+          "wrongs": [
+            "赤道最大，向两极递减",
+            "两极最大，向赤道递减",
+            "随季节变化而改变"
+          ],
+          "explanation": "角速度除极点外约为每小时15度；赤道向两极递减的是线速度。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "地球公转到近日点的时间大约是？",
+          "answer": "1月初",
+          "wrongs": [
+            "7月初",
+            "3月21日前后",
+            "6月22日前后"
+          ],
+          "explanation": "近日点在1月初，公转速度较快；7月初为远日点。"
+        }
+      ],
+      "key": "bx1_diqi_yundong"
+    },
+    {
+      "id": "cng_h002",
+      "name": "昼夜交替与时差计算",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第1单元 地球的运动",
+      "type": "application",
+      "description": "理解昼夜交替与地方时、区时的关系，能依据经度差推算地方时和日期，判断日界线两侧的日期变化。",
+      "mastery_criteria": [
+        "能由两地的经度差推算地方时和区时",
+        "能判断越过日界线时日期的增减"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "地方时产生的原因是？",
+          "answer": "地球自西向东自转",
+          "wrongs": [
+            "地球绕日公转",
+            "地球是一个球体",
+            "地轴是倾斜的"
+          ],
+          "explanation": "东边地点先看到日出，因而时刻较早，根源在于自转。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "纬度相同的两地，东边地点的地方时比西边地点？",
+          "answer": "早",
+          "wrongs": [
+            "晚",
+            "相同",
+            "随季节变化"
+          ],
+          "explanation": "地球自西向东转，东边先见到太阳，时刻更早。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "两地经度相差15度，地方时相差？",
+          "answer": "1小时",
+          "wrongs": [
+            "4分钟",
+            "15分钟",
+            "1天"
+          ],
+          "explanation": "经度每相差15度相差1小时，每相差1度相差4分钟。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "自西向东越过国际日界线，日期应当？",
+          "answer": "减一天",
+          "wrongs": [
+            "加一天",
+            "保持不变",
+            "加一小时"
+          ],
+          "explanation": "日界线西侧日期早，自西向东越过即从东十二区进入西十二区，日期减一天。"
+        }
+      ],
+      "key": "bx1_zhouye_shicha"
+    },
+    {
+      "id": "cng_h003",
+      "name": "正午太阳高度与昼夜长短的变化",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第1单元 地球的运动",
+      "type": "reasoning",
+      "description": "理解正午太阳高度随纬度和季节的变化规律，能解释昼夜长短的季节变化以及极昼极夜现象的出现范围。",
+      "mastery_criteria": [
+        "能判断二分二至日正午太阳高度的纬度分布",
+        "能说明昼夜长短的季节变化与极昼极夜范围"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "北半球夏至日，太阳直射的纬线是？",
+          "answer": "北回归线",
+          "wrongs": [
+            "南回归线",
+            "赤道",
+            "北极圈"
+          ],
+          "explanation": "夏至日太阳直射北回归线，北半球昼最长。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "极昼极夜现象出现在？",
+          "answer": "极圈以内",
+          "wrongs": [
+            "回归线之间",
+            "赤道附近",
+            "中纬度地区"
+          ],
+          "explanation": "极圈以内有极昼极夜，回归线之间有太阳直射。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "北半球冬至日，北半球各地的昼夜长短状况是？",
+          "answer": "昼最短、夜最长",
+          "wrongs": [
+            "昼最长、夜最短",
+            "昼夜等长",
+            "出现极昼"
+          ],
+          "explanation": "冬至日太阳直射南回归线，北半球昼短夜长。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "正午太阳高度由直射点向南北两侧的变化是？",
+          "answer": "逐渐递减",
+          "wrongs": [
+            "逐渐递增",
+            "保持不变",
+            "先增后减"
+          ],
+          "explanation": "离直射点越远，正午太阳高度越小，故由直射点向两侧递减。"
+        }
+      ],
+      "key": "bx1_zhengwu_taidu"
+    },
+    {
+      "id": "cng_h004",
+      "name": "大气受热过程与保温作用",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第2单元 地球上的大气",
+      "type": "conceptual",
+      "description": "理解太阳辐射、地面辐射和大气逆辐射的转化关系，能解释温室效应、昼夜温差等常见现象。",
+      "mastery_criteria": [
+        "能按顺序说明太阳辐射、地面辐射和大气逆辐射的关系",
+        "能解释晴夜温差大、多云白天气温低的现象"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "近地面大气的主要直接热源是？",
+          "answer": "地面辐射",
+          "wrongs": [
+            "太阳辐射",
+            "大气逆辐射",
+            "地热能"
+          ],
+          "explanation": "太阳辐射被地面吸收后，地面以长波辐射的形式向上传递热量。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "大气对太阳辐射的吸收具有选择性，主要表现为？",
+          "answer": "臭氧吸收紫外线，水汽和二氧化碳吸收红外线",
+          "wrongs": [
+            "均匀吸收所有波长的辐射",
+            "只吸收可见光",
+            "完全不吸收太阳辐射"
+          ],
+          "explanation": "臭氧吸收紫外线，水汽和二氧化碳吸收红外线，可见光大部分可透过大气。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "晴朗的夜晚气温往往较低，主要原因是？",
+          "answer": "云量少，大气逆辐射弱",
+          "wrongs": [
+            "太阳辐射弱",
+            "地面辐射强",
+            "大气吸收紫外线多"
+          ],
+          "explanation": "云层少则大气逆辐射弱，地面散失的热量得不到补偿。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "多云的白天往往气温不高，主要原因是？",
+          "answer": "云层反射太阳辐射，到达地面的辐射减少",
+          "wrongs": [
+            "云层吸收地面辐射多",
+            "大气逆辐射强",
+            "地面辐射被削弱"
+          ],
+          "explanation": "云层的反射作用使到达地面的太阳辐射减少，白天气温偏低。"
+        }
+      ],
+      "key": "bx1_daqi_shourex"
+    },
+    {
+      "id": "cng_h005",
+      "name": "热力环流与风的形成",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第2单元 地球上的大气",
+      "type": "reasoning",
+      "description": "掌握热力环流中气压高低与气流方向的判断方法，能解释海陆风、山谷风和城市热岛环流的成因。",
+      "mastery_criteria": [
+        "能画出热力环流并判断近地面与高空气压高低",
+        "能用热力环流解释海陆风、山谷风的昼夜变化"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "热力环流形成的根本原因是？",
+          "answer": "地面冷热不均",
+          "wrongs": [
+            "地球自转",
+            "气压带风带的移动",
+            "地势高低起伏"
+          ],
+          "explanation": "地面受热不均引起空气垂直运动，进而形成同一水平面的气压差。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "近地面受热处对应的气压状况是？",
+          "answer": "低压",
+          "wrongs": [
+            "高压",
+            "与周围相同",
+            "无法判断"
+          ],
+          "explanation": "受热处空气上升，近地面空气密度减小，形成低压。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "白天，海陆之间近地面的风向是？",
+          "answer": "由海洋吹向陆地",
+          "wrongs": [
+            "由陆地吹向海洋",
+            "沿海岸线平行",
+            "无风"
+          ],
+          "explanation": "白天陆地升温快，近地面形成低压，风从海洋吹向陆地，称为海风。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "城市热岛环流中，近地面气流的方向是？",
+          "answer": "由郊区流向城市",
+          "wrongs": [
+            "由城市流向郊区",
+            "由高空流向郊区",
+            "城市与郊区互不流动"
+          ],
+          "explanation": "城市气温高、空气上升，近地面空气由郊区流向城市。"
+        }
+      ],
+      "key": "bx1_reli_huanliu"
+    },
+    {
+      "id": "cng_h006",
+      "name": "气压带、风带与季风环流",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第2单元 地球上的大气",
+      "type": "reasoning",
+      "description": "说明三圈环流形成的气压带与风带分布，能解释气压带风带的季节移动和东亚季风、南亚季风的成因。",
+      "mastery_criteria": [
+        "能说出七个气压带、六个风带的分布与成因",
+        "能解释东亚季风与南亚季风的成因差异"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "赤道低气压带的成因属于？",
+          "answer": "热力原因，盛行上升气流",
+          "wrongs": [
+            "动力原因，盛行下沉气流",
+            "受海陆分布影响形成",
+            "由地转偏向力形成"
+          ],
+          "explanation": "赤道地区终年高温，空气受热上升，属热力原因形成的低气压带。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "盛行西风带位于哪两个气压带之间？",
+          "answer": "副热带高气压带与副极地低气压带之间",
+          "wrongs": [
+            "赤道低气压带与副热带高气压带之间",
+            "副极地低气压带与极地高气压带之间",
+            "两个副热带高气压带之间"
+          ],
+          "explanation": "中纬西风由副热带高压吹向副极地低压，北半球为西南风。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "东亚季风区冬季盛行的风向是？",
+          "answer": "西北风",
+          "wrongs": [
+            "东南风",
+            "西南风",
+            "东北风"
+          ],
+          "explanation": "冬季亚洲高压强盛，东亚盛行来自内陆的西北风，寒冷干燥。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "南亚夏季西南季风的主要成因是？",
+          "answer": "东南信风北移越过赤道后向右偏转",
+          "wrongs": [
+            "海陆热力性质差异",
+            "副极地低压带南移",
+            "极地东风带控制"
+          ],
+          "explanation": "夏季气压带风带北移，南半球东南信风越过赤道受地转偏向力影响右偏为西南风。"
+        }
+      ],
+      "key": "bx1_qiyadai_jifeng"
+    },
+    {
+      "id": "cng_h007",
+      "name": "水循环的过程与意义",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第3单元 地球上的水",
+      "type": "conceptual",
+      "description": "说明水循环的类型与主要环节，理解水循环在物质迁移、能量交换和地表形态塑造方面的意义。",
+      "mastery_criteria": [
+        "能说出海陆间循环、陆地内循环和海上内循环的主要环节",
+        "能说明水循环对地理环境的意义"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "海陆间循环中，把海洋水输送到陆地上空的环节是？",
+          "answer": "水汽输送",
+          "wrongs": [
+            "地表径流",
+            "下渗",
+            "地下径流"
+          ],
+          "explanation": "水汽输送由海洋上空把水汽带到陆地上空，是海陆间循环的关键环节。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "目前人类活动影响最大的水循环环节是？",
+          "answer": "地表径流",
+          "wrongs": [
+            "水汽输送",
+            "蒸发",
+            "降水"
+          ],
+          "explanation": "修建水库、跨流域调水等主要改变地表径流的时间与空间分布。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "城市地面大面积硬化后，水循环环节的变化是？",
+          "answer": "下渗减少，地表径流增加",
+          "wrongs": [
+            "下渗增加，地表径流减少",
+            "蒸发显著增加",
+            "地下径流增加"
+          ],
+          "explanation": "硬化地面阻隔下渗，降水更多转化为地表径流。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "植树造林对当地水循环的主要影响是？",
+          "answer": "增加下渗，调节地表径流",
+          "wrongs": [
+            "减少植物蒸腾",
+            "使降水全部变为地下径流",
+            "加快地表径流汇聚"
+          ],
+          "explanation": "森林拦截降水、增加下渗，使径流变化趋于平缓。"
+        }
+      ],
+      "key": "bx1_shuixunhuan"
+    },
+    {
+      "id": "cng_h008",
+      "name": "海水性质与海水运动",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第3单元 地球上的水",
+      "type": "conceptual",
+      "description": "了解海水温度、盐度和密度的分布规律，能说明波浪、潮汐和洋流等海水运动的基本特点。",
+      "mastery_criteria": [
+        "能说出海水温度、盐度随纬度和深度的变化特点",
+        "能区分波浪、潮汐和洋流的成因"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "世界大洋表层海水盐度最高的海区大致位于？",
+          "answer": "副热带海区",
+          "wrongs": [
+            "赤道海区",
+            "极地海区",
+            "温带海区"
+          ],
+          "explanation": "副热带海区降水少、蒸发旺盛，表层盐度最高。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "潮汐现象的主要成因是？",
+          "answer": "月球和太阳对海水的引潮力",
+          "wrongs": [
+            "盛行风的推动",
+            "海水温度差异",
+            "海底地震"
+          ],
+          "explanation": "月球引潮力为主、太阳引潮力为辅，使海水周期性涨落。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "海水温度随深度增加的变化是？",
+          "answer": "逐渐降低",
+          "wrongs": [
+            "逐渐升高",
+            "保持不变",
+            "先升后降"
+          ],
+          "explanation": "太阳辐射是海水热量的主要来源，故水温随深度增加而降低。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "红海成为世界盐度最高海域的主要原因是？",
+          "answer": "地处副热带，蒸发旺盛，淡水汇入少",
+          "wrongs": [
+            "纬度低降水丰沛",
+            "有大量河流注入",
+            "海水深度特别大"
+          ],
+          "explanation": "红海周边干燥少雨、几乎无河流注入，蒸发使盐度不断升高。"
+        }
+      ],
+      "key": "bx1_haishui_xingzhi"
+    },
+    {
+      "id": "cng_h009",
+      "name": "洋流分布规律及其影响",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第3单元 地球上的水",
+      "type": "reasoning",
+      "description": "归纳世界洋流的分布规律，能分析洋流对沿岸气候、渔场形成、海上航行和污染扩散的影响。",
+      "mastery_criteria": [
+        "能判断中低纬与中高纬海区洋流环流的方向",
+        "能说明寒暖流对气候和渔场的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "北半球中低纬海区大洋环流的方向是？",
+          "answer": "顺时针",
+          "wrongs": [
+            "逆时针",
+            "自东向西",
+            "自北向南"
+          ],
+          "explanation": "北半球中低纬海区形成以副热带为中心的顺时针环流。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "寒流对沿岸气候的影响是？",
+          "answer": "降温减湿",
+          "wrongs": [
+            "增温增湿",
+            "降温增湿",
+            "增温减湿"
+          ],
+          "explanation": "寒流由较高纬流向较低纬，使沿岸气温降低、湿度减小。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "纽芬兰渔场形成的主要条件是？",
+          "answer": "寒暖流交汇，海水受扰动",
+          "wrongs": [
+            "单一暖流流经",
+            "沿岸上升流强劲",
+            "河流带来大量泥沙"
+          ],
+          "explanation": "拉布拉多寒流与墨西哥湾暖流交汇，扰动海水使营养盐上泛。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "秘鲁渔场形成的主要原因是？",
+          "answer": "沿岸上升补偿流带来丰富营养盐",
+          "wrongs": [
+            "寒暖流交汇",
+            "河流入海带来养分",
+            "海水温度最高"
+          ],
+          "explanation": "离岸风形成上升流，把深层营养盐带到表层，浮游生物繁盛。"
+        }
+      ],
+      "key": "bx1_yangliu_yingxiang"
+    },
+    {
+      "id": "cng_h010",
+      "name": "等高线地形图的判读",
+      "domain": "地理工具",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第4单元 地貌",
+      "type": "procedural",
+      "description": "掌握等高线图中地形部位、坡度和相对高度的判读方法，能据此选择路线、判断通视并合理选址。",
+      "mastery_criteria": [
+        "能判读山峰、山谷、山脊、鞍部和陡崖",
+        "能估算陡崖相对高度并比较坡度陡缓"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "等高线由低处向高处凸出的部位是？",
+          "answer": "山谷",
+          "wrongs": [
+            "山脊",
+            "鞍部",
+            "陡崖"
+          ],
+          "explanation": "等高线凸向高处表示地势降低，为集水线所在的山谷。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "等高线越密集，表示该处？",
+          "answer": "坡度越陡",
+          "wrongs": [
+            "坡度越缓",
+            "海拔越低",
+            "相对高度越小"
+          ],
+          "explanation": "同样水平距离内高差越大，等高线越密集，坡度越陡。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "若陡崖处有n条等高线重合、等高距为d，其相对高度H的范围是？",
+          "answer": "(n-1)d≤H<(n+1)d",
+          "wrongs": [
+            "H=(n-1)d",
+            "H>(n+1)d",
+            "H<nd"
+          ],
+          "explanation": "陡崖顶部与底部高差的取值范围为(n-1)d≤H<(n+1)d。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "水库坝址宜选在等高线图中的什么部位？",
+          "answer": "峡谷处",
+          "wrongs": [
+            "开阔的盆地中央",
+            "山脊顶部",
+            "陡崖正下方"
+          ],
+          "explanation": "峡谷处工程量小、上游库区开阔，蓄水量大。"
+        }
+      ],
+      "key": "bx1_denggaoxian"
+    },
+    {
+      "id": "cng_h011",
+      "name": "内力作用与外力作用",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第4单元 地貌",
+      "type": "conceptual",
+      "description": "区分内力作用与外力作用的表现形式，理解二者共同塑造地表形态、其中内力作用总体占主导。",
+      "mastery_criteria": [
+        "能列举内力作用与外力作用的主要表现形式",
+        "能判断具体地貌主要由哪种作用形成"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于内力作用表现的是？",
+          "answer": "地壳运动、岩浆活动和变质作用",
+          "wrongs": [
+            "风化、侵蚀和搬运",
+            "流水堆积和风力堆积",
+            "冰川侵蚀和海水侵蚀"
+          ],
+          "explanation": "内力作用的能量来自地球内部，表现为地壳运动、岩浆活动和变质作用。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "外力作用的主要能量来源是？",
+          "answer": "太阳辐射",
+          "wrongs": [
+            "地球内部热能",
+            "地球自转的惯性",
+            "月球引潮力"
+          ],
+          "explanation": "外力作用通过风化、侵蚀、搬运、堆积改造地表，能量主要来自太阳辐射。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "背斜顶部常被侵蚀成谷地，原因是？",
+          "answer": "顶部受张力，岩层破碎易被侵蚀",
+          "wrongs": [
+            "顶部受挤压，岩层坚实",
+            "顶部岩层缺失",
+            "顶部地下水丰富"
+          ],
+          "explanation": "背斜顶部岩层受张力而破碎，抗侵蚀能力弱，长期侵蚀后成谷。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "黄土高原地表千沟万壑的主要外力作用是？",
+          "answer": "流水侵蚀",
+          "wrongs": [
+            "风力堆积",
+            "冰川侵蚀",
+            "海浪侵蚀"
+          ],
+          "explanation": "黄土土质疏松、降水集中，流水侵蚀切割形成沟壑地貌。"
+        }
+      ],
+      "key": "bx1_neili_waili"
+    },
+    {
+      "id": "cng_h012",
+      "name": "流水地貌与风成地貌",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第4单元 地貌",
+      "type": "application",
+      "description": "识别流水侵蚀、流水堆积和风力作用形成的主要地貌，能结合区域环境判断地貌的成因与分布。",
+      "mastery_criteria": [
+        "能说出冲积扇、三角洲、沙丘等典型地貌的成因",
+        "能根据区域环境判断主要外力作用类型"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "冲积扇多形成于？",
+          "answer": "河流出山口处",
+          "wrongs": [
+            "河流入海口处",
+            "河流下游平原",
+            "海岸线附近"
+          ],
+          "explanation": "河流出山口地势变缓、流速骤减，泥沙呈扇状堆积。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "沙丘的形成主要是？",
+          "answer": "风力堆积作用",
+          "wrongs": [
+            "流水堆积作用",
+            "冰川堆积作用",
+            "海浪堆积作用"
+          ],
+          "explanation": "风搬运沙粒遇阻或风速减小而堆积，形成沙丘。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "河流上游河谷横剖面多呈？",
+          "answer": "V形",
+          "wrongs": [
+            "U形",
+            "槽形",
+            "宽浅的矩形"
+          ],
+          "explanation": "上游地势陡、流速快，以下蚀为主，河谷深而窄，呈V形。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "三角洲形成的主要原因是？",
+          "answer": "河流入海口流速减慢，泥沙大量堆积",
+          "wrongs": [
+            "海浪侵蚀作用强烈",
+            "地壳持续抬升",
+            "河流下蚀作用增强"
+          ],
+          "explanation": "入海口地势平坦、海水顶托，流速减慢使泥沙堆积成三角洲。"
+        }
+      ],
+      "key": "bx1_liushui_dima"
+    },
+    {
+      "id": "cng_h013",
+      "name": "植被与环境的关系",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第5单元 植被与土壤",
+      "type": "conceptual",
+      "description": "说明植被对热量、水分和土壤的适应，理解植被在保持水土、调节气候和维持生物多样性方面的作用。",
+      "mastery_criteria": [
+        "能举例说明植被形态对当地环境的适应",
+        "能说明植被破坏对地理环境的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "常绿阔叶林主要分布在哪种气候条件下？",
+          "answer": "亚热带季风气候",
+          "wrongs": [
+            "热带雨林气候",
+            "温带大陆性气候",
+            "地中海气候"
+          ],
+          "explanation": "亚热带季风气候夏季高温多雨、冬季温和，适宜常绿阔叶林生长。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "干旱地区植物骆驼刺根系十分发达，主要是为了？",
+          "answer": "吸收深层地下水",
+          "wrongs": [
+            "支撑高大的树干",
+            "减少风力侵蚀",
+            "便于攀附岩石"
+          ],
+          "explanation": "干旱区地表水少，深长的根系利于吸收深层水分。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "热带雨林植被的典型特征是？",
+          "answer": "叶片大而薄，全年常绿",
+          "wrongs": [
+            "叶片小而硬，冬季落叶",
+            "针状叶，抗寒耐旱",
+            "肉质茎，储存水分"
+          ],
+          "explanation": "热带雨林全年高温多雨，植被叶片大而薄、常绿、层次复杂。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "山区植被遭破坏后，当地水循环的明显变化是？",
+          "answer": "下渗减少，地表径流增大",
+          "wrongs": [
+            "蒸腾作用增强",
+            "地下径流增加",
+            "降水明显增多"
+          ],
+          "explanation": "植被丧失使雨水直接冲刷地表，下渗减少、地表径流增大。"
+        }
+      ],
+      "key": "bx1_zhibei_huanjing"
+    },
+    {
+      "id": "cng_h014",
+      "name": "土壤的形成与剖面",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第5单元 植被与土壤",
+      "type": "reasoning",
+      "description": "说明成土母质、气候、生物、地形和时间对土壤形成的作用，能识别土壤剖面的主要层次与特征。",
+      "mastery_criteria": [
+        "能说明各成土因素对土壤肥力的影响",
+        "能按顺序说出土壤剖面的主要层次"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "土壤有机质的主要来源是？",
+          "answer": "生物，尤其是植物的枯枝落叶",
+          "wrongs": [
+            "成土母质的风化",
+            "地下水的补给",
+            "大气的降水"
+          ],
+          "explanation": "植物残体分解形成腐殖质，是土壤有机质的主要来源。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "土壤剖面自上而下的层次顺序一般是？",
+          "answer": "有机层、腐殖质层、淋溶层、淀积层、母质层",
+          "wrongs": [
+            "母质层、淀积层、淋溶层、腐殖质层、有机层",
+            "腐殖质层、有机层、母质层、淋溶层、淀积层",
+            "淋溶层、有机层、腐殖质层、母质层、淀积层"
+          ],
+          "explanation": "土壤剖面由上到下依次为有机层、腐殖质层、淋溶层、淀积层和母质层。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "东北黑土有机质含量高的主要原因是？",
+          "answer": "气候冷湿，有机质分解缓慢",
+          "wrongs": [
+            "气温高，微生物活动旺盛",
+            "降水多，淋溶作用强",
+            "成土母质富含有机质"
+          ],
+          "explanation": "低温使微生物分解作用弱，有机质得以大量积累。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "南方红壤酸性强、肥力较低的主要原因是？",
+          "answer": "高温多雨，淋溶作用强烈",
+          "wrongs": [
+            "气候冷湿，分解缓慢",
+            "成土母质为石灰岩",
+            "植被稀疏，有机质来源少"
+          ],
+          "explanation": "高温多雨条件下淋溶作用强，盐基离子大量流失，土壤呈酸性。"
+        }
+      ],
+      "key": "bx1_turang_xingcheng"
+    },
+    {
+      "id": "cng_h015",
+      "name": "常见自然灾害的成因",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第6单元 自然灾害",
+      "type": "reasoning",
+      "description": "说明地震、洪涝、干旱、台风等灾害的成因与分布，理解自然灾害是自然异变与人类活动共同作用的结果。",
+      "mastery_criteria": [
+        "能说明我国主要自然灾害的成因与多发地区",
+        "能区分自然灾害的自然原因与人为原因"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国东部季风区水旱灾害频繁的根本原因是？",
+          "answer": "季风气候降水的季节和年际变化大",
+          "wrongs": [
+            "地形以平原为主",
+            "河流含沙量小",
+            "植被覆盖率高"
+          ],
+          "explanation": "夏季风进退的不稳定使降水集中且年际变化大，易旱易涝。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "我国台风灾害多发的季节是？",
+          "answer": "夏秋季",
+          "wrongs": [
+            "冬季",
+            "春季",
+            "全年各月均等"
+          ],
+          "explanation": "台风主要生成于热带洋面，夏秋季最活跃，多影响东南沿海。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国西南地区地震多发的主要原因是？",
+          "answer": "位于板块交界附近，地壳活动活跃",
+          "wrongs": [
+            "降水丰沛，流水侵蚀强",
+            "地形起伏大，滑坡频繁",
+            "人类过度开采地下水"
+          ],
+          "explanation": "西南地区受印度洋板块与亚欧板块碰撞影响，断裂发育、地震频繁。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "长江中下游洪涝灾害的人为原因主要是？",
+          "answer": "围湖造田使湖泊调蓄能力下降",
+          "wrongs": [
+            "河道自然弯曲",
+            "降水季节分配不均",
+            "地势低平排水不畅"
+          ],
+          "explanation": "围湖造田缩小湖泊面积，削弱了削峰滞洪的能力。"
+        }
+      ],
+      "key": "bx1_zaihai_chengyin"
+    },
+    {
+      "id": "cng_h016",
+      "name": "防灾减灾措施",
+      "domain": "自然地理",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第6单元 自然灾害",
+      "type": "application",
+      "description": "了解监测预警、工程防御和自救互救等防灾减灾措施，能针对具体灾害提出合理可行的对策。",
+      "mastery_criteria": [
+        "能针对地震、洪涝等灾害提出工程与非工程措施",
+        "能说出灾害发生时的正确避险方法"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "地震发生时在室内避险，较为安全的做法是？",
+          "answer": "躲到坚固家具旁或承重墙角",
+          "wrongs": [
+            "立即乘坐电梯下楼",
+            "站在窗边观察情况",
+            "躲进卫生间并关闭所有门窗"
+          ],
+          "explanation": "坚固家具旁和承重墙角可形成三角生存空间，应远离窗户和电梯。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "下列不适合在洪涝多发区选址建房的地点是？",
+          "answer": "河谷低地",
+          "wrongs": [
+            "地势较高的台地",
+            "远离河道的坡地",
+            "历史洪水位以上的高地"
+          ],
+          "explanation": "河谷低地易受洪水淹没，建房应选在洪水位以上的高处。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "在河流上游修建水库对下游洪涝的主要作用是？",
+          "answer": "削峰滞洪，减小下游洪峰流量",
+          "wrongs": [
+            "增加下游泥沙淤积",
+            "加快下游水流速度",
+            "扩大下游洪水范围"
+          ],
+          "explanation": "水库拦蓄洪水，削减洪峰，减轻下游防洪压力。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "开展灾害风险评估首先应当做的工作是？",
+          "answer": "调查灾害隐患点与承灾体分布",
+          "wrongs": [
+            "立即组织群众转移",
+            "修建防洪堤坝",
+            "发放救灾物资"
+          ],
+          "explanation": "风险评估需先查明隐患与承灾体，才能确定风险等级与对策。"
+        }
+      ],
+      "key": "bx1_zaihai_fangfan"
+    },
+    {
+      "id": "cng_h017",
+      "name": "遥感与地理信息系统在防灾中的应用",
+      "domain": "地理工具",
+      "grade": 10,
+      "semester": "全",
+      "chapter": "必修一 第6单元 自然灾害",
+      "type": "application",
+      "description": "区分遥感、全球卫星导航系统和地理信息系统的功能，能说明它们在灾害监测、评估与救援中的作用。",
+      "mastery_criteria": [
+        "能区分遥感、卫星导航和地理信息系统的主要功能",
+        "能举例说明地理信息技术在防灾中的应用"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B1.06",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "获取大范围洪涝淹没范围影像，最适宜采用的技术是？",
+          "answer": "遥感",
+          "wrongs": [
+            "全球卫星导航系统",
+            "地理信息系统",
+            "人工实地测量"
+          ],
+          "explanation": "遥感可快速获取大范围地表影像，适合监测洪水淹没范围。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "确定救援车辆的实时位置，主要依靠？",
+          "answer": "全球卫星导航系统",
+          "wrongs": [
+            "遥感",
+            "地理信息系统",
+            "数字地球"
+          ],
+          "explanation": "卫星导航系统提供定位与导航服务，可实时确定车辆位置。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "地理信息系统在防灾中的主要作用是？",
+          "answer": "对多图层空间数据叠加分析，评估受灾范围",
+          "wrongs": [
+            "直接拍摄灾区影像",
+            "提供车辆定位信号",
+            "替代人工现场救援"
+          ],
+          "explanation": "地理信息系统擅长管理与分析空间数据，可用于灾害评估与决策。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "利用遥感监测森林火灾的主要优势是？",
+          "answer": "覆盖范围广、获取信息时效性强",
+          "wrongs": [
+            "能精确测量树木高度",
+            "可直接扑灭火灾",
+            "不受天气条件影响"
+          ],
+          "explanation": "遥感可大范围、快速重复观测，及时发现火点与火势蔓延。"
+        }
+      ],
+      "key": "bx1_rs_gis"
+    },
+    {
+      "id": "cng_h018",
+      "name": "人口分布及其影响因素",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第1单元 人口",
+      "type": "conceptual",
+      "description": "描述世界和我国人口分布的特点，能分析自然、经济和社会因素对人口分布差异的影响，并解释稠密区与稀疏区的成因。",
+      "mastery_criteria": [
+        "能描述世界人口分布的大势与我国人口分布界线",
+        "能分析影响人口分布的主要自然与人文因素"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "世界上人口最稠密的大洲是？",
+          "answer": "亚洲",
+          "wrongs": [
+            "非洲",
+            "南美洲",
+            "大洋洲"
+          ],
+          "explanation": "亚洲人口约占世界一半以上，东亚、南亚人口尤其稠密。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "我国人口分布的重要地理界线是？",
+          "answer": "黑河—腾冲线",
+          "wrongs": [
+            "秦岭—淮河线",
+            "大兴安岭—太行山线",
+            "昆仑山—祁连山线"
+          ],
+          "explanation": "黑河—腾冲线以东人口稠密，以西人口稀疏。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "青藏高原人口稀疏的主要自然原因是？",
+          "answer": "地势高、气候寒冷缺氧",
+          "wrongs": [
+            "降水过多，洪涝频繁",
+            "地表崎岖，耕地广阔",
+            "矿产资源贫乏"
+          ],
+          "explanation": "高寒缺氧、热量不足，限制了农业生产与人口聚居。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "亚马孙平原人口稀少的主要原因是？",
+          "answer": "气候湿热，开发难度大",
+          "wrongs": [
+            "海拔过高，空气稀薄",
+            "常年干旱缺水",
+            "冬季严寒漫长"
+          ],
+          "explanation": "终年高温多雨、丛林密布，不利于大规模开发与居住。"
+        }
+      ],
+      "key": "bx2_renkou_fenbu"
+    },
+    {
+      "id": "cng_h019",
+      "name": "人口迁移的原因与影响",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第1单元 人口",
+      "type": "reasoning",
+      "description": "说明人口迁移的推力与拉力因素，能分析迁移对迁出地和迁入地在劳动力、经济与社会服务上的影响。",
+      "mastery_criteria": [
+        "能用推拉理论解释具体的人口迁移现象",
+        "能评价人口迁移对迁出地与迁入地的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "改革开放后，我国人口迁移的主要方向是？",
+          "answer": "由内陆农村流向东部沿海城市",
+          "wrongs": [
+            "由东部沿海流向中西部农村",
+            "由城市流向农村",
+            "由南方流向北方"
+          ],
+          "explanation": "东部沿海经济发达、就业机会多，吸引大量中西部劳动力迁入。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "影响人口迁移最经常、最主要的因素是？",
+          "answer": "经济因素",
+          "wrongs": [
+            "气候因素",
+            "政治因素",
+            "宗教因素"
+          ],
+          "explanation": "人们多为了改善收入与生活条件而迁移，经济因素是主导。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "人口大量迁入对迁入地的主要影响是？",
+          "answer": "补充劳动力，但增加住房与公共服务压力",
+          "wrongs": [
+            "劳动力严重短缺",
+            "人口老龄化加剧",
+            "生态环境必然改善"
+          ],
+          "explanation": "迁入人口缓解劳动力不足，同时给基础设施与公共服务带来压力。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "美国老年人口由东北部迁往南部定居，首要考虑的是？",
+          "answer": "南部气候温暖",
+          "wrongs": [
+            "南部矿产资源丰富",
+            "南部就业机会更多",
+            "南部教育水平更高"
+          ],
+          "explanation": "老年人对气候与生活环境要求较高，温暖气候是主要拉力。"
+        }
+      ],
+      "key": "bx2_renkou_qianyi"
+    },
+    {
+      "id": "cng_h020",
+      "name": "资源环境承载力与人口合理容量",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第1单元 人口",
+      "type": "conceptual",
+      "description": "理解资源环境承载力与人口合理容量的含义与区别，能分析资源、科技和消费水平对二者的影响。",
+      "mastery_criteria": [
+        "能区分资源环境承载力与人口合理容量",
+        "能说明提高人口合理容量的主要途径"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "资源环境承载力的大小首先取决于？",
+          "answer": "自然资源数量",
+          "wrongs": [
+            "人口性别结构",
+            "城镇数量",
+            "交通线路长度"
+          ],
+          "explanation": "资源是人口生存与发展的基础，资源数量是承载力的首要制约因素。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "人口合理容量是指？",
+          "answer": "按照合理生活方式和保障健康生活水平的最适宜人口数量",
+          "wrongs": [
+            "资源所能养活的最大人口数量",
+            "一个国家现有的总人口",
+            "城镇能容纳的流动人口"
+          ],
+          "explanation": "人口合理容量强调合理生活水平下的适宜人口，不是最大极限。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "提高区域人口合理容量的主要途径是？",
+          "answer": "提高资源利用率、发展科技",
+          "wrongs": [
+            "无限制地消耗资源",
+            "降低对外开放程度",
+            "减少教育投入"
+          ],
+          "explanation": "科技进步与资源利用效率提高，可扩大资源的支撑能力。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "日本自然资源贫乏但人口容量较高，重要原因是？",
+          "answer": "科技发达、对外开放程度高",
+          "wrongs": [
+            "国土面积广大",
+            "矿产资源丰富",
+            "人口增长迅速"
+          ],
+          "explanation": "日本依靠科技与国际贸易弥补资源不足，提高了人口容量。"
+        }
+      ],
+      "key": "bx2_renkou_rongliang"
+    },
+    {
+      "id": "cng_h021",
+      "name": "人口统计图表的判读",
+      "domain": "地理工具",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第1单元 人口",
+      "type": "procedural",
+      "description": "掌握人口金字塔、折线图和三角坐标图的判读方法，能据图判断人口年龄结构与人口增长特点。",
+      "mastery_criteria": [
+        "能根据人口金字塔判断年龄结构与增长类型",
+        "能按步骤读取折线图和三角坐标图的数据"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "人口金字塔底部宽、顶部尖，说明该国？",
+          "answer": "年轻人口比重大，出生率高",
+          "wrongs": [
+            "老年人口比重大",
+            "人口出现负增长",
+            "劳动力严重不足"
+          ],
+          "explanation": "底部宽表示少年儿童多，塔形尖说明老年人口少，属增长型。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "三角坐标图的三个轴通常表示？",
+          "answer": "三个组成部分各自的比重",
+          "wrongs": [
+            "三个地区的人口数量",
+            "三个年份的总人口",
+            "三个年龄段的人口密度"
+          ],
+          "explanation": "三角坐标图用于表示三个部分在总量中的比重，三者合计为100%。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "某国0—14岁人口比重持续下降，最先影响的是？",
+          "answer": "未来劳动力供给",
+          "wrongs": [
+            "当前粮食产量",
+            "当前城市化水平",
+            "当前气候状况"
+          ],
+          "explanation": "少年儿童减少将在此后十几年反映为劳动年龄人口减少。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "判读人口折线图时，首先应当明确的是？",
+          "answer": "横纵坐标的含义与单位",
+          "wrongs": [
+            "图例的颜色深浅",
+            "图表的标题字号",
+            "数据来源的出版机构"
+          ],
+          "explanation": "先确定坐标含义与单位，才能正确读取数值与变化趋势。"
+        }
+      ],
+      "key": "bx2_renkou_tubiao"
+    },
+    {
+      "id": "cng_h022",
+      "name": "城镇内部空间结构",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第2单元 乡村和城镇",
+      "type": "reasoning",
+      "description": "说明住宅区、商业区和工业区的布局特点，能分析地租水平、交通通达度和环境要求对空间结构的影响。",
+      "mastery_criteria": [
+        "能说出商业区、住宅区和工业区的一般布局位置",
+        "能用地租与交通因素解释功能区形成"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "城镇中面积最广的土地利用类型通常是？",
+          "answer": "住宅用地",
+          "wrongs": [
+            "商业用地",
+            "工业用地",
+            "交通用地"
+          ],
+          "explanation": "住宅区是城镇最基本的功能区，占地比重最大。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "城镇商业区通常布局在？",
+          "answer": "市中心和交通干线两侧",
+          "wrongs": [
+            "城市外围的工业区附近",
+            "远郊的农田中",
+            "河流上游的水源地"
+          ],
+          "explanation": "商业区需接近最大消费人群，市中心与交通干线通达度最高。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "工业区多布局在城镇外围，主要原因是？",
+          "answer": "地价较低且便于减轻污染",
+          "wrongs": [
+            "接近消费市场",
+            "便于职工步行上班",
+            "靠近行政中心"
+          ],
+          "explanation": "外围地价低、对城区污染影响小，且便于连接对外交通。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "城镇地租水平由市中心向外的一般变化是？",
+          "answer": "逐渐降低",
+          "wrongs": [
+            "逐渐升高",
+            "先降后升再降",
+            "各处完全一致"
+          ],
+          "explanation": "距市中心越远，交通通达度越低、消费人群越少，地租越低。"
+        }
+      ],
+      "key": "bx2_chengzhen_kongjian"
+    },
+    {
+      "id": "cng_h023",
+      "name": "城镇化进程及其问题",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第2单元 乡村和城镇",
+      "type": "application",
+      "description": "理解城镇化的标志与动力，能分析城镇化过程中出现的资源环境和社会问题并提出解决途径。",
+      "mastery_criteria": [
+        "能说出衡量城镇化水平的主要指标",
+        "能针对城市病提出合理的解决措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "衡量一个地区城镇化水平的主要指标是？",
+          "answer": "城镇人口占总人口的比重",
+          "wrongs": [
+            "城镇用地总面积",
+            "城镇道路总长度",
+            "城镇工业企业数量"
+          ],
+          "explanation": "城镇化水平通常用城镇人口比重衡量，反映人口向城镇集聚的程度。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "城镇化发展初期的主要动力是？",
+          "answer": "农业发展提供的剩余产品和劳动力",
+          "wrongs": [
+            "工业自动化水平提高",
+            "第三产业的迅速扩张",
+            "国际贸易的快速增长"
+          ],
+          "explanation": "农业劳动生产率提高产生剩余劳动力和农产品，是城镇化的基础。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "缓解城市交通拥堵的合理措施是？",
+          "answer": "优先发展公共交通，合理规划路网",
+          "wrongs": [
+            "大量拆除城市绿地",
+            "鼓励私人小汽车出行",
+            "把工厂迁入市中心"
+          ],
+          "explanation": "发展公共交通可提高道路运输效率，配合路网规划缓解拥堵。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "郊区城镇化出现的主要表现是？",
+          "answer": "人口和产业向郊区迁移",
+          "wrongs": [
+            "农村人口大量涌入市中心",
+            "城市中心人口急剧增加",
+            "城市用地规模停止扩张"
+          ],
+          "explanation": "中心城区地价上涨、环境压力增大，人口与产业向郊区扩散。"
+        }
+      ],
+      "key": "bx2_chengzhenhua"
+    },
+    {
+      "id": "cng_h024",
+      "name": "乡村与地域文化景观",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第2单元 乡村和城镇",
+      "type": "conceptual",
+      "description": "理解乡村聚落与地理环境的关系，能说明地域文化在民居建筑、聚落形态和生活方式上的体现。",
+      "mastery_criteria": [
+        "能说明传统民居对当地气候的适应",
+        "能举例说明地域文化在城乡景观中的体现"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国南方传统民居屋顶坡度较大，主要适应？",
+          "answer": "降水丰沛，利于排水",
+          "wrongs": [
+            "冬季严寒，利于保温",
+            "风沙大，利于防风",
+            "地震多，利于抗震"
+          ],
+          "explanation": "南方降水多，坡度大的屋顶可迅速排走雨水。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "窑洞这种传统民居主要分布在？",
+          "answer": "黄土高原",
+          "wrongs": [
+            "云贵高原",
+            "长江三角洲",
+            "珠江三角洲"
+          ],
+          "explanation": "黄土层深厚、直立性好，适宜开挖窑洞，且冬暖夏凉。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "傣族竹楼底层架空的主要作用是？",
+          "answer": "防潮通风，适应湿热环境",
+          "wrongs": [
+            "抵御严寒大雪",
+            "储存大量粮食",
+            "便于饲养牲畜并防震"
+          ],
+          "explanation": "湿热地区架空可隔潮、利于通风，减少虫害。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "保护地域文化景观的主要意义是？",
+          "answer": "传承地域文化，发展特色旅游",
+          "wrongs": [
+            "统一各地建筑风格",
+            "加快城镇拆旧建新",
+            "扩大耕地面积"
+          ],
+          "explanation": "地域文化景观承载地方历史与认同，保护有助于文化传承与旅游发展。"
+        }
+      ],
+      "key": "bx2_cunluo_wenhua"
+    },
+    {
+      "id": "cng_h025",
+      "name": "农业区位因素",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第3单元 产业区位因素",
+      "type": "application",
+      "description": "分析气候、地形、土壤、水源等自然因素和市场、交通、技术等社会经济因素对农业区位的影响。",
+      "mastery_criteria": [
+        "能区分影响农业的自然因素与社会经济因素",
+        "能结合具体作物判断其主导区位条件"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于影响农业生产的自然因素的是？",
+          "answer": "气候、地形、土壤和水源",
+          "wrongs": [
+            "市场、交通和政策",
+            "劳动力和技术",
+            "资金和管理"
+          ],
+          "explanation": "自然因素包括气候、地形、土壤和水源，是农业布局的基础条件。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "城市郊区发展蔬菜、花卉种植，主导区位因素是？",
+          "answer": "市场和交通",
+          "wrongs": [
+            "土壤和地形",
+            "劳动力和政策",
+            "水源和气候"
+          ],
+          "explanation": "蔬菜花卉易腐烂、需新鲜上市，靠近城市市场并依赖便捷交通。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "新疆长绒棉品质优良的主要自然条件是？",
+          "answer": "光照充足、昼夜温差大",
+          "wrongs": [
+            "降水丰沛、空气湿润",
+            "土壤呈酸性、质地黏重",
+            "纬度低、热量过剩"
+          ],
+          "explanation": "光照强、昼夜温差大有利于有机质积累，纤维品质好。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "荷兰成为世界重要花卉出口国的主要原因是？",
+          "answer": "交通便利、市场广阔、技术先进",
+          "wrongs": [
+            "国土辽阔、耕地充足",
+            "气候炎热、降水稀少",
+            "劳动力廉价且丰富"
+          ],
+          "explanation": "荷兰依托航空运输、欧洲市场和先进的温室技术发展花卉业。"
+        }
+      ],
+      "key": "bx2_nongye_quwei"
+    },
+    {
+      "id": "cng_h026",
+      "name": "工业区位因素",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第3单元 产业区位因素",
+      "type": "application",
+      "description": "分析原料、市场、动力、劳动力和技术等因素对工业布局的影响，能判断工业的主导区位类型。",
+      "mastery_criteria": [
+        "能判断原料导向型、市场导向型等工业类型",
+        "能结合工业特点分析其主导区位因素"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "制糖工业多分布在原料产地，主要原因是？",
+          "answer": "原料笨重易腐，运输成本高",
+          "wrongs": [
+            "生产过程需要大量劳动力",
+            "产品不便于长途运输",
+            "需要靠近消费市场"
+          ],
+          "explanation": "甘蔗、甜菜体积大、易变质，宜在产地就近加工以减少运费和损耗。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "电子装配工业属于哪种导向型工业？",
+          "answer": "劳动力导向型",
+          "wrongs": [
+            "原料导向型",
+            "市场导向型",
+            "技术导向型"
+          ],
+          "explanation": "电子装配需要大量廉价劳动力，属劳动力导向型。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "炼铝厂多布局在能源丰富地区，主要原因是？",
+          "answer": "冶炼过程消耗大量电能",
+          "wrongs": [
+            "原料体积大易腐烂",
+            "产品运输不便",
+            "需要大量廉价劳动力"
+          ],
+          "explanation": "电解铝耗电量巨大，靠近水电站等能源产地可降低成本。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "大型石油化工企业趋向临海布局，主要考虑？",
+          "answer": "便于原料进口和产品出口",
+          "wrongs": [
+            "靠近消费市场",
+            "接近科技人才",
+            "利用廉价劳动力"
+          ],
+          "explanation": "临海便于大型油轮运输原油与出口产品，降低运输成本。"
+        }
+      ],
+      "key": "bx2_gongye_quwei"
+    },
+    {
+      "id": "cng_h027",
+      "name": "服务业区位因素",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第3单元 产业区位因素",
+      "type": "conceptual",
+      "description": "说明商业、金融、物流等服务业区位选择的主要因素，理解市场、交通和信息技术对服务业布局的影响。",
+      "mastery_criteria": [
+        "能说出零售商业选址的主要考虑因素",
+        "能分析交通与信息技术对服务业布局的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "零售商业区位选择首先考虑的因素是？",
+          "answer": "消费人群的数量与购买力",
+          "wrongs": [
+            "土地价格的高低",
+            "原料产地的远近",
+            "能源供应的充足"
+          ],
+          "explanation": "零售业直接面向消费者，客流与购买力决定其效益。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "金融中心多分布在？",
+          "answer": "大城市中心商务区",
+          "wrongs": [
+            "城市远郊的农村",
+            "大型工矿区内",
+            "交通不便的山区"
+          ],
+          "explanation": "中心商务区交通与信息通达，便于金融机构集聚与业务往来。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "大型仓储物流中心多布局在？",
+          "answer": "城市外围交通枢纽附近",
+          "wrongs": [
+            "城市中心商业街",
+            "居民区内部",
+            "河流上游水源地"
+          ],
+          "explanation": "外围地价低、场地大，靠近高速与铁路枢纽便于集散货物。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "电子商务迅速发展对传统零售业的主要影响是？",
+          "answer": "削弱实体店的区位优势，扩大市场范围",
+          "wrongs": [
+            "使实体店完全消失",
+            "提高实体店的地租",
+            "减少消费者的选择"
+          ],
+          "explanation": "网购突破空间限制，实体店需依靠体验与服务重新定位。"
+        }
+      ],
+      "key": "bx2_fuwuye_quwei"
+    },
+    {
+      "id": "cng_h028",
+      "name": "区位因素的变化与产业布局调整",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第3单元 产业区位因素",
+      "type": "reasoning",
+      "description": "理解技术、交通和市场变化使各区位因素的作用发生改变，能解释产业转移和布局调整的现象。",
+      "mastery_criteria": [
+        "能说明技术、交通变化对区位因素的影响",
+        "能解释劳动密集型产业向内地转移的原因"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "钢铁工业布局由靠近煤铁产地转向靠近市场和交通便利地区，主要得益于？",
+          "answer": "冶炼技术进步与交通运输发展",
+          "wrongs": [
+            "铁矿资源完全枯竭",
+            "劳动力数量大幅增加",
+            "市场需求不断缩小"
+          ],
+          "explanation": "技术进步降低了原料消耗，运输条件改善使布局更接近市场。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "保鲜冷藏技术的发展，使乳畜业和园艺业的布局？",
+          "answer": "更加灵活，可远离市场",
+          "wrongs": [
+            "只能靠近市场",
+            "完全受气候制约",
+            "必须靠近原料产地"
+          ],
+          "explanation": "保鲜技术延长了农产品保质期，生产地可远离消费市场。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "劳动密集型产业由沿海向内陆转移的主要原因是？",
+          "answer": "沿海地区劳动力成本上升",
+          "wrongs": [
+            "内陆地区矿产资源枯竭",
+            "沿海地区市场萎缩",
+            "内陆地区气候更优越"
+          ],
+          "explanation": "沿海工资与地价上涨，企业为降低成本向中西部转移。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "在现代产业布局中作用越来越突出的区位因素是？",
+          "answer": "科技与信息",
+          "wrongs": [
+            "原料与能源",
+            "土地与劳动力数量",
+            "气候与水源"
+          ],
+          "explanation": "知识经济时代，科技、信息与创新能力对产业布局影响增强。"
+        }
+      ],
+      "key": "bx2_quwei_bianhua"
+    },
+    {
+      "id": "cng_h029",
+      "name": "主要交通运输方式的特点",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第4单元 交通运输布局与区域发展",
+      "type": "procedural",
+      "description": "比较铁路、公路、水运、航空和管道运输在运量、速度、成本和灵活性上的差异，能按运输需求选择方式。",
+      "mastery_criteria": [
+        "能比较五种运输方式的优缺点",
+        "能根据货物性质与运输距离选择合适方式"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "运量最大、运费最低的运输方式是？",
+          "answer": "水路运输",
+          "wrongs": [
+            "航空运输",
+            "公路运输",
+            "管道运输"
+          ],
+          "explanation": "水运适合大宗货物长距离运输，运量大、成本低，但速度慢。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "速度最快的运输方式是？",
+          "answer": "航空运输",
+          "wrongs": [
+            "铁路运输",
+            "公路运输",
+            "水路运输"
+          ],
+          "explanation": "航空运输速度最快，适合贵重、急需和远距离的旅客与货物。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "运输大宗笨重货物且距离较远时，宜选择？",
+          "answer": "铁路运输",
+          "wrongs": [
+            "航空运输",
+            "公路运输",
+            "管道运输"
+          ],
+          "explanation": "铁路运量大、成本较低、受天气影响小，适合大宗笨重货物。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "管道运输的主要优点是？",
+          "answer": "连续性强、损耗小、安全性好",
+          "wrongs": [
+            "机动灵活、门到门",
+            "速度最快",
+            "受地形影响极大"
+          ],
+          "explanation": "管道可连续输送油气，损耗小且不易受地面交通干扰。"
+        }
+      ],
+      "key": "bx2_jiaotong_fangshi"
+    },
+    {
+      "id": "cng_h030",
+      "name": "交通运输布局的区位条件",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第4单元 交通运输布局与区域发展",
+      "type": "reasoning",
+      "description": "说明自然条件、社会经济和技术因素对交通线路和站点布局的影响，理解布局需趋利避害、因地制宜。",
+      "mastery_criteria": [
+        "能分析地形、水文等自然条件对线路布局的制约",
+        "能说明港口、车站等站点选址的主要条件"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "山区公路常修成「之」字形，主要目的是？",
+          "answer": "降低线路坡度",
+          "wrongs": [
+            "缩短线路长度",
+            "减少占用耕地",
+            "避开地质灾害"
+          ],
+          "explanation": "盘旋上升可减缓坡度，提高行车安全与通行能力。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "港口建设的首要条件是？",
+          "answer": "水深、避风且有广阔腹地",
+          "wrongs": [
+            "靠近山区矿产",
+            "地势高亢平坦",
+            "气候干旱少雨"
+          ],
+          "explanation": "良港需有足够水深、避风港湾和支撑货源的广阔经济腹地。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "青藏铁路修建面临的主要自然障碍是？",
+          "answer": "多年冻土和高寒缺氧",
+          "wrongs": [
+            "台风频繁登陆",
+            "火山活动强烈",
+            "沙漠广布流沙多"
+          ],
+          "explanation": "高原冻土、缺氧和生态脆弱是青藏铁路建设的主要难题。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "交通线路选线时首先要考虑的是？",
+          "answer": "沿线经济发展与运输需求",
+          "wrongs": [
+            "线路是否笔直",
+            "沿线风景是否优美",
+            "是否经过所有村庄"
+          ],
+          "explanation": "交通建设服务于经济社会发展和客货运输需求，这是选线的首要依据。"
+        }
+      ],
+      "key": "bx2_jiaotong_buju"
+    },
+    {
+      "id": "cng_h031",
+      "name": "交通运输对区域发展的影响",
+      "domain": "人文地理",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第4单元 交通运输布局与区域发展",
+      "type": "application",
+      "description": "说明交通条件改善对资源开发、产业集聚和城镇发展的作用，理解交通是区域发展的重要基础条件。",
+      "mastery_criteria": [
+        "能说明交通对城镇形成与产业集聚的作用",
+        "能分析交通改善对农村与山区经济的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "多条交通干线交汇处容易形成？",
+          "answer": "城镇和商业中心",
+          "wrongs": [
+            "大型矿区",
+            "高山牧场",
+            "原始森林"
+          ],
+          "explanation": "交通交汇处人流物流集中，便于商业与服务业集聚，促进城镇形成。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "高速铁路开通对沿线中小城市的主要影响是？",
+          "answer": "缩短时空距离，促进人员流动",
+          "wrongs": [
+            "使城市完全衰落",
+            "减少与外界的联系",
+            "导致沿线人口全部外迁"
+          ],
+          "explanation": "高铁提高可达性，便于通勤、旅游与商务往来。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "交通条件改善对山区农村的主要作用是？",
+          "answer": "扩大农产品销售范围",
+          "wrongs": [
+            "减少农业劳动力需求",
+            "使耕地面积大幅增加",
+            "降低农产品商品率"
+          ],
+          "explanation": "交通便利后农产品可运往更远市场，商品率与收入提高。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "「要想富，先修路」所体现的地理原理是？",
+          "answer": "交通改善促进区域经济发展",
+          "wrongs": [
+            "交通建设必然破坏环境",
+            "交通越密越浪费土地",
+            "交通与经济发展无关"
+          ],
+          "explanation": "交通降低运输成本、扩大市场，是区域经济发展的重要前提。"
+        }
+      ],
+      "key": "bx2_jiaotong_yingxiang"
+    },
+    {
+      "id": "cng_h032",
+      "name": "人类面临的主要环境问题",
+      "domain": "资源环境与国家安全",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第5单元 环境与发展",
+      "type": "conceptual",
+      "description": "区分环境污染、生态破坏和资源短缺三类环境问题，能分析其成因、危害与地域差异，并说明不同国家环境问题的表现。",
+      "mastery_criteria": [
+        "能按类型划分主要环境问题",
+        "能分析发达国家与发展中国家环境问题的差异"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "全球气候变暖属于哪一类环境问题？",
+          "answer": "全球性环境问题",
+          "wrongs": [
+            "局部性环境污染",
+            "生态破坏",
+            "资源短缺"
+          ],
+          "explanation": "温室气体排放影响全球气候系统，属于全球性环境问题。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "土地荒漠化属于？",
+          "answer": "生态破坏",
+          "wrongs": [
+            "环境污染",
+            "资源短缺",
+            "自然灾害"
+          ],
+          "explanation": "荒漠化是植被破坏、土地退化的过程，属于生态破坏。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "发达国家环境问题的主要表现是？",
+          "answer": "过度消费带来的污染与资源消耗",
+          "wrongs": [
+            "人口增长过快导致开垦过度",
+            "工业起步晚污染较轻",
+            "缺乏环保技术与资金"
+          ],
+          "explanation": "发达国家人均消费高，资源消耗与污染物排放量大。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "发展中国家生态破坏严重的主要原因是？",
+          "answer": "人口增长快、资源利用方式粗放",
+          "wrongs": [
+            "环保技术过于先进",
+            "人均消费水平过高",
+            "工业化早已完成"
+          ],
+          "explanation": "人口压力与贫困迫使过度开垦、放牧和砍伐，导致生态退化。"
+        }
+      ],
+      "key": "bx2_huanjing_wenti"
+    },
+    {
+      "id": "cng_h033",
+      "name": "可持续发展的内涵与原则",
+      "domain": "资源环境与国家安全",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第5单元 环境与发展",
+      "type": "conceptual",
+      "description": "理解可持续发展在经济社会生态三方面的内涵，掌握公平性、持续性和共同性原则并能举例说明。",
+      "mastery_criteria": [
+        "能说出可持续发展的三个维度与三项原则",
+        "能用具体事例说明可持续原则的应用"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "可持续发展包括的三个维度是？",
+          "answer": "经济、社会、生态",
+          "wrongs": [
+            "人口、粮食、能源",
+            "工业、农业、服务业",
+            "城市、乡村、区域"
+          ],
+          "explanation": "可持续发展追求经济发展、社会公平与生态保护的协调统一。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "持续性原则的核心是？",
+          "answer": "人类活动不超过资源环境承载力",
+          "wrongs": [
+            "代际之间平均分配财富",
+            "各国承担完全相同的责任",
+            "优先发展经济再治理环境"
+          ],
+          "explanation": "持续性原则要求经济活动保持在生态系统可承受的范围内。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "公平性原则要求？",
+          "answer": "代际之间和区域之间公平使用资源",
+          "wrongs": [
+            "当代人优先使用全部资源",
+            "发达国家优先占用资源",
+            "资源只在本地使用"
+          ],
+          "explanation": "公平性包括代内公平与代际公平，兼顾不同区域与国家。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "工厂推行清洁生产，主要体现了可持续发展的？",
+          "answer": "持续性原则",
+          "wrongs": [
+            "公平性原则",
+            "共同性原则",
+            "阶段性原则"
+          ],
+          "explanation": "清洁生产减少资源消耗与污染排放，维护生态系统的持续支撑能力。"
+        }
+      ],
+      "key": "bx2_chixu_fazhan"
+    },
+    {
+      "id": "cng_h034",
+      "name": "清洁生产与循环经济",
+      "domain": "资源环境与国家安全",
+      "grade": 11,
+      "semester": "全",
+      "chapter": "必修二 第5单元 环境与发展",
+      "type": "application",
+      "description": "理解清洁生产从源头削减污染的思路和循环经济减量化、再利用、再循环原则，能分析具体生产流程。",
+      "mastery_criteria": [
+        "能说出循环经济的三个原则",
+        "能说明清洁生产与末端治理的区别"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:B2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "循环经济的三个原则是？",
+          "answer": "减量化、再利用、再循环",
+          "wrongs": [
+            "高消耗、高排放、高效益",
+            "先污染、后治理、再修复",
+            "开源、节流、移民"
+          ],
+          "explanation": "3R原则强调减少投入、重复使用和资源再生。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "清洁生产与末端治理的主要区别是？",
+          "answer": "清洁生产强调生产全过程控制污染",
+          "wrongs": [
+            "清洁生产只处理最终废物",
+            "末端治理能根治污染",
+            "两者没有本质区别"
+          ],
+          "explanation": "清洁生产从原料、工艺到产品全程减少污染产生，末端治理只是事后处理。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "工业生态园区内企业互换废弃物，主要意义是？",
+          "answer": "提高资源利用率，减少污染物排放",
+          "wrongs": [
+            "扩大污染物排放总量",
+            "增加原料进口数量",
+            "降低企业技术水平"
+          ],
+          "explanation": "一家企业的废料成为另一家的原料，实现物质循环利用。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "生活垃圾分类回收主要体现循环经济的哪一原则？",
+          "answer": "再循环与再利用",
+          "wrongs": [
+            "减量化",
+            "高碳化",
+            "单一化"
+          ],
+          "explanation": "分类回收使废弃物重新成为资源，体现再循环与再利用。"
+        }
+      ],
+      "key": "bx2_qingjie_shengchan"
+    },
+    {
+      "id": "cng_h035",
+      "name": "地球自转的地理意义",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第1单元 地球的运动",
+      "type": "reasoning",
+      "description": "说明地球自转产生昼夜交替、地方时和地转偏向力，能判断水平运动物体在南北半球的偏转方向。",
+      "mastery_criteria": [
+        "能解释昼夜交替与地方时的成因",
+        "能判断南北半球水平运动物体的偏转方向"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "北半球水平运动的物体，其运动方向会？",
+          "answer": "向右侧偏转",
+          "wrongs": [
+            "向左侧偏转",
+            "不发生偏转",
+            "先右偏后左偏"
+          ],
+          "explanation": "受地转偏向力影响，北半球右偏、南半球左偏，赤道上不偏。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "地球自转产生的地方时差异表现为？",
+          "answer": "东边地点时刻早于西边地点",
+          "wrongs": [
+            "西边地点时刻早于东边地点",
+            "各地时刻完全相同",
+            "高纬度时刻早于低纬度"
+          ],
+          "explanation": "地球自西向东转，东边先见日出，地方时更早。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "南半球平直河道中，水流冲刷较强的一岸是？",
+          "answer": "面向下游的左岸",
+          "wrongs": [
+            "面向下游的右岸",
+            "两岸冲刷强度相同",
+            "河心位置冲刷最强"
+          ],
+          "explanation": "南半球地转偏向力使水流向左偏，因而冲刷面向下游的左岸。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "昼夜交替的周期是？",
+          "answer": "一个太阳日",
+          "wrongs": [
+            "一个恒星日",
+            "一个恒星年",
+            "一个回归年"
+          ],
+          "explanation": "以太阳为参照，昼夜交替周期为一个太阳日，约24小时。"
+        }
+      ],
+      "key": "xb1_dizhuan_yiyi"
+    },
+    {
+      "id": "cng_h036",
+      "name": "地球公转的地理意义",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第1单元 地球的运动",
+      "type": "reasoning",
+      "description": "理解太阳直射点的回归运动，能分析正午太阳高度与昼夜长短的纬度差异和季节变化，判断太阳方位。",
+      "mastery_criteria": [
+        "能说明太阳直射点的移动规律",
+        "能判断某地某日正午太阳方位与昼夜长短"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "太阳直射点移动的范围是？",
+          "answer": "南北回归线之间",
+          "wrongs": [
+            "南北极圈之间",
+            "赤道与北回归线之间",
+            "整个地球表面"
+          ],
+          "explanation": "受黄赤交角限制，太阳直射点在南北回归线之间往返移动。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "北半球夏至日，北极圈以内出现的现象是？",
+          "answer": "极昼",
+          "wrongs": [
+            "极夜",
+            "昼夜等长",
+            "太阳终日不升"
+          ],
+          "explanation": "夏至日太阳直射北回归线，北极圈以内出现极昼。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "北回归线以北的地区，正午太阳位于？",
+          "answer": "正南方",
+          "wrongs": [
+            "正北方",
+            "正东方",
+            "天顶"
+          ],
+          "explanation": "太阳直射点始终位于该地以南，故正午太阳在正南方向。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "北京一年中白昼最长的一天是？",
+          "answer": "夏至日",
+          "wrongs": [
+            "春分日",
+            "秋分日",
+            "冬至日"
+          ],
+          "explanation": "北半球夏至日昼最长夜最短，北京位于北半球中纬地区。"
+        }
+      ],
+      "key": "xb1_gongzhuan_yiyi"
+    },
+    {
+      "id": "cng_h037",
+      "name": "黄赤交角与四季五带",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第1单元 地球的运动",
+      "type": "conceptual",
+      "description": "理解黄赤交角的存在导致太阳直射点回归运动，能说明其大小变化对五带范围和四季更替的影响。",
+      "mastery_criteria": [
+        "能说出黄赤交角的度数及其地理意义",
+        "能推断黄赤交角变化对五带范围的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "目前黄赤交角的度数约为？",
+          "answer": "23°26′",
+          "wrongs": [
+            "23°26′的余角66°34′",
+            "30°",
+            "45°"
+          ],
+          "explanation": "黄赤交角约为23°26′，与其余角66°34′之和为90°。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "五带中既无太阳直射又无极昼极夜现象的是？",
+          "answer": "温带",
+          "wrongs": [
+            "热带",
+            "寒带",
+            "赤道带"
+          ],
+          "explanation": "温带位于回归线与极圈之间，既无直射也无极昼极夜。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "若黄赤交角变小，则热带的范围将？",
+          "answer": "缩小",
+          "wrongs": [
+            "扩大",
+            "保持不变",
+            "先扩大后缩小"
+          ],
+          "explanation": "热带范围由南北回归线决定，黄赤交角变小则回归线向赤道靠近，热带缩小。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "四季更替形成的根本原因是？",
+          "answer": "黄赤交角的存在与地球公转",
+          "wrongs": [
+            "地球自转速度的变化",
+            "日地距离的远近变化",
+            "地球是个不透明球体"
+          ],
+          "explanation": "黄赤交角使太阳直射点回归移动，造成各地热量收支的季节变化。"
+        }
+      ],
+      "key": "xb1_huangchi_jiao"
+    },
+    {
+      "id": "cng_h038",
+      "name": "板块运动与宏观地貌",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第2单元 地表形态的塑造",
+      "type": "reasoning",
+      "description": "运用板块构造学说解释海沟、岛弧、褶皱山脉和裂谷的分布，理解板块边界类型与地貌的关系。",
+      "mastery_criteria": [
+        "能说出六大板块的名称与分布",
+        "能判断板块消亡边界与生长边界形成的地貌"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "六大板块中几乎全部为海洋的板块是？",
+          "answer": "太平洋板块",
+          "wrongs": [
+            "亚欧板块",
+            "印度洋板块",
+            "南极洲板块"
+          ],
+          "explanation": "太平洋板块绝大部分位于大洋之下，其余板块均包含大陆部分。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "喜马拉雅山脉的形成是由于？",
+          "answer": "印度洋板块与亚欧板块碰撞挤压",
+          "wrongs": [
+            "板块张裂拉伸",
+            "火山持续喷发",
+            "流水长期堆积"
+          ],
+          "explanation": "印度洋板块北移与亚欧板块碰撞，地壳隆起形成高大山脉。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "马里亚纳海沟的成因是？",
+          "answer": "大洋板块俯冲到大陆板块之下",
+          "wrongs": [
+            "板块张裂形成裂谷",
+            "海底火山不断堆积",
+            "海浪长期侵蚀"
+          ],
+          "explanation": "大洋板块密度大，俯冲插入大陆板块之下形成深海沟。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "东非大裂谷的形成是由于？",
+          "answer": "板块张裂",
+          "wrongs": [
+            "板块碰撞挤压",
+            "流水下切侵蚀",
+            "冰川刨蚀作用"
+          ],
+          "explanation": "板块张裂使地壳断裂下陷，形成狭长的裂谷带。"
+        }
+      ],
+      "key": "xb1_banzhuan"
+    },
+    {
+      "id": "cng_h039",
+      "name": "地质构造与构造地貌",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第2单元 地表形态的塑造",
+      "type": "application",
+      "description": "识别褶皱、断层等地质构造，能判断背斜、向斜和断层形成的地貌及其在工程选址中的意义。",
+      "mastery_criteria": [
+        "能判断背斜、向斜与断层及其形成的地貌",
+        "能说明地质构造对隧道、水库选址的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "岩层向上拱起的地质构造是？",
+          "answer": "背斜",
+          "wrongs": [
+            "向斜",
+            "断层",
+            "地堑"
+          ],
+          "explanation": "背斜岩层向上拱起，中心岩层老、两翼岩层新。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "修建隧道工程一般宜选址在？",
+          "answer": "背斜",
+          "wrongs": [
+            "向斜",
+            "断层带",
+            "陡崖处"
+          ],
+          "explanation": "背斜岩层拱起、结构稳定，不易积水，适宜开凿隧道。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "向斜槽部常形成山岭，原因是？",
+          "answer": "槽部岩层受挤压紧实，抗侵蚀能力强",
+          "wrongs": [
+            "槽部岩层受张力破碎",
+            "槽部地壳持续抬升",
+            "槽部堆积作用旺盛"
+          ],
+          "explanation": "向斜槽部岩层被挤压致密，不易被侵蚀，常残留成山。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "大型水库坝址应避开断层带，主要原因是？",
+          "answer": "岩层破碎，易诱发地质灾害与渗漏",
+          "wrongs": [
+            "断层处地价过高",
+            "断层处植被稀少",
+            "断层处海拔太低"
+          ],
+          "explanation": "断层带岩层破碎、透水性强，易发生渗漏和诱发地震。"
+        }
+      ],
+      "key": "xb1_dizhi_gouzao"
+    },
+    {
+      "id": "cng_h040",
+      "name": "河流地貌的发育",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第2单元 地表形态的塑造",
+      "type": "procedural",
+      "description": "说明河流侵蚀与堆积作用在上、中、下游的表现，能解释河谷、冲积扇、河漫滩和三角洲的形成过程。",
+      "mastery_criteria": [
+        "能描述河流上中下游河谷形态的变化",
+        "能解释凹岸、凸岸的侵蚀堆积差异及利用方式"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "河流上游主要的侵蚀方式是？",
+          "answer": "下蚀和溯源侵蚀",
+          "wrongs": [
+            "侧蚀为主",
+            "堆积为主",
+            "溶蚀为主"
+          ],
+          "explanation": "上游落差大、流速快，以下蚀和溯源侵蚀为主，河谷不断加深延长。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "河漫滩多分布在？",
+          "answer": "河流中下游",
+          "wrongs": [
+            "河流源头",
+            "河流上游峡谷",
+            "分水岭附近"
+          ],
+          "explanation": "中下游侧蚀增强、堆积旺盛，洪水期泥沙沉积形成河漫滩。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "河流凹岸与凸岸的合理利用方式是？",
+          "answer": "凹岸建港口，凸岸布局聚落与农业",
+          "wrongs": [
+            "凹岸布局聚落，凸岸建港口",
+            "两岸均不宜利用",
+            "凹岸围垦，凸岸采砂"
+          ],
+          "explanation": "凹岸受侵蚀水深宜建港，凸岸堆积成滩、地势平缓宜聚落与耕作。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "曲流河道自然裁弯取直后，被废弃的河道形成？",
+          "answer": "牛轭湖",
+          "wrongs": [
+            "三角洲",
+            "冲积扇",
+            "堰塞湖"
+          ],
+          "explanation": "弯曲河道截弯取直后，旧河道两端淤塞积水成牛轭湖。"
+        }
+      ],
+      "key": "xb1_heliu_dimao"
+    },
+    {
+      "id": "cng_h041",
+      "name": "锋与天气",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第3单元 大气的运动",
+      "type": "reasoning",
+      "description": "说明冷锋、暖锋和准静止锋的天气特征，能依据锋面过境前后气温、气压与降水的变化判断天气。",
+      "mastery_criteria": [
+        "能比较冷锋与暖锋的天气差异",
+        "能判断锋面过境前后天气的变化过程"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "冷锋过境后，当地天气通常表现为？",
+          "answer": "气温下降、气压升高、天气转晴",
+          "wrongs": [
+            "气温升高、气压降低、阴雨持续",
+            "气温不变、气压不变",
+            "气温骤升、出现暴雨"
+          ],
+          "explanation": "冷气团取代暖气团，气温下降、气压升高，降水过后天气转晴。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "我国江淮地区夏季的梅雨天气主要由什么造成？",
+          "answer": "准静止锋",
+          "wrongs": [
+            "快行冷锋",
+            "暖锋",
+            "热带气旋"
+          ],
+          "explanation": "江淮准静止锋长时间徘徊，形成连绵阴雨的梅雨天气。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "暖锋过境时的降水特点是？",
+          "answer": "连续性降水，多出现在锋前",
+          "wrongs": [
+            "阵性降水，多出现在锋后",
+            "无降水",
+            "只在锋线上出现雷暴"
+          ],
+          "explanation": "暖空气沿锋面缓慢爬升，形成范围较广的连续性降水，主要在锋前。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国北方春季的沙尘暴天气多与哪种天气系统有关？",
+          "answer": "快行冷锋",
+          "wrongs": [
+            "准静止锋",
+            "暖锋",
+            "副热带高压"
+          ],
+          "explanation": "快行冷锋带来大风和强降温，卷起地表沙尘形成沙尘暴。"
+        }
+      ],
+      "key": "xb1_fengmian"
+    },
+    {
+      "id": "cng_h042",
+      "name": "气旋、反气旋与天气",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第3单元 大气的运动",
+      "type": "application",
+      "description": "区分气旋与反气旋的气流方向和天气特征，能判断高低压系统控制下的天气并解释典型天气现象。",
+      "mastery_criteria": [
+        "能判断南北半球气旋与反气旋的水平气流方向",
+        "能说明气旋、反气旋控制下的天气特点"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "北半球气旋的水平气流方向是？",
+          "answer": "逆时针辐合",
+          "wrongs": [
+            "顺时针辐合",
+            "逆时针辐散",
+            "顺时针辐散"
+          ],
+          "explanation": "北半球低压中心气流逆时针向中心辐合，中心气流上升。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "反气旋控制下的天气通常是？",
+          "answer": "晴朗干燥",
+          "wrongs": [
+            "阴雨连绵",
+            "狂风暴雨",
+            "大雾弥漫"
+          ],
+          "explanation": "反气旋中心气流下沉，水汽不易凝结，天气晴朗。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "台风在天气系统上属于？",
+          "answer": "热带气旋",
+          "wrongs": [
+            "热带反气旋",
+            "温带气旋",
+            "准静止锋"
+          ],
+          "explanation": "台风是发生在热带洋面上的强烈发展的气旋。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "长江中下游地区盛夏的伏旱天气主要由什么控制形成？",
+          "answer": "副热带高压",
+          "wrongs": [
+            "赤道低压",
+            "冷锋",
+            "热带气旋"
+          ],
+          "explanation": "副热带高压控制下盛行下沉气流，晴热少雨形成伏旱。"
+        }
+      ],
+      "key": "xb1_qixuan"
+    },
+    {
+      "id": "cng_h043",
+      "name": "世界主要气候类型的成因与特征",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第3单元 大气的运动",
+      "type": "application",
+      "description": "掌握主要气候类型的成因、分布与特征，能根据气温和降水资料判断气候类型并分析其成因。",
+      "mastery_criteria": [
+        "能说出主要气候类型的分布与特征",
+        "能依据气温降水资料判断气候类型"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "地中海气候的降水特点是？",
+          "answer": "夏季干燥，冬季多雨",
+          "wrongs": [
+            "夏季多雨，冬季干燥",
+            "全年多雨",
+            "全年少雨"
+          ],
+          "explanation": "夏季受副热带高压控制干燥，冬季受西风带影响多雨。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "热带雨林气候的成因是？",
+          "answer": "终年受赤道低气压带控制",
+          "wrongs": [
+            "受赤道低压与信风交替控制",
+            "受副热带高压控制",
+            "受西风带控制"
+          ],
+          "explanation": "终年高温多雨，盛行上升气流，是典型的热带雨林气候。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "温带海洋性气候分布最广的大洲是？",
+          "answer": "欧洲",
+          "wrongs": [
+            "亚洲",
+            "非洲",
+            "南美洲"
+          ],
+          "explanation": "欧洲西部受北大西洋暖流和西风带影响，温带海洋性气候分布最广。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "热带季风气候的显著特征是？",
+          "answer": "全年高温，分旱雨两季",
+          "wrongs": [
+            "全年温和，降水均匀",
+            "夏干冬雨",
+            "冬冷夏热，降水集中夏季"
+          ],
+          "explanation": "热带季风气候全年高温，雨季降水集中，旱雨两季分明。"
+        }
+      ],
+      "key": "xb1_qihou_leixing"
+    },
+    {
+      "id": "cng_h044",
+      "name": "等压线图的判读",
+      "domain": "地理工具",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第3单元 大气的运动",
+      "type": "procedural",
+      "description": "掌握等压线图上判断气压高低、风向、风力和天气的方法，能分析锋面气旋的结构与天气分布。",
+      "mastery_criteria": [
+        "能在等压线图上判断某点的风向与风力大小",
+        "能识别低压槽处的锋面类型与降水区域"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "等压线越密集，表示该处？",
+          "answer": "水平气压梯度力越大，风力越大",
+          "wrongs": [
+            "风力越小",
+            "气压越高",
+            "气温越低"
+          ],
+          "explanation": "等压线密集说明单位距离气压差大，水平气压梯度力大，风力强。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "北半球近地面风向由高压指向低压，并？",
+          "answer": "向右偏转",
+          "wrongs": [
+            "向左偏转",
+            "不偏转",
+            "与等压线垂直"
+          ],
+          "explanation": "受地转偏向力影响，北半球近地面风向在气压梯度力右侧偏转。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "锋面气旋中，锋面常出现在？",
+          "answer": "低压槽处",
+          "wrongs": [
+            "高压脊处",
+            "低压中心",
+            "等压线最密处"
+          ],
+          "explanation": "低压槽处冷暖空气交汇，易形成锋面。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "判断某地风力大小时，主要依据是？",
+          "answer": "等压线的疏密",
+          "wrongs": [
+            "等压线的数值高低",
+            "该地的纬度",
+            "该地的海拔"
+          ],
+          "explanation": "等压线越密，气压梯度力越大，风力越大。"
+        }
+      ],
+      "key": "xb1_dengyaxian"
+    },
+    {
+      "id": "cng_h045",
+      "name": "陆地水体与河流补给",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第4单元 水的运动",
+      "type": "reasoning",
+      "description": "说明河流、湖泊与地下水的相互补给关系，能根据区域环境判断河流的主要补给类型与汛期特点。",
+      "mastery_criteria": [
+        "能判断河流与地下水的补给方向",
+        "能说明不同地区河流的主要补给类型"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国东部季风区河流的主要补给来源是？",
+          "answer": "大气降水",
+          "wrongs": [
+            "高山冰雪融水",
+            "湖泊水",
+            "地下水"
+          ],
+          "explanation": "季风区降水丰沛，雨水是河流最主要的补给来源。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "河流与地下水的补给关系取决于？",
+          "answer": "水位高低",
+          "wrongs": [
+            "河流含沙量",
+            "河流流速",
+            "河流长度"
+          ],
+          "explanation": "水位高的一方补给水位低的一方，丰水期河流补给地下水，枯水期相反。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国西北内陆河的主要补给来源是？",
+          "answer": "高山冰雪融水",
+          "wrongs": [
+            "大气降水",
+            "地下水",
+            "湖泊水"
+          ],
+          "explanation": "内陆干旱区降水稀少，河流主要靠高山冰雪融水补给。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "塔里木河流量随气温升高而增大的原因是？",
+          "answer": "以冰雪融水补给为主",
+          "wrongs": [
+            "以雨水补给为主",
+            "以地下水补给为主",
+            "湖泊调蓄作用强"
+          ],
+          "explanation": "气温升高使冰雪融水量增加，流量随之增大。"
+        }
+      ],
+      "key": "xb1_ludi_shuiti"
+    },
+    {
+      "id": "cng_h046",
+      "name": "洋流的分布规律与地理意义",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第4单元 水的运动",
+      "type": "conceptual",
+      "description": "归纳以副热带和副极地为中心的大洋环流分布，说明洋流对气候、渔场形成和海上航行的影响。",
+      "mastery_criteria": [
+        "能画出南北半球中低纬与北半球中高纬洋流环流模式",
+        "能说明洋流对气候和渔场的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "南半球中低纬海区大洋环流的方向是？",
+          "answer": "逆时针",
+          "wrongs": [
+            "顺时针",
+            "自东向西",
+            "自南向北"
+          ],
+          "explanation": "南半球中低纬海区形成以副热带为中心的逆时针环流。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "暖流流经海区的海水温度通常？",
+          "answer": "比同纬度其他海区高",
+          "wrongs": [
+            "比同纬度其他海区低",
+            "与同纬度完全相同",
+            "随季节低于寒流"
+          ],
+          "explanation": "暖流由较低纬流向较高纬，水温高于同纬度周边海区。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "西欧温带海洋性气候的形成与哪支洋流密切相关？",
+          "answer": "北大西洋暖流",
+          "wrongs": [
+            "加那利寒流",
+            "拉布拉多寒流",
+            "秘鲁寒流"
+          ],
+          "explanation": "北大西洋暖流增温增湿，使西欧冬季温和、全年湿润。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "寒暖流交汇处容易形成渔场，主要原因是？",
+          "answer": "海水受扰动，营养盐上泛",
+          "wrongs": [
+            "海水温度过高",
+            "海水盐度骤降",
+            "河流带来大量泥沙"
+          ],
+          "explanation": "冷暖海水交汇使海水搅动，深层营养盐上泛，浮游生物繁盛。"
+        }
+      ],
+      "key": "xb1_yangliu_fenbu"
+    },
+    {
+      "id": "cng_h047",
+      "name": "水资源及其合理利用",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第4单元 水的运动",
+      "type": "application",
+      "description": "理解水资源的概念与时空分布特点，能分析水资源短缺的自然与人为原因并提出合理利用措施。",
+      "mastery_criteria": [
+        "能说明我国水资源时空分布的特点",
+        "能针对缺水问题提出开源节流措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国水资源的空间分布特点是？",
+          "answer": "南多北少，东多西少",
+          "wrongs": [
+            "北多南少，西多东少",
+            "南北均衡",
+            "西部最丰富"
+          ],
+          "explanation": "受季风与地形影响，水资源由东南向西北递减。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "目前我国水资源利用中存在的主要问题是？",
+          "answer": "浪费严重且污染加剧",
+          "wrongs": [
+            "总量严重不足",
+            "开发程度为零",
+            "分布完全均衡"
+          ],
+          "explanation": "水资源总量较大，但利用率低、浪费与污染并存，加剧供需矛盾。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "以色列缓解水资源短缺的主要措施是？",
+          "answer": "推广滴灌节水与海水淡化",
+          "wrongs": [
+            "大量开采地下水",
+            "大规模修建水库",
+            "限制农业发展"
+          ],
+          "explanation": "滴灌大幅提高用水效率，海水淡化增加水源，是开源节流的典型。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "修建水库调节水资源的主要作用是？",
+          "answer": "调节径流的时间分配，丰蓄枯补",
+          "wrongs": [
+            "改变水资源的空间分布",
+            "增加水资源的总量",
+            "减少水汽输送"
+          ],
+          "explanation": "水库把丰水期多余水量储存起来，枯水期放出，调节时间分配。"
+        }
+      ],
+      "key": "xb1_shuiziyuan"
+    },
+    {
+      "id": "cng_h048",
+      "name": "自然环境的整体性",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第5单元 自然环境的整体性与差异性",
+      "type": "conceptual",
+      "description": "理解自然环境各要素相互联系、相互制约，能分析某一要素变化引起的连锁反应与整体功能变化。",
+      "mastery_criteria": [
+        "能说明自然环境各要素之间的相互联系",
+        "能分析某一要素变化引发的连锁反应"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "「牵一发而动全身」主要体现自然环境的？",
+          "answer": "整体性",
+          "wrongs": [
+            "差异性",
+            "地带性",
+            "区域性"
+          ],
+          "explanation": "某一要素变化会引起其他要素乃至整体环境的变化，体现整体性。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "自然环境整体性的基础是？",
+          "answer": "各要素之间的物质迁移与能量交换",
+          "wrongs": [
+            "各要素彼此独立",
+            "人类活动的干预",
+            "地形的高低起伏"
+          ],
+          "explanation": "水、大气、生物、土壤和岩石之间进行物质循环与能量交换，形成整体。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "黄土高原植被遭到破坏后，当地环境的变化是？",
+          "answer": "水土流失加剧，下游河床抬高",
+          "wrongs": [
+            "降水显著增加",
+            "土壤肥力提高",
+            "河流含沙量减少"
+          ],
+          "explanation": "植被丧失使侵蚀增强，泥沙下泄淤积河道，体现要素间的连锁反应。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "在河流上修建水库，对下游自然环境的影响是？",
+          "answer": "径流季节变化减小，泥沙淤积减少",
+          "wrongs": [
+            "径流季节变化增大",
+            "下游泥沙大量增加",
+            "下游水位普遍抬高"
+          ],
+          "explanation": "水库调蓄径流、拦截泥沙，使下游流量趋于平稳、含沙量下降。"
+        }
+      ],
+      "key": "xb1_ziran_zhengti"
+    },
+    {
+      "id": "cng_h049",
+      "name": "地域分异规律",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第5单元 自然环境的整体性与差异性",
+      "type": "reasoning",
+      "description": "说明由赤道到两极、从沿海向内陆和山地垂直地域分异规律，能判断各规律的主导因素与表现。",
+      "mastery_criteria": [
+        "能区分三种地域分异规律及其主导因素",
+        "能判断某山地垂直自然带的基带与带谱特点"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "由赤道到两极的地域分异，其基础是？",
+          "answer": "热量",
+          "wrongs": [
+            "水分",
+            "地形",
+            "土壤"
+          ],
+          "explanation": "纬度不同导致热量差异，形成由赤道向两极的自然带更替。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "从沿海向内陆的地域分异，其基础是？",
+          "answer": "水分",
+          "wrongs": [
+            "热量",
+            "海拔",
+            "洋流"
+          ],
+          "explanation": "距海远近导致水分差异，形成森林—草原—荒漠的更替。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "天山北坡山麓出现荒漠草原，主要原因是？",
+          "answer": "深居内陆，降水稀少",
+          "wrongs": [
+            "海拔过高，气温过低",
+            "受暖流影响显著",
+            "土壤盐碱化严重"
+          ],
+          "explanation": "天山北坡山麓地处干旱区，降水少，形成荒漠草原基带。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "山地垂直自然带谱的复杂程度主要取决于？",
+          "answer": "纬度与海拔",
+          "wrongs": [
+            "经度与洋流",
+            "土壤与植被",
+            "河流与湖泊"
+          ],
+          "explanation": "纬度越低、海拔越高，垂直带谱越复杂多样。"
+        }
+      ],
+      "key": "xb1_diyu_fenyi"
+    },
+    {
+      "id": "cng_h050",
+      "name": "非地带性现象与雪线林线",
+      "domain": "自然地理",
+      "grade": 12,
+      "semester": "全",
+      "chapter": "选必一 第5单元 自然环境的整体性与差异性",
+      "type": "application",
+      "description": "解释非地带性现象的形成原因，能分析雪线高低和山地林线分布的主要影响因素及其区域差异。",
+      "mastery_criteria": [
+        "能说明非地带性现象的主要成因",
+        "能比较不同坡向雪线、林线的高低并解释原因"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S1.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "雪线高度主要取决于？",
+          "answer": "气温和降水量",
+          "wrongs": [
+            "土壤和植被",
+            "河流和湖泊",
+            "经度和海拔"
+          ],
+          "explanation": "气温高则雪线高，降水多则雪线低，二者共同决定雪线高度。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "副热带地区雪线普遍较高的主要原因是？",
+          "answer": "气温高而降水少",
+          "wrongs": [
+            "气温低而降水多",
+            "海拔低而降水多",
+            "纬度低而降水多"
+          ],
+          "explanation": "副热带气温高、降水少，积雪消融快，雪线位置高。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "天山北坡雪线低于南坡，主要原因是？",
+          "answer": "北坡为迎风坡，降水较多",
+          "wrongs": [
+            "北坡纬度更低",
+            "北坡光照更强",
+            "北坡坡度更陡"
+          ],
+          "explanation": "北坡受西风带影响降水较多，积雪量大，雪线偏低。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "山地林线上限附近树木生长受限的主要因素是？",
+          "answer": "热量不足",
+          "wrongs": [
+            "水分过多",
+            "土壤过肥",
+            "光照过强"
+          ],
+          "explanation": "海拔升高气温降低，热量不足使树木无法正常生长，形成林线。"
+        }
+      ],
+      "key": "xb1_feidai"
+    },
+    {
+      "id": "cng_h051",
+      "name": "区域的含义与类型",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第1单元 区域与区域发展",
+      "type": "conceptual",
+      "description": "理解区域具有一定的范围、边界和层次，能按自然要素或人文要素划分不同类型的区域，并说明区域划分的用途。",
+      "mastery_criteria": [
+        "能说明区域的基本特征",
+        "能按不同指标划分区域并说明依据"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "区域最基本的特征是？",
+          "answer": "占有一定范围的地域空间",
+          "wrongs": [
+            "没有任何边界",
+            "内部特征完全一致",
+            "与外界毫无联系"
+          ],
+          "explanation": "区域是地球表面的空间单位，具有一定的范围、形状和边界。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于按自然要素划分的区域是？",
+          "answer": "长江流域",
+          "wrongs": [
+            "珠江三角洲经济区",
+            "京津冀协同发展区",
+            "长江经济带"
+          ],
+          "explanation": "流域以水系为划分依据，属于自然区域；其余以经济联系为依据。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "区域边界往往具有？",
+          "answer": "过渡性",
+          "wrongs": [
+            "绝对精确性",
+            "完全封闭性",
+            "随机变动性"
+          ],
+          "explanation": "自然区域边界多为过渡带，行政区域边界才较明确。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "行政区与经济区的划分依据分别是？",
+          "answer": "行政管理与经济联系",
+          "wrongs": [
+            "自然要素与人口数量",
+            "气候类型与地形",
+            "历史沿革与语言"
+          ],
+          "explanation": "行政区按行政管辖范围划分，经济区按经济联系与分工划分。"
+        }
+      ],
+      "key": "xb2_quyu_hanyi"
+    },
+    {
+      "id": "cng_h052",
+      "name": "区域发展阶段与产业结构",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第1单元 区域与区域发展",
+      "type": "reasoning",
+      "description": "理解区域发展经历初期、成长和转型等阶段，能比较不同阶段产业结构与空间结构的特点。",
+      "mastery_criteria": [
+        "能说出区域不同发展阶段的主导产业",
+        "能判断区域所处的经济发展阶段"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "区域发展初期的主导产业通常是？",
+          "answer": "农业",
+          "wrongs": [
+            "高新技术产业",
+            "金融服务业",
+            "重化工业"
+          ],
+          "explanation": "初期生产力水平低，以农业和初级资源开发为主。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "区域处于成长阶段时，产业结构的变化是？",
+          "answer": "第二产业比重上升",
+          "wrongs": [
+            "第一产业比重上升",
+            "第三产业迅速萎缩",
+            "产业结构保持不变"
+          ],
+          "explanation": "工业化推进使第二产业比重上升，成为主导产业。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "区域进入转型阶段常出现的现象是？",
+          "answer": "经济增长缓慢、资源环境问题突出",
+          "wrongs": [
+            "经济高速增长、环境优良",
+            "人口大量迁入",
+            "产业结构日益单一"
+          ],
+          "explanation": "传统产业衰退、资源枯竭与环境压力迫使区域转型。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "衡量区域产业结构高级化的重要指标是？",
+          "answer": "第三产业比重上升",
+          "wrongs": [
+            "第一产业比重上升",
+            "重工业比重上升",
+            "原料工业比重上升"
+          ],
+          "explanation": "产业结构高级化表现为第三产业和高技术产业比重提高。"
+        }
+      ],
+      "key": "xb2_quyu_fazhan"
+    },
+    {
+      "id": "cng_h053",
+      "name": "区域差异与比较分析",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第1单元 区域与区域发展",
+      "type": "application",
+      "description": "能从自然条件、资源禀赋和经济发展水平比较区域差异，为区域分工协作与政策制定提供依据。",
+      "mastery_criteria": [
+        "能选取可比指标比较两个区域的差异",
+        "能说明区域差异对分工协作的意义"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国东部与中西部经济发展水平差异的主要表现是？",
+          "answer": "东部总体高于中西部",
+          "wrongs": [
+            "中西部总体高于东部",
+            "二者完全一致",
+            "西部最高、中部最低"
+          ],
+          "explanation": "东部沿海区位优越、开放早，经济水平总体领先。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "进行区域比较时，应特别注意指标的？",
+          "answer": "可比性",
+          "wrongs": [
+            "数量多少",
+            "书写格式",
+            "来源国别"
+          ],
+          "explanation": "只有统计口径与年份一致的指标才具有可比性。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国东部与西部开展协作的基础是？",
+          "answer": "资金技术与资源的互补",
+          "wrongs": [
+            "两地自然条件完全相同",
+            "两地产业结构完全一致",
+            "两地人口规模相等"
+          ],
+          "explanation": "东部有资金技术、西部有资源能源，互补性强，具备协作基础。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "比较两个区域时，首先应当明确的是？",
+          "answer": "比较的指标与空间尺度",
+          "wrongs": [
+            "比较者的籍贯",
+            "区域名称的字数",
+            "地图的比例尺颜色"
+          ],
+          "explanation": "先确定比什么、在什么尺度上比，比较才有意义。"
+        }
+      ],
+      "key": "xb2_quyu_bijiao"
+    },
+    {
+      "id": "cng_h054",
+      "name": "区域地图与空间分析",
+      "domain": "地理工具",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第1单元 区域与区域发展",
+      "type": "procedural",
+      "description": "掌握区域地图的定位、要素叠加与空间比较方法，能据图描述区域位置、范围与地理要素的分布。",
+      "mastery_criteria": [
+        "能根据经纬网和指向标确定方向与位置",
+        "能用图层叠加分析要素之间的空间关系"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "描述一个区域的位置，通常包括？",
+          "answer": "经纬度位置和海陆位置",
+          "wrongs": [
+            "人口数量和民族构成",
+            "工业产值和财政收入",
+            "植被类型和土壤质地"
+          ],
+          "explanation": "位置描述以经纬度位置与海陆位置为核心，还可补充相对位置。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "图层叠加分析主要用于？",
+          "answer": "分析不同要素之间的空间关系",
+          "wrongs": [
+            "测量地图的印刷精度",
+            "计算地图的面积比例",
+            "判断地图的出版年份"
+          ],
+          "explanation": "把人口、地形、交通等图层叠加，可分析要素的空间关联。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "判读区域地图时，确定方向最可靠的依据是？",
+          "answer": "经纬网或指向标",
+          "wrongs": [
+            "图例的颜色",
+            "注记的字体",
+            "图框的粗细"
+          ],
+          "explanation": "有经纬网按经纬度定向，有指向标按箭头定向，二者最可靠。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "描述区域地形特征一般应包含？",
+          "answer": "地形类型、地势起伏和主要地形区",
+          "wrongs": [
+            "气温、降水和光照",
+            "人口、城市和交通",
+            "土壤、植被和河流"
+          ],
+          "explanation": "地形特征描述地形类型构成、地势高低起伏及主要地形区分布。"
+        }
+      ],
+      "key": "xb2_quyu_ditu"
+    },
+    {
+      "id": "cng_h055",
+      "name": "资源开发与区域发展",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第2单元 资源、环境与区域发展",
+      "type": "reasoning",
+      "description": "分析资源型地区开发的条件与问题，理解资源开发与区域可持续发展之间的关系，并说明资源枯竭后转型的必要性。",
+      "mastery_criteria": [
+        "能分析资源型地区发展的有利与不利条件",
+        "能说明资源开发过程中出现的环境与经济问题"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "资源型地区发展初期的主导产业是？",
+          "answer": "资源开采与加工",
+          "wrongs": [
+            "高新技术产业",
+            "现代金融业",
+            "旅游服务业"
+          ],
+          "explanation": "依托本地资源发展采掘和初加工，是资源型地区的起点。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "山西发展煤炭工业的有利条件是？",
+          "answer": "煤炭储量大、埋藏浅、煤质好",
+          "wrongs": [
+            "水运条件优越",
+            "石油资源丰富",
+            "森林资源丰富"
+          ],
+          "explanation": "山西煤炭资源丰富、开采条件好，便于大规模开发。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "资源型地区发展到后期面临的主要问题是？",
+          "answer": "资源枯竭、产业结构单一",
+          "wrongs": [
+            "劳动力严重不足",
+            "交通条件过于便利",
+            "土地资源过剩"
+          ],
+          "explanation": "长期开采导致资源衰减，单一产业结构难以支撑持续发展。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "德国鲁尔区综合整治的核心措施是？",
+          "answer": "调整产业结构，发展新兴工业",
+          "wrongs": [
+            "扩大煤炭开采规模",
+            "增加钢铁产量",
+            "限制第三产业发展"
+          ],
+          "explanation": "鲁尔区通过发展新兴工业和第三产业、改造传统产业实现转型。"
+        }
+      ],
+      "key": "xb2_ziyuan_kaifa"
+    },
+    {
+      "id": "cng_h056",
+      "name": "生态脆弱区的综合治理",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第2单元 资源、环境与区域发展",
+      "type": "application",
+      "description": "说明生态脆弱区的环境特征与成因，能针对荒漠化、水土流失等问题提出工程与生物治理措施。",
+      "mastery_criteria": [
+        "能分析生态脆弱区的形成原因",
+        "能提出针对性的综合治理措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国荒漠化最严重的地区是？",
+          "answer": "西北干旱半干旱区",
+          "wrongs": [
+            "东北平原",
+            "长江中下游平原",
+            "四川盆地"
+          ],
+          "explanation": "西北地区气候干旱、植被稀疏，加之过度放牧开垦，荒漠化严重。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "黄土高原水土流失严重的自然原因是？",
+          "answer": "土质疏松、降水集中于夏季",
+          "wrongs": [
+            "地形平坦、排水不畅",
+            "植被茂密、根系发达",
+            "气候干旱、风力强劲"
+          ],
+          "explanation": "黄土疏松易蚀，夏季暴雨集中，冲刷力强。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "治理荒漠化最有效的生物措施是？",
+          "answer": "营造防护林、种草固沙",
+          "wrongs": [
+            "大规模开采地下水",
+            "扩大耕地面积",
+            "修建高架道路"
+          ],
+          "explanation": "增加植被覆盖可固定沙土、削减风速，是治理荒漠化的根本措施。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "黄土高原小流域综合治理的核心思路是？",
+          "answer": "保塬、护坡、固沟",
+          "wrongs": [
+            "全面开垦坡地",
+            "修建大型港口",
+            "大规模抽取地下水"
+          ],
+          "explanation": "按塬、坡、沟不同部位分类治理，工程与生物措施结合。"
+        }
+      ],
+      "key": "xb2_shengtai_zhili"
+    },
+    {
+      "id": "cng_h057",
+      "name": "资源枯竭型城市的转型",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第2单元 资源、环境与区域发展",
+      "type": "application",
+      "description": "分析资源枯竭型城市面临的困境，能说明产业转型、生态修复与民生改善的主要路径及三者之间的相互关系。",
+      "mastery_criteria": [
+        "能概括资源枯竭型城市的主要困境",
+        "能提出产业替代与生态修复的措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "资源枯竭型城市最突出的问题是？",
+          "answer": "主导产业衰退、就业压力大",
+          "wrongs": [
+            "人口大量迁入",
+            "土地资源严重不足",
+            "交通枢纽地位上升"
+          ],
+          "explanation": "资源枯竭使主导产业萎缩，失业增加、财政困难。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "辽宁阜新转型的重点方向之一是？",
+          "answer": "发展现代农业和接续产业",
+          "wrongs": [
+            "继续扩大煤炭开采",
+            "全部人口外迁",
+            "放弃城市建设"
+          ],
+          "explanation": "阜新利用土地资源发展现代农业，并培育农产品加工等接续产业。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "资源枯竭型城市实现转型的关键是？",
+          "answer": "培育替代产业",
+          "wrongs": [
+            "扩大原有资源开采",
+            "减少科技投入",
+            "限制民营经济"
+          ],
+          "explanation": "以接续替代产业替代衰退的主导产业，才能恢复经济活力。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "资源枯竭型城市改善生态环境的重要措施是？",
+          "answer": "治理采空区、修复矿区土地",
+          "wrongs": [
+            "扩大露天开采范围",
+            "在采空区建设高楼",
+            "向矿区排放污水"
+          ],
+          "explanation": "采空区易塌陷，需回填治理并复垦植被，恢复生态功能。"
+        }
+      ],
+      "key": "xb2_shuijie_chengshi"
+    },
+    {
+      "id": "cng_h058",
+      "name": "产业结构转型与升级",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第3单元 城市、产业与区域发展",
+      "type": "reasoning",
+      "description": "理解产业结构转型的动因，能分析区域产业由劳动密集型向技术密集型升级的路径与条件。",
+      "mastery_criteria": [
+        "能说明产业结构升级的一般方向",
+        "能分析区域产业升级的压力与条件"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "产业结构升级的一般方向是？",
+          "answer": "由第一产业向二、三产业，由低附加值向高附加值",
+          "wrongs": [
+            "由第三产业向第一产业",
+            "由高技术向低技术",
+            "由高附加值向低附加值"
+          ],
+          "explanation": "产业升级表现为产业重心后移和产品附加值提高。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "珠江三角洲早期发展的主导产业是？",
+          "answer": "劳动密集型加工制造业",
+          "wrongs": [
+            "高技术产业",
+            "现代金融业",
+            "采矿业"
+          ],
+          "explanation": "依托廉价劳动力和外资，珠三角早期以服装、电子装配等加工制造业为主。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "珠三角产业升级面临的主要压力是？",
+          "answer": "劳动力成本上升、土地紧张",
+          "wrongs": [
+            "矿产资源枯竭",
+            "人口大量外流",
+            "气候条件恶化"
+          ],
+          "explanation": "工资与地价上涨削弱低成本优势，倒逼产业向高端转型。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "区域发展高新技术产业的首要条件是？",
+          "answer": "科技与人才",
+          "wrongs": [
+            "廉价劳动力",
+            "丰富的矿产",
+            "广阔的土地"
+          ],
+          "explanation": "高技术产业依赖研发能力与高素质人才，接近科研机构与高校。"
+        }
+      ],
+      "key": "xb2_chanye_zhuanxing"
+    },
+    {
+      "id": "cng_h059",
+      "name": "中心城市的辐射功能",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第3单元 城市、产业与区域发展",
+      "type": "conceptual",
+      "description": "理解中心城市通过产业、技术和交通联系辐射带动周边区域，能分析其辐射范围与影响因素。",
+      "mastery_criteria": [
+        "能说明城市辐射功能的主要表现",
+        "能分析影响辐射能力强弱的因素"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "上海对长江三角洲的辐射带动主要依靠？",
+          "answer": "产业联系与交通网络",
+          "wrongs": [
+            "行政命令与人口迁移",
+            "矿产资源输出",
+            "气候调节作用"
+          ],
+          "explanation": "上海通过产业链分工、技术扩散与交通网络带动周边城市发展。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "城市辐射功能的强弱主要取决于？",
+          "answer": "城市经济实力与交通通达度",
+          "wrongs": [
+            "城市的历史长度",
+            "城市的纬度位置",
+            "城市的建筑高度"
+          ],
+          "explanation": "经济实力决定辐射能力，交通通达度决定辐射范围。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "中心城市辐射功能的主要表现是？",
+          "answer": "产业转移、技术扩散与人才流动",
+          "wrongs": [
+            "人口大量外迁",
+            "资源单向输出",
+            "行政区域扩大"
+          ],
+          "explanation": "中心城市向周边输出资本、技术、人才与市场服务。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "提高城市辐射能力的重要措施是？",
+          "answer": "完善交通网络、提升产业层次",
+          "wrongs": [
+            "限制对外交通",
+            "减少科研投入",
+            "扩大低端加工规模"
+          ],
+          "explanation": "交通一体化与产业高端化增强中心城市的带动能力。"
+        }
+      ],
+      "key": "xb2_chengshi_fushe"
+    },
+    {
+      "id": "cng_h060",
+      "name": "产业转移的动因与影响",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第3单元 城市、产业与区域发展",
+      "type": "reasoning",
+      "description": "分析产业转移的推力与拉力，能评价产业转移对转出地和承接地的经济、就业与环境影响。",
+      "mastery_criteria": [
+        "能说明产业转移的主要动因",
+        "能辩证评价产业转移对转入区与转出区的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "产业转移的主要动因是？",
+          "answer": "寻找更低成本和更广阔的市场",
+          "wrongs": [
+            "追求更高的劳动力成本",
+            "减少国际交往",
+            "扩大资源消耗"
+          ],
+          "explanation": "企业通过转移降低生产成本、开拓新市场，提高利润。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "当前我国产业转移的主要方向是？",
+          "answer": "由东部沿海向中西部",
+          "wrongs": [
+            "由中西部向东部沿海",
+            "由城市向海外全部迁出",
+            "由南方向北方"
+          ],
+          "explanation": "东部成本上升，中西部要素成本低、市场潜力大，承接产业转移。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "产业转移对承接地区的主要影响是？",
+          "answer": "增加就业，但可能带来污染",
+          "wrongs": [
+            "劳动力大量失业",
+            "产业结构更加单一",
+            "经济发展停滞"
+          ],
+          "explanation": "转入产业提供就业与税收，但若承接高污染环节会加重环境压力。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "转出地区应对产业空心化的合理措施是？",
+          "answer": "发展高端产业，提升创新能力",
+          "wrongs": [
+            "阻止所有企业外迁",
+            "降低环保标准",
+            "扩大低端制造规模"
+          ],
+          "explanation": "转出地应通过技术创新与产业升级填补产业空缺。"
+        }
+      ],
+      "key": "xb2_chanye_zhuanyi"
+    },
+    {
+      "id": "cng_h061",
+      "name": "流域内协调发展",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第4单元 区际联系与区域协调发展",
+      "type": "application",
+      "description": "理解流域上中下游的相互影响，能说明流域统一规划、水量分配与生态补偿对协调发展的意义。",
+      "mastery_criteria": [
+        "能说明流域上中下游的相互影响",
+        "能提出流域协调开发的主要措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "流域开发治理的关键是？",
+          "answer": "统一规划、统筹上中下游",
+          "wrongs": [
+            "各省独立开发",
+            "只开发上游",
+            "只治理下游"
+          ],
+          "explanation": "流域是完整系统，上下游相互影响，必须统一规划。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "黄河下游形成「地上河」的主要原因是？",
+          "answer": "泥沙大量淤积抬高河床",
+          "wrongs": [
+            "降水过多冲刷河床",
+            "河道人工加深",
+            "海水倒灌沉积"
+          ],
+          "explanation": "中游水土流失带来的泥沙在下游淤积，河床抬高形成地上河。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "黄河中游加强水土保持，对下游的有利影响是？",
+          "answer": "减少泥沙，减缓河床抬高",
+          "wrongs": [
+            "增加下游泥沙淤积",
+            "使下游流量剧增",
+            "提高下游含沙量"
+          ],
+          "explanation": "减少入河泥沙可减轻下游淤积，降低防洪压力。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "流域上下游建立生态补偿机制的意义是？",
+          "answer": "协调保护与发展的利益关系",
+          "wrongs": [
+            "取消上游的发展权利",
+            "限制下游用水",
+            "统一全部产业布局"
+          ],
+          "explanation": "下游受益于上游保护，通过补偿使保护者得到合理回报。"
+        }
+      ],
+      "key": "xb2_liuyu_xietiao"
+    },
+    {
+      "id": "cng_h062",
+      "name": "资源跨区域调配",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第4单元 区际联系与区域协调发展",
+      "type": "application",
+      "description": "分析资源跨区域调配的原因，能说明南水北调、西气东输等工程的线路走向、区域影响与建设需克服的障碍。",
+      "mastery_criteria": [
+        "能说明资源跨区域调配的必要性",
+        "能评价调配工程对调出区与调入区的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国实施南水北调工程的主要目的是？",
+          "answer": "缓解北方地区水资源短缺",
+          "wrongs": [
+            "减轻南方洪涝压力",
+            "开发北方水能资源",
+            "改善南方水质"
+          ],
+          "explanation": "北方水资源供需矛盾突出，需从水资源丰富的南方调水。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "西气东输一线工程的起点位于？",
+          "answer": "新疆塔里木盆地",
+          "wrongs": [
+            "四川盆地",
+            "鄂尔多斯盆地",
+            "松辽盆地"
+          ],
+          "explanation": "西气东输一线以塔里木盆地的天然气为气源，东至上海。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "南水北调东线工程需要重点解决的关键问题是？",
+          "answer": "沿线水质污染",
+          "wrongs": [
+            "地势过高无法输水",
+            "水量严重不足",
+            "冬季管道冻结"
+          ],
+          "explanation": "东线利用京杭运河输水，沿线工业生活污水影响水质，需治理污染。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "资源跨区域调配对调出地区的主要影响是？",
+          "answer": "把资源优势转化为经济优势，但需注意生态保护",
+          "wrongs": [
+            "资源更加短缺且无收益",
+            "环境必然恶化",
+            "产业结构更加单一"
+          ],
+          "explanation": "调出区获得经济收益与就业，同时要防止过度开采造成生态破坏。"
+        }
+      ],
+      "key": "xb2_ziyuan_diaopei"
+    },
+    {
+      "id": "cng_h063",
+      "name": "区际联系与区域合作",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第4单元 区际联系与区域协调发展",
+      "type": "conceptual",
+      "description": "理解区域之间通过交通、贸易和产业分工形成联系，能说明区域合作的意义、途径与应注意的问题。",
+      "mastery_criteria": [
+        "能说明区际联系的主要方式",
+        "能分析区域合作的意义与原则"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "区际联系的主要方式包括？",
+          "answer": "交通、通信、贸易和产业分工",
+          "wrongs": [
+            "气候变化与地质运动",
+            "人口自然增长",
+            "城市化与逆城市化"
+          ],
+          "explanation": "区域间通过基础设施、商贸往来和产业分工建立联系。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "区域合作的根本目的是？",
+          "answer": "发挥各自优势，实现互利共赢",
+          "wrongs": [
+            "一方无偿援助另一方",
+            "消除所有区域差异",
+            "统一各地产业结构"
+          ],
+          "explanation": "合作基于比较优势，通过分工协作提升整体效益。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国东西部扶贫协作主要体现的是？",
+          "answer": "区域合作与共同发展",
+          "wrongs": [
+            "区域之间相互封闭",
+            "产业同构竞争",
+            "人口单向迁移"
+          ],
+          "explanation": "东部结对帮扶西部，体现先富带动后富的区域合作。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "推进区域合作过程中应当避免的是？",
+          "answer": "重复建设与恶性竞争",
+          "wrongs": [
+            "交通设施互联互通",
+            "产业分工协作",
+            "生态环境联防联治"
+          ],
+          "explanation": "各自为政、重复布局会浪费资源，削弱合作成效。"
+        }
+      ],
+      "key": "xb2_quji_hezuo"
+    },
+    {
+      "id": "cng_h064",
+      "name": "长江经济带与区域协同",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第5单元 国家重大区域发展战略",
+      "type": "conceptual",
+      "description": "说明长江经济带的区位优势与发展定位，理解「共抓大保护、不搞大开发」的内涵与举措。",
+      "mastery_criteria": [
+        "能说明长江经济带的区位优势与战略定位",
+        "能解释长江经济带生态优先的发展要求"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "长江经济带的核心城市包括？",
+          "answer": "上海、武汉、重庆",
+          "wrongs": [
+            "北京、天津、石家庄",
+            "广州、深圳、珠海",
+            "西安、兰州、乌鲁木齐"
+          ],
+          "explanation": "上海、武汉、重庆分别位于长江下游、中游、上游，是三大核心节点。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "长江经济带发展的区位优势是？",
+          "answer": "水运便利、资源丰富、市场广阔",
+          "wrongs": [
+            "矿产资源贫乏",
+            "气候干旱少雨",
+            "对外交通闭塞"
+          ],
+          "explanation": "黄金水道贯通东中西，资源与产业基础好，市场腹地广阔。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "「共抓大保护」的重点是？",
+          "answer": "修复长江生态环境",
+          "wrongs": [
+            "扩大沿江重化工业",
+            "加快围湖造田",
+            "增加港口煤炭吞吐"
+          ],
+          "explanation": "把生态修复放在首位，整治污染、恢复岸线与湿地生态。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "长江经济带实现东中西联动的基础是？",
+          "answer": "长江黄金水道",
+          "wrongs": [
+            "跨海大桥",
+            "边境贸易",
+            "航空枢纽"
+          ],
+          "explanation": "长江水运成本低、运量大，是东中西要素流动的主通道。"
+        }
+      ],
+      "key": "xb2_yangtze"
+    },
+    {
+      "id": "cng_h065",
+      "name": "京津冀协同发展",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第5单元 国家重大区域发展战略",
+      "type": "application",
+      "description": "理解京津冀协同发展的目标与举措，能分析疏解北京非首都功能的意义与雄安新区的定位。",
+      "mastery_criteria": [
+        "能说明京津冀协同发展的核心任务",
+        "能分析雄安新区承接功能的意义"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "京津冀协同发展的核心是？",
+          "answer": "疏解北京非首都功能",
+          "wrongs": [
+            "扩大北京城市规模",
+            "限制天津发展",
+            "把产业全部迁出河北"
+          ],
+          "explanation": "有序疏解非首都功能，优化区域空间格局与产业分工。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "雄安新区的主要定位是？",
+          "answer": "集中承接北京非首都功能",
+          "wrongs": [
+            "发展重化工业基地",
+            "建设大型港口",
+            "承接全部制造业"
+          ],
+          "explanation": "雄安新区承担疏解北京非首都功能的任务，探索创新发展模式。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "京津冀协同发展面临的主要问题是？",
+          "answer": "区域发展差距大、产业同构",
+          "wrongs": [
+            "人口总量过少",
+            "交通联系中断",
+            "资源完全枯竭"
+          ],
+          "explanation": "京津与河北发展落差明显，三地产业存在同质竞争。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "交通一体化对京津冀协同发展的主要作用是？",
+          "answer": "缩短时空距离，促进要素流动",
+          "wrongs": [
+            "增加行政壁垒",
+            "减少人员往来",
+            "扩大区域差距"
+          ],
+          "explanation": "轨道交通与高速路网加密提高可达性，便于通勤与产业协作。"
+        }
+      ],
+      "key": "xb2_jingjinji"
+    },
+    {
+      "id": "cng_h066",
+      "name": "重大区域发展战略的比较",
+      "domain": "区域发展",
+      "grade": 13,
+      "semester": "全",
+      "chapter": "选必二 第5单元 国家重大区域发展战略",
+      "type": "reasoning",
+      "description": "比较长江经济带、京津冀、粤港澳大湾区等战略的区位条件与功能定位，理解区域战略的差异与共性。",
+      "mastery_criteria": [
+        "能比较不同区域发展战略的区位优势与定位",
+        "能归纳区域发展战略的共同目标"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S2.05",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "粤港澳大湾区的主要发展优势是？",
+          "answer": "毗邻港澳，开放程度高",
+          "wrongs": [
+            "矿产能源极其丰富",
+            "深居内陆腹地",
+            "重工业基础雄厚"
+          ],
+          "explanation": "粤港澳大湾区国际化程度高、创新资源集聚，开放优势突出。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "西部大开发战略的重点是？",
+          "answer": "基础设施和生态环境建设",
+          "wrongs": [
+            "大规模发展重化工业",
+            "限制对外交通",
+            "减少教育投入"
+          ],
+          "explanation": "西部基础设施薄弱、生态脆弱，建设重点放在交通水利与生态治理。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "不同区域发展战略的共同目标是？",
+          "answer": "促进区域协调发展",
+          "wrongs": [
+            "扩大区域发展差距",
+            "统一各地产业",
+            "缩小对外开放程度"
+          ],
+          "explanation": "各类区域战略都服务于优化空间布局、实现协调发展。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "制定区域发展战略首先需要？",
+          "answer": "分析区域条件与比较优势",
+          "wrongs": [
+            "照搬其他地区模式",
+            "确定城市建筑高度",
+            "统一人口规模"
+          ],
+          "explanation": "立足资源禀赋与区位条件，才能确定合理的发展定位。"
+        }
+      ],
+      "key": "xb2_dawang"
+    },
+    {
+      "id": "cng_h067",
+      "name": "自然环境的服务功能",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第1单元 自然环境与人类社会",
+      "type": "conceptual",
+      "description": "理解自然环境提供供给、调节、文化和支撑服务，能说明保护自然环境服务功能对可持续发展的意义。",
+      "mastery_criteria": [
+        "能说出自然环境四类服务功能",
+        "能举例说明人类活动对服务功能的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "森林涵养水源、保持水土，属于自然环境的？",
+          "answer": "调节服务",
+          "wrongs": [
+            "供给服务",
+            "文化服务",
+            "支撑服务"
+          ],
+          "explanation": "调节服务指自然环境调节气候、水文等过程的功能。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "自然环境的支撑服务是指？",
+          "answer": "维持生命生存的基础条件",
+          "wrongs": [
+            "提供食物和淡水",
+            "提供休闲旅游场所",
+            "提供木材和药材"
+          ],
+          "explanation": "支撑服务包括土壤形成、养分循环等维持生命系统的基础过程。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "大面积砍伐森林会直接削弱自然环境的？",
+          "answer": "调节服务与支撑服务",
+          "wrongs": [
+            "文化服务与供给服务",
+            "仅文化服务",
+            "仅供给服务"
+          ],
+          "explanation": "森林减少削弱水土保持、气候调节和养分循环等功能。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "建立自然保护区的主要目的是？",
+          "answer": "保护生态系统与生物多样性",
+          "wrongs": [
+            "扩大耕地面积",
+            "增加木材采伐量",
+            "发展重化工业"
+          ],
+          "explanation": "自然保护区维持生态过程与物种栖息地，保障服务功能持续发挥。"
+        }
+      ],
+      "key": "xb3_ziran_jiazhi"
+    },
+    {
+      "id": "cng_h068",
+      "name": "自然资源的分类与特征",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第1单元 自然环境与人类社会",
+      "type": "conceptual",
+      "description": "按能否再生划分自然资源，理解其有限性、地域性和整体性特征对资源开发利用与保护的约束。",
+      "mastery_criteria": [
+        "能区分可再生资源与非可再生资源",
+        "能说明自然资源的主要特征及其影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "下列属于非可再生资源的是？",
+          "answer": "矿产资源",
+          "wrongs": [
+            "水资源",
+            "土地资源",
+            "生物资源"
+          ],
+          "explanation": "矿产形成周期极长，用尽后难以在人类时间尺度内恢复。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "自然资源最基本的特征是？",
+          "answer": "有限性",
+          "wrongs": [
+            "无限性",
+            "均质性",
+            "可替代性"
+          ],
+          "explanation": "任何资源在数量或质量上都是有限的，这是合理利用的前提。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "水资源属于可再生资源，但仍需合理利用，原因是？",
+          "answer": "更新速度有限，过度开采会导致枯竭与污染",
+          "wrongs": [
+            "水资源完全不可更新",
+            "水资源分布绝对均匀",
+            "水资源总量无限"
+          ],
+          "explanation": "可再生资源的更新能力有限，利用强度超过更新速度就会退化。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "自然资源的地域性对生产布局的影响是？",
+          "answer": "产业布局趋向资源富集地区",
+          "wrongs": [
+            "产业布局与资源无关",
+            "各地布局必须完全相同",
+            "资源贫乏区必然发达"
+          ],
+          "explanation": "资源分布不均使资源密集型产业倾向于靠近资源产地。"
+        }
+      ],
+      "key": "xb3_ziyuan_leixing"
+    },
+    {
+      "id": "cng_h069",
+      "name": "人口增长与资源环境压力",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第1单元 自然环境与人类社会",
+      "type": "reasoning",
+      "description": "分析人口增长对土地、水和能源的压力，理解人口、资源与环境协调发展对区域可持续的意义。",
+      "mastery_criteria": [
+        "能说明人口增长加剧资源环境压力的机理",
+        "能提出缓解人口资源矛盾的基本途径"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.01",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "人口增长过快会直接加剧？",
+          "answer": "资源短缺与环境恶化",
+          "wrongs": [
+            "资源总量增加",
+            "环境质量改善",
+            "人均资源上升"
+          ],
+          "explanation": "人口增加使资源需求总量上升，排泄物与污染物增多。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "衡量一个地区资源压力常用的指标是？",
+          "answer": "人均资源占有量",
+          "wrongs": [
+            "资源总储量",
+            "国土总面积",
+            "行政区数量"
+          ],
+          "explanation": "在总量一定时，人均占有量越低，资源压力越大。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国人均耕地少的根本原因是？",
+          "answer": "人口众多而耕地总量有限",
+          "wrongs": [
+            "耕地质量过高",
+            "农业技术落后",
+            "气候条件恶劣"
+          ],
+          "explanation": "耕地总量受自然条件限制，庞大人口使人均水平偏低。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "缓解人口与资源环境矛盾的根本途径是？",
+          "answer": "控制人口数量，提高资源利用率",
+          "wrongs": [
+            "无限扩大资源开采",
+            "抑制技术进步",
+            "减少环境保护投入"
+          ],
+          "explanation": "控制人口规模并提高资源效率，才能降低人均资源消耗与排放。"
+        }
+      ],
+      "key": "xb3_renkou_ziyuan"
+    },
+    {
+      "id": "cng_h070",
+      "name": "耕地保护与粮食安全",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第2单元 资源安全与国家安全",
+      "type": "application",
+      "description": "理解耕地红线与粮食安全的关系，能说明保护耕地、提高单产和储备调节等保障措施的作用。",
+      "mastery_criteria": [
+        "能说明耕地保护对粮食安全的意义",
+        "能提出保障粮食安全的主要措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国划定的耕地红线是？",
+          "answer": "18亿亩",
+          "wrongs": [
+            "10亿亩",
+            "25亿亩",
+            "30亿亩"
+          ],
+          "explanation": "我国明确坚守18亿亩耕地红线，保障基本粮食生产空间。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "保障粮食安全的首要基础是？",
+          "answer": "保护耕地",
+          "wrongs": [
+            "扩大进口",
+            "增加储备",
+            "提高粮价"
+          ],
+          "explanation": "耕地是粮食生产的根本，保护耕地数量与质量是安全的基础。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国耕地分布的主要特点是？",
+          "answer": "东多西少，北方旱地多",
+          "wrongs": [
+            "西多东少，南方旱地多",
+            "南北均衡分布",
+            "全部集中在西北"
+          ],
+          "explanation": "耕地主要集中在东部季风区，秦岭—淮河以北以旱地为主。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "提高粮食单产的主要途径是？",
+          "answer": "改良品种、改善水利条件",
+          "wrongs": [
+            "扩大耕地面积",
+            "减少农业投入",
+            "降低复种指数"
+          ],
+          "explanation": "良种与水利、肥料等技术进步可提高单位面积产量。"
+        }
+      ],
+      "key": "xb3_liangshi_anquan"
+    },
+    {
+      "id": "cng_h071",
+      "name": "能源安全与能源结构转型",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第2单元 资源安全与国家安全",
+      "type": "reasoning",
+      "description": "理解能源安全的内涵，能分析我国能源生产与消费结构特点、转型方向及保障能源安全的主要措施。",
+      "mastery_criteria": [
+        "能说明我国能源生产与消费结构的特点",
+        "能提出保障能源安全与优化结构的措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国能源消费结构中占比最大的是？",
+          "answer": "煤炭",
+          "wrongs": [
+            "石油",
+            "天然气",
+            "水电"
+          ],
+          "explanation": "我国煤炭资源丰富，长期以煤为主的能源结构特征明显。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "能源安全的核心是？",
+          "answer": "稳定、经济、清洁的能源供应",
+          "wrongs": [
+            "能源价格最低",
+            "能源完全自给",
+            "能源消费最大"
+          ],
+          "explanation": "能源安全要求供应稳定可靠、价格可承受且环境友好。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "大力发展风电和光伏发电的主要意义是？",
+          "answer": "优化能源结构，减少碳排放",
+          "wrongs": [
+            "增加煤炭消费",
+            "提高能源进口依赖",
+            "降低电力供应能力"
+          ],
+          "explanation": "风能太阳能清洁可再生，替代化石能源可减少温室气体排放。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "我国石油对外依存度较高，合理的应对措施是？",
+          "answer": "多元进口、建立战略储备、推进节能",
+          "wrongs": [
+            "停止一切石油进口",
+            "无限扩大国内开采",
+            "取消战略石油储备"
+          ],
+          "explanation": "多元化来源与储备可降低供应中断风险，节能可减少需求压力。"
+        }
+      ],
+      "key": "xb3_nengyuan_anquan"
+    },
+    {
+      "id": "cng_h072",
+      "name": "水资源安全与跨流域调水",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第2单元 资源安全与国家安全",
+      "type": "application",
+      "description": "理解水资源安全的含义，能分析我国水资源供需矛盾，并评价跨流域调水对区域水安全的作用。",
+      "mastery_criteria": [
+        "能说明我国水资源供需矛盾的表现",
+        "能评价跨流域调水对区域水安全的影响"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国水资源总量居世界前列，但人均占有量少，主要原因是？",
+          "answer": "人口众多",
+          "wrongs": [
+            "降水极少",
+            "河流短小",
+            "地下水缺乏"
+          ],
+          "explanation": "总量大而人口基数大，使人均水资源量明显偏低。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "华北平原水资源紧张的主要自然原因是？",
+          "answer": "降水较少，地表径流不足",
+          "wrongs": [
+            "地势低平，排水不畅",
+            "河网密布，水量丰富",
+            "气温低，蒸发微弱"
+          ],
+          "explanation": "华北降水集中在夏季、年径流量小，而用水需求量大。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "南水北调对华北地区的主要作用是？",
+          "answer": "缓解生产生活用水紧张",
+          "wrongs": [
+            "增加当地降水量",
+            "提高地下水位至地表",
+            "减少农业用水需求"
+          ],
+          "explanation": "调水补充水源，缓解城市与农业用水矛盾，减少地下水超采。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "保障区域水安全的非工程措施是？",
+          "answer": "推广节水技术、防治水污染",
+          "wrongs": [
+            "修建更多水库",
+            "开挖新河道",
+            "建设海水淡化厂"
+          ],
+          "explanation": "节水与污染防治属管理性措施，可提高水资源利用效率与水质。"
+        }
+      ],
+      "key": "xb3_shui_anquan"
+    },
+    {
+      "id": "cng_h073",
+      "name": "矿产资源安全与综合利用",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第2单元 资源安全与国家安全",
+      "type": "conceptual",
+      "description": "理解矿产资源安全的重要性，能说明提高矿产资源利用效率、保障稳定供应的主要途径与意义。",
+      "mastery_criteria": [
+        "能概括我国矿产资源的基本特点",
+        "能提出保障矿产资源安全的措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.02",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国矿产资源的基本特点是？",
+          "answer": "总量大、人均少、贫矿多",
+          "wrongs": [
+            "总量小、人均多、富矿多",
+            "总量大、人均多、富矿多",
+            "总量小、人均少、贫矿多"
+          ],
+          "explanation": "我国矿产种类齐全但人均不足，品位偏低，开采难度较大。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "提高矿产资源利用率的关键是？",
+          "answer": "采选冶技术进步",
+          "wrongs": [
+            "扩大开采规模",
+            "降低产品标准",
+            "减少回收利用"
+          ],
+          "explanation": "先进采选冶技术可降低损失率、提高回收率与产品附加值。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "矿产资源综合利用的主要意义是？",
+          "answer": "减少资源浪费，降低环境负担",
+          "wrongs": [
+            "增加废弃物排放",
+            "提高开采成本",
+            "减少就业岗位"
+          ],
+          "explanation": "共伴生矿产与尾矿综合利用可延长资源寿命、减少生态破坏。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "保障战略性矿产资源供应的合理措施是？",
+          "answer": "加强国内勘探、拓展海外合作、发展循环利用",
+          "wrongs": [
+            "完全依赖单一进口来源",
+            "停止国内勘探",
+            "取消再生金属回收"
+          ],
+          "explanation": "多元供给与循环利用相结合，才能降低供应风险。"
+        }
+      ],
+      "key": "xb3_kuangchan_anquan"
+    },
+    {
+      "id": "cng_h074",
+      "name": "环境污染与防治",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第3单元 环境安全与国家安全",
+      "type": "application",
+      "description": "说明大气、水和土壤污染的主要来源与危害，能提出源头控制与末端治理相结合的防治措施。",
+      "mastery_criteria": [
+        "能分析主要污染类型的来源与危害",
+        "能针对具体污染提出防治措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "我国北方冬季雾霾多发的气象条件是？",
+          "answer": "逆温、静风",
+          "wrongs": [
+            "强对流旺盛",
+            "大风降温",
+            "降水丰沛"
+          ],
+          "explanation": "逆温抑制垂直扩散，静风不利于污染物水平扩散，易积累成霾。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "水体富营养化的直接原因是？",
+          "answer": "氮磷等营养物质过量排入",
+          "wrongs": [
+            "水温骤降",
+            "河流流速增大",
+            "水体含氧量升高"
+          ],
+          "explanation": "氮磷过多使藻类大量繁殖，消耗溶解氧，水质恶化。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "治理土壤重金属污染的首要措施是？",
+          "answer": "切断污染源",
+          "wrongs": [
+            "大量施用化肥",
+            "引水漫灌稀释",
+            "翻耕深层土壤"
+          ],
+          "explanation": "源头阻断重金属输入是治理前提，之后才谈修复技术。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "调整能源结构对治理大气污染的主要作用是？",
+          "answer": "减少污染物排放",
+          "wrongs": [
+            "增加降水",
+            "提高空气湿度",
+            "扩大污染范围"
+          ],
+          "explanation": "减少煤炭直接燃烧、增加清洁能源可显著削减二氧化硫和粉尘。"
+        }
+      ],
+      "key": "xb3_huanjing_wuran"
+    },
+    {
+      "id": "cng_h075",
+      "name": "生态安全与生态保护红线",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第3单元 环境安全与国家安全",
+      "type": "conceptual",
+      "description": "理解生态安全的含义与生态保护红线的划定意义，能说明维护国家生态安全的主要措施及其作用。",
+      "mastery_criteria": [
+        "能说明生态安全的内涵",
+        "能解释生态保护红线的作用"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生态保护红线划定的核心区域是？",
+          "answer": "生态功能重要区和生态环境脆弱区",
+          "wrongs": [
+            "城市建成区",
+            "主要工业区",
+            "商品粮基地"
+          ],
+          "explanation": "红线覆盖水源涵养、生物多样性维护等重要生态功能区与脆弱区。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "生态安全是指？",
+          "answer": "生态系统能持续提供服务且不受威胁",
+          "wrongs": [
+            "污染物排放低于标准",
+            "森林覆盖率最高",
+            "生物物种数量最多"
+          ],
+          "explanation": "生态安全强调生态系统结构完整、功能稳定、服务持续。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "退耕还林还草的主要目的是？",
+          "answer": "恢复植被，防治水土流失",
+          "wrongs": [
+            "扩大耕地面积",
+            "增加木材产量",
+            "发展畜牧养殖"
+          ],
+          "explanation": "陡坡耕地退耕后恢复林草，可减少水土流失、改善生态。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "维护国家生态安全的首要任务是？",
+          "answer": "保护关键生态系统",
+          "wrongs": [
+            "扩大建设用地",
+            "提高资源开采强度",
+            "增加化肥施用量"
+          ],
+          "explanation": "关键生态系统是生态安全的骨架，须优先保护与修复。"
+        }
+      ],
+      "key": "xb3_shengtai_anquan"
+    },
+    {
+      "id": "cng_h076",
+      "name": "全球气候变化及其应对",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第3单元 环境安全与国家安全",
+      "type": "reasoning",
+      "description": "说明全球气候变化的趋势与主要影响，能区分减缓与适应措施并分析其在国家安全中的作用。",
+      "mastery_criteria": [
+        "能说明全球气候变暖的主要原因与影响",
+        "能区分减缓措施与适应措施"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "全球气候变暖的主要人为原因是？",
+          "answer": "温室气体排放增加",
+          "wrongs": [
+            "太阳活动增强",
+            "火山喷发增多",
+            "地球公转轨道变化"
+          ],
+          "explanation": "化石燃料燃烧和土地利用变化使二氧化碳等温室气体浓度上升。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "全球气候变暖对海平面的影响是？",
+          "answer": "海平面上升",
+          "wrongs": [
+            "海平面下降",
+            "海平面不变",
+            "海水盐度普遍升高"
+          ],
+          "explanation": "冰川消融与海水热膨胀导致海平面上升，威胁沿海低地。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "协调全球温室气体减排的主要国际公约是？",
+          "answer": "《巴黎协定》",
+          "wrongs": [
+            "《联合国海洋法公约》",
+            "《生物多样性公约》",
+            "《维也纳公约》"
+          ],
+          "explanation": "《巴黎协定》确立全球温控目标与自主贡献减排机制。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "修建海堤、培育耐旱作物属于应对气候变化的？",
+          "answer": "适应措施",
+          "wrongs": [
+            "减缓措施",
+            "治理措施",
+            "补偿措施"
+          ],
+          "explanation": "适应措施是调整生产生活以适应已发生的气候变化，减缓则减少排放。"
+        }
+      ],
+      "key": "xb3_qihou_bianhua"
+    },
+    {
+      "id": "cng_h077",
+      "name": "生物多样性与自然保护区",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第3单元 环境安全与国家安全",
+      "type": "conceptual",
+      "description": "理解生物多样性的价值与减少原因，能说明就地保护、迁地保护等措施的作用与适用条件。",
+      "mastery_criteria": [
+        "能说明生物多样性减少的主要原因",
+        "能比较就地保护与迁地保护"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.03",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "生物多样性减少最主要的原因是？",
+          "answer": "栖息地破坏与碎片化",
+          "wrongs": [
+            "物种自然演化",
+            "气候周期性变化",
+            "火山喷发"
+          ],
+          "explanation": "开垦、建设和污染使栖息地丧失或破碎，是多样性下降的主因。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "保护生物多样性最有效的措施是？",
+          "answer": "就地保护，建立自然保护区",
+          "wrongs": [
+            "迁地保护，建立动物园",
+            "建立种子库",
+            "人工繁育后放归"
+          ],
+          "explanation": "就地保护维持生态系统原状与自然演化过程，是最根本的措施。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "自然保护区选址应优先考虑？",
+          "answer": "典型生态系统和珍稀物种集中分布区",
+          "wrongs": [
+            "交通便利的城市近郊",
+            "地价低廉的荒地",
+            "矿产资源富集区"
+          ],
+          "explanation": "保护区需覆盖具有代表性与保护价值的生态系统和物种栖息地。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "外来物种入侵的主要危害是？",
+          "answer": "竞争排斥本土物种，破坏生态平衡",
+          "wrongs": [
+            "增加本地物种数量",
+            "提高生态系统稳定性",
+            "加快物质循环"
+          ],
+          "explanation": "缺乏天敌的外来种快速繁殖，挤压本土物种生存空间。"
+        }
+      ],
+      "key": "xb3_shengtai_baohu"
+    },
+    {
+      "id": "cng_h078",
+      "name": "资源环境领域的国家安全战略",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第4单元 保障国家安全的资源、环境战略与行动",
+      "type": "conceptual",
+      "description": "理解资源环境安全是国家安全的重要组成部分，能说明总体国家安全观下的相关战略与行动。",
+      "mastery_criteria": [
+        "能说明资源环境安全与国家安全的联系",
+        "能列举保障资源环境安全的国家战略"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "在总体国家安全观中，资源环境安全属于？",
+          "answer": "非传统安全",
+          "wrongs": [
+            "军事安全",
+            "政治安全",
+            "国土安全"
+          ],
+          "explanation": "资源环境安全属于非传统安全领域，与经济、社会安全紧密相关。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "我国生态文明建设提出的目标是？",
+          "answer": "建设美丽中国",
+          "wrongs": [
+            "扩大重化工业",
+            "提高资源消耗",
+            "优先开发自然"
+          ],
+          "explanation": "美丽中国是生态文明建设的目标，强调人与自然和谐共生。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "资源安全与国家安全的关系是？",
+          "answer": "资源供应中断会威胁经济与社会稳定",
+          "wrongs": [
+            "资源与国家安全无关",
+            "资源越多国家安全越弱",
+            "资源仅影响环境质量"
+          ],
+          "explanation": "关键资源供应短缺会冲击生产生活秩序，危及经济安全与社会稳定。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "落实资源环境安全战略需要？",
+          "answer": "政府、企业与公众共同参与",
+          "wrongs": [
+            "仅依靠政府部门",
+            "仅依靠企业自律",
+            "仅依靠国际援助"
+          ],
+          "explanation": "资源环境治理涉及多方主体，需协同行动形成合力。"
+        }
+      ],
+      "key": "xb3_guojia_zhanlue"
+    },
+    {
+      "id": "cng_h079",
+      "name": "国际合作与全球环境治理",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第4单元 保障国家安全的资源、环境战略与行动",
+      "type": "application",
+      "description": "理解环境问题的全球性，能说明国际合作应遵循的原则、主要途径及其对全球环境治理的意义。",
+      "mastery_criteria": [
+        "能说明全球环境治理的基本原则",
+        "能分析国际合作在环境治理中的作用"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "全球环境治理应遵循的基本原则是？",
+          "answer": "共同但有区别的责任",
+          "wrongs": [
+            "各国承担完全相同的责任",
+            "由发展中国家单独承担",
+            "由国际组织单独承担"
+          ],
+          "explanation": "发达国家历史排放多、能力更强，应承担更多责任并提供支持。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "《联合国气候变化框架公约》的核心目标是？",
+          "answer": "稳定大气温室气体浓度",
+          "wrongs": [
+            "扩大化石能源使用",
+            "取消环境标准",
+            "限制国际贸易"
+          ],
+          "explanation": "公约旨在防止人类活动危险地干扰气候系统。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "发达国家向发展中国家提供资金和技术支持的意义是？",
+          "answer": "提升全球环境治理能力",
+          "wrongs": [
+            "限制发展中国家发展",
+            "扩大排放差距",
+            "替代国内减排行动"
+          ],
+          "explanation": "资金与技术援助可帮助发展中国家兼顾发展与减排，提高治理成效。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "应对跨境污染问题最有效的途径是？",
+          "answer": "区域国家协商合作",
+          "wrongs": [
+            "单方面关闭边境",
+            "各自提高排放",
+            "转移污染产业"
+          ],
+          "explanation": "跨境污染具有外部性，需相关国家协商制定共同治理方案。"
+        }
+      ],
+      "key": "xb3_guoji_hezuo"
+    },
+    {
+      "id": "cng_h080",
+      "name": "碳减排与碳达峰碳中和",
+      "domain": "资源环境与国家安全",
+      "grade": 14,
+      "semester": "全",
+      "chapter": "选必三 第4单元 保障国家安全的资源、环境战略与行动",
+      "type": "application",
+      "description": "理解碳达峰与碳中和的含义与区别，能说明我国实现双碳目标的能源结构、产业与技术路径。",
+      "mastery_criteria": [
+        "能区分碳达峰与碳中和",
+        "能提出实现碳中和的主要途径"
+      ],
+      "standards": [
+        {
+          "id": "cgs-hs-2017:S3.04",
+          "confidence": "inferred"
+        }
+      ],
+      "questions": [
+        {
+          "difficulty": "basic",
+          "prompt": "碳中和是指？",
+          "answer": "排放的二氧化碳与吸收的相抵消",
+          "wrongs": [
+            "二氧化碳排放达到峰值",
+            "完全停止二氧化碳排放",
+            "二氧化碳排放逐年下降"
+          ],
+          "explanation": "碳中和要求净排放为零，可通过减排与增加碳汇共同实现。"
+        },
+        {
+          "difficulty": "basic",
+          "prompt": "我国提出碳达峰的目标时间是？",
+          "answer": "2030年前",
+          "wrongs": [
+            "2025年前",
+            "2040年前",
+            "2050年前"
+          ],
+          "explanation": "我国承诺2030年前实现碳达峰、2060年前实现碳中和。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "实现碳中和的重要途径是？",
+          "answer": "发展非化石能源、增加碳汇",
+          "wrongs": [
+            "扩大煤炭消费",
+            "减少森林面积",
+            "提高钢铁产量"
+          ],
+          "explanation": "用风、光、水、核替代化石能源，并通过造林增加碳汇。"
+        },
+        {
+          "difficulty": "standard",
+          "prompt": "调整产业结构对碳减排的作用是？",
+          "answer": "降低高耗能产业比重",
+          "wrongs": [
+            "提高高耗能产业比重",
+            "扩大重化工业规模",
+            "增加煤炭发电"
+          ],
+          "explanation": "降低钢铁、水泥等高耗能产业比重可显著减少能源消耗与排放。"
+        }
+      ],
+      "key": "xb3_tan_pai"
+    }
+  ],
+  "hardEdges": [
+    {
+      "topicId": "cng_h002",
+      "prerequisiteId": "cng_h001",
+      "reason": "先掌握自转方向与周期，才能推算地方时与日期变化"
+    },
+    {
+      "topicId": "cng_h003",
+      "prerequisiteId": "cng_h002",
+      "reason": "地方时与昼夜交替是理解昼夜长短、太阳高度变化的前提"
+    },
+    {
+      "topicId": "cng_h005",
+      "prerequisiteId": "cng_h004",
+      "reason": "大气受热过程是理解地面冷热不均与热力环流的基础"
+    },
+    {
+      "topicId": "cng_h006",
+      "prerequisiteId": "cng_h005",
+      "reason": "热力环流原理是理解三圈环流与气压带风带的前提"
+    },
+    {
+      "topicId": "cng_h009",
+      "prerequisiteId": "cng_h008",
+      "reason": "先了解海水温度盐度，才能理解洋流性质与影响"
+    },
+    {
+      "topicId": "cng_h012",
+      "prerequisiteId": "cng_h011",
+      "reason": "区分内外力作用后才能判断具体地貌的成因"
+    },
+    {
+      "topicId": "cng_h014",
+      "prerequisiteId": "cng_h013",
+      "reason": "植被与有机质来源是理解土壤形成的关键环节"
+    },
+    {
+      "topicId": "cng_h016",
+      "prerequisiteId": "cng_h015",
+      "reason": "明确灾害成因才能提出有针对性的防灾措施"
+    },
+    {
+      "topicId": "cng_h017",
+      "prerequisiteId": "cng_h016",
+      "reason": "掌握防灾环节后，才能理解地理信息技术的应用场景"
+    },
+    {
+      "topicId": "cng_h019",
+      "prerequisiteId": "cng_h018",
+      "reason": "人口分布格局是分析人口迁移方向与原因的基础"
+    },
+    {
+      "topicId": "cng_h023",
+      "prerequisiteId": "cng_h022",
+      "reason": "理解城镇内部结构，才能分析城镇化过程与问题"
+    },
+    {
+      "topicId": "cng_h028",
+      "prerequisiteId": "cng_h025",
+      "reason": "先掌握农业区位因素，才能理解区位因素变化的影响"
+    },
+    {
+      "topicId": "cng_h031",
+      "prerequisiteId": "cng_h030",
+      "reason": "了解布局条件后才能评价交通对区域发展的作用"
+    },
+    {
+      "topicId": "cng_h033",
+      "prerequisiteId": "cng_h032",
+      "reason": "认识环境问题是理解可持续发展理念的前提"
+    },
+    {
+      "topicId": "cng_h045",
+      "prerequisiteId": "cng_h007",
+      "reason": "水循环环节是分析陆地水体相互补给的基础"
+    },
+    {
+      "topicId": "cng_h043",
+      "prerequisiteId": "cng_h006",
+      "reason": "气压带风带知识是判断气候类型成因的前提"
+    },
+    {
+      "topicId": "cng_h036",
+      "prerequisiteId": "cng_h035",
+      "reason": "自转的地理意义是理解公转意义与太阳视运动的起点"
+    },
+    {
+      "topicId": "cng_h037",
+      "prerequisiteId": "cng_h036",
+      "reason": "理解直射点回归运动后才能解释四季五带的形成"
+    },
+    {
+      "topicId": "cng_h039",
+      "prerequisiteId": "cng_h038",
+      "reason": "板块运动是理解褶皱、断层等构造地貌的背景"
+    },
+    {
+      "topicId": "cng_h049",
+      "prerequisiteId": "cng_h048",
+      "reason": "整体性原理是分析地域分异与要素联系的基础"
+    },
+    {
+      "topicId": "cng_h052",
+      "prerequisiteId": "cng_h051",
+      "reason": "明确区域含义后才能讨论区域发展阶段与结构"
+    },
+    {
+      "topicId": "cng_h060",
+      "prerequisiteId": "cng_h058",
+      "reason": "产业升级规律是理解产业转移方向与动因的前提"
+    },
+    {
+      "topicId": "cng_h063",
+      "prerequisiteId": "cng_h062",
+      "reason": "资源调配是区际联系的具体形式，需先掌握其机制"
+    },
+    {
+      "topicId": "cng_h075",
+      "prerequisiteId": "cng_h074",
+      "reason": "认识污染危害后才能理解生态安全的底线要求"
+    },
+    {
+      "topicId": "cng_h080",
+      "prerequisiteId": "cng_h076",
+      "reason": "明确气候变化趋势与成因，才能理解双碳目标的由来"
+    }
+  ],
+  "standardsItems": [
+    {
+      "id": "cgs-hs-2017:B1.01",
+      "domain": "自然地理",
+      "section": "地球的运动",
+      "clause": "地球的自转和公转",
+      "text": "说明地球自转和公转的方向、周期与速度，理解昼夜交替、地方时和正午太阳高度变化的成因。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B1.02",
+      "domain": "自然地理",
+      "section": "地球上的大气",
+      "clause": "大气受热过程与大气环流",
+      "text": "运用示意图说明大气受热过程，解释热力环流及气压带、风带的形成，并说明其对气候的影响。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B1.03",
+      "domain": "自然地理",
+      "section": "地球上的水",
+      "clause": "水循环与海水运动",
+      "text": "绘制水循环示意图，说明海水的性质与运动，理解洋流对地理环境和人类活动的影响。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B1.04",
+      "domain": "自然地理",
+      "section": "地貌",
+      "clause": "地貌的观察与成因",
+      "text": "识别常见地貌类型，说明内力与外力作用对地表形态的影响，能阅读等高线地形图判断地形。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B1.05",
+      "domain": "自然地理",
+      "section": "植被与土壤",
+      "clause": "植被和土壤与自然环境",
+      "text": "说明植被、土壤与自然环境的关系，能观察并描述本地植被类型和土壤剖面。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B1.06",
+      "domain": "自然地理",
+      "section": "自然灾害",
+      "clause": "自然灾害与防灾减灾",
+      "text": "说明常见自然灾害的成因与分布，了解防灾减灾措施和地理信息技术的应用。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B2.01",
+      "domain": "人文地理",
+      "section": "人口",
+      "clause": "人口分布、迁移与容量",
+      "text": "描述人口分布特点，说明人口迁移的原因与影响，理解资源环境承载力与人口合理容量。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B2.02",
+      "domain": "人文地理",
+      "section": "乡村和城镇",
+      "clause": "城乡空间结构与城镇化",
+      "text": "说明城镇内部空间结构的形成原因，描述城镇化过程及其影响，认识地域文化在城乡景观上的体现。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B2.03",
+      "domain": "人文地理",
+      "section": "产业区位因素",
+      "clause": "农业、工业与服务业的区位",
+      "text": "分析农业、工业和服务业的区位因素，说明区位因素变化对产业布局的影响。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B2.04",
+      "domain": "人文地理",
+      "section": "交通运输布局与区域发展",
+      "clause": "交通运输与区域发展",
+      "text": "比较主要交通运输方式的特点，说明交通运输布局的区位条件及其对区域发展的影响。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:B2.05",
+      "domain": "资源环境与国家安全",
+      "section": "环境与发展",
+      "clause": "环境问题与可持续发展",
+      "text": "说明人类面临的主要环境问题及其原因，理解可持续发展的内涵与原则。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S1.01",
+      "domain": "自然地理",
+      "section": "地球的运动",
+      "clause": "地球运动的地理意义",
+      "text": "说明地球运动的地理意义，理解黄赤交角与昼夜长短、正午太阳高度和四季五带的关系。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S1.02",
+      "domain": "自然地理",
+      "section": "地表形态的塑造",
+      "clause": "内力与外力作用",
+      "text": "运用板块构造学说解释宏观地貌，说明地质构造与河流地貌的发育过程。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S1.03",
+      "domain": "自然地理",
+      "section": "大气的运动",
+      "clause": "天气系统与气候",
+      "text": "说明锋面、气旋与反气旋等天气系统的特点，分析气压带、风带对气候形成的作用。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S1.04",
+      "domain": "自然地理",
+      "section": "水的运动",
+      "clause": "陆地水体与洋流",
+      "text": "说明陆地水体的相互关系与河流补给类型，归纳洋流分布规律及其地理意义。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S1.05",
+      "domain": "自然地理",
+      "section": "自然环境的整体性与差异性",
+      "clause": "整体性与地域分异",
+      "text": "说明自然环境的整体性，归纳水平地域分异和垂直分异规律，解释非地带性现象。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S2.01",
+      "domain": "区域发展",
+      "section": "区域与区域发展",
+      "clause": "区域的含义与发展阶段",
+      "text": "说明区域的含义与类型，比较不同区域的发展条件与发展阶段。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S2.02",
+      "domain": "区域发展",
+      "section": "资源、环境与区域发展",
+      "clause": "资源开发与生态治理",
+      "text": "分析资源开发与生态治理对区域发展的影响，说明资源枯竭型城市的转型路径。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S2.03",
+      "domain": "区域发展",
+      "section": "城市、产业与区域发展",
+      "clause": "产业转型与城市辐射",
+      "text": "说明产业结构转型与中心城市辐射功能，分析产业转移的动因与影响。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S2.04",
+      "domain": "区域发展",
+      "section": "区际联系与区域协调发展",
+      "clause": "流域、资源与区域合作",
+      "text": "说明流域协调开发、资源跨区域调配和区域合作的途径与意义。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S2.05",
+      "domain": "区域发展",
+      "section": "国家重大区域发展战略",
+      "clause": "区域发展战略",
+      "text": "结合长江经济带、京津冀等案例，说明国家重大区域发展战略的目标与举措。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S3.01",
+      "domain": "资源环境与国家安全",
+      "section": "自然环境与人类社会",
+      "clause": "自然环境的服务功能",
+      "text": "说明自然环境的服务功能与自然资源的特征，理解人口增长对资源环境的压力。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S3.02",
+      "domain": "资源环境与国家安全",
+      "section": "资源安全与国家安全",
+      "clause": "资源安全",
+      "text": "说明耕地、能源、水和矿产资源安全的含义与保障措施。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S3.03",
+      "domain": "资源环境与国家安全",
+      "section": "环境安全与国家安全",
+      "clause": "环境安全",
+      "text": "说明环境污染、生态破坏和气候变化对国家安全的影响及防治措施。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    },
+    {
+      "id": "cgs-hs-2017:S3.04",
+      "domain": "资源环境与国家安全",
+      "section": "保障国家安全的资源、环境战略与行动",
+      "clause": "战略与行动",
+      "text": "说明资源环境领域的国家安全战略，理解绿色发展与全球环境治理中的国际合作。",
+      "page_or_ref": "待核",
+      "verbatim": false,
+      "text_status": "公开转述，未与《普通高中地理课程标准（2017年版2020年修订）》逐页核对"
+    }
+  ],
+  "standardsMeta": {
+    "title": "普通高中地理课程标准（2017年版2020年修订）",
+    "issuer": "中华人民共和国教育部",
+    "year": 2017,
+    "stage": "高中",
+    "note": "条目对齐高中地理必修两册与选择性必修三册的学习要求，是公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 cgs-hs-2017:<B1|B2|S1|S2|S3>.<序号> 是本图谱编的，不是教育部原编号。"
+  }
+}

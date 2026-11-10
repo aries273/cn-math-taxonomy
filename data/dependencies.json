@@ -27916,5 +27916,2351 @@
     "prerequisiteId": "cnc_p483",
     "strength": "hard",
     "reason": "写毕业赠言之前，要先会围绕一个意思选择材料。"
+  },
+  {
+    "topicId": "cnh_h002",
+    "prerequisiteId": "cnh_h001",
+    "strength": "hard",
+    "reason": "了解早期国家的分封宗法，才能理解春秋战国制度变革的对象"
+  },
+  {
+    "topicId": "cnh_h003",
+    "prerequisiteId": "cnh_h002",
+    "strength": "hard",
+    "reason": "各国变法积累的制度经验，是秦朝建立中央集权制的前提"
+  },
+  {
+    "topicId": "cnh_h004",
+    "prerequisiteId": "cnh_h003",
+    "strength": "hard",
+    "reason": "秦朝速亡的教训，是汉武帝调整统治政策的历史起点"
+  },
+  {
+    "topicId": "cnh_h005",
+    "prerequisiteId": "cnh_h004",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「汉武帝与西汉大一统的巩固」，再学「三国两晋南北朝的民族交融」。"
+  },
+  {
+    "topicId": "cnh_h006",
+    "prerequisiteId": "cnh_h005",
+    "strength": "hard",
+    "reason": "民族交融为隋唐统一与制度创新提供了社会基础"
+  },
+  {
+    "topicId": "cnh_h007",
+    "prerequisiteId": "cnh_h006",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「隋唐的制度创新与盛世局面」，再学「唐朝的民族交往与开放气象」。"
+  },
+  {
+    "topicId": "cnh_h008",
+    "prerequisiteId": "cnh_h007",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「唐朝的民族交往与开放气象」，再学「安史之乱与唐朝衰亡」。"
+  },
+  {
+    "topicId": "cnh_h009",
+    "prerequisiteId": "cnh_h008",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「安史之乱与唐朝衰亡」，再学「北宋中央集权的强化」。"
+  },
+  {
+    "topicId": "cnh_h010",
+    "prerequisiteId": "cnh_h009",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「北宋中央集权的强化」，再学「辽夏金元的统治」。"
+  },
+  {
+    "topicId": "cnh_h011",
+    "prerequisiteId": "cnh_h010",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「辽夏金元的统治」，再学「宋元经济与思想文化」。"
+  },
+  {
+    "topicId": "cnh_h012",
+    "prerequisiteId": "cnh_h011",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「宋元经济与思想文化」，再学「宋元时期的民族交往与对外交流」。"
+  },
+  {
+    "topicId": "cnh_h013",
+    "prerequisiteId": "cnh_h012",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「宋元时期的民族交往与对外交流」，再学「明清君主专制的强化」。"
+  },
+  {
+    "topicId": "cnh_h014",
+    "prerequisiteId": "cnh_h013",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「明清君主专制的强化」，再学「明清疆域的奠定与边疆治理」。"
+  },
+  {
+    "topicId": "cnh_h015",
+    "prerequisiteId": "cnh_h014",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「明清疆域的奠定与边疆治理」，再学「明清经济文化的新变化」。"
+  },
+  {
+    "topicId": "cnh_h016",
+    "prerequisiteId": "cnh_h015",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「明清经济文化的新变化」，再学「明清的科技与文学艺术」。"
+  },
+  {
+    "topicId": "cnh_h017",
+    "prerequisiteId": "cnh_h016",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「明清的科技与文学艺术」，再学「两次鸦片战争与不平等条约」。"
+  },
+  {
+    "topicId": "cnh_h018",
+    "prerequisiteId": "cnh_h017",
+    "strength": "hard",
+    "reason": "鸦片战争后的民族与阶级矛盾，是太平天国运动兴起的背景"
+  },
+  {
+    "topicId": "cnh_h019",
+    "prerequisiteId": "cnh_h018",
+    "strength": "hard",
+    "reason": "镇压太平天国中地方势力崛起，推动洋务派兴办洋务"
+  },
+  {
+    "topicId": "cnh_h020",
+    "prerequisiteId": "cnh_h019",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「洋务运动与甲午战后的救亡」，再学「辛亥革命与中华民国的建立」。"
+  },
+  {
+    "topicId": "cnh_h021",
+    "prerequisiteId": "cnh_h020",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「辛亥革命与中华民国的建立」，再学「北洋军阀统治时期」。"
+  },
+  {
+    "topicId": "cnh_h022",
+    "prerequisiteId": "cnh_h021",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「北洋军阀统治时期」，再学「新文化运动与五四运动」。"
+  },
+  {
+    "topicId": "cnh_h023",
+    "prerequisiteId": "cnh_h022",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「新文化运动与五四运动」，再学「中国共产党的成立」。"
+  },
+  {
+    "topicId": "cnh_h024",
+    "prerequisiteId": "cnh_h023",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「中国共产党的成立」，再学「第一次国共合作与国民革命」。"
+  },
+  {
+    "topicId": "cnh_h025",
+    "prerequisiteId": "cnh_h024",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「第一次国共合作与国民革命」，再学「工农武装割据与红军长征」。"
+  },
+  {
+    "topicId": "cnh_h026",
+    "prerequisiteId": "cnh_h025",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「工农武装割据与红军长征」，再学「南京国民政府的统治」。"
+  },
+  {
+    "topicId": "cnh_h027",
+    "prerequisiteId": "cnh_h026",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「南京国民政府的统治」，再学「全民族抗战」。"
+  },
+  {
+    "topicId": "cnh_h028",
+    "prerequisiteId": "cnh_h027",
+    "strength": "hard",
+    "reason": "了解全民族抗战的进程，才能分析抗战胜利的原因与意义"
+  },
+  {
+    "topicId": "cnh_h029",
+    "prerequisiteId": "cnh_h028",
+    "strength": "hard",
+    "reason": "抗战胜利后的力量对比与民心向背，决定解放战争的走向"
+  },
+  {
+    "topicId": "cnh_h030",
+    "prerequisiteId": "cnh_h029",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「人民解放战争」，再学「中华人民共和国的成立」。"
+  },
+  {
+    "topicId": "cnh_h031",
+    "prerequisiteId": "cnh_h030",
+    "strength": "hard",
+    "reason": "新中国成立与政权巩固，是社会主义改造的制度前提"
+  },
+  {
+    "topicId": "cnh_h032",
+    "prerequisiteId": "cnh_h031",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「社会主义基本制度的建立」，再学「社会主义建设的探索与曲折」。"
+  },
+  {
+    "topicId": "cnh_h033",
+    "prerequisiteId": "cnh_h032",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「社会主义建设的探索与曲折」，再学「十一届三中全会与改革开放」。"
+  },
+  {
+    "topicId": "cnh_h034",
+    "prerequisiteId": "cnh_h033",
+    "strength": "hard",
+    "reason": "改革开放的实践探索，为提出市场经济体制目标积累经验"
+  },
+  {
+    "topicId": "cnh_h035",
+    "prerequisiteId": "cnh_h034",
+    "strength": "soft",
+    "reason": "按纲要上的常见教学顺序，先学「社会主义市场经济体制的建立」，再学「中国特色社会主义进入新时代」。"
+  },
+  {
+    "topicId": "cnh_h037",
+    "prerequisiteId": "cnh_h036",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「古代文明的产生」，再学「古代文明的扩展与交流」。"
+  },
+  {
+    "topicId": "cnh_h038",
+    "prerequisiteId": "cnh_h037",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「古代文明的扩展与交流」，再学「古代世界的帝国」。"
+  },
+  {
+    "topicId": "cnh_h039",
+    "prerequisiteId": "cnh_h038",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「古代世界的帝国」，再学「中古西欧封建社会」。"
+  },
+  {
+    "topicId": "cnh_h040",
+    "prerequisiteId": "cnh_h039",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「中古西欧封建社会」，再学「中古时期的亚洲」。"
+  },
+  {
+    "topicId": "cnh_h041",
+    "prerequisiteId": "cnh_h040",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「中古时期的亚洲」，再学「中古时期的非洲与美洲」。"
+  },
+  {
+    "topicId": "cnh_h042",
+    "prerequisiteId": "cnh_h041",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「中古时期的非洲与美洲」，再学「新航路的开辟」。"
+  },
+  {
+    "topicId": "cnh_h043",
+    "prerequisiteId": "cnh_h042",
+    "strength": "hard",
+    "reason": "新航路开辟后，欧洲殖民扩张才具备全球航线条件"
+  },
+  {
+    "topicId": "cnh_h044",
+    "prerequisiteId": "cnh_h043",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「早期殖民扩张」，再学「人口迁移与物种交换」。"
+  },
+  {
+    "topicId": "cnh_h045",
+    "prerequisiteId": "cnh_h044",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「人口迁移与物种交换」，再学「文艺复兴」。"
+  },
+  {
+    "topicId": "cnh_h046",
+    "prerequisiteId": "cnh_h045",
+    "strength": "hard",
+    "reason": "文艺复兴的人文主义，是宗教改革批判教会的思想先导"
+  },
+  {
+    "topicId": "cnh_h047",
+    "prerequisiteId": "cnh_h046",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「宗教改革」，再学「近代科学革命与启蒙运动」。"
+  },
+  {
+    "topicId": "cnh_h048",
+    "prerequisiteId": "cnh_h047",
+    "strength": "hard",
+    "reason": "启蒙运动的理性与天赋人权思想，为资产阶级革命提供理论"
+  },
+  {
+    "topicId": "cnh_h049",
+    "prerequisiteId": "cnh_h048",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「英美法资产阶级革命与资本主义制度的确立」，再学「第一次工业革命」。"
+  },
+  {
+    "topicId": "cnh_h050",
+    "prerequisiteId": "cnh_h049",
+    "strength": "hard",
+    "reason": "第一次工业革命的技术与资本积累，是第二次工业革命的基础"
+  },
+  {
+    "topicId": "cnh_h051",
+    "prerequisiteId": "cnh_h050",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「第二次工业革命」，再学「马克思主义的诞生」。"
+  },
+  {
+    "topicId": "cnh_h052",
+    "prerequisiteId": "cnh_h051",
+    "strength": "hard",
+    "reason": "马克思主义的传播与工人运动发展，为巴黎公社提供思想条件"
+  },
+  {
+    "topicId": "cnh_h053",
+    "prerequisiteId": "cnh_h052",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「巴黎公社」，再学「世界殖民体系的形成」。"
+  },
+  {
+    "topicId": "cnh_h054",
+    "prerequisiteId": "cnh_h053",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「世界殖民体系的形成」，再学「拉丁美洲独立运动」。"
+  },
+  {
+    "topicId": "cnh_h055",
+    "prerequisiteId": "cnh_h054",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「拉丁美洲独立运动」，再学「亚洲的觉醒与非洲的抗争」。"
+  },
+  {
+    "topicId": "cnh_h056",
+    "prerequisiteId": "cnh_h055",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「亚洲的觉醒与非洲的抗争」，再学「第一次世界大战」。"
+  },
+  {
+    "topicId": "cnh_h057",
+    "prerequisiteId": "cnh_h056",
+    "strength": "hard",
+    "reason": "一战激化俄国社会矛盾，成为十月革命的重要背景"
+  },
+  {
+    "topicId": "cnh_h058",
+    "prerequisiteId": "cnh_h057",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「俄国十月革命与苏联社会主义实践」，再学「亚非拉民族民主运动的高涨」。"
+  },
+  {
+    "topicId": "cnh_h059",
+    "prerequisiteId": "cnh_h058",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「亚非拉民族民主运动的高涨」，再学「第二次世界大战与战后国际秩序」。"
+  },
+  {
+    "topicId": "cnh_h060",
+    "prerequisiteId": "cnh_h059",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「第二次世界大战与战后国际秩序」，再学「冷战与两极格局」。"
+  },
+  {
+    "topicId": "cnh_h061",
+    "prerequisiteId": "cnh_h060",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「冷战与两极格局」，再学「资本主义国家的新变化」。"
+  },
+  {
+    "topicId": "cnh_h062",
+    "prerequisiteId": "cnh_h061",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「资本主义国家的新变化」，再学「社会主义国家的发展与变化」。"
+  },
+  {
+    "topicId": "cnh_h063",
+    "prerequisiteId": "cnh_h062",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「社会主义国家的发展与变化」，再学「世界殖民体系瓦解与新兴国家」。"
+  },
+  {
+    "topicId": "cnh_h064",
+    "prerequisiteId": "cnh_h063",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「世界殖民体系瓦解与新兴国家」，再学「经济全球化」。"
+  },
+  {
+    "topicId": "cnh_h065",
+    "prerequisiteId": "cnh_h064",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「经济全球化」，再学「世界多极化趋势」。"
+  },
+  {
+    "topicId": "cnh_h066",
+    "prerequisiteId": "cnh_h065",
+    "strength": "soft",
+    "reason": "按纲要下的常见教学顺序，先学「世界多极化趋势」，再学「和平发展与合作共赢」。"
+  },
+  {
+    "topicId": "cnh_h036",
+    "prerequisiteId": "cnh_h035",
+    "strength": "soft",
+    "reason": "「古代文明的产生」是纲要下的起始内容，先完成「中国特色社会主义进入新时代」再进入本册。"
+  },
+  {
+    "topicId": "cnh_h068",
+    "prerequisiteId": "cnh_h067",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国古代政治体制的演变」，再学「西方古代与近代政治制度」。"
+  },
+  {
+    "topicId": "cnh_h069",
+    "prerequisiteId": "cnh_h068",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「西方古代与近代政治制度」，再学「中国近代至当代政治制度」。"
+  },
+  {
+    "topicId": "cnh_h070",
+    "prerequisiteId": "cnh_h069",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国近代至当代政治制度」，再学「中国历代变法与改革」。"
+  },
+  {
+    "topicId": "cnh_h071",
+    "prerequisiteId": "cnh_h070",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国历代变法与改革」，再学「中国古代选官制度的演变」。"
+  },
+  {
+    "topicId": "cnh_h072",
+    "prerequisiteId": "cnh_h071",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国古代选官制度的演变」，再学「西方文官制度」。"
+  },
+  {
+    "topicId": "cnh_h073",
+    "prerequisiteId": "cnh_h072",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「西方文官制度」，再学「中国近现代公务员制度」。"
+  },
+  {
+    "topicId": "cnh_h074",
+    "prerequisiteId": "cnh_h073",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国近现代公务员制度」，再学「中国古代的法律与教化」。"
+  },
+  {
+    "topicId": "cnh_h075",
+    "prerequisiteId": "cnh_h074",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国古代的法律与教化」，再学「近代西方法律制度」。"
+  },
+  {
+    "topicId": "cnh_h076",
+    "prerequisiteId": "cnh_h075",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「近代西方法律制度」，再学「当代中国的法治与精神文明建设」。"
+  },
+  {
+    "topicId": "cnh_h077",
+    "prerequisiteId": "cnh_h076",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「当代中国的法治与精神文明建设」，再学「中国古代民族关系与对外交往」。"
+  },
+  {
+    "topicId": "cnh_h078",
+    "prerequisiteId": "cnh_h077",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国古代民族关系与对外交往」，再学「近代西方民族国家与国际法」。"
+  },
+  {
+    "topicId": "cnh_h079",
+    "prerequisiteId": "cnh_h078",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「近代西方民族国家与国际法」，再学「当代中国的民族政策与外交」。"
+  },
+  {
+    "topicId": "cnh_h080",
+    "prerequisiteId": "cnh_h079",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「当代中国的民族政策与外交」，再学「中国货币的演进」。"
+  },
+  {
+    "topicId": "cnh_h081",
+    "prerequisiteId": "cnh_h080",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国货币的演进」，再学「中国赋税制度的演变」。"
+  },
+  {
+    "topicId": "cnh_h082",
+    "prerequisiteId": "cnh_h081",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国赋税制度的演变」，再学「世界货币体系」。"
+  },
+  {
+    "topicId": "cnh_h083",
+    "prerequisiteId": "cnh_h082",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「世界货币体系」，再学「中国古代的基层治理」。"
+  },
+  {
+    "topicId": "cnh_h084",
+    "prerequisiteId": "cnh_h083",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国古代的基层治理」，再学「中国古代的社会救济」。"
+  },
+  {
+    "topicId": "cnh_h085",
+    "prerequisiteId": "cnh_h084",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「中国古代的社会救济」，再学「世界基层治理与中国社会保障」。"
+  },
+  {
+    "topicId": "cnh_h067",
+    "prerequisiteId": "cnh_h066",
+    "strength": "soft",
+    "reason": "「中国古代政治体制的演变」是选必一的起始内容，先完成「和平发展与合作共赢」再进入本册。"
+  },
+  {
+    "topicId": "cnh_h087",
+    "prerequisiteId": "cnh_h086",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「从食物采集到食物生产」，再学「现代农业与粮食安全」。"
+  },
+  {
+    "topicId": "cnh_h088",
+    "prerequisiteId": "cnh_h087",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「现代农业与粮食安全」，再学「不同地区的食物生产与社会生活」。"
+  },
+  {
+    "topicId": "cnh_h089",
+    "prerequisiteId": "cnh_h088",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「不同地区的食物生产与社会生活」，再学「古代的生产工具与劳作方式」。"
+  },
+  {
+    "topicId": "cnh_h090",
+    "prerequisiteId": "cnh_h089",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「古代的生产工具与劳作方式」，再学「水利工程与农业发展」。"
+  },
+  {
+    "topicId": "cnh_h091",
+    "prerequisiteId": "cnh_h090",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「水利工程与农业发展」，再学「工业革命与生产劳作方式的变化」。"
+  },
+  {
+    "topicId": "cnh_h092",
+    "prerequisiteId": "cnh_h091",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「工业革命与生产劳作方式的变化」，再学「古代的商业贸易」。"
+  },
+  {
+    "topicId": "cnh_h093",
+    "prerequisiteId": "cnh_h092",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「古代的商业贸易」，再学「世界市场的形成与经济全球化」。"
+  },
+  {
+    "topicId": "cnh_h094",
+    "prerequisiteId": "cnh_h093",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「世界市场的形成与经济全球化」，再学「近代商业经营方式的变化」。"
+  },
+  {
+    "topicId": "cnh_h095",
+    "prerequisiteId": "cnh_h094",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「近代商业经营方式的变化」，再学「古代的村落与集镇」。"
+  },
+  {
+    "topicId": "cnh_h096",
+    "prerequisiteId": "cnh_h095",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「古代的村落与集镇」，再学「近代以来的城市化与居住环境」。"
+  },
+  {
+    "topicId": "cnh_h097",
+    "prerequisiteId": "cnh_h096",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「近代以来的城市化与居住环境」，再学「建筑技术与居住环境」。"
+  },
+  {
+    "topicId": "cnh_h098",
+    "prerequisiteId": "cnh_h097",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「建筑技术与居住环境」，再学「古代的交通」。"
+  },
+  {
+    "topicId": "cnh_h099",
+    "prerequisiteId": "cnh_h098",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「古代的交通」，再学「近代以来交通的变革」。"
+  },
+  {
+    "topicId": "cnh_h100",
+    "prerequisiteId": "cnh_h099",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「近代以来交通的变革」，再学「交通运输与社会生活」。"
+  },
+  {
+    "topicId": "cnh_h101",
+    "prerequisiteId": "cnh_h100",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「交通运输与社会生活」，再学「历史上的疫病与医学发展」。"
+  },
+  {
+    "topicId": "cnh_h102",
+    "prerequisiteId": "cnh_h101",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「历史上的疫病与医学发展」，再学「现代医疗卫生体系」。"
+  },
+  {
+    "topicId": "cnh_h103",
+    "prerequisiteId": "cnh_h102",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「现代医疗卫生体系」，再学「公共卫生与疾病防治」。"
+  },
+  {
+    "topicId": "cnh_h086",
+    "prerequisiteId": "cnh_h085",
+    "strength": "soft",
+    "reason": "「从食物采集到食物生产」是选必二的起始内容，先完成「世界基层治理与中国社会保障」再进入本册。"
+  },
+  {
+    "topicId": "cnh_h105",
+    "prerequisiteId": "cnh_h104",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「中华优秀传统文化的内涵与特点」，再学「中华文化的世界意义」。"
+  },
+  {
+    "topicId": "cnh_h106",
+    "prerequisiteId": "cnh_h105",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「中华文化的世界意义」，再学「中华文化的当代价值」。"
+  },
+  {
+    "topicId": "cnh_h107",
+    "prerequisiteId": "cnh_h106",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「中华文化的当代价值」，再学「古代西亚与非洲文化」。"
+  },
+  {
+    "topicId": "cnh_h108",
+    "prerequisiteId": "cnh_h107",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「古代西亚与非洲文化」，再学「欧洲文化的发展」。"
+  },
+  {
+    "topicId": "cnh_h109",
+    "prerequisiteId": "cnh_h108",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「欧洲文化的发展」，再学「南亚、东亚与美洲文化」。"
+  },
+  {
+    "topicId": "cnh_h110",
+    "prerequisiteId": "cnh_h109",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「南亚、东亚与美洲文化」，再学「古代人类的迁徙」。"
+  },
+  {
+    "topicId": "cnh_h111",
+    "prerequisiteId": "cnh_h110",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「古代人类的迁徙」，再学「近代殖民扩张与人口迁移」。"
+  },
+  {
+    "topicId": "cnh_h112",
+    "prerequisiteId": "cnh_h111",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「近代殖民扩张与人口迁移」，再学「现代移民与多元文化」。"
+  },
+  {
+    "topicId": "cnh_h113",
+    "prerequisiteId": "cnh_h112",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「现代移民与多元文化」，再学「丝绸之路与文化交流」。"
+  },
+  {
+    "topicId": "cnh_h114",
+    "prerequisiteId": "cnh_h113",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「丝绸之路与文化交流」，再学「近代商路与文化交流」。"
+  },
+  {
+    "topicId": "cnh_h115",
+    "prerequisiteId": "cnh_h114",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「近代商路与文化交流」，再学「现代贸易与文化交流」。"
+  },
+  {
+    "topicId": "cnh_h116",
+    "prerequisiteId": "cnh_h115",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「现代贸易与文化交流」，再学「古代战争与文化碰撞」。"
+  },
+  {
+    "topicId": "cnh_h117",
+    "prerequisiteId": "cnh_h116",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「古代战争与文化碰撞」，再学「近代战争与西方文化的扩张」。"
+  },
+  {
+    "topicId": "cnh_h118",
+    "prerequisiteId": "cnh_h117",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「近代战争与西方文化的扩张」，再学「现代战争与不同文化的碰撞」。"
+  },
+  {
+    "topicId": "cnh_h119",
+    "prerequisiteId": "cnh_h118",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「现代战争与不同文化的碰撞」，再学「文化传承的载体」。"
+  },
+  {
+    "topicId": "cnh_h120",
+    "prerequisiteId": "cnh_h119",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「文化传承的载体」，再学「文化遗产的保护」。"
+  },
+  {
+    "topicId": "cnh_h121",
+    "prerequisiteId": "cnh_h120",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「文化遗产的保护」，再学「学校教育与文化传承」。"
+  },
+  {
+    "topicId": "cnh_h104",
+    "prerequisiteId": "cnh_h103",
+    "strength": "soft",
+    "reason": "「中华优秀传统文化的内涵与特点」是选必三的起始内容，先完成「公共卫生与疾病防治」再进入本册。"
+  },
+  {
+    "topicId": "cnh_h009",
+    "prerequisiteId": "cnh_h006",
+    "strength": "hard",
+    "reason": "隋唐三省六部与科举制，是北宋分割事权改革的直接前提"
+  },
+  {
+    "topicId": "cnh_h013",
+    "prerequisiteId": "cnh_h009",
+    "strength": "hard",
+    "reason": "宋代强化中央集权的经验，为明清君主专制强化所继承"
+  },
+  {
+    "topicId": "cnh_h022",
+    "prerequisiteId": "cnh_h020",
+    "strength": "hard",
+    "reason": "辛亥革命后民主共和观念传播，为新文化运动奠定思想基础"
+  },
+  {
+    "topicId": "cnh_h025",
+    "prerequisiteId": "cnh_h023",
+    "strength": "hard",
+    "reason": "党的成立与理论准备，是探索农村包围城市道路的前提"
+  },
+  {
+    "topicId": "cnh_h067",
+    "prerequisiteId": "cnh_h013",
+    "strength": "hard",
+    "reason": "了解明清君主专制的措施，才能整体把握古代政治体制演变"
+  },
+  {
+    "topicId": "cnh_h077",
+    "prerequisiteId": "cnh_h005",
+    "strength": "hard",
+    "reason": "魏晋民族交融的史实，是理解历代民族治理制度的基础"
+  },
+  {
+    "topicId": "cnh_h092",
+    "prerequisiteId": "cnh_h011",
+    "strength": "hard",
+    "reason": "宋元商业与货币的发展，是理解古代商贸体系的前提"
+  },
+  {
+    "topicId": "cnpo_h002",
+    "prerequisiteId": "cnpo_h001",
+    "strength": "hard",
+    "reason": "了解阶级社会的演进，才能理解空想社会主义产生的历史背景"
+  },
+  {
+    "topicId": "cnpo_h003",
+    "prerequisiteId": "cnpo_h002",
+    "strength": "hard",
+    "reason": "空想社会主义的局限正是科学社会主义要解决的理论问题"
+  },
+  {
+    "topicId": "cnpo_h004",
+    "prerequisiteId": "cnpo_h003",
+    "strength": "hard",
+    "reason": "先掌握科学社会主义基本原理，才能理解其从理论到实践的历程"
+  },
+  {
+    "topicId": "cnpo_h005",
+    "prerequisiteId": "cnpo_h004",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「科学社会主义从理论到实践」，再学「新民主主义革命的性质与道路」。"
+  },
+  {
+    "topicId": "cnpo_h006",
+    "prerequisiteId": "cnpo_h005",
+    "strength": "hard",
+    "reason": "新民主主义革命的胜利是社会主义制度在中国确立的前提"
+  },
+  {
+    "topicId": "cnpo_h007",
+    "prerequisiteId": "cnpo_h006",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「社会主义制度在中国的确立」，再学「只有社会主义才能救中国」。"
+  },
+  {
+    "topicId": "cnpo_h008",
+    "prerequisiteId": "cnpo_h007",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「只有社会主义才能救中国」，再学「改革开放的进程与意义」。"
+  },
+  {
+    "topicId": "cnpo_h009",
+    "prerequisiteId": "cnpo_h008",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「改革开放的进程与意义」，再学「中国特色社会主义理论体系」。"
+  },
+  {
+    "topicId": "cnpo_h010",
+    "prerequisiteId": "cnpo_h009",
+    "strength": "hard",
+    "reason": "先了解理论体系的形成，才能把握道路、理论、制度、文化的统一"
+  },
+  {
+    "topicId": "cnpo_h011",
+    "prerequisiteId": "cnpo_h010",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「中国特色社会主义道路、理论、制度、文化」，再学「中国特色社会主义进入新时代」。"
+  },
+  {
+    "topicId": "cnpo_h012",
+    "prerequisiteId": "cnpo_h011",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「中国特色社会主义进入新时代」，再学「我国社会主要矛盾的变化」。"
+  },
+  {
+    "topicId": "cnpo_h013",
+    "prerequisiteId": "cnpo_h012",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「我国社会主要矛盾的变化」，再学「习近平新时代中国特色社会主义思想」。"
+  },
+  {
+    "topicId": "cnpo_h014",
+    "prerequisiteId": "cnpo_h013",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「习近平新时代中国特色社会主义思想」，再学「实现中华民族伟大复兴的中国梦」。"
+  },
+  {
+    "topicId": "cnpo_h016",
+    "prerequisiteId": "cnpo_h015",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「公有制主体地位及其体现」，再学「多种所有制经济共同发展」。"
+  },
+  {
+    "topicId": "cnpo_h017",
+    "prerequisiteId": "cnpo_h016",
+    "strength": "hard",
+    "reason": "认识多种所有制经济的地位，才能理解“两个毫不动摇”的政策要求"
+  },
+  {
+    "topicId": "cnpo_h018",
+    "prerequisiteId": "cnpo_h017",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「坚持“两个毫不动摇”」，再学「市场调节及其局限」。"
+  },
+  {
+    "topicId": "cnpo_h019",
+    "prerequisiteId": "cnpo_h018",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「市场调节及其局限」，再学「社会主义市场经济体制的基本特征」。"
+  },
+  {
+    "topicId": "cnpo_h020",
+    "prerequisiteId": "cnpo_h019",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「社会主义市场经济体制的基本特征」，再学「宏观调控与更好发挥政府作用」。"
+  },
+  {
+    "topicId": "cnpo_h021",
+    "prerequisiteId": "cnpo_h020",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「宏观调控与更好发挥政府作用」，再学「坚持以人民为中心的发展思想」。"
+  },
+  {
+    "topicId": "cnpo_h022",
+    "prerequisiteId": "cnpo_h021",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「坚持以人民为中心的发展思想」，再学「贯彻新发展理念」。"
+  },
+  {
+    "topicId": "cnpo_h023",
+    "prerequisiteId": "cnpo_h022",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「贯彻新发展理念」，再学「推动高质量发展」。"
+  },
+  {
+    "topicId": "cnpo_h024",
+    "prerequisiteId": "cnpo_h023",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「推动高质量发展」，再学「建设现代化经济体系」。"
+  },
+  {
+    "topicId": "cnpo_h025",
+    "prerequisiteId": "cnpo_h024",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「建设现代化经济体系」，再学「按劳分配为主体、多种分配方式并存」。"
+  },
+  {
+    "topicId": "cnpo_h026",
+    "prerequisiteId": "cnpo_h025",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「按劳分配为主体、多种分配方式并存」，再学「完善个人收入分配」。"
+  },
+  {
+    "topicId": "cnpo_h027",
+    "prerequisiteId": "cnpo_h026",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「完善个人收入分配」，再学「我国的社会保障」。"
+  },
+  {
+    "topicId": "cnpo_h015",
+    "prerequisiteId": "cnpo_h014",
+    "strength": "soft",
+    "reason": "「公有制主体地位及其体现」是必修二的起始内容，先完成「实现中华民族伟大复兴的中国梦」再进入本册。"
+  },
+  {
+    "topicId": "cnpo_h029",
+    "prerequisiteId": "cnpo_h028",
+    "strength": "hard",
+    "reason": "了解党的领导地位的确立，才能深入理解党的性质和宗旨"
+  },
+  {
+    "topicId": "cnpo_h030",
+    "prerequisiteId": "cnpo_h029",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「中国共产党的性质、宗旨和指导思想」，再学「坚持和加强党的全面领导」。"
+  },
+  {
+    "topicId": "cnpo_h031",
+    "prerequisiteId": "cnpo_h030",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「坚持和加强党的全面领导」，再学「全面从严治党」。"
+  },
+  {
+    "topicId": "cnpo_h032",
+    "prerequisiteId": "cnpo_h031",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「全面从严治党」，再学「我国的国家性质与人民民主」。"
+  },
+  {
+    "topicId": "cnpo_h033",
+    "prerequisiteId": "cnpo_h032",
+    "strength": "hard",
+    "reason": "国家性质决定政权组织形式，理解国体是把握政体的前提"
+  },
+  {
+    "topicId": "cnpo_h034",
+    "prerequisiteId": "cnpo_h033",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「人民代表大会制度」，再学「中国共产党领导的多党合作和政治协商制度」。"
+  },
+  {
+    "topicId": "cnpo_h035",
+    "prerequisiteId": "cnpo_h034",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「中国共产党领导的多党合作和政治协商制度」，再学「民族区域自治制度与基层群众自治制度」。"
+  },
+  {
+    "topicId": "cnpo_h036",
+    "prerequisiteId": "cnpo_h035",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「民族区域自治制度与基层群众自治制度」，再学「全面依法治国的总目标」。"
+  },
+  {
+    "topicId": "cnpo_h037",
+    "prerequisiteId": "cnpo_h036",
+    "strength": "hard",
+    "reason": "明确总目标，才能具体把握法治国家、法治政府、法治社会建设"
+  },
+  {
+    "topicId": "cnpo_h038",
+    "prerequisiteId": "cnpo_h037",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「法治国家、法治政府、法治社会」，再学「科学立法、严格执法、公正司法、全民守法」。"
+  },
+  {
+    "topicId": "cnpo_h039",
+    "prerequisiteId": "cnpo_h038",
+    "strength": "soft",
+    "reason": "按必修三的常见教学顺序，先学「科学立法、严格执法、公正司法、全民守法」，再学「公民的法治意识与依法维权」。"
+  },
+  {
+    "topicId": "cnpo_h028",
+    "prerequisiteId": "cnpo_h027",
+    "strength": "soft",
+    "reason": "「中国共产党领导地位的确立」是必修三的起始内容，先完成「我国的社会保障」再进入本册。"
+  },
+  {
+    "topicId": "cnpo_h041",
+    "prerequisiteId": "cnpo_h040",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「哲学与世界观、方法论」，再学「物质与意识」。"
+  },
+  {
+    "topicId": "cnpo_h042",
+    "prerequisiteId": "cnpo_h041",
+    "strength": "hard",
+    "reason": "把握物质与意识的关系，才能正确理解规律的客观性"
+  },
+  {
+    "topicId": "cnpo_h043",
+    "prerequisiteId": "cnpo_h042",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「规律的客观性与主观能动性」，再学「联系的普遍性与多样性」。"
+  },
+  {
+    "topicId": "cnpo_h044",
+    "prerequisiteId": "cnpo_h043",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「联系的普遍性与多样性」，再学「发展的实质与量变质变」。"
+  },
+  {
+    "topicId": "cnpo_h045",
+    "prerequisiteId": "cnpo_h044",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「发展的实质与量变质变」，再学「矛盾分析法」。"
+  },
+  {
+    "topicId": "cnpo_h046",
+    "prerequisiteId": "cnpo_h045",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「矛盾分析法」，再学「实践与认识」。"
+  },
+  {
+    "topicId": "cnpo_h047",
+    "prerequisiteId": "cnpo_h046",
+    "strength": "hard",
+    "reason": "实践是认识的基础，是理解真理问题的前提"
+  },
+  {
+    "topicId": "cnpo_h048",
+    "prerequisiteId": "cnpo_h047",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「真理的客观性与具体性」，再学「社会存在与社会意识」。"
+  },
+  {
+    "topicId": "cnpo_h049",
+    "prerequisiteId": "cnpo_h048",
+    "strength": "hard",
+    "reason": "社会存在决定社会意识，是理解价值判断问题的前提"
+  },
+  {
+    "topicId": "cnpo_h050",
+    "prerequisiteId": "cnpo_h049",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「价值判断与价值选择」，再学「中华优秀传统文化的创造性转化」。"
+  },
+  {
+    "topicId": "cnpo_h051",
+    "prerequisiteId": "cnpo_h050",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「中华优秀传统文化的创造性转化」，再学「正确对待外来文化」。"
+  },
+  {
+    "topicId": "cnpo_h052",
+    "prerequisiteId": "cnpo_h051",
+    "strength": "soft",
+    "reason": "按必修四的常见教学顺序，先学「正确对待外来文化」，再学「发展中国特色社会主义文化」。"
+  },
+  {
+    "topicId": "cnpo_h040",
+    "prerequisiteId": "cnpo_h039",
+    "strength": "soft",
+    "reason": "「哲学与世界观、方法论」是必修四的起始内容，先完成「公民的法治意识与依法维权」再进入本册。"
+  },
+  {
+    "topicId": "cnpo_h054",
+    "prerequisiteId": "cnpo_h053",
+    "strength": "hard",
+    "reason": "国家性质决定政权组织形式，认识国家是理解政体的前提"
+  },
+  {
+    "topicId": "cnpo_h055",
+    "prerequisiteId": "cnpo_h054",
+    "strength": "hard",
+    "reason": "政权组织形式与国家结构形式共同构成国家形式"
+  },
+  {
+    "topicId": "cnpo_h056",
+    "prerequisiteId": "cnpo_h055",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「国家的结构形式」，再学「世界多极化的发展趋势」。"
+  },
+  {
+    "topicId": "cnpo_h057",
+    "prerequisiteId": "cnpo_h056",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「世界多极化的发展趋势」，再学「国际关系及其决定因素」。"
+  },
+  {
+    "topicId": "cnpo_h058",
+    "prerequisiteId": "cnpo_h057",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「国际关系及其决定因素」，再学「和平与发展是当今时代主题」。"
+  },
+  {
+    "topicId": "cnpo_h059",
+    "prerequisiteId": "cnpo_h058",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「和平与发展是当今时代主题」，再学「经济全球化的表现与影响」。"
+  },
+  {
+    "topicId": "cnpo_h060",
+    "prerequisiteId": "cnpo_h059",
+    "strength": "hard",
+    "reason": "了解经济全球化的表现，才能分析其带来的机遇与挑战"
+  },
+  {
+    "topicId": "cnpo_h061",
+    "prerequisiteId": "cnpo_h060",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「经济全球化的机遇与挑战」，再学「发展更高层次的开放型经济」。"
+  },
+  {
+    "topicId": "cnpo_h062",
+    "prerequisiteId": "cnpo_h061",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「发展更高层次的开放型经济」，再学「联合国的作用」。"
+  },
+  {
+    "topicId": "cnpo_h063",
+    "prerequisiteId": "cnpo_h062",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「联合国的作用」，再学「区域性国际组织」。"
+  },
+  {
+    "topicId": "cnpo_h064",
+    "prerequisiteId": "cnpo_h063",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「区域性国际组织」，再学「中国与国际组织」。"
+  },
+  {
+    "topicId": "cnpo_h053",
+    "prerequisiteId": "cnpo_h052",
+    "strength": "soft",
+    "reason": "「国家的本质与构成要素」是选必一的起始内容，先完成「发展中国特色社会主义文化」再进入本册。"
+  },
+  {
+    "topicId": "cnpo_h066",
+    "prerequisiteId": "cnpo_h065",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「民事权利能力与民事行为能力」，再学「物权与所有权」。"
+  },
+  {
+    "topicId": "cnpo_h067",
+    "prerequisiteId": "cnpo_h066",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「物权与所有权」，再学「合同的订立与履行」。"
+  },
+  {
+    "topicId": "cnpo_h068",
+    "prerequisiteId": "cnpo_h067",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「合同的订立与履行」，再学「侵权责任与权利界限」。"
+  },
+  {
+    "topicId": "cnpo_h069",
+    "prerequisiteId": "cnpo_h068",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「侵权责任与权利界限」，再学「婚姻家庭关系中的权利与义务」。"
+  },
+  {
+    "topicId": "cnpo_h070",
+    "prerequisiteId": "cnpo_h069",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「婚姻家庭关系中的权利与义务」，再学「法定继承与遗嘱继承」。"
+  },
+  {
+    "topicId": "cnpo_h071",
+    "prerequisiteId": "cnpo_h070",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「法定继承与遗嘱继承」，再学「未成年人的监护与保护」。"
+  },
+  {
+    "topicId": "cnpo_h072",
+    "prerequisiteId": "cnpo_h071",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「未成年人的监护与保护」，再学「劳动合同与劳动者权益」。"
+  },
+  {
+    "topicId": "cnpo_h073",
+    "prerequisiteId": "cnpo_h072",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「劳动合同与劳动者权益」，再学「劳动者依法维权的途径」。"
+  },
+  {
+    "topicId": "cnpo_h074",
+    "prerequisiteId": "cnpo_h073",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「劳动者依法维权的途径」，再学「创业与经营中的法律」。"
+  },
+  {
+    "topicId": "cnpo_h075",
+    "prerequisiteId": "cnpo_h074",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「创业与经营中的法律」，再学「多元纠纷解决方式」。"
+  },
+  {
+    "topicId": "cnpo_h076",
+    "prerequisiteId": "cnpo_h075",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「多元纠纷解决方式」，再学「诉讼的类型与基本程序」。"
+  },
+  {
+    "topicId": "cnpo_h065",
+    "prerequisiteId": "cnpo_h064",
+    "strength": "soft",
+    "reason": "「民事权利能力与民事行为能力」是选必二的起始内容，先完成「中国与国际组织」再进入本册。"
+  },
+  {
+    "topicId": "cnpo_h078",
+    "prerequisiteId": "cnpo_h077",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「思维的特征与科学思维」，再学「抽象思维与形象思维」。"
+  },
+  {
+    "topicId": "cnpo_h079",
+    "prerequisiteId": "cnpo_h078",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「抽象思维与形象思维」，再学「科学思维的基本要求」。"
+  },
+  {
+    "topicId": "cnpo_h080",
+    "prerequisiteId": "cnpo_h079",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「科学思维的基本要求」，再学「概念的内涵与外延」。"
+  },
+  {
+    "topicId": "cnpo_h081",
+    "prerequisiteId": "cnpo_h080",
+    "strength": "hard",
+    "reason": "概念是构成判断的基本要素"
+  },
+  {
+    "topicId": "cnpo_h082",
+    "prerequisiteId": "cnpo_h081",
+    "strength": "hard",
+    "reason": "推理以判断为前提，由已知判断推出新判断"
+  },
+  {
+    "topicId": "cnpo_h083",
+    "prerequisiteId": "cnpo_h082",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「演绎推理的有效性」，再学「归纳推理与类比推理」。"
+  },
+  {
+    "topicId": "cnpo_h084",
+    "prerequisiteId": "cnpo_h083",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「归纳推理与类比推理」，再学「辩证思维的整体性与动态性」。"
+  },
+  {
+    "topicId": "cnpo_h085",
+    "prerequisiteId": "cnpo_h084",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「辩证思维的整体性与动态性」，再学「质量互变与辩证否定」。"
+  },
+  {
+    "topicId": "cnpo_h086",
+    "prerequisiteId": "cnpo_h085",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「质量互变与辩证否定」，再学「分析与综合」。"
+  },
+  {
+    "topicId": "cnpo_h087",
+    "prerequisiteId": "cnpo_h086",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「分析与综合」，再学「创新思维的特征」。"
+  },
+  {
+    "topicId": "cnpo_h088",
+    "prerequisiteId": "cnpo_h087",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「创新思维的特征」，再学「发散思维、聚合思维与逆向思维」。"
+  },
+  {
+    "topicId": "cnpo_h077",
+    "prerequisiteId": "cnpo_h076",
+    "strength": "soft",
+    "reason": "「思维的特征与科学思维」是选必三的起始内容，先完成「诉讼的类型与基本程序」再进入本册。"
+  },
+  {
+    "topicId": "cnpo_h015",
+    "prerequisiteId": "cnpo_h006",
+    "strength": "hard",
+    "reason": "社会主义制度的确立是公有制主体地位得以建立的历史前提"
+  },
+  {
+    "topicId": "cnpo_h022",
+    "prerequisiteId": "cnpo_h009",
+    "strength": "hard",
+    "reason": "新发展理念是中国特色社会主义理论体系在经济发展领域的体现"
+  },
+  {
+    "topicId": "cnpo_h020",
+    "prerequisiteId": "cnpo_h018",
+    "strength": "hard",
+    "reason": "认识市场调节的局限，才能理解宏观调控的必要性"
+  },
+  {
+    "topicId": "cnpo_h032",
+    "prerequisiteId": "cnpo_h015",
+    "strength": "hard",
+    "reason": "我国的国家性质建立在社会主义经济制度的基础之上"
+  },
+  {
+    "topicId": "cnpo_h036",
+    "prerequisiteId": "cnpo_h030",
+    "strength": "hard",
+    "reason": "党的领导是全面依法治国的根本保证"
+  },
+  {
+    "topicId": "cnpo_h067",
+    "prerequisiteId": "cnpo_h065",
+    "strength": "hard",
+    "reason": "具备相应民事行为能力，是独立订立合同的前提"
+  },
+  {
+    "topicId": "cnpo_h072",
+    "prerequisiteId": "cnpo_h067",
+    "strength": "hard",
+    "reason": "劳动合同是合同制度在劳动关系中的具体运用"
+  },
+  {
+    "topicId": "cng_h002",
+    "prerequisiteId": "cng_h001",
+    "strength": "hard",
+    "reason": "先掌握自转方向与周期，才能推算地方时与日期变化"
+  },
+  {
+    "topicId": "cng_h003",
+    "prerequisiteId": "cng_h002",
+    "strength": "hard",
+    "reason": "地方时与昼夜交替是理解昼夜长短、太阳高度变化的前提"
+  },
+  {
+    "topicId": "cng_h004",
+    "prerequisiteId": "cng_h003",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「正午太阳高度与昼夜长短的变化」，再学「大气受热过程与保温作用」。"
+  },
+  {
+    "topicId": "cng_h005",
+    "prerequisiteId": "cng_h004",
+    "strength": "hard",
+    "reason": "大气受热过程是理解地面冷热不均与热力环流的基础"
+  },
+  {
+    "topicId": "cng_h006",
+    "prerequisiteId": "cng_h005",
+    "strength": "hard",
+    "reason": "热力环流原理是理解三圈环流与气压带风带的前提"
+  },
+  {
+    "topicId": "cng_h007",
+    "prerequisiteId": "cng_h006",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「气压带、风带与季风环流」，再学「水循环的过程与意义」。"
+  },
+  {
+    "topicId": "cng_h008",
+    "prerequisiteId": "cng_h007",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「水循环的过程与意义」，再学「海水性质与海水运动」。"
+  },
+  {
+    "topicId": "cng_h009",
+    "prerequisiteId": "cng_h008",
+    "strength": "hard",
+    "reason": "先了解海水温度盐度，才能理解洋流性质与影响"
+  },
+  {
+    "topicId": "cng_h010",
+    "prerequisiteId": "cng_h009",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「洋流分布规律及其影响」，再学「等高线地形图的判读」。"
+  },
+  {
+    "topicId": "cng_h011",
+    "prerequisiteId": "cng_h010",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「等高线地形图的判读」，再学「内力作用与外力作用」。"
+  },
+  {
+    "topicId": "cng_h012",
+    "prerequisiteId": "cng_h011",
+    "strength": "hard",
+    "reason": "区分内外力作用后才能判断具体地貌的成因"
+  },
+  {
+    "topicId": "cng_h013",
+    "prerequisiteId": "cng_h012",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「流水地貌与风成地貌」，再学「植被与环境的关系」。"
+  },
+  {
+    "topicId": "cng_h014",
+    "prerequisiteId": "cng_h013",
+    "strength": "hard",
+    "reason": "植被与有机质来源是理解土壤形成的关键环节"
+  },
+  {
+    "topicId": "cng_h015",
+    "prerequisiteId": "cng_h014",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「土壤的形成与剖面」，再学「常见自然灾害的成因」。"
+  },
+  {
+    "topicId": "cng_h016",
+    "prerequisiteId": "cng_h015",
+    "strength": "hard",
+    "reason": "明确灾害成因才能提出有针对性的防灾措施"
+  },
+  {
+    "topicId": "cng_h017",
+    "prerequisiteId": "cng_h016",
+    "strength": "hard",
+    "reason": "掌握防灾环节后，才能理解地理信息技术的应用场景"
+  },
+  {
+    "topicId": "cng_h019",
+    "prerequisiteId": "cng_h018",
+    "strength": "hard",
+    "reason": "人口分布格局是分析人口迁移方向与原因的基础"
+  },
+  {
+    "topicId": "cng_h020",
+    "prerequisiteId": "cng_h019",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「人口迁移的原因与影响」，再学「资源环境承载力与人口合理容量」。"
+  },
+  {
+    "topicId": "cng_h021",
+    "prerequisiteId": "cng_h020",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「资源环境承载力与人口合理容量」，再学「人口统计图表的判读」。"
+  },
+  {
+    "topicId": "cng_h022",
+    "prerequisiteId": "cng_h021",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「人口统计图表的判读」，再学「城镇内部空间结构」。"
+  },
+  {
+    "topicId": "cng_h023",
+    "prerequisiteId": "cng_h022",
+    "strength": "hard",
+    "reason": "理解城镇内部结构，才能分析城镇化过程与问题"
+  },
+  {
+    "topicId": "cng_h024",
+    "prerequisiteId": "cng_h023",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「城镇化进程及其问题」，再学「乡村与地域文化景观」。"
+  },
+  {
+    "topicId": "cng_h025",
+    "prerequisiteId": "cng_h024",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「乡村与地域文化景观」，再学「农业区位因素」。"
+  },
+  {
+    "topicId": "cng_h026",
+    "prerequisiteId": "cng_h025",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「农业区位因素」，再学「工业区位因素」。"
+  },
+  {
+    "topicId": "cng_h027",
+    "prerequisiteId": "cng_h026",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「工业区位因素」，再学「服务业区位因素」。"
+  },
+  {
+    "topicId": "cng_h028",
+    "prerequisiteId": "cng_h027",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「服务业区位因素」，再学「区位因素的变化与产业布局调整」。"
+  },
+  {
+    "topicId": "cng_h029",
+    "prerequisiteId": "cng_h028",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「区位因素的变化与产业布局调整」，再学「主要交通运输方式的特点」。"
+  },
+  {
+    "topicId": "cng_h030",
+    "prerequisiteId": "cng_h029",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「主要交通运输方式的特点」，再学「交通运输布局的区位条件」。"
+  },
+  {
+    "topicId": "cng_h031",
+    "prerequisiteId": "cng_h030",
+    "strength": "hard",
+    "reason": "了解布局条件后才能评价交通对区域发展的作用"
+  },
+  {
+    "topicId": "cng_h032",
+    "prerequisiteId": "cng_h031",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「交通运输对区域发展的影响」，再学「人类面临的主要环境问题」。"
+  },
+  {
+    "topicId": "cng_h033",
+    "prerequisiteId": "cng_h032",
+    "strength": "hard",
+    "reason": "认识环境问题是理解可持续发展理念的前提"
+  },
+  {
+    "topicId": "cng_h034",
+    "prerequisiteId": "cng_h033",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「可持续发展的内涵与原则」，再学「清洁生产与循环经济」。"
+  },
+  {
+    "topicId": "cng_h018",
+    "prerequisiteId": "cng_h017",
+    "strength": "soft",
+    "reason": "「人口分布及其影响因素」是必修二的起始内容，先完成「遥感与地理信息系统在防灾中的应用」再进入本册。"
+  },
+  {
+    "topicId": "cng_h036",
+    "prerequisiteId": "cng_h035",
+    "strength": "hard",
+    "reason": "自转的地理意义是理解公转意义与太阳视运动的起点"
+  },
+  {
+    "topicId": "cng_h037",
+    "prerequisiteId": "cng_h036",
+    "strength": "hard",
+    "reason": "理解直射点回归运动后才能解释四季五带的形成"
+  },
+  {
+    "topicId": "cng_h038",
+    "prerequisiteId": "cng_h037",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「黄赤交角与四季五带」，再学「板块运动与宏观地貌」。"
+  },
+  {
+    "topicId": "cng_h039",
+    "prerequisiteId": "cng_h038",
+    "strength": "hard",
+    "reason": "板块运动是理解褶皱、断层等构造地貌的背景"
+  },
+  {
+    "topicId": "cng_h040",
+    "prerequisiteId": "cng_h039",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「地质构造与构造地貌」，再学「河流地貌的发育」。"
+  },
+  {
+    "topicId": "cng_h041",
+    "prerequisiteId": "cng_h040",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「河流地貌的发育」，再学「锋与天气」。"
+  },
+  {
+    "topicId": "cng_h042",
+    "prerequisiteId": "cng_h041",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「锋与天气」，再学「气旋、反气旋与天气」。"
+  },
+  {
+    "topicId": "cng_h043",
+    "prerequisiteId": "cng_h042",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「气旋、反气旋与天气」，再学「世界主要气候类型的成因与特征」。"
+  },
+  {
+    "topicId": "cng_h044",
+    "prerequisiteId": "cng_h043",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「世界主要气候类型的成因与特征」，再学「等压线图的判读」。"
+  },
+  {
+    "topicId": "cng_h045",
+    "prerequisiteId": "cng_h044",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「等压线图的判读」，再学「陆地水体与河流补给」。"
+  },
+  {
+    "topicId": "cng_h046",
+    "prerequisiteId": "cng_h045",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「陆地水体与河流补给」，再学「洋流的分布规律与地理意义」。"
+  },
+  {
+    "topicId": "cng_h047",
+    "prerequisiteId": "cng_h046",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「洋流的分布规律与地理意义」，再学「水资源及其合理利用」。"
+  },
+  {
+    "topicId": "cng_h048",
+    "prerequisiteId": "cng_h047",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「水资源及其合理利用」，再学「自然环境的整体性」。"
+  },
+  {
+    "topicId": "cng_h049",
+    "prerequisiteId": "cng_h048",
+    "strength": "hard",
+    "reason": "整体性原理是分析地域分异与要素联系的基础"
+  },
+  {
+    "topicId": "cng_h050",
+    "prerequisiteId": "cng_h049",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「地域分异规律」，再学「非地带性现象与雪线林线」。"
+  },
+  {
+    "topicId": "cng_h035",
+    "prerequisiteId": "cng_h034",
+    "strength": "soft",
+    "reason": "「地球自转的地理意义」是选必一的起始内容，先完成「清洁生产与循环经济」再进入本册。"
+  },
+  {
+    "topicId": "cng_h052",
+    "prerequisiteId": "cng_h051",
+    "strength": "hard",
+    "reason": "明确区域含义后才能讨论区域发展阶段与结构"
+  },
+  {
+    "topicId": "cng_h053",
+    "prerequisiteId": "cng_h052",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「区域发展阶段与产业结构」，再学「区域差异与比较分析」。"
+  },
+  {
+    "topicId": "cng_h054",
+    "prerequisiteId": "cng_h053",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「区域差异与比较分析」，再学「区域地图与空间分析」。"
+  },
+  {
+    "topicId": "cng_h055",
+    "prerequisiteId": "cng_h054",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「区域地图与空间分析」，再学「资源开发与区域发展」。"
+  },
+  {
+    "topicId": "cng_h056",
+    "prerequisiteId": "cng_h055",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「资源开发与区域发展」，再学「生态脆弱区的综合治理」。"
+  },
+  {
+    "topicId": "cng_h057",
+    "prerequisiteId": "cng_h056",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「生态脆弱区的综合治理」，再学「资源枯竭型城市的转型」。"
+  },
+  {
+    "topicId": "cng_h058",
+    "prerequisiteId": "cng_h057",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「资源枯竭型城市的转型」，再学「产业结构转型与升级」。"
+  },
+  {
+    "topicId": "cng_h059",
+    "prerequisiteId": "cng_h058",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「产业结构转型与升级」，再学「中心城市的辐射功能」。"
+  },
+  {
+    "topicId": "cng_h060",
+    "prerequisiteId": "cng_h059",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「中心城市的辐射功能」，再学「产业转移的动因与影响」。"
+  },
+  {
+    "topicId": "cng_h061",
+    "prerequisiteId": "cng_h060",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「产业转移的动因与影响」，再学「流域内协调发展」。"
+  },
+  {
+    "topicId": "cng_h062",
+    "prerequisiteId": "cng_h061",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「流域内协调发展」，再学「资源跨区域调配」。"
+  },
+  {
+    "topicId": "cng_h063",
+    "prerequisiteId": "cng_h062",
+    "strength": "hard",
+    "reason": "资源调配是区际联系的具体形式，需先掌握其机制"
+  },
+  {
+    "topicId": "cng_h064",
+    "prerequisiteId": "cng_h063",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「区际联系与区域合作」，再学「长江经济带与区域协同」。"
+  },
+  {
+    "topicId": "cng_h065",
+    "prerequisiteId": "cng_h064",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「长江经济带与区域协同」，再学「京津冀协同发展」。"
+  },
+  {
+    "topicId": "cng_h066",
+    "prerequisiteId": "cng_h065",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「京津冀协同发展」，再学「重大区域发展战略的比较」。"
+  },
+  {
+    "topicId": "cng_h051",
+    "prerequisiteId": "cng_h050",
+    "strength": "soft",
+    "reason": "「区域的含义与类型」是选必二的起始内容，先完成「非地带性现象与雪线林线」再进入本册。"
+  },
+  {
+    "topicId": "cng_h068",
+    "prerequisiteId": "cng_h067",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「自然环境的服务功能」，再学「自然资源的分类与特征」。"
+  },
+  {
+    "topicId": "cng_h069",
+    "prerequisiteId": "cng_h068",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「自然资源的分类与特征」，再学「人口增长与资源环境压力」。"
+  },
+  {
+    "topicId": "cng_h070",
+    "prerequisiteId": "cng_h069",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「人口增长与资源环境压力」，再学「耕地保护与粮食安全」。"
+  },
+  {
+    "topicId": "cng_h071",
+    "prerequisiteId": "cng_h070",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「耕地保护与粮食安全」，再学「能源安全与能源结构转型」。"
+  },
+  {
+    "topicId": "cng_h072",
+    "prerequisiteId": "cng_h071",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「能源安全与能源结构转型」，再学「水资源安全与跨流域调水」。"
+  },
+  {
+    "topicId": "cng_h073",
+    "prerequisiteId": "cng_h072",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「水资源安全与跨流域调水」，再学「矿产资源安全与综合利用」。"
+  },
+  {
+    "topicId": "cng_h074",
+    "prerequisiteId": "cng_h073",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「矿产资源安全与综合利用」，再学「环境污染与防治」。"
+  },
+  {
+    "topicId": "cng_h075",
+    "prerequisiteId": "cng_h074",
+    "strength": "hard",
+    "reason": "认识污染危害后才能理解生态安全的底线要求"
+  },
+  {
+    "topicId": "cng_h076",
+    "prerequisiteId": "cng_h075",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「生态安全与生态保护红线」，再学「全球气候变化及其应对」。"
+  },
+  {
+    "topicId": "cng_h077",
+    "prerequisiteId": "cng_h076",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「全球气候变化及其应对」，再学「生物多样性与自然保护区」。"
+  },
+  {
+    "topicId": "cng_h078",
+    "prerequisiteId": "cng_h077",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「生物多样性与自然保护区」，再学「资源环境领域的国家安全战略」。"
+  },
+  {
+    "topicId": "cng_h079",
+    "prerequisiteId": "cng_h078",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「资源环境领域的国家安全战略」，再学「国际合作与全球环境治理」。"
+  },
+  {
+    "topicId": "cng_h080",
+    "prerequisiteId": "cng_h079",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「国际合作与全球环境治理」，再学「碳减排与碳达峰碳中和」。"
+  },
+  {
+    "topicId": "cng_h067",
+    "prerequisiteId": "cng_h066",
+    "strength": "soft",
+    "reason": "「自然环境的服务功能」是选必三的起始内容，先完成「重大区域发展战略的比较」再进入本册。"
+  },
+  {
+    "topicId": "cng_h028",
+    "prerequisiteId": "cng_h025",
+    "strength": "hard",
+    "reason": "先掌握农业区位因素，才能理解区位因素变化的影响"
+  },
+  {
+    "topicId": "cng_h045",
+    "prerequisiteId": "cng_h007",
+    "strength": "hard",
+    "reason": "水循环环节是分析陆地水体相互补给的基础"
+  },
+  {
+    "topicId": "cng_h043",
+    "prerequisiteId": "cng_h006",
+    "strength": "hard",
+    "reason": "气压带风带知识是判断气候类型成因的前提"
+  },
+  {
+    "topicId": "cng_h060",
+    "prerequisiteId": "cng_h058",
+    "strength": "hard",
+    "reason": "产业升级规律是理解产业转移方向与动因的前提"
+  },
+  {
+    "topicId": "cng_h080",
+    "prerequisiteId": "cng_h076",
+    "strength": "hard",
+    "reason": "明确气候变化趋势与成因，才能理解双碳目标的由来"
+  },
+  {
+    "topicId": "cnb_h002",
+    "prerequisiteId": "cnb_h001",
+    "strength": "hard",
+    "reason": "先认识细胞中的元素和水，才能理解糖类与脂质的元素组成"
+  },
+  {
+    "topicId": "cnb_h003",
+    "prerequisiteId": "cnb_h002",
+    "strength": "hard",
+    "reason": "了解糖类和脂质后，才能比较蛋白质与核酸的组成和功能"
+  },
+  {
+    "topicId": "cnb_h004",
+    "prerequisiteId": "cnb_h003",
+    "strength": "hard",
+    "reason": "蛋白质是细胞膜的主要成分，先认识蛋白质才能理解膜的结构"
+  },
+  {
+    "topicId": "cnb_h005",
+    "prerequisiteId": "cnb_h004",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「细胞膜的结构与功能」，再学「细胞器的分工与合作」。"
+  },
+  {
+    "topicId": "cnb_h006",
+    "prerequisiteId": "cnb_h005",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「细胞器的分工与合作」，再学「细胞核与细胞的统一性」。"
+  },
+  {
+    "topicId": "cnb_h007",
+    "prerequisiteId": "cnb_h006",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「细胞核与细胞的统一性」，再学「渗透作用与质壁分离」。"
+  },
+  {
+    "topicId": "cnb_h008",
+    "prerequisiteId": "cnb_h007",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「渗透作用与质壁分离」，再学「被动运输」。"
+  },
+  {
+    "topicId": "cnb_h009",
+    "prerequisiteId": "cnb_h008",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「被动运输」，再学「主动运输与胞吞胞吐」。"
+  },
+  {
+    "topicId": "cnb_h010",
+    "prerequisiteId": "cnb_h009",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「主动运输与胞吞胞吐」，再学「酶的本质与特性」。"
+  },
+  {
+    "topicId": "cnb_h011",
+    "prerequisiteId": "cnb_h010",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「酶的本质与特性」，再学「影响酶促反应的因素」。"
+  },
+  {
+    "topicId": "cnb_h012",
+    "prerequisiteId": "cnb_h011",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「影响酶促反应的因素」，再学「ATP的结构与功能」。"
+  },
+  {
+    "topicId": "cnb_h013",
+    "prerequisiteId": "cnb_h012",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「ATP的结构与功能」，再学「光合作用的原理」。"
+  },
+  {
+    "topicId": "cnb_h014",
+    "prerequisiteId": "cnb_h013",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「光合作用的原理」，再学「细胞呼吸的原理与应用」。"
+  },
+  {
+    "topicId": "cnb_h015",
+    "prerequisiteId": "cnb_h014",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「细胞呼吸的原理与应用」，再学「光合作用与细胞呼吸的联系」。"
+  },
+  {
+    "topicId": "cnb_h016",
+    "prerequisiteId": "cnb_h015",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「光合作用与细胞呼吸的联系」，再学「细胞的有丝分裂」。"
+  },
+  {
+    "topicId": "cnb_h017",
+    "prerequisiteId": "cnb_h016",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「细胞的有丝分裂」，再学「细胞分化与全能性」。"
+  },
+  {
+    "topicId": "cnb_h018",
+    "prerequisiteId": "cnb_h017",
+    "strength": "soft",
+    "reason": "按必修一的常见教学顺序，先学「细胞分化与全能性」，再学「细胞的衰老、凋亡与癌变」。"
+  },
+  {
+    "topicId": "cnb_h020",
+    "prerequisiteId": "cnb_h019",
+    "strength": "hard",
+    "reason": "掌握一对相对性状的分离，才能分析两对性状的自由组合"
+  },
+  {
+    "topicId": "cnb_h021",
+    "prerequisiteId": "cnb_h020",
+    "strength": "hard",
+    "reason": "遗传概率的乘法计算以自由组合的分离比为基础"
+  },
+  {
+    "topicId": "cnb_h022",
+    "prerequisiteId": "cnb_h021",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「遗传规律的概率计算」，再学「减数分裂的过程」。"
+  },
+  {
+    "topicId": "cnb_h023",
+    "prerequisiteId": "cnb_h022",
+    "strength": "hard",
+    "reason": "先理解配子染色体数目减半，才能理解受精作用恢复数目"
+  },
+  {
+    "topicId": "cnb_h024",
+    "prerequisiteId": "cnb_h023",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「受精作用与染色体数目的恒定」，再学「配子的多样性」。"
+  },
+  {
+    "topicId": "cnb_h025",
+    "prerequisiteId": "cnb_h024",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「配子的多样性」，再学「基因在染色体上」。"
+  },
+  {
+    "topicId": "cnb_h026",
+    "prerequisiteId": "cnb_h025",
+    "strength": "hard",
+    "reason": "确认基因位于染色体上，才能理解伴性遗传"
+  },
+  {
+    "topicId": "cnb_h027",
+    "prerequisiteId": "cnb_h026",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「伴性遗传」，再学「遗传系谱图的分析」。"
+  },
+  {
+    "topicId": "cnb_h028",
+    "prerequisiteId": "cnb_h027",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「遗传系谱图的分析」，再学「DNA是主要的遗传物质」。"
+  },
+  {
+    "topicId": "cnb_h029",
+    "prerequisiteId": "cnb_h028",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「DNA是主要的遗传物质」，再学「DNA的结构」。"
+  },
+  {
+    "topicId": "cnb_h030",
+    "prerequisiteId": "cnb_h029",
+    "strength": "hard",
+    "reason": "碱基互补配对是DNA半保留复制的结构基础"
+  },
+  {
+    "topicId": "cnb_h031",
+    "prerequisiteId": "cnb_h030",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「DNA的复制」，再学「转录与翻译」。"
+  },
+  {
+    "topicId": "cnb_h032",
+    "prerequisiteId": "cnb_h031",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「转录与翻译」，再学「中心法则与基因对性状的控制」。"
+  },
+  {
+    "topicId": "cnb_h033",
+    "prerequisiteId": "cnb_h032",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「中心法则与基因对性状的控制」，再学「碱基与氨基酸的数量关系」。"
+  },
+  {
+    "topicId": "cnb_h034",
+    "prerequisiteId": "cnb_h033",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「碱基与氨基酸的数量关系」，再学「基因突变与基因重组」。"
+  },
+  {
+    "topicId": "cnb_h035",
+    "prerequisiteId": "cnb_h034",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「基因突变与基因重组」，再学「染色体变异」。"
+  },
+  {
+    "topicId": "cnb_h036",
+    "prerequisiteId": "cnb_h035",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「染色体变异」，再学「育种方法及其原理」。"
+  },
+  {
+    "topicId": "cnb_h037",
+    "prerequisiteId": "cnb_h036",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「育种方法及其原理」，再学「自然选择与适应的形成」。"
+  },
+  {
+    "topicId": "cnb_h038",
+    "prerequisiteId": "cnb_h037",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「自然选择与适应的形成」，再学「种群基因频率与物种形成」。"
+  },
+  {
+    "topicId": "cnb_h039",
+    "prerequisiteId": "cnb_h038",
+    "strength": "soft",
+    "reason": "按必修二的常见教学顺序，先学「种群基因频率与物种形成」，再学「协同进化与生物多样性」。"
+  },
+  {
+    "topicId": "cnb_h019",
+    "prerequisiteId": "cnb_h018",
+    "strength": "soft",
+    "reason": "「基因的分离定律」是必修二的起始内容，先完成「细胞的衰老、凋亡与癌变」再进入本册。"
+  },
+  {
+    "topicId": "cnb_h041",
+    "prerequisiteId": "cnb_h040",
+    "strength": "hard",
+    "reason": "了解内环境的组成，才能理解稳态及其调节机制"
+  },
+  {
+    "topicId": "cnb_h042",
+    "prerequisiteId": "cnb_h041",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「稳态及其调节机制」，再学「组织水肿的成因分析」。"
+  },
+  {
+    "topicId": "cnb_h043",
+    "prerequisiteId": "cnb_h042",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「组织水肿的成因分析」，再学「反射与反射弧」。"
+  },
+  {
+    "topicId": "cnb_h044",
+    "prerequisiteId": "cnb_h043",
+    "strength": "hard",
+    "reason": "反射弧是分析兴奋传导与传递的结构基础"
+  },
+  {
+    "topicId": "cnb_h045",
+    "prerequisiteId": "cnb_h044",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「兴奋的传导与传递」，再学「人脑的高级功能」。"
+  },
+  {
+    "topicId": "cnb_h046",
+    "prerequisiteId": "cnb_h045",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「人脑的高级功能」，再学「激素调节与分级调节」。"
+  },
+  {
+    "topicId": "cnb_h047",
+    "prerequisiteId": "cnb_h046",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「激素调节与分级调节」，再学「体温、水盐与血糖的调节」。"
+  },
+  {
+    "topicId": "cnb_h048",
+    "prerequisiteId": "cnb_h047",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「体温、水盐与血糖的调节」，再学「激素调节的特点与探究实验」。"
+  },
+  {
+    "topicId": "cnb_h049",
+    "prerequisiteId": "cnb_h048",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「激素调节的特点与探究实验」，再学「免疫系统的组成与功能」。"
+  },
+  {
+    "topicId": "cnb_h050",
+    "prerequisiteId": "cnb_h049",
+    "strength": "hard",
+    "reason": "先了解免疫系统的组成，才能分析特异性免疫的过程"
+  },
+  {
+    "topicId": "cnb_h051",
+    "prerequisiteId": "cnb_h050",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「体液免疫与细胞免疫」，再学「免疫失调与免疫学应用」。"
+  },
+  {
+    "topicId": "cnb_h052",
+    "prerequisiteId": "cnb_h051",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「免疫失调与免疫学应用」，再学「生长素的发现与作用特点」。"
+  },
+  {
+    "topicId": "cnb_h053",
+    "prerequisiteId": "cnb_h052",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「生长素的发现与作用特点」，再学「其他植物激素」。"
+  },
+  {
+    "topicId": "cnb_h054",
+    "prerequisiteId": "cnb_h053",
+    "strength": "soft",
+    "reason": "按选必一的常见教学顺序，先学「其他植物激素」，再学「环境因素与植物生长调节剂」。"
+  },
+  {
+    "topicId": "cnb_h040",
+    "prerequisiteId": "cnb_h039",
+    "strength": "soft",
+    "reason": "「内环境的组成」是选必一的起始内容，先完成「协同进化与生物多样性」再进入本册。"
+  },
+  {
+    "topicId": "cnb_h056",
+    "prerequisiteId": "cnb_h055",
+    "strength": "hard",
+    "reason": "掌握种群的数量特征，才能分析种群数量的变化规律"
+  },
+  {
+    "topicId": "cnb_h057",
+    "prerequisiteId": "cnb_h056",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「种群数量的变化」，再学「影响种群数量变化的因素」。"
+  },
+  {
+    "topicId": "cnb_h058",
+    "prerequisiteId": "cnb_h057",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「影响种群数量变化的因素」，再学「群落的结构」。"
+  },
+  {
+    "topicId": "cnb_h059",
+    "prerequisiteId": "cnb_h058",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「群落的结构」，再学「群落的演替」。"
+  },
+  {
+    "topicId": "cnb_h060",
+    "prerequisiteId": "cnb_h059",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「群落的演替」，再学「生态位」。"
+  },
+  {
+    "topicId": "cnb_h061",
+    "prerequisiteId": "cnb_h060",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「生态位」，再学「生态系统的结构」。"
+  },
+  {
+    "topicId": "cnb_h062",
+    "prerequisiteId": "cnb_h061",
+    "strength": "hard",
+    "reason": "生态系统的组成与营养结构是分析能量流动的前提"
+  },
+  {
+    "topicId": "cnb_h063",
+    "prerequisiteId": "cnb_h062",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「能量流动」，再学「物质循环、信息传递与稳定性」。"
+  },
+  {
+    "topicId": "cnb_h064",
+    "prerequisiteId": "cnb_h063",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「物质循环、信息传递与稳定性」，再学「生物多样性及其保护」。"
+  },
+  {
+    "topicId": "cnb_h065",
+    "prerequisiteId": "cnb_h064",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「生物多样性及其保护」，再学「生态工程」。"
+  },
+  {
+    "topicId": "cnb_h066",
+    "prerequisiteId": "cnb_h065",
+    "strength": "soft",
+    "reason": "按选必二的常见教学顺序，先学「生态工程」，再学「全球性生态环境问题」。"
+  },
+  {
+    "topicId": "cnb_h055",
+    "prerequisiteId": "cnb_h054",
+    "strength": "soft",
+    "reason": "「种群的数量特征与密度调查」是选必二的起始内容，先完成「环境因素与植物生长调节剂」再进入本册。"
+  },
+  {
+    "topicId": "cnb_h068",
+    "prerequisiteId": "cnb_h067",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「传统发酵技术」，再学「微生物的培养与分离」。"
+  },
+  {
+    "topicId": "cnb_h069",
+    "prerequisiteId": "cnb_h068",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「微生物的培养与分离」，再学「发酵工程及其应用」。"
+  },
+  {
+    "topicId": "cnb_h070",
+    "prerequisiteId": "cnb_h069",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「发酵工程及其应用」，再学「植物组织培养与植物细胞工程」。"
+  },
+  {
+    "topicId": "cnb_h071",
+    "prerequisiteId": "cnb_h070",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「植物组织培养与植物细胞工程」，再学「动物细胞培养与细胞融合」。"
+  },
+  {
+    "topicId": "cnb_h072",
+    "prerequisiteId": "cnb_h071",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「动物细胞培养与细胞融合」，再学「单克隆抗体」。"
+  },
+  {
+    "topicId": "cnb_h073",
+    "prerequisiteId": "cnb_h072",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「单克隆抗体」，再学「基因工程的工具」。"
+  },
+  {
+    "topicId": "cnb_h074",
+    "prerequisiteId": "cnb_h073",
+    "strength": "hard",
+    "reason": "掌握限制酶、连接酶和载体，才能理解基因工程的操作步骤"
+  },
+  {
+    "topicId": "cnb_h075",
+    "prerequisiteId": "cnb_h074",
+    "strength": "hard",
+    "reason": "了解基因工程流程，才能理解PCR在扩增目的基因中的应用"
+  },
+  {
+    "topicId": "cnb_h076",
+    "prerequisiteId": "cnb_h075",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「PCR与蛋白质工程」，再学「转基因产品的安全性」。"
+  },
+  {
+    "topicId": "cnb_h077",
+    "prerequisiteId": "cnb_h076",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「转基因产品的安全性」，再学「生物技术的伦理问题」。"
+  },
+  {
+    "topicId": "cnb_h078",
+    "prerequisiteId": "cnb_h077",
+    "strength": "soft",
+    "reason": "按选必三的常见教学顺序，先学「生物技术的伦理问题」，再学「禁止生物武器」。"
+  },
+  {
+    "topicId": "cnb_h067",
+    "prerequisiteId": "cnb_h066",
+    "strength": "soft",
+    "reason": "「传统发酵技术」是选必三的起始内容，先完成「全球性生态环境问题」再进入本册。"
+  },
+  {
+    "topicId": "cnb_h007",
+    "prerequisiteId": "cnb_h004",
+    "strength": "hard",
+    "reason": "理解细胞膜的选择透过性，才能分析渗透作用与质壁分离"
+  },
+  {
+    "topicId": "cnb_h009",
+    "prerequisiteId": "cnb_h007",
+    "strength": "hard",
+    "reason": "先掌握渗透作用与被动运输，才能比较主动运输的特点"
+  },
+  {
+    "topicId": "cnb_h013",
+    "prerequisiteId": "cnb_h005",
+    "strength": "hard",
+    "reason": "叶绿体的结构是理解光合作用发生场所的基础"
+  },
+  {
+    "topicId": "cnb_h014",
+    "prerequisiteId": "cnb_h010",
+    "strength": "hard",
+    "reason": "细胞呼吸各阶段都需酶催化，先掌握酶的特性"
+  },
+  {
+    "topicId": "cnb_h022",
+    "prerequisiteId": "cnb_h016",
+    "strength": "hard",
+    "reason": "有丝分裂中的染色体行为是理解减数分裂的基础"
+  },
+  {
+    "topicId": "cnb_h024",
+    "prerequisiteId": "cnb_h022",
+    "strength": "hard",
+    "reason": "配子的多样性来自减数分裂中的自由组合与交叉互换"
+  },
+  {
+    "topicId": "cnb_h025",
+    "prerequisiteId": "cnb_h022",
+    "strength": "hard",
+    "reason": "减数分裂中基因与染色体行为平行，是基因在染色体上的证据"
+  },
+  {
+    "topicId": "cnb_h033",
+    "prerequisiteId": "cnb_h031",
+    "strength": "hard",
+    "reason": "掌握密码子与氨基酸的对应关系，才能进行数量换算"
+  },
+  {
+    "topicId": "cnb_h036",
+    "prerequisiteId": "cnb_h034",
+    "strength": "hard",
+    "reason": "育种方法以基因突变、基因重组和染色体变异为原理"
   }
 ]
